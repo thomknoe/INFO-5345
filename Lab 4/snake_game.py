@@ -1,3 +1,6 @@
+# Portions of this code were generated with the help of OpenAI's ChatGPT.
+# Reviewed and adapted for Interactive Device Design, 2025.
+
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
