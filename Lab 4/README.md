@@ -580,6 +580,14 @@ A servo motor is a rotary actuator that allows for precise control of angular po
 
 - <mark> Watch Prototype Demo: [Prototype Demo Video Link](https://drive.google.com/file/d/1Zw3ZRs7lFbPT-bHTRCJ872ctvcM4Htz3/view?usp=sharing) </mark>
 
+<mark> Our code can be found at [snake_game.py](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/snake_game.py) </mark>
+
+<mark> _**AI Usage:** Utilized assistance from ChatGPT for the writing of code._ </mark>
+
+<mark> _**Pros:** ._ </mark>
+
+<mark> _**Cons:** ._ </mark>
+
 <p align="center">
   <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Electronic_Assmbly.jpg" alt="Electronics Assembly" width="49.5%"/>
   <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Prototype_1.jpg" alt="Prototype 1" width="49.5%"/>
@@ -623,8 +631,10 @@ Document all the prototypes and iterations you have designed and worked on! Agai
 
 </details>
 
-![Inspiration 2](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Inspiration/Inspiration_3.jpg)
-![Inspiration 3](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Inspiration/Inspiration_4.jpg)
+<p align="center">
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Inspiration/Inspiration_3.jpg" alt="Inspiration 3" width="49.5%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Inspiration/Inspiration_4.jpg" alt="Inspiration 4" width="49.5%"/>
+</p>
 
 <mark> _**Image Source:** Close up head and body bones viper on black background. (Adobe Stock Cornell License)_ </mark>
 
