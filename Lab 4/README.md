@@ -574,10 +574,15 @@ A servo motor is a rotary actuator that allows for precise control of angular po
 
 </details>
 
-![Process 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Process_1.jpg)
-![Process 2](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Process_2.jpg)
-![Prototype 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Prototype_1.jpg)
-![Prototype 2](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Prototype_2.jpg)
+<p align="center">
+  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Process_1.jpg" alt="Process 1" width="49.5%"/>
+  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Process_2.jpg" alt="Process 2" width="49.5%"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Prototype_1.jpg" alt="Prototype 1" width="49.5%"/>
+  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Prototype_2.jpg" alt="Prototype 2" width="49.5%"/>
+</p>
 
 ![Electronics Assembly](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Electronic_Assmbly.jpg)
 ![Prototype 3](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Prototype_3.jpg)
