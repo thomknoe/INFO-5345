@@ -280,13 +280,6 @@ Usually, sensors need to be positioned in specific locations or orientations to 
 
 <mark> As we decided to narrow down our ideas further, we found that having a specific kind of game made the design of our interaction far more deliberate and filled with intention, so we decided to select the game Snake as a preliminary game to design our controller off of. The classic Snake made use of up, down, left, and right controls. Furthermore, the game relied on timing and precision in order for a player to navigate the winding path that the snake creates. Because of this, we wanted to think about how we might be able to place a directional pad or some other form of directional movement analog, in a way that is both playful but also takes into account the affordance of instant control over the snake character. </mark>
 
-<p align="center">
-	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Inspiration/Inspiration_1.png" alt="Inspiration 1" width="49.5%"/>
-	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Inspiration/Inspiration_2.png" alt="Inspiration 2" width="49.5%"/>
-</p>
-
-<mark> _**Image Source:** Snake game. Nokia phone. (www.digitalartsblog.com)_ </mark>
-
 **\*\*\*Pick one of these designs to prototype.\*\*\***
 
 - <mark> Watch Snake Prototype Interaction: [Snake Prototype Video Link](https://drive.google.com/file/d/142wi6-xxkbrqjmAFBEKmk51IIl9u3vvh/view?usp=sharing) </mark>
@@ -356,11 +349,6 @@ Think about how you want to present the information about what your sensor is se
 **\*\*\*Pick one of these display designs to integrate into your prototype.\*\*\***
 
 <mark> We decided to take inspiration from the actual skeleton of a snake and consider its individual vertebrae as an underlying scaffolding for our controller. In the same way the vertebrae can bend and undulate in on themselves, so too would our controller. Through its undulations, the succeeding vertebrae would then click on ubiquitiously placed buttons on the preceding vertebrae, thus creating a type of controller that is activated through its bending. </mark>
-
-![Inspiration 2](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Inspiration/Inspiration_3.jpg)
-![Inspiration 3](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Inspiration/Inspiration_4.jpg)
-
-<mark> _**Image Source:** Close up head and body bones viper on black background. (Adobe Stock Cornell License)_ </mark>
 
 **\*\*\*Explain the rationale for the design.\*\*\*** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
 
@@ -574,15 +562,21 @@ A servo motor is a rotary actuator that allows for precise control of angular po
 
 </details>
 
+### <mark> Proof of Concept Testing </mark>
+
 <p align="center">
   <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Testing_1.jpg" alt="Testing 1" width="49.5%"/>
   <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Testing_2.jpg" alt="Testing 2" width="49.5%"/>
 </p>
 
+### <mark> Assembly Process </mark>
+
 <p align="center">
   <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Process_1.jpg" alt="Process 1" width="49.5%"/>
   <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Process_2.jpg" alt="Process 2" width="49.5%"/>
 </p>
+
+### <mark> Assembled Cardboard Prototype </mark>
 
 - <mark> Watch Prototype Demo: [Prototype Demo Video Link](https://drive.google.com/file/d/1Zw3ZRs7lFbPT-bHTRCJ872ctvcM4Htz3/view?usp=sharing) </mark>
 
@@ -593,20 +587,24 @@ A servo motor is a rotary actuator that allows for precise control of angular po
 
 ![Game](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Game.jpg)
 
+### <mark> Material Considerations </mark>
+
 <p align="center">
   <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Material.jpg" alt="Material" width="49.5%"/>
   <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Prototype_2.jpg" alt="Prototype 2" width="49.5%"/>
 </p>
+
+### <mark> Soft Fabric Enclosure </mark>
+
+- <mark> Watch Main Demo #1: [Main Demo #1 Video Link](https://drive.google.com/file/d/1dNQwNVdSI0GpUGP5p9YgzXNE7DYe0lLX/view?usp=sharing) </mark>
+
+- <mark> Watch Main Demo #2: [Main Demo #2 Video Link](https://drive.google.com/file/d/11Mwo4mAzDu4nhNeh_0bPuaMpPGzNFSVu/view?usp=sharing) </mark>
 
 ![Mockup 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Mockup_1.jpg)
 ![Mockup 2](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Mockup_2.jpg)
 ![Mockup 3](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Mockup_3.jpg)
 ![Mockup 4](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Mockup_4.jpg)
 ![Mockup 5](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Mockup_5.jpg)
-
-- <mark> Watch Main Demo #1: [Main Demo #1 Video Link](https://drive.google.com/file/d/1dNQwNVdSI0GpUGP5p9YgzXNE7DYe0lLX/view?usp=sharing) </mark>
-
-- <mark> Watch Main Demo #2: [Main Demo #2 Video Link](https://drive.google.com/file/d/11Mwo4mAzDu4nhNeh_0bPuaMpPGzNFSVu/view?usp=sharing) </mark>
 
 ---
 
@@ -624,5 +622,19 @@ Document all the prototypes and iterations you have designed and worked on! Agai
 - "Acts like": shows how a person would interact with the device
 
 </details>
+
+![Inspiration 2](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Inspiration/Inspiration_3.jpg)
+![Inspiration 3](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Inspiration/Inspiration_4.jpg)
+
+<mark> _**Image Source:** Close up head and body bones viper on black background. (Adobe Stock Cornell License)_ </mark>
+
+<p align="center">
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Inspiration/Inspiration_1.png" alt="Inspiration 1" width="49.5%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Inspiration/Inspiration_2.png" alt="Inspiration 2" width="49.5%"/>
+</p>
+
+<mark> _**Image Source:** Snake game. Nokia phone. (www.digitalartsblog.com)_ </mark>
+
+<mark> Collaborators: Thomas Knoepffler (Assembly & Developer), Carrie Wang (Drafter & Diagram Maker), Xiaocheng Li (3D Modeling), Julia Chen (Hardware & Developer), Dean Xu (AI Artist) </mark>
 
 ![Bonus](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Bonus.jpg)
