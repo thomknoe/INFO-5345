@@ -270,11 +270,11 @@ Usually, sensors need to be positioned in specific locations or orientations to 
 <p align="center">
 	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Interaction_Image_1.png" alt="Interaction Image 1" width="49.5%"/>
 	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Interaction_Image_2.png" alt="Interaction Image 2" width="49.5%"/>
-	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Interaction_Image_3.png" alt="Interaction Image 3" width="49.5%"/>
 	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Interaction_Image_4.png" alt="Interaction Image 4" width="49.5%"/>
 	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Interaction_Image_5.png" alt="Interaction Image 5" width="49.5%"/>
-	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Interaction_Image_6.png" alt="Interaction Image 6" width="49.5%"/>
 </p>
+
+![Interaction Image 3](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Interaction_Image_3.png)
 
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
 
@@ -341,13 +341,13 @@ Think about how you want to present the information about what your sensor is se
 <mark> We decided to incorporate another theme for this section, creating enclosures and controllers that mimic the characters within classic 2D games (e.g., utilizing an actual racket for the game of pong, or having two separate sticks that would represent oars for a rowing game). For our main example of this lab, the controller for the classic snake game would be a long, snake-like object that would control the snake character, depending on which direction the player would bend the object. We started to consider how this large form would break down into its simple, modular parts. </mark>
 
 <p align="center">
-	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Form_Image_1.png" alt="Form Image 1" width="49.5%"/>
 	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Form_Image_2.png" alt="Form Image 2" width="49.5%"/>
 	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Form_Image_3.png" alt="Form Image 3" width="49.5%"/>
 	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Form_Image_4.png" alt="Form Image 4" width="49.5%"/>
 	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Form_Image_5.png" alt="Form Image 5" width="49.5%"/>
-	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Form_Image_6.png" alt="Form Image 6" width="49.5%"/>
 </p>
+
+![Form Image 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Form_Image_1.png)
 
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
 
@@ -586,16 +586,16 @@ A servo motor is a rotary actuator that allows for precise control of angular po
 
 <p align="center">
   <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Electronic_Assmbly.jpg" alt="Electronics Assembly" width="49.5%"/>
-  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Prototype_3.jpg" alt="Prototype 3" width="49.5%"/>
+  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Prototype_3.jpg" alt="Prototype 1" width="49.5%"/>
 </p>
 
 ![Game](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Game.jpg)
 
----
+- <mark> Watch Main Demo #1: [Main Demo #1 Video Link](https://drive.google.com/file/d/1dNQwNVdSI0GpUGP5p9YgzXNE7DYe0lLX/view?usp=sharing) </mark>
 
 <p align="center">
   <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Material.jpg" alt="Material" width="49.5%"/>
-  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Prototype_4.jpg" alt="Prototype 4" width="49.5%"/>
+  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Prototype_4.jpg" alt="Prototype 2" width="49.5%"/>
 </p>
 
 ![Mockup 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Mockup_1.jpg)
@@ -604,7 +604,9 @@ A servo motor is a rotary actuator that allows for precise control of angular po
 ![Mockup 4](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Mockup_4.jpg)
 ![Mockup 5](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Mockup_5.jpg)
 
----
+- <mark> Watch Main Demo #1: [Main Demo #1 Video Link](https://drive.google.com/file/d/1dNQwNVdSI0GpUGP5p9YgzXNE7DYe0lLX/view?usp=sharing) </mark>
+
+- <mark> Watch Main Demo #2: [Main Demo #2 Video Link](https://drive.google.com/file/d/11Mwo4mAzDu4nhNeh_0bPuaMpPGzNFSVu/view?usp=sharing) </mark>
 
 ---
 
