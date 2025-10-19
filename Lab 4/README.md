@@ -584,18 +584,18 @@ A servo motor is a rotary actuator that allows for precise control of angular po
   <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Process_2.jpg" alt="Process 2" width="49.5%"/>
 </p>
 
+- <mark> Watch Prototype Demo: [Prototype Demo Video Link](https://drive.google.com/file/d/1Zw3ZRs7lFbPT-bHTRCJ872ctvcM4Htz3/view?usp=sharing) </mark>
+
 <p align="center">
   <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Electronic_Assmbly.jpg" alt="Electronics Assembly" width="49.5%"/>
-  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Prototype_3.jpg" alt="Prototype 1" width="49.5%"/>
+  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Prototype_1.jpg" alt="Prototype 1" width="49.5%"/>
 </p>
 
 ![Game](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Game.jpg)
 
-- <mark> Watch Main Demo #1: [Main Demo #1 Video Link](https://drive.google.com/file/d/1dNQwNVdSI0GpUGP5p9YgzXNE7DYe0lLX/view?usp=sharing) </mark>
-
 <p align="center">
   <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Material.jpg" alt="Material" width="49.5%"/>
-  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Prototype_4.jpg" alt="Prototype 2" width="49.5%"/>
+  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Prototype_2.jpg" alt="Prototype 2" width="49.5%"/>
 </p>
 
 ![Mockup 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Mockup_1.jpg)
