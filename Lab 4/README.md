@@ -576,6 +576,26 @@ A servo motor is a rotary actuator that allows for precise control of angular po
 
 ![Process 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Process_1.jpg)
 ![Process 2](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Process_2.jpg)
+![Prototype 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Prototype_1.jpg)
+![Prototype 2](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Prototype_2.jpg)
+
+![Electronics Assembly](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Electronic_Assmbly.jpg)
+![Prototype 3](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Prototype_3.jpg)
+
+![Game](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Game.jpg)
+
+---
+
+![Prototype 4](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Prototype_3.jpg)
+![Material](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Material.jpg)
+
+![Mockup 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Mockup_1.jpg)
+![Mockup 2](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Mockup_2.jpg)
+![Mockup 3](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Mockup_3.jpg)
+![Mockup 4](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Mockup_4.jpg)
+![Mockup 5](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Mockup_5.jpg)
+
+---
 
 ---
 
@@ -593,3 +613,5 @@ Document all the prototypes and iterations you have designed and worked on! Agai
 - "Acts like": shows how a person would interact with the device
 
 </details>
+
+![Bonus](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Bonus.jpg)
