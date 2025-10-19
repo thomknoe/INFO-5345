@@ -564,6 +564,8 @@ A servo motor is a rotary actuator that allows for precise control of angular po
 
 ### <mark> Proof of Concept Testing (Acts Like)</mark>
 
+<mark> Building on what we did in part one, we attempted to test a proof of concept (i.e., act likes prototpye) from our first cardboard controller. We had people use it like a real controller, imagining they were controlling the snake game on a grid using the cardboard pieces. The results were mixed - some liked how flexible it was, while others wanted it to be stiffer. Also, the cardboard pieces slid around on a larger delta depending on how long the string was. So, when we were putting it together, we’d need to add some kind of netting to keep them in place. People also wanted a handle or base to hold the controller, not just holding the bottom. </mark>
+
 <p align="center">
   <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Testing_1.jpg" alt="Testing 1" width="33%"/>
   <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Testing_2.jpg" alt="Testing 2" width="33%"/>
@@ -571,6 +573,8 @@ A servo motor is a rotary actuator that allows for precise control of angular po
 </p>
 
 ### <mark> Assembly Process </mark>
+
+<mark> We went ahead and built the assembly process, just like we did with the first prototype. We used a laser to cut out different parts of cardboard and tied them together with a long string. This time, the units were smaller than the first ones, and they’d be longer accounting for a thinner frame. That way, we could place more stuff on top of the assembly (i.e., netting, cotton, fabric, etc.). </mark>
 
 <p align="center">
   <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Process_1.jpg" alt="Process 1" width="49.5%"/>
@@ -589,6 +593,8 @@ A servo motor is a rotary actuator that allows for precise control of angular po
 
 <mark> _**Cons:** ._ </mark>
 
+<mark> The assembled cardboard prototype (i.e., works like prototype) used the piPhat module to connect a qwiic connect joystick and a qwiic connect IMU. The joystick was placed in the middle of the assembly, giving the user control at that point. The IMU was also attached to that point. We coded a simple snake game using pyGame. The game can only be played through the Pi desktop GUI interface, so to run it, you’d need VNC Viewer to access the Pi’s desktop view and then open the game from there. </mark>
+
 <p align="center">
   <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Electronic_Assmbly.jpg" alt="Electronics Assembly" width="49.5%"/>
   <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Prototype_1.jpg" alt="Prototype 1" width="49.5%"/>
@@ -598,16 +604,20 @@ A servo motor is a rotary actuator that allows for precise control of angular po
 
 ### <mark> Material Considerations </mark>
 
+<mark> For the final assembly, we decided to add cotton between each vertebrae. This way, the structure becomes more rigid and won’t move as freely as it did before. The entire assembly is still bendable, but it’s now extra cushioned with the cotton in between. To add to more comfortable and make the controller more friendly, we used stretchable fabric from the maker lab to sew up a soft enclosure. We cut up a long piece and sewed it together into a long sock-like form to fit the entire cardboard assembly. To keep our Pi situated on the soft plushie, we also added a small pocket to the fabric. </mark>
+
 <p align="center">
   <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Material.jpg" alt="Material" width="49.5%"/>
   <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Prototype_2.jpg" alt="Prototype 2" width="49.5%"/>
 </p>
 
-### <mark> Soft Fabric Enclosure (Looks Like)</mark>
+### <mark> Soft Fabric Assembly (Looks Like)</mark>
 
 - <mark> Watch Main Demo #1: [Main Demo #1 Video Link](https://drive.google.com/file/d/1dNQwNVdSI0GpUGP5p9YgzXNE7DYe0lLX/view?usp=sharing) </mark>
 
 - <mark> Watch Main Demo #2: [Main Demo #2 Video Link](https://drive.google.com/file/d/11Mwo4mAzDu4nhNeh_0bPuaMpPGzNFSVu/view?usp=sharing) </mark>
+
+<mark> After testing the soft fabric assembly (i.e., looks like prototype) with users, we got some feedback that’s worth keeping in mind for future versions. First, while the soft cotton made the plushie somewhat comfortable, the cardboard inside doesn’t feel as soft as we’d hoped. It’s also hard to tell where exactly to bend the plushy to control the snake. We should make it clear where each direction is mapped to each bend in the future by adding some sort of sign or signifier for the user. Second, the game is simple, but it’s too fast for most people to keep up with. We should make it slower so that users can respond more easily. The original version had a death penalty for touching the edges of the screen, but that’s too harsh. Lastly, the plushie, while cute, could benefit from more snake-like design choices such as the inclusion of scales or different colors (i.e., green, black, yellow, etc.). </mark>
 
 ![Mockup 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Mockup_1.jpg)
 ![Mockup 2](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Mockup_2.jpg)
