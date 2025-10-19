@@ -575,24 +575,28 @@ A servo motor is a rotary actuator that allows for precise control of angular po
 </details>
 
 <p align="center">
+  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Testing_1.jpg" alt="Testing 1" width="49.5%"/>
+  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Testing_2.jpg" alt="Testing 2" width="49.5%"/>
+</p>
+
+<p align="center">
   <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Process_1.jpg" alt="Process 1" width="49.5%"/>
   <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Process_2.jpg" alt="Process 2" width="49.5%"/>
 </p>
 
 <p align="center">
-  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Prototype_1.jpg" alt="Prototype 1" width="49.5%"/>
-  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Prototype_2.jpg" alt="Prototype 2" width="49.5%"/>
+  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Electronic_Assmbly.jpg" alt="Electronics Assembly" width="49.5%"/>
+  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Prototype_3.jpg" alt="Prototype 3" width="49.5%"/>
 </p>
-
-![Electronics Assembly](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Electronic_Assmbly.jpg)
-![Prototype 3](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Prototype_3.jpg)
 
 ![Game](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Game.jpg)
 
 ---
 
-![Prototype 4](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Prototype_3.jpg)
-![Material](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Material.jpg)
+<p align="center">
+  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Material.jpg" alt="Material" width="49.5%"/>
+  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Prototype_4.jpg" alt="Prototype 4" width="49.5%"/>
+</p>
 
 ![Mockup 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Mockup_1.jpg)
 ![Mockup 2](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Mockup_2.jpg)
