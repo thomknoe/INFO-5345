@@ -687,7 +687,7 @@ Document all the prototypes and iterations you have designed and worked on! Agai
 
 ### <mark> Inspiration </mark>
 
-<mark> As stated before, our design process was inspired by mimicking the bone structure of a snake itself, considering that we were utilizing the snake game as a basis for how we were going to design our controller. By mimicking each vertebrae on the spine, we were able to do use a bottom of approach to design and create an abstract system that allows us to use each single node of the controller in a playful way. </mark>
+<mark> As stated before, our design process was inspired by mimicking the bone structure of a snake itself, considering that we were utilizing the snake game as a basis for how we were going to design our controller. By mimicking each vertebrae on the spine, we were able to use a bottom of approach to design and create an abstract system that allows us to use each single node of the controller in a playful way. </mark>
 
 ![Inspiration 3](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Inspiration/Inspiration_3.jpg)
 ![Inspiration 4](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Inspiration/Inspiration_4.jpg)
