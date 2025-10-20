@@ -634,6 +634,18 @@ A servo motor is a rotary actuator that allows for precise control of angular po
 	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/AI_Mockup_2.jpg" alt="AI Mockup 2" width="49.5%"/>
 </p>
 
+<details>
+
+  <summary><mark><strong>Original Prompt(s)</strong></mark></summary>
+
+  <br>
+
+<mark> _"The box features an off-white rectangular box with a streamlined "S"-shaped cutout window in the center. Through the window, you can see the soft, gray, snake-shaped handle inside, cleverly secured so that it appears to "swim" within the box. The brand logo is featured at the top, and the slogan is displayed below. The sides of the box feature our cute illustrations for racing, flying, and snake games, creating a simple yet dynamic feel."_ </mark>
+
+<mark> _"Advertisement for a soft, plushie, fabric-based snake game controller. The controller is held vertically by two hands with a clear height difference: the left hand is positioned higher, and the right hand is positioned lower. Both hands naturally grip the snake body, creating a "weapon-like" vertical hold, aimed upwards. The snake controller is a single, long serpentine body, with only one head at the very top. The bottom end tapers into a natural snake tail. The snake has a soft, light grey fabric texture, with subtle segmentation/texture to represent its joints/body. The snake's head is cute and friendly, with small black eyes and a pink, forked tongue sticking out. The background is a vibrant, stylized sky, featuring fluffy white clouds, streaks of golden light (like sun rays or flight trails), and a bright, ethereal light source at the top center. The overall aesthetic is soft, playful, and adventurous. Below the image, the main headline is "Bend the rules." in a clean, modern white font. Below that, in a smaller white font, is the sub-headline "Soar. Shaped by you."_ </mark>
+
+</details>
+
 ---
 
 <details>
