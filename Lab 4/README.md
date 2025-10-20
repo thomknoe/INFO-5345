@@ -579,6 +579,7 @@ A servo motor is a rotary actuator that allows for precise control of angular po
 - <mark> Cardboard </mark>
 - <mark> Hot Glue </mark>
 - <mark> Fishing Line </mark>
+- <mark> Can Tabs </mark>
 
 <p align="center">
   <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Process_1.jpg" alt="Process 1" width="49.5%"/>
@@ -597,7 +598,7 @@ A servo motor is a rotary actuator that allows for precise control of angular po
 
 <mark> _**Cons:** Less so about the context of the project and more so about the limitations of ChatGPT model 5-o. This model has a new cork where it continually asks for questions and specificity on what your coding. To some extent, it's useful to make sure that the LLM is not making assumptions about your code, but at some point, it becomes rather annoying and a hindrance to efficiency. Asking for specificity on the color of the graphics, the speed of the game, and even each stage of the interaction becomes tedious. ._ </mark>
 
-<mark> The assembled cardboard prototype (i.e., works like prototype) used the piPhat module to connect a qwiic connect joystick and a qwiic connect IMU. The joystick was placed in the middle of the assembly, giving the user control at that point. The IMU was also attached to that point. We coded a simple snake game using pyGame. The game can only be played through the Pi desktop GUI interface, so to run it, you’d need VNC Viewer to access the Pi’s desktop view and then open the game from there. </mark>
+<mark> The assembled cardboard prototype (i.e., works like prototype) used the pHAT module to connect a qwiic connect joystick and a qwiic connect IMU. The joystick was placed in the middle of the assembly, giving the user control at that point. The IMU was also attached to that point. We coded a simple snake game using pyGame. The game can only be played through the Pi desktop GUI interface, so to run it, you’d need VNC Viewer to access the Pi’s desktop view and then open the game from there. </mark>
 
 - <mark> Raspberry Pi 5 Model B/8GB </mark>
 - <mark> SparkFun Servo pHAT for Raspberry Pi </mark>
@@ -614,7 +615,7 @@ A servo motor is a rotary actuator that allows for precise control of angular po
 
 ### <mark> Material Considerations </mark>
 
-<mark> For the final assembly, we decided to add cotton between each vertebrae. This way, the structure becomes more rigid and won’t move as freely as it did before. The entire assembly is still bendable, but it’s now extra cushioned with the cotton in between. To add to more comfortable and make the controller more friendly, we used stretchable fabric from the maker lab to sew up a soft enclosure. We cut up a long piece and sewed it together into a long sock-like form to fit the entire cardboard assembly. To keep our Pi situated on the soft plushie, we also added a small pocket to the fabric. </mark>
+<mark> For the final assembly, we decided to add cotton between each vertebrae. This way, the structure becomes more rigid and won’t move as freely as it did before. The entire assembly is still bendable, but it’s now extra cushioned with the cotton in between. To add to more comfortable and make the controller more friendly, we used stretchable fabric from the MakerLAB to sew up a soft enclosure. We cut up a long piece and sewed it together into a long sock-like form to fit the entire cardboard assembly. To keep our Pi situated on the soft plushie, we also added a small pocket to the fabric. </mark>
 
 - <mark> Cotton </mark>
 - <mark> Strechable Fabric </mark>
