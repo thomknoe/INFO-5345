@@ -615,7 +615,7 @@ A servo motor is a rotary actuator that allows for precise control of angular po
 
 ### <mark> Material Considerations </mark>
 
-<mark> For the final assembly, we decided to add cotton between each vertebrae. This way, the structure becomes more rigid and won’t move as freely as it did before. The entire assembly is still bendable, but it’s now extra cushioned with the cotton in between. To add to more comfortable and make the controller more friendly, we used stretchable fabric from the MakerLAB to sew up a soft enclosure. We cut up a long piece and sewed it together into a long sock-like form to fit the entire cardboard assembly. To keep our Pi situated on the soft plushie, we also added a small pocket to the fabric. </mark>
+<mark> For the final assembly, we decided to add cotton between each vertebrae. This way, the structure becomes more rigid and won’t move as freely as it did before. The entire assembly is still bendable, but it’s now extra cushioned with the cotton in between. To add more comfort and make the controller more friendly, we used stretchable fabric from the MakerLAB to sew up a soft enclosure. We cut up a long piece and sewed it together into a long sock-like form to fit the entire cardboard assembly. To keep our Pi situated on the soft plushie, we also added a small pocket to the fabric. </mark>
 
 - <mark> Cotton </mark>
 - <mark> Strechable Fabric </mark>
