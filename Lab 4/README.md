@@ -576,6 +576,10 @@ A servo motor is a rotary actuator that allows for precise control of angular po
 
 <mark> We went ahead and built the assembly process, just like we did with the first prototype. We used a laser to cut out different parts of cardboard and tied them together with a long string. This time, the units were smaller than the first ones, and they’d be longer accounting for a thinner frame. That way, we could place more stuff on top of the assembly (i.e., netting, cotton, fabric, etc.). </mark>
 
+- <mark> Cardboard </mark>
+- <mark> Hot Glue </mark>
+- <mark> Fishing Line </mark>
+
 <p align="center">
   <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Process_1.jpg" alt="Process 1" width="49.5%"/>
   <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Process_2.jpg" alt="Process 2" width="49.5%"/>
@@ -595,6 +599,12 @@ A servo motor is a rotary actuator that allows for precise control of angular po
 
 <mark> The assembled cardboard prototype (i.e., works like prototype) used the piPhat module to connect a qwiic connect joystick and a qwiic connect IMU. The joystick was placed in the middle of the assembly, giving the user control at that point. The IMU was also attached to that point. We coded a simple snake game using pyGame. The game can only be played through the Pi desktop GUI interface, so to run it, you’d need VNC Viewer to access the Pi’s desktop view and then open the game from there. </mark>
 
+- <mark> Raspberry Pi 5 Model B/8GB </mark>
+- <mark> SparkFun Servo pHAT for Raspberry Pi </mark>
+- <mark> SparkFun Qwiic Joystick </mark>
+- <mark> Adafruit 6-DoF Accel + Gyro IMU LSM6DS3TR-C </mark>
+- <mark> SparkFun Qwiic Cables </mark>
+
 <p align="center">
   <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Electronic_Assmbly.jpg" alt="Electronics Assembly" width="49.5%"/>
   <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Prototype_1.jpg" alt="Prototype 1" width="49.5%"/>
@@ -605,6 +615,10 @@ A servo motor is a rotary actuator that allows for precise control of angular po
 ### <mark> Material Considerations </mark>
 
 <mark> For the final assembly, we decided to add cotton between each vertebrae. This way, the structure becomes more rigid and won’t move as freely as it did before. The entire assembly is still bendable, but it’s now extra cushioned with the cotton in between. To add to more comfortable and make the controller more friendly, we used stretchable fabric from the maker lab to sew up a soft enclosure. We cut up a long piece and sewed it together into a long sock-like form to fit the entire cardboard assembly. To keep our Pi situated on the soft plushie, we also added a small pocket to the fabric. </mark>
+
+- <mark> Cotton </mark>
+- <mark> Strechable Fabric </mark>
+- <mark> White Thread </mark>
 
 <p align="center">
   <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Material.jpg" alt="Material" width="49.5%"/>
