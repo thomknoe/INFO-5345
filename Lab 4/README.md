@@ -652,7 +652,7 @@ A servo motor is a rotary actuator that allows for precise control of angular po
 	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/AI_Mockup_3.jpg" alt="AI Mockup 3" width="33%"/>
 </p>
 
-<mark> _**AI Usage:** Storyboard generated using Google (Gemini) and OpenAI. All original artifacts preserved._ </mark>
+<mark> _**AI Usage:** Mockups generated using Google (Gemini) and OpenAI. All original artifacts preserved._ </mark>
 
 <details>
 
