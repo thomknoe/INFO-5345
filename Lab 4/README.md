@@ -574,7 +574,7 @@ A servo motor is a rotary actuator that allows for precise control of angular po
 
 ### <mark> Assembly Process </mark>
 
-<mark> We went ahead and built the assembly process, just like we did with the first prototype. We used a laser to cut out different parts of cardboard and tied them together with a long string. This time, the units were smaller than the first ones, and they’d be longer accounting for a thinner frame. That way, we could place more stuff on top of the assembly (i.e., netting, cotton, fabric, etc.). </mark>
+<mark> We went ahead and built the assembly process, just like we did with the first prototype. We used a laser cutter to cut out different cardboard modules and tied them together with a long string. This time, the units were smaller than the first ones, and they’d be longer accounting for a thinner frame. That way, we could place more layers on top of the assembly (i.e., netting, cotton, fabric, etc.). </mark>
 
 - <mark> Cardboard </mark>
 - <mark> Hot Glue </mark>
