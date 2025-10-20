@@ -628,6 +628,8 @@ A servo motor is a rotary actuator that allows for precise control of angular po
 
 ### <mark> Soft Fabric Assembly (Looks Like)</mark>
 
+- <mark> Watch Final Demo: [Final Demo Video Link](https://drive.google.com/file/d/17ZNER6o5YLFKbsqBvnKmQoCuWHXabhU-/view?usp=sharing) </mark>
+
 - <mark> Watch Main Demo #1: [Main Demo #1 Video Link](https://drive.google.com/file/d/1dNQwNVdSI0GpUGP5p9YgzXNE7DYe0lLX/view?usp=sharing) </mark>
 
 - <mark> Watch Main Demo #2: [Main Demo #2 Video Link](https://drive.google.com/file/d/11Mwo4mAzDu4nhNeh_0bPuaMpPGzNFSVu/view?usp=sharing) </mark>
