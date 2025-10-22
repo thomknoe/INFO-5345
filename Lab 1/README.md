@@ -126,12 +126,12 @@ Storyboards are a tool for visually exploring a users interaction with a device.
 \*\***Include pictures of your storyboards here**\*\*
 
 ![Storyboard 1](https://drive.google.com/uc?export=view&id=1DNT6S1OwPsuJSe-ho4xnuKZxBhkNxbTm)
-![Storyboard 2](https://drive.google.com/file/d/1KggTxAP4BKmhTJ9vc0BkbEbVfGs2tqWN/view?usp=sharing)
-![Storyboard 3](https://drive.google.com/file/d/1hNgNOJl6hK6eKRoGfw5tt_NJagru3F1f/view?usp=sharing)
-![Storyboard 4](https://drive.google.com/file/d/1jXh6JSjGKLXYJ3p9iwrgKQPpWsT_IN4q/view?usp=sharing)
-![Storyboard 5](https://drive.google.com/file/d/1LCfbMxDwaGZt4cT1jcVMpQMHh2OSqfZt/view?usp=sharing)
-![Storyboard 6](https://drive.google.com/file/d/16kX6WVp1qsnAE1dylU-2C1H1LGspn6v1/view?usp=sharing)
-![Storyboard 7](https://drive.google.com/file/d/1DtkhyAWIwUQ8_SAQZOftXEV3YZDdLUcb/view?usp=sharing)
+![Storyboard 2](https://drive.google.com/uc?export=view&id=1KggTxAP4BKmhTJ9vc0BkbEbVfGs2tqWN)
+![Storyboard 3](https://drive.google.com/uc?export=view&id=1hNgNOJl6hK6eKRoGfw5tt_NJagru3F1f)
+![Storyboard 4](https://drive.google.com/uc?export=view&id=1jXh6JSjGKLXYJ3p9iwrgKQPpWsT_IN4q)
+![Storyboard 5](https://drive.google.com/uc?export=view&id=1LCfbMxDwaGZt4cT1jcVMpQMHh2OSqfZt)
+![Storyboard 6](https://drive.google.com/uc?export=view&id=16kX6WVp1qsnAE1dylU-2C1H1LGspn6v1)
+![Storyboard 7](https://drive.google.com/uc?export=view&id=1DtkhyAWIwUQ8_SAQZOftXEV3YZDd)
 
 <mark> _**AI Usage:** Storyboard seven generated using ChatGPT (Dall-E). All original artifacts preserved._ </mark>
 
