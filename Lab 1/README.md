@@ -205,9 +205,9 @@ Now, hange the goal within the same setting, and update the interaction with the
 
 \*\***Show the follow-up work here.**\*\*
 
-![Proccess 5](https://github.com/thomknoe/Interactive-Lab-Hub/blob/Fall2025/Lab%201/Process/Process_5.jpg)
-![Proccess 6](https://github.com/thomknoe/Interactive-Lab-Hub/blob/Fall2025/Lab%201/Process/Process_6.jpg)
-![Proccess 7](https://github.com/thomknoe/Interactive-Lab-Hub/blob/Fall2025/Lab%201/Process/Process_7.jpg)
+![Proccess 5](https://drive.google.com/uc?export=view&id=1lr-00TYFbz1nkZiVcvh8trO6atkVOFJH)
+![Proccess 6](https://drive.google.com/uc?export=view&id=1ibBb8trA6n87Gx9thfTjUA37HFNHaS00)
+![Proccess 7](https://drive.google.com/uc?export=view&id=1TAmUKwKK_F1HE85MswIAyOts93ot4E3j)
 
 <details>
   <summary><strong>Costume the device</strong></summary>
@@ -222,12 +222,12 @@ Think about the setting of the device: is the environment a place where the devi
 
 \*\***Include sketches of what your devices might look like here.**\*\*
 
-![Sketch 1](https://github.com/thomknoe/Interactive-Lab-Hub/blob/Fall2025/Lab%201/Images/Sketch_1.jpg)
-![Sketch 2](https://github.com/thomknoe/Interactive-Lab-Hub/blob/Fall2025/Lab%201/Images/Sketch_2.jpg)
-![Sketch 3](https://github.com/thomknoe/Interactive-Lab-Hub/blob/Fall2025/Lab%201/Images/Sketch_3.jpg)
-![Costume 1](https://github.com/thomknoe/Interactive-Lab-Hub/blob/Fall2025/Lab%201/Images/Costume_1.JPG)
-![Costume 2](https://github.com/thomknoe/Interactive-Lab-Hub/blob/Fall2025/Lab%201/Images/Costume_2.JPG)
-![AI Image](https://github.com/thomknoe/Interactive-Lab-Hub/blob/Fall2025/Lab%201/Images/AI_Image.jpg)
+![Sketch 1](https://drive.google.com/uc?export=view&id=1tepSAp-KW_ectntW8Dd9SYeAr9RH-Z11)
+![Sketch 2](https://drive.google.com/uc?export=view&id=1XdM6OE1qnXflwuE-t3_da87JPlh0IZWl)
+![Sketch 3](https://drive.google.com/uc?export=view&id=18rgMHo47hVwGpO377oQYzKz64q6NAqqw)
+![Costume 1](https://drive.google.com/uc?export=view&id=19xqGIgo3DbIaURVgZKu3NXW6pet1ETpQ)
+![Costume 2](https://drive.google.com/uc?export=view&id=1vmid1Ehm8HJtlF2j7SUiVYk65DrzhVnm)
+![AI Image](https://drive.google.com/uc?export=view&id=1BsdcIcqCg8jfHblXLg3SWejmCzc4jZWm)
 
 <mark> _**AI Usage:** AI Image generated using ChatGPT (Dall-E). All original artifacts preserved._ </mark>
 
@@ -237,14 +237,14 @@ Think about the setting of the device: is the environment a place where the devi
 
 <mark> The original form factor drew inspiration from fireflies, which use bioluminescence to socially interact with their kind. The costume needed to conform to the rectangular oblong shape of the iPhone, necessitating a shell-like design. Since the device would be wearable, we also explored alternative forms that could be attached to the body, such as an arm band, wrist band, and necklace, as shown in the sketches. The wearable needed to be prominently worn and displayed, so that the light could be seen both by the wearer (i.e. user) and the observer (i.e. partner) that it would correspond to. </mark>
 
-![Inspiration 1](https://github.com/thomknoe/Interactive-Lab-Hub/blob/Fall2025/Lab%201/Process/Inspiration_1.jpg)
-![Inspiration 2](https://github.com/thomknoe/Interactive-Lab-Hub/blob/Fall2025/Lab%201/Process/Inspiration_2.jpg)
+![Inspiration 1](https://drive.google.com/uc?export=view&id=1MhIP03aqoVcB6L1NYfTGv5FH-9afgP9J)
+![Inspiration 2](https://drive.google.com/uc?export=view&id=1M0BbuJeI3kwu18xlP09gP6Nb0BEsYJPl)
 
 <mark> _**Image Source:** Eastern firefly (Photinus pyralis) flying at late evening (Georgia, USA). By Ivan Kuzmin. (Adobe Stock Cornell License)_ </mark>
 
 <mark> One interesting note we received during our feedback session was that our device had a similar provocation to the instructional art of Miranda, July, namely the Somebody app (2014), which functioned as a messaging app where users could not send a text directly to a friend. Instead, they had to entrust their message to a stranger who was physically near the intended recipient. This feedback served as a grounding theme for our device, whereby the awkward and serendipitous nature of spontaneous conversation would serve as the thesis of the device itself, not just as a quirk that needed to be systematically fixed. </mark>
 
-![Inspiration 3](https://github.com/thomknoe/Interactive-Lab-Hub/blob/Fall2025/Lab%201/Process/Inspiration_3.jpg)
+![Inspiration 3](https://drive.google.com/uc?export=view&id=1E_dxsxBfH0qth43c25rZUR-H1sd_sLv1)
 
 <mark> _**Image Source:** Miranda July, Somebody (2014)._ </mark>
 
