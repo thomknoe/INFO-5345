@@ -131,7 +131,7 @@ Storyboards are a tool for visually exploring a users interaction with a device.
 ![Storyboard 4](https://drive.google.com/uc?export=view&id=1jXh6JSjGKLXYJ3p9iwrgKQPpWsT_IN4q)
 ![Storyboard 5](https://drive.google.com/uc?export=view&id=1LCfbMxDwaGZt4cT1jcVMpQMHh2OSqfZt)
 ![Storyboard 6](https://drive.google.com/uc?export=view&id=16kX6WVp1qsnAE1dylU-2C1H1LGspn6v1)
-![Storyboard 7](https://drive.google.com/uc?export=view&id=1DtkhyAWIwUQ8_SAQZOftXEV3YZDd)
+![Storyboard 7](https://drive.google.com/uc?export=view&id=1DtkhyAWIwUQ8_SAQZOftXEV3YZDdLUcb)
 
 <mark> _**AI Usage:** Storyboard seven generated using ChatGPT (Dall-E). All original artifacts preserved._ </mark>
 
