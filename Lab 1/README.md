@@ -125,7 +125,7 @@ Storyboards are a tool for visually exploring a users interaction with a device.
 
 \*\***Include pictures of your storyboards here**\*\*
 
-![Storyboard 1](https://drive.google.com/file/d/1DNT6S1OwPsuJSe-ho4xnuKZxBhkNxbTm/view?usp=sharing)
+![Storyboard 1](https://drive.google.com/uc?export=view&id=1DNT6S1OwPsuJSe-ho4xnuKZxBhkNxbTm)
 ![Storyboard 2](https://drive.google.com/file/d/1KggTxAP4BKmhTJ9vc0BkbEbVfGs2tqWN/view?usp=sharing)
 ![Storyboard 3](https://drive.google.com/file/d/1hNgNOJl6hK6eKRoGfw5tt_NJagru3F1f/view?usp=sharing)
 ![Storyboard 4](https://drive.google.com/file/d/1jXh6JSjGKLXYJ3p9iwrgKQPpWsT_IN4q/view?usp=sharing)
