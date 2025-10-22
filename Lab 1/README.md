@@ -315,9 +315,9 @@ Do last week’s assignment again, but this time:
 
 <mark> Given the feedback on our project, we decided to incorporate some elements of haptic feedback into the interaction. While we also were interested in taking the direction of being more context-aware with the device (i.e. limiting it to certain venues and locations that called for conversational engagement), we ultimately decided to continue with our original vision of keeping the device as a wearable that provokes discussion. The incorporation of haptics does allow for it to be more discreet, allowing the user not to bring too much attention to themselves at the moment of a connective interaction. The frequency of the vibration will modulate as they approach the Interlocutor, making the act of finding the other person as part of the engagement. </mark>
 
-![Updated Storyboard 1](https://github.com/thomknoe/Interactive-Lab-Hub/blob/Fall2025/Lab%201/Storyboards/Updated_Storyboard_1.jpg)
-![Updated Storyboard 2](https://github.com/thomknoe/Interactive-Lab-Hub/blob/Fall2025/Lab%201/Storyboards/Updated_Storyboard_2.jpg)
-![Updated Storyboard 3](https://github.com/thomknoe/Interactive-Lab-Hub/blob/Fall2025/Lab%201/Storyboards/Updated_Storyboard_3.jpg)
+![Updated Storyboard 1](https://drive.google.com/uc?export=view&id=1ktzreSTQk7Wtno3PIrKNeIugFqczAtAJ)
+![Updated Storyboard 2](https://drive.google.com/uc?export=view&id=17XWD-Un3ubpCbNJf9fFO87nkrLTTI7A_)
+![Updated Storyboard 3](https://drive.google.com/uc?export=view&id=1i1bRM52hTgcEDlMHTkgQMvntas7f_90A)
 
 <mark> _**AI Usage:** AI Storyboards refactored and generated using Google Gemini. All original artifacts preserved._ </mark>
 
