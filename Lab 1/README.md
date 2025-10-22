@@ -145,10 +145,10 @@ Present your ideas to the other people in your breakout room (or in small groups
 
 <mark> Initially, the wearable was conceived for private settings like homes or domestic spaces, but it evolved into a more public-facing device for social engagement. We discussed dating and matchmaking as a use case, but the complexity was deemed too challenging and could lead to more cumbersome interactions. We also explored the idea of color-coding emotions, but it too was deemed improbable for a wearable device. After discussing various topics and potential use cases, we narrowed them down to the ones we’re representing in this lab assignment: meeting someone out on a run, meeting someone in a café, or meeting someone waiting for public transit. </mark>
 
-![Proccess 1](https://github.com/thomknoe/Interactive-Lab-Hub/blob/Fall2025/Lab%201/Process/Process_1.jpg)
-![Proccess 2](https://github.com/thomknoe/Interactive-Lab-Hub/blob/Fall2025/Lab%201/Process/Process_2.jpg)
-![Proccess 3](https://github.com/thomknoe/Interactive-Lab-Hub/blob/Fall2025/Lab%201/Process/Process_3.jpg)
-![Proccess 4](https://github.com/thomknoe/Interactive-Lab-Hub/blob/Fall2025/Lab%201/Process/Process_4.jpg)
+![Proccess 1](https://drive.google.com/uc?export=view&id=1x5aKIgKqHNHzvoW6f9XkQiBrgZVTa8O7)
+![Proccess 2](https://drive.google.com/uc?export=view&id=1QZNThR1SkePLOlSDfhi0mrHDsFTCek5d)
+![Proccess 3](https://drive.google.com/uc?export=view&id=1TvBJOAIamJLoWt_QL83mgbCvJ8FvZgOd)
+![Proccess 4](https://drive.google.com/uc?export=view&id=129fMUCplb0ZboBEU8F6uQIO5pYaRpCrx)
 
 <details>
   <summary><strong>Act out the Interaction</strong></summary>
