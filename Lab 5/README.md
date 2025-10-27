@@ -192,7 +192,7 @@ In an earlier version of this class students experimented with foundational comp
 
 ![Le Jetee](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/le_jetee.jpg)
 
-<mark> We began with loading up the Pi modern art preset images that would serve as examples for style transfer. </mark>
+<mark> We began with loading up the Pi with modern art preset images that would serve as examples for style transfer. </mark>
 
 <p align="center">
 	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/kandinsky.jpg" alt="Kandinsky" width="49.5%"/>
