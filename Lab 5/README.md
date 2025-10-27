@@ -261,9 +261,9 @@ For example:
 
 <mark> _**AI Usage:** Utilized assistance from ChatGPT for the writing of code._ </mark>
 
-<mark> _**Pros:** The code was abale to accomadate the new vector space easily and required only the context of the Mini piTFT product page to find out the approporate remapping._ </mark>
+<mark> _**Pros:** The code was able to accommodate the new vector space easily and required only the context of the Mini PiTFT product page to find the appropriate remapping, which is usually a difficult and tedious task._ </mark>
 
-<mark> _**Cons:** It was difficult to find the model that would best suit the Pi. We ultimately found an appropriate model through Google, but the archived CDN downloads that ChatGPT tryied to provide were all borken or returned a 404. Not a single one provided by ChatGPT seem to work, which means that most models provided in chat could not be used._ </mark>
+<mark> _**Cons:** It was difficult to find the model that would best suit the Pi. We ultimately found an appropriate model through Google because the archived CDN downloads that ChatGPT tryied to provide were all borken or returned a 404. Not a single one provided by ChatGPT seem to work, which means that most models provided in chat could not be used._ </mark>
 
 <p align="center">
 	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/piTFT_1.jpg" alt="piTFT 1" width="33%"/>
