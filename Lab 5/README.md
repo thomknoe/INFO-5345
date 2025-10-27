@@ -251,8 +251,10 @@ During the lecture, we mentioned questions to help characterize a material:
 
 **\*\*\*Include a short video demonstrating the answers to these questions.\*\*\***
 
-![Demo 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/demo_1.gif)
-![Demo 2](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/demo_2.gif)
+<p align="center">
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/demo_1.gif" alt="Demo 1" width="49.5%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/demo_2.gif" alt="Demo 2" width="49.5%"/>
+</p>
 
 <details>
 	<summary><strong>Part 2</strong></summary>
