@@ -2,9 +2,6 @@
 
 <mark> **Collaborators: Thomas Knoepffler, Carrie Wang, Xiaocheng Li Julia Chen, Dean Xu** </mark>
 
-<details>
-  <summary><strong>Lab Description</strong></summary>
-
 Does it feel like time is moving strangely during this semester?
 
 For our first Pi project, we will pay homage to the [timekeeping devices of old](https://en.wikipedia.org/wiki/History_of_timekeeping_devices) by making simple clocks.
@@ -13,8 +10,6 @@ It is worth spending a little time thinking about how you mark time, and what wo
 
 **Please indicate anyone you collaborated with on this Lab here.**
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design.
-
-</details>
 
 <details>
   <summary><strong>Prep</strong></summary>
