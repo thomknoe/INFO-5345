@@ -192,7 +192,7 @@ In an earlier version of this class students experimented with foundational comp
 
 ![Le Jetee](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/le_jetee.jpg)
 
-<mark> _**Image Sources:** Le Jetée (1962)_ </mark>
+<mark> _**Image Source:** Le Jetée (1962)_ </mark>
 
 <mark> We began with loading up the Pi with modern art preset images that would serve as examples for style transfer. </mark>
 
@@ -205,7 +205,7 @@ In an earlier version of this class students experimented with foundational comp
     <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/munch.jpg" alt="Munch" width="49.5%"/>
 </p>
 
-<mark> _**Image Sources:** Kandinsky - Composition VII (1913), Roy Lichtenstein - Drowning Girl (1963), Henri Matisse - The Dance (1910), Piet Mondrian - Composition with Red, Blue, and Yellow (1930), Claude Monet - Water Lilies (1914-26), Edvard Munch - The Scream (1893)_ </mark>
+<mark> _**Image Source(s):** Kandinsky - Composition VII (1913), Roy Lichtenstein - Drowning Girl (1963), Henri Matisse - The Dance (1910), Piet Mondrian - Composition with Red, Blue, and Yellow (1930), Claude Monet - Water Lilies (1914-26), Edvard Munch - The Scream (1893)_ </mark>
 
 <mark> From there, we loaded up style transfer models from TensorFlow onto the Pi and mapped the secondary input image to be the WebCam feed. We re-mapped the vector space so that it could accommodate the camera feed dimensions. We experiemetned with various output dimesions and decided on a relatively small resolution of 380 x 285, just so that the video can efficiently process at a higher frame rate. We also used chose to use the 256-fp16 version of the mdoel, which proved to be faster than the initial model we downloaded. Our first FPS rate was around 2. Our final FPS rate range between 6-7. </mark>
 
