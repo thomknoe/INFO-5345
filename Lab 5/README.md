@@ -188,7 +188,7 @@ In an earlier version of this class students experimented with foundational comp
 
 <mark>We used TensorFlow's [arbitrary-image-stylization-v1](https://www.kaggle.com/models/google/arbitrary-image-stylization-v1), both 256-fp16 prediction and transfer models. Provided by Google.</mark>
 
-<mark> This lab is both an experiment in computational optimization, an artistic exploration with the nature of computer vision via style transfer, and the discourse created between vision and computation. The goal of this lab is to be able to capture the "artistic visuality" (i.e., the style) within classic paintings or textures, and transcribe them to live video feed through the Pi. The final deliverable is to create a narrative piece that will use style transfer for still and moving images, or the montage style of filmmaking (e.g., [Le Jetee (1962)](https://www.youtube.com/watch?v=Pf4AY_DI9BE) this film is also the main artistic inspiration for this project).</mark>
+<mark> This lab is both an experiment in computational optimization, an artistic exploration with the nature of computer vision via style transfer, and the discourse created between vision and computation. The goal of this lab is to be able to capture the "artistic visuality" (i.e., the style) within classic paintings or textures, and transcribe them to live video feed through the Pi. The final deliverable is to create a narrative piece that will use style transfer for still and moving images, or the montage style of filmmaking (e.g., [Le Jetée (1962)](https://www.youtube.com/watch?v=Pf4AY_DI9BE). This film is also the main artistic inspiration for this project).</mark>
 
 ![Le Jetee](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/le_jetee.jpg)
 
@@ -205,9 +205,9 @@ In an earlier version of this class students experimented with foundational comp
     <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/munch.jpg" alt="Munch" width="49.5%"/>
 </p>
 
-<mark> _**Image Source(s):** Kandinsky - Composition VII (1913), Roy Lichtenstein - Drowning Girl (1963), Henri Matisse - The Dance (1910), Piet Mondrian - Composition with Red, Blue, and Yellow (1930), Claude Monet - Water Lilies (1914-26), Edvard Munch - The Scream (1893)_ </mark>
+<mark> _**Image Source(s):** Kandinsky, Composition VII (1913); Roy Lichtenstein, Drowning Girl (1963); Henri Matisse, The Dance (1910); Piet Mondrian, Composition with Red, Blue, and Yellow (1930); Claude Monet, Water Lilies (1914-26); Edvard Munch, The Scream (1893)._ </mark>
 
-<mark> From there, we loaded up style transfer models from TensorFlow onto the Pi and mapped the secondary input image to be the WebCam feed. We re-mapped the vector space so that it could accommodate the camera feed dimensions. We experiemetned with various output dimesions and decided on a relatively small resolution of 380 x 285, just so that the video can efficiently process at a higher frame rate. We also used chose to use the 256-fp16 version of the mdoel, which proved to be faster than the initial model we downloaded. Our first FPS rate was around 2. Our final FPS rate range between 6-7. </mark>
+<mark> From there, we loaded up style transfer models from TensorFlow onto the Pi and mapped the secondary input image to be the WebCam feed. We remapped the vector space so that it could accommodate the camera feed dimensions. We experimented with various output dimensions and decided on a relatively small resolution of 380 x 285, just so that the video can efficiently process at a higher frame rate. We also chose to use the 256-fp16 version of the mdoel, which proved to be faster than the initial model we downloaded. Our first FPS rate was around 2. Our final FPS rate ranged between 6-7. </mark>
 
 <mark> Our code can be found at [stylecam_hdmi.py](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/style/stylecam_hdmi.py) </mark>
 
@@ -251,7 +251,7 @@ For example:
 
 <mark> Now that the code worked on the laptop, we decided to fully move the set up to the Pi by mapping the video feed onto the Mini piTFT screen. Despite the new resolution, the frame rate remained about the same, ranging from 6-7.</mark>
 
-<mark> This will be important as the final device will be a portable, observing handheld setup. It would be a combination of both the camera and a viewfinder, combining the stylized images that are input by the user, and showcasing a snapshot of the environment around them from the Mini piTFT screen. Depending on how users will want to interact, either we make it a live feed that offers a window to the stylized realm, or we can make it a pure camera that allows users to take individual pictures of the world around them and display it. Both of these designs would depend on both user preference and computational efficiency, whether the video feed will run throughout a long interaction.</mark>
+<mark> This will be important as the final device will be a portable, observing handheld setup. It would be a combination of both a camera and a viewfinder, combining the stylized images that are input by the user, and showcasing a snapshot of the environment around them from the Mini piTFT screen. Depending on how users will want to interact; either we make it a live feed that offers a window to the stylized realm, or we can make it a pure camera that allows users to take individual pictures of the world around them, and display it. Both of these designs would depend on both user preference and computational efficiency, whether the video feed will run throughout a long interaction.</mark>
 
 <mark> Our code can be found at [stylecam_pitft.py](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/style/stylecam_pitft.py) </mark>
 
