@@ -213,9 +213,9 @@ In an earlier version of this class students experimented with foundational comp
 
 <mark> _**AI Usage:** Utilized assistance from ChatGPT for the writing of code._ </mark>
 
-<mark> _**Pros:** The code was suprisingly efficient and quick to generate, considering this has been a historically difficult model to train, load, and use._ </mark>
+<mark> _**Pros:** The code was suprisingly quick to generate, considering this has been has always been a difficult model to train, load, and use._ </mark>
 
-<mark> _**Cons:** The first generation provided the lowest resolution and efficiency model, which kept the FPS at around 2, which was not an ideal framerate for motion capture video. More prompting was needed to aquire a new model and ultimatley optimize the resolution._ </mark>
+<mark> _**Cons:** The first generation provided the lowest resolution and efficiency model, which kept the FPS at around 2. This was not an ideal framerate for motion capture video. More prompting was needed to find a new model and ultimatley optimize the resolution._ </mark>
 
 <mark> In order to use this code, one would need to run the Pi GUI through an HDMI or remote VNC connection. </mark>
 
