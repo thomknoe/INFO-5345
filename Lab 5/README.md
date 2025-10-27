@@ -193,6 +193,8 @@ In an earlier version of this class students experimented with foundational comp
     <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/munch.jpg" alt="Munch" width="49.5%"/>
 </p>
 
+![Electronics Setup](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Electronics_Setup.jpg)
+
 <p align="center">
 	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/style_1.jpg" alt="Style 1" width="49.5%"/>
 	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/style_2.jpg" alt="Style 2" width="49.5%"/>
