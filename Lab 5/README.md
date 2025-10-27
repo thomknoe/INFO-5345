@@ -229,6 +229,10 @@ During the lecture, we mentioned questions to help characterize a material:
 
 **\*\*\*Include a short video demonstrating the answers to these questions.\*\*\***
 
+![piTFT 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/piTFT_1.jpg)
+![piTFT 2](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/piTFT_2.jpg)
+![piTFT 3](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/piTFT_3.jpg)
+
 <details>
 	<summary><strong>Part 2</strong></summary>
 
