@@ -190,6 +190,8 @@ In an earlier version of this class students experimented with foundational comp
 
 <mark> This lab is both an experiment in computational optimization, an artistic exploration with the nature of computer vision via style transfer, and the discourse created between vision and computation. The goal of this lab is to be able to capture the "artistic visuality" (i.e., the style) within classic paintings or textures, and transcribe them to live video feed through the Pi. The final deliverable is to create a narrative piece that will use style transfer for still and moving images, or the montage style of film (e.g., [Le Jetee. (1962)](https://www.youtube.com/watch?v=Pf4AY_DI9BE) this film is the main artistic inspiration for this project).</mark>
 
+![Le Jetee](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/le_jetee.jpg)
+
 <mark> We began with loading up the Pi modern art preset images that would serve as examples for style transfer. </mark>
 
 <p align="center">
