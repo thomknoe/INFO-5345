@@ -186,9 +186,9 @@ In an earlier version of this class students experimented with foundational comp
 
 <mark> This lab is inspired by [Gene Kogan's Experiments with Style Transfer](https://genekogan.com/works/style-transfer/), incorporating new advancements in the style-transfer TensorFlow model and Raspberry Pi hardware. This is a relativley old exploration and application, but there is still more to be discovered or created. </mark>
 
-<mark>We used TensorFlow's [arbitrary-image-stylization-v1](https://www.kaggle.com/models/google/arbitrary-image-stylization-v1), both 256-fp16 predication and transfer models. Provided by Google.</mark>
+<mark>We used TensorFlow's [arbitrary-image-stylization-v1](https://www.kaggle.com/models/google/arbitrary-image-stylization-v1), both 256-fp16 prediction and transfer models. Provided by Google.</mark>
 
-<mark> This lab is both an experiment in computational optimization, an artistic exploration with the nature of computer vision via style transfer, and the discourse created between vision and computation. The goal of this lab is to be able to capture the "artistic visuality" (i.e., the style) within classic paintings or textures and transcribe them to live video feed through the Pi. The final deliverable is to create a narrative piece that will use style transfer for still and moving images (i.e., montage film).</mark>
+<mark> This lab is both an experiment in computational optimization, an artistic exploration with the nature of computer vision via style transfer, and the discourse created between vision and computation. The goal of this lab is to be able to capture the "artistic visuality" (i.e., the style) within classic paintings or textures, and transcribe them to live video feed through the Pi. The final deliverable is to create a narrative piece that will use style transfer for still and moving images, or the montage style of film (e.g., [Le Jetee. (1962)](https://www.youtube.com/watch?v=Pf4AY_DI9BE)).</mark>
 
 <mark> We began with loading up the Pi modern art preset images that would serve as examples for style transfer. </mark>
 
