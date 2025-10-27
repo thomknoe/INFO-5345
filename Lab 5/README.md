@@ -184,6 +184,24 @@ In an earlier version of this class students experimented with foundational comp
 
 **\*\*\*Describe and detail the interaction, as well as your experimentation here.\*\*\***
 
+<p align="center">
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/kandinsky.jpg" alt="Kandinsky" width="49.5%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/lichtenstein.jpg" alt="Lichtenstein" width="49.5%"/>
+    <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/matisse.jpg" alt="Matisse" width="49.5%"/>
+    <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/mondrian.jpg" alt="Mondrian" width="49.5%"/>
+    <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/monet.jpg" alt="Monet" width="49.5%"/>
+    <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/munch.jpg" alt="Munch" width="49.5%"/>
+</p>
+
+<p align="center">
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/style_1.jpg" alt="Style 1" width="49.5%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/style_2.jpg" alt="Style 2" width="49.5%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/style_3.jpg" alt="Style 3" width="49.5%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/style_4.jpg" alt="Style 4" width="49.5%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/style_5.jpg" alt="Style 5" width="49.5%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/style_6.jpg" alt="Style 6" width="49.5%"/>
+</p>
+
 <details>
 	<summary><strong>Part C</strong></summary>
 
