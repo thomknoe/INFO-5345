@@ -225,9 +225,11 @@ For example:
 
 **\*\*\*Think about someone using the system. Describe how you think this will work.\*\*\***
 
-![piTFT 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/piTFT_1.jpg)
-![piTFT 2](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/piTFT_2.jpg)
-![piTFT 3](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/piTFT_3.jpg)
+<p align="center">
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/piTFT_1.gif" alt="piTFT 1" width="33%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/piTFT_2.gif" alt="piTFT 2" width="33%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/piTFT_3.gif" alt="piTFT 3" width="33%"/>
+</p>
 
 <details>
 	<summary><strong>Part D</strong></summary>
