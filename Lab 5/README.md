@@ -213,6 +213,10 @@ In an earlier version of this class students experimented with foundational comp
 
 <mark> _**AI Usage:** Utilized assistance from ChatGPT for the writing of code._ </mark>
 
+<mark> _**Pros:** The code was suprisingly efficient and quick to generate, considering this has been a historically difficult model to train, load, and use._ </mark>
+
+<mark> _**Cons:** The first generation provided the lowest resolution and efficiency model, which kept the FPS at around 2, which was not an ideal framerate for motion capture video. More prompting was needed to aquire a new model and ultimatley optimize the resolution._ </mark>
+
 <mark> In order to use this code, one would need to run the Pi GUI through an HDMI or remote VNC connection. </mark>
 
 ![Electronics Setup](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Electronics_Setup.jpg)
@@ -256,6 +260,10 @@ For example:
 <mark> Our code can be found at [stylecam_pitft.py](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/style/stylecam_pitft.py) </mark>
 
 <mark> _**AI Usage:** Utilized assistance from ChatGPT for the writing of code._ </mark>
+
+<mark> _**Pros:** The code was abale to accomadate the new vector space easily and required only the context of the Mini piTFT product page to find out the approporate remapping._ </mark>
+
+<mark> _**Cons:** It was difficult to find the model that would best suit the Pi. We ultimately found an appropriate model through Google, but the archived CDN downloads that ChatGPT tryied to provide were all borken or returned a 404. Not a single one provided by ChatGPT seem to work, which means that most models provided in chat could not be used._ </mark>
 
 <p align="center">
 	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/piTFT_1.jpg" alt="piTFT 1" width="33%"/>
