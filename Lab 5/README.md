@@ -10,7 +10,6 @@ This lab will help you think through the design of observant systems, particular
 <details>
 	<summary><strong>Prep</strong></summary>
 
-
 ## Prep
 
 1.  Install VNC on your laptop if you have not yet done so. This lab will actually require you to run script on your Pi through VNC so that you can see the video stream. Please refer to the [prep for Lab 2](https://github.com/FAR-Lab/Interactive-Lab-Hub/blob/-/Lab%202/prep.md#using-vnc-to-see-your-pi-desktop).
@@ -34,7 +33,6 @@ This lab will help you think through the design of observant systems, particular
 
 <details>
 	<summary><strong>Overview</strong></summary>
-
 
 ## Overview
 
@@ -171,6 +169,9 @@ In an earlier version of this class students experimented with foundational comp
 
 </details>
 
+<details>
+	<summary><strong>Part B</strong></summary>
+
 ### Part B
 
 ### Construct a simple interaction.
@@ -179,7 +180,12 @@ In an earlier version of this class students experimented with foundational comp
 - This can be as simple as the boat detector shown in lecture.
 - Try out different interaction outputs and inputs.
 
+</details>
+
 **\*\*\*Describe and detail the interaction, as well as your experimentation here.\*\*\***
+
+<details>
+	<summary><strong>Part C</strong></summary>
 
 ### Part C
 
@@ -192,13 +198,17 @@ For example:
 1. When does it fail?
 1. When it fails, why does it fail?
 1. Based on the behavior you have seen, what other scenarios could cause problems?
-
-**\*\*\*Think about someone using the system. Describe how you think this will work.\*\*\***
-
 1. Are they aware of the uncertainties in the system?
 1. How bad would they be impacted by a miss classification?
 1. How could change your interactive system to address this?
 1. Are there optimizations you can try to do on your sense-making algorithm.
+
+</details>
+
+**\*\*\*Think about someone using the system. Describe how you think this will work.\*\*\***
+
+<details>
+	<summary><strong>Part D</strong></summary>
 
 ### Part D
 
@@ -215,10 +225,17 @@ During the lecture, we mentioned questions to help characterize a material:
 - What are other properties/behaviors of X?
 - How does X feel?
 
+</details>
+
 **\*\*\*Include a short video demonstrating the answers to these questions.\*\*\***
+
+<details>
+	<summary><strong>Part 2</strong></summary>
 
 ### Part 2.
 
 Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
+
+</details>
 
 **\*\*\*Include a short video demonstrating the finished result.\*\*\***
