@@ -184,7 +184,7 @@ In an earlier version of this class students experimented with foundational comp
 
 **\*\*\*Describe and detail the interaction, as well as your experimentation here.\*\*\***
 
-<mark> This lab is inspired by [Gene Kogan's Experiments with Style Transfer](https://genekogan.com/works/style-transfer/), incorporating new advancements in the style-transfer TensorFlow model and Raspberry Pi hardware. </mark>
+<mark> This lab is inspired by [Gene Kogan's Experiments with Style Transfer](https://genekogan.com/works/style-transfer/), incorporating new advancements in the style-transfer TensorFlow model and Raspberry Pi hardware. This is a relativley old exploration and application, but there is still more to be discovered or created. </mark>
 
 <mark>We used TensorFlow's [arbitrary-image-stylization-v1](https://www.kaggle.com/models/google/arbitrary-image-stylization-v1), both 256-fp16 predication and transfer models. Provided by Google.</mark>
 
