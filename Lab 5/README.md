@@ -245,7 +245,7 @@ For example:
 
 **\*\*\*Think about someone using the system. Describe how you think this will work.\*\*\***
 
-<mark> Now that the code worked on the laptop, we decided to fully move the set up to the Pi by mapping the video feed onto the Mini piTFT screen. The frame rate remained about the same, ranging from 6-7.</mark>
+<mark> Now that the code worked on the laptop, we decided to fully move the set up to the Pi by mapping the video feed onto the Mini piTFT screen. Despite the new resolution, the frame rate remained about the same, ranging from 6-7.</mark>
 
 <mark> This will be important as the final device will be a portable, observing handheld setup. It would be a combination of both the camera and a viewfinder, combining the stylized images that are input by the user, and showcasing a snapshot of the environment around them from the Mini piTFT screen. Depending on how users will want to interact, we could either make it a live feed that offers a window to the stylized realm, or we can make it a pure camera that allows users to take individual pictures of the world around them and display it. Both of these designs would depend on both user preference and computational efficiency, whether or not the video feed will run throughout a long interaction.</mark>
 
