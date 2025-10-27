@@ -184,6 +184,14 @@ In an earlier version of this class students experimented with foundational comp
 
 **\*\*\*Describe and detail the interaction, as well as your experimentation here.\*\*\***
 
+<mark> This lab is inspired by [Gene Kogan's Experiments with Style Transfer](https://genekogan.com/works/style-transfer/), incorporating new advancements in the style-transfer TensorFlow model and Raspberry Pi hardware. </mark>
+
+<mark>The weights used come from TensorFlow's [arbitrary-image-stylization-v1](https://www.kaggle.com/models/google/arbitrary-image-stylization-v1), utilizing both 256-fp16 predication and transfer models. By Google.</mark>
+
+<mark> This lab is both an experiment in computational optimization, an artistic exploration with the nature of computer vision via style transfer, and the discourse created between vision and compution. The goal of this lab is to be able to capture the "artistic visuality" (i.e., the style) within classic paintings or textures and transcribe them to live video feed throguh the Pi. The ultimate goal is to create a narrative piece that will use style transfer for still and moving images.</mark>
+
+<mark> We began with loading up the Pi with if you preset images that would serve us examples for style transfer. </mark>
+
 <p align="center">
 	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/kandinsky.jpg" alt="Kandinsky" width="49.5%"/>
 	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/lichtenstein.jpg" alt="Lichtenstein" width="49.5%"/>
@@ -192,6 +200,8 @@ In an earlier version of this class students experimented with foundational comp
     <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/monet.jpg" alt="Monet" width="49.5%"/>
     <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/munch.jpg" alt="Munch" width="49.5%"/>
 </p>
+
+<mark> _**Image Sources:** Kandinsky - Composition VII (1913), Roy Lichtenstein - Drowning Girl (1963), Henri Matisse - The Dance (1910), Piet Mondrian - Composition with Red, Blue, and Yellow (1930), Claude Monet - Water Lilies (1914-26), Edvard Munch - The Scream (1893)_ </mark>
 
 ![Electronics Setup](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Electronics_Setup.jpg)
 
