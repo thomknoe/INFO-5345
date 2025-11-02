@@ -325,6 +325,6 @@ Following exploration and reflection from Part 1, finish building your interacti
 
 <p align="center">
 	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Concept/Concept_4.jpg" alt="Concept 4" width="33%"/>
-	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Concept/Concept_5.jpg" alt="Concept 5" width="33%"
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Concept/Concept_5.jpg" alt="Concept 5" width="33%"/>
 	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Concept/Concept_6.jpg" alt="Concept 6" width="33%"/>
 </p>
