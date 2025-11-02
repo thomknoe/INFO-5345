@@ -8,6 +8,7 @@ from tflite_runtime.interpreter import Interpreter
 import board, digitalio
 import adafruit_rgb_display.st7789 as st7789
 
+# --- Display setup ---
 cs_pin = digitalio.DigitalInOut(board.D5)
 dc_pin = digitalio.DigitalInOut(board.D25)
 reset_pin = None
@@ -33,6 +34,7 @@ backlight.value = True
 SCREEN_W, SCREEN_H = 240, 135
 ROTATION = 90
 
+# --- Button setup ---
 button_left = digitalio.DigitalInOut(board.D23)
 button_left.direction = digitalio.Direction.INPUT
 button_left.pull = digitalio.Pull.UP
@@ -41,12 +43,14 @@ button_right = digitalio.DigitalInOut(board.D24)
 button_right.direction = digitalio.Direction.INPUT
 button_right.pull = digitalio.Pull.UP
 
+# --- TFLite interpreters ---
 style_predict = Interpreter("style_predict_fast.tflite", num_threads=4)
 style_predict.allocate_tensors()
 
 style_transform = Interpreter("style_transform_fast.tflite", num_threads=4)
 style_transform.allocate_tensors()
 
+# --- Load styles ---
 style_image_paths = sorted(Path("styles").glob("*.jpg")) + sorted(Path("styles").glob("*.png"))
 style_image_paths = [str(p) for p in style_image_paths]
 if not style_image_paths:
@@ -88,7 +92,8 @@ def find_transform_io_and_shape(interp):
             id_content = idx
             _, H, W, _ = shape
             content_hw = (int(H), int(W))
-        elif dtype == np.float32 and ((len(shape) == 2 and shape[-1] == 100) or (len(shape) == 4 and shape[-1] == 100 and shape[1] == 1 and shape[2] == 1)):
+        elif dtype == np.float32 and ((len(shape) == 2 and shape[-1] == 100) or
+                                      (len(shape) == 4 and shape[-1] == 100 and shape[1] == 1 and shape[2] == 1)):
             id_style = idx
     if id_content is None or id_style is None:
         raise RuntimeError("Could not determine content/style input indices.")
@@ -108,17 +113,34 @@ def to_pitft_image(rgb_float01):
     image = Image.fromarray(arr)
     if image.size != (SCREEN_W, SCREEN_H):
         image = image.resize((SCREEN_W, SCREEN_H), Image.BILINEAR)
-    image = image.transpose(Image.FLIP_TOP_BOTTOM)  # 👈 Flip vertically
-    image = image.transpose(Image.FLIP_LEFT_RIGHT)  # 👈 Flip vertically
+    image = image.transpose(Image.FLIP_TOP_BOTTOM)
+    image = image.transpose(Image.FLIP_LEFT_RIGHT)
     return image
 
-
+# --- Camera setup ---
 cam = cv2.VideoCapture(0)
 cam.set(cv2.CAP_PROP_FRAME_WIDTH, 640)
 cam.set(cv2.CAP_PROP_FRAME_HEIGHT, 480)
 if not cam.isOpened():
     raise RuntimeError("No webcam detected at index 0.")
 
+# --- QuickTime .MOV writer ---
+output_file = "output_stylized.mov"
+
+# Try H.264 first, fallback to MPEG-4
+fourcc = cv2.VideoWriter_fourcc(*"avc1")
+video_writer = cv2.VideoWriter(output_file, fourcc, 20.0, (SCREEN_W, SCREEN_H))
+if not video_writer.isOpened():
+    print("H.264 not supported-using MPEG-4 fallback")
+    fourcc = cv2.VideoWriter_fourcc(*"mp4v")
+    video_writer = cv2.VideoWriter(output_file, fourcc, 20.0, (SCREEN_W, SCREEN_H))
+
+if video_writer.isOpened():
+    print(f"Recording stylized output to {output_file}")
+else:
+    print("Failed to initialize video writer. Check FFmpeg installation.")
+
+# --- Run style transfer loop ---
 style_bottleneck = load_style_bottleneck(style_manager.current())
 print(f"Initial style: {os.path.basename(style_manager.current())}")
 print("Running FAST version with style_transform_fast.tflite")
@@ -135,11 +157,13 @@ try:
         if not button_left.value and (now - last_button_time) > DEBOUNCE:
             path = style_manager.previous()
             style_bottleneck = load_style_bottleneck(path)
+            print(f"Style: {os.path.basename(path)}")
             last_button_time = now
 
         if not button_right.value and (now - last_button_time) > DEBOUNCE:
             path = style_manager.next()
             style_bottleneck = load_style_bottleneck(path)
+            print(f"Style: {os.path.basename(path)}")
             last_button_time = now
 
         ok, frame = cam.read()
@@ -152,7 +176,12 @@ try:
         style_transform.invoke()
 
         stylized = style_transform.get_tensor(out_idx)[0]
-        disp.image(to_pitft_image(stylized), ROTATION)
+        pitft_img = to_pitft_image(stylized)
+        disp.image(pitft_img, ROTATION)
+
+        # --- Write video frame ---
+        bgr_frame = cv2.cvtColor(np.array(pitft_img), cv2.COLOR_RGB2BGR)
+        video_writer.write(bgr_frame)
 
         frames += 1
         if frames % 10 == 0:
@@ -161,6 +190,8 @@ try:
             fps_timer = now_time
 
 except KeyboardInterrupt:
-    print("Stopped.")
+    print("Stopped by user.")
 finally:
     cam.release()
+    video_writer.release()
+    print(f"Video saved as {output_file}")
