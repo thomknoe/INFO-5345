@@ -296,8 +296,14 @@ During the lecture, we mentioned questions to help characterize a material:
 <mark> The video feed is able to run relatively fluently, making it a technical possibility for this lab to include stylized video. User testing and enclosure designs are underway, as well as storyboards for an interaction film. </mark>
 
 <p align="center">
-	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/demo_1.gif" alt="Demo 1" width="49.5%"/>
-	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/demo_2.gif" alt="Demo 2" width="49.5%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/GIFs/Test_1.gif" alt="Test 1" width="49.5%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/GIFs/Test_2.gif" alt="Test 2" width="49.5%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/GIFs/Test_3.gif" alt="Test 3" width="49.5%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/GIFs/Test_4.gif" alt="Test 4" width="49.5%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/GIFs/Test_5.gif" alt="Test 5" width="49.5%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/GIFs/Test_6.gif" alt="Test 6" width="49.5%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/GIFs/Test_7.gif" alt="Test 7" width="49.5%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/GIFs/Test_8.gif" alt="Test 8" width="49.5%"/>
 </p>
 
 <details>
