@@ -349,10 +349,26 @@ Following exploration and reflection from Part 1, finish building your interacti
 	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/GIFs/Demo_1.6.gif" alt="Demo 1.6" width="33%"/>
 </p>
 
-| Model                 | Resolution | Estimated FPS | Style Quality |
-| --------------------- | ---------- | ------------- | ------------- |
-| **256-fp16-transfer** | 380 × 285  | 6–7 FPS       | High          |
-| **256-int8-transfer** | 380 × 285  | 3–4 FPS       | Medium        |
+<table style="width:100%; border-collapse: collapse;">
+  <tr>
+    <th style="text-align:left; border-bottom:1px solid #000;">Model</th>
+    <th style="text-align:left; border-bottom:1px solid #000;">Resolution</th>
+    <th style="text-align:left; border-bottom:1px solid #000;">Estimated FPS</th>
+    <th style="text-align:left; border-bottom:1px solid #000;">Style Quality</th>
+  </tr>
+  <tr>
+    <td>256-fp16-transfer</td>
+    <td>380 × 285</td>
+    <td>6–7 FPS</td>
+    <td>High</td>
+  </tr>
+  <tr>
+    <td>256-int8-transfer</td>
+    <td>380 × 285</td>
+    <td>3–4 FPS</td>
+    <td>Medium</td>
+  </tr>
+</table>
 
 ### <mark> Proof of Concept Testing</mark>
 
