@@ -360,12 +360,26 @@ During the lecture, we mentioned questions to help characterize a material:
 	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/GIFs/Test_6.gif" alt="Test 6" width="33%"/>
 </p>
 
-Model Resolution Estimated FPS Style Quality
-
----
-
-256-fp16-transfer 380 × 285 6–7 FPS High
-256-int8-transfer 380 × 285 3–4 FPS Medium
+<table width="100%" border="0" cellspacing="0" cellpadding="4">
+  <tr>
+    <th align="left">Model</th>
+    <th align="left">Resolution</th>
+    <th align="left">Estimated FPS</th>
+    <th align="left">Style Quality</th>
+  </tr>
+  <tr>
+    <td>256-fp16-transfer</td>
+    <td>380 × 285</td>
+    <td>6–7 FPS</td>
+    <td>High</td>
+  </tr>
+  <tr>
+    <td>256-int8-transfer</td>
+    <td>380 × 285</td>
+    <td>3–4 FPS</td>
+    <td>Medium</td>
+  </tr>
+</table>
 
 <details>
 	<summary><strong>Part 2</strong></summary>
