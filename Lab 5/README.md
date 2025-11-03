@@ -349,6 +349,11 @@ Following exploration and reflection from Part 1, finish building your interacti
 	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/GIFs/Demo_1.6.gif" alt="Demo 1.6" width="33%"/>
 </p>
 
+| Model                 | Resolution | Estimated FPS | Style Quality |
+| --------------------- | ---------- | ------------- | ------------- |
+| **256-fp16-transfer** | 380 × 285  | 6–7 FPS       | High          |
+| **256-int8-transfer** | 380 × 285  | 3–4 FPS       | Medium        |
+
 ### <mark> Proof of Concept Testing</mark>
 
 - <mark> Watch Proof of Concept Testing: [Testing Video Link](https://drive.google.com/file/d/144vzqSskL6Qu3vT3IOZuoYkMDqs3gQaq/view?usp=sharing) </mark>
@@ -403,9 +408,9 @@ Following exploration and reflection from Part 1, finish building your interacti
 
 ### <mark> User Testing </mark>
 
-- <mark> Watch User Testing Video 1: [User Test 1 Link](https://drive.google.com/file/d/1dWZLqXqecgF_Xpy_CwUn4EGPl5gq8Ox4/view?usp=sharing) </mark>
+- <mark> Watch User Testing Video #1: [User Test #1 Link](https://drive.google.com/file/d/1dWZLqXqecgF_Xpy_CwUn4EGPl5gq8Ox4/view?usp=sharing) </mark>
 
-- <mark> Watch User Testing Video 2: [User Test 2 Link](https://drive.google.com/file/d/1sNOVcUmyRJ6Uf2LxbvetQro9cyMmsJkX/view?usp=sharing) </mark>
+- <mark> Watch User Testing Video #2: [User Test #2 Link](https://drive.google.com/file/d/1sNOVcUmyRJ6Uf2LxbvetQro9cyMmsJkX/view?usp=sharing) </mark>
 
 <mark> The user testing yielded generally the same insights from the proof of concept testing, although certain features that we incorporated into the form factor proved to be no ideal. The way the viewfinder is at an incline actually prompts the user to tilt the whole device upwards to have a perpendicular view of the screen, which is not user friendly. Having the ability to take video recordings and snapshots within the same program was also an idea that was expressed. Overall, participants enjoyed getting to choose their favorite artists or art styles and viewing them through the viewfinder.</mark>
 
