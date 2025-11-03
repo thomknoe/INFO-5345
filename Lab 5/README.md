@@ -317,9 +317,11 @@ Following exploration and reflection from Part 1, finish building your interacti
 
 <mark> _**AI Usage:** Utilized assistance from ChatGPT for the writing of code._ </mark>
 
-<mark> _**Pros:** _ </mark>
+<mark> _**Pros:** Generating the code was efficient and simple, considering that it was simply building upon the base code and adding a new feature (i.e., recording and saving a video on the Pi)._ </mark>
 
-<mark> _**Cons:** _ </mark>
+<mark> _**Cons:** The code initially placed the generated audio file at the top of the pie directory. It did not specify this requirement when generating the code, and thus led to some confusion in locating the file when first starting out, also the generated file appeared to be inverted and playing at a faster rate._ </mark>
+
+<mark> Adding on the already existing function of the camera, we decided to implement a record feature that would allow users to record what they are able to capture on the WebCam through the Pi. The videos would be recorded in the same resolution as the Mini piTFT. Because the model requires a slower rate in order to process each stylized image frame, the camera needed to be slowly panned in order for it to capture a relatively stable tracking shot. This adda some frustration to its used case, and a pain point that can be further iterated with advancements to the frame rate problem. (i.e., models and hardware)</mark>
 
 <p align="center">
 	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/GIFs/Demo_1.1.gif" alt="Demo 1.1" width="33%"/>
