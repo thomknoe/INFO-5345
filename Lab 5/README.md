@@ -347,13 +347,17 @@ Following exploration and reflection from Part 1, finish building your interacti
 	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Concept/Concept_6.jpg" alt="Concept 6" width="33%"/>
 </p>
 
-### <mark> 3D Modeling & DesDiagramign </mark>
+### <mark> Diagram & 3D Modeling </mark>
 
+<mark> Considering the interaction that we were planning, we decided to make the form factor mimic classic cameras, where the lens would appear on one side, and the screen would act as a viewfinder and be located on the otherside. This way users can be able to make an immediate mental model for the system and use it in a way that's familiar to them. All models were made in Rhino3D. </mark>
+
+![Diagram](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Sketches/Diagram.png)
 ![Workspace](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Sketches/Workspace.png)
 ![Technical Drawings](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Sketches/Technical_Drawings.png)
-![Diagram](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Sketches/Diagram.png)
 
-### <mark> 3D Printed & Laser Cut Assembly </mark>
+### <mark> 3D Printed & Laser Cut Enclosure </mark>
+
+<mark> We incorporated both 3D printed PLA and laser cut wood for this enclosure. </mark>
 
 ![Mockups 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Mockups/Mockup_1.jpg)
 ![Mockups 2](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Mockups/Mockup_2.jpg)
@@ -365,6 +369,10 @@ Following exploration and reflection from Part 1, finish building your interacti
 
 - <mark> Watch Concept Film: [Film Link](https://drive.google.com/file/d/1WP1p4zbhoKj6DwM54dAZwIpF7Rtdq-JO/view?usp=sharing) </mark>
 
+<mark> _**Synopsis:** A designer, feeling alienated and despondent from her current day-to-day life, goes on a stroll to the museum to find some sort of inspiration. She finds it in the form of an abstract painting that she falls in love with. Obsessed with the magical aura of the image, she tries to find a way to capture the essence of the painting did the use of interactive devices and computer vision algorithms._ </mark>
+
+<mark> The film is in the style of a montage movie with the series of subsequent images to denote a narrative story throughout. The film is supposed to be a designed artifact, in the same way as a storyboard is, to give the overarching context and emotional pain points where the use cases of this device might take place in. All content and assets used for this film are in the public domain. Music used is Lyric Pieces, Op. 54 - IV. Notturno by Edvard Grieg. </mark>
+
 ![Cover](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Cover.jpg)
 
 <p align="center">
@@ -375,6 +383,12 @@ Following exploration and reflection from Part 1, finish building your interacti
 	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Montage/Montage_5.jpg" alt="Montage 5" width="49.5%"/>
 	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Montage/Montage_6.jpg" alt="Montage 6" width="49.5%"/>
 </p>
+
+### <mark> User Testing </mark>
+
+- <mark> Watch User Testing Video 1: [User Test 1 Link](https://drive.google.com/file/d/1ojG_3RU0L8Bz4JsV-FlnG23a-zYZqH3E/view?usp=sharing) </mark>
+
+- <mark> Watch User Testing Video 2: [User Test 2 Link](https://drive.google.com/file/d/1BT97tRddPxMqk9dBNU6Jq5tuXp0AUJUf/view?usp=sharing) </mark>
 
 ### <mark> Inspiration </mark>
 
