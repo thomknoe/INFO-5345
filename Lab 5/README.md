@@ -364,7 +364,7 @@ During the lecture, we mentioned questions to help characterize a material:
   <tr>
     <th align="left">Model</th>
     <th align="left">Resolution</th>
-    <th align="left">Estimated FPS</th>
+    <th align="left">Average FPS</th>
     <th align="left">Style Quality</th>
   </tr>
   <tr>
@@ -376,7 +376,7 @@ During the lecture, we mentioned questions to help characterize a material:
   <tr>
     <td>256-int8-transfer</td>
     <td>380 × 285</td>
-    <td>3–4 FPS</td>
+    <td>1–2 FPS</td>
     <td>Medium</td>
   </tr>
 </table>
