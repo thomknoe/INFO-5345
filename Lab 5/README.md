@@ -331,3 +331,11 @@ Following exploration and reflection from Part 1, finish building your interacti
 
 ![Workspace](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Sketches/Workspace.png)
 ![Technical Drawings](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Sketches/Technical_Drawings.png)
+
+### <mark> 3D Printed & Laser Cut Assembly </mark>
+
+![Mockups 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Mockups/Mockups_1.jpg)
+![Mockups 2](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Mockups/Mockups_2.jpg)
+![Mockups 3](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Mockups/Mockups_3.jpg)
+![Mockups 4](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Mockups/Mockups_4.jpg)
+![Mockups 5](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Mockups/Mockups_5.jpg)
