@@ -338,6 +338,8 @@ Following exploration and reflection from Part 1, finish building your interacti
 
 - <mark> Watch Proof of Concept Testing: [Testing Video Link](https://drive.google.com/file/d/144vzqSskL6Qu3vT3IOZuoYkMDqs3gQaq/view?usp=sharing) </mark>
 
+![Concept](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Concept.jpg)
+
 <p align="center">
 	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Concept/Concept_1.jpg" alt="Concept 1" width="33%"/>
 	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Concept/Concept_2.jpg" alt="Concept 2" width="33%"/>
