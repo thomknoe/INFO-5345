@@ -188,7 +188,7 @@ In an earlier version of this class students experimented with foundational comp
 
 <mark>We used TensorFlow's [arbitrary-image-stylization-v1](https://www.kaggle.com/models/google/arbitrary-image-stylization-v1), both 256-fp16 prediction and transfer models. Provided by Google.</mark>
 
-<mark> This lab is both an experiment in computational optimization, an artistic exploration with the nature of computer vision via style transfer, and the discourse created between vision and computation. The goal of this lab is to be able to capture the "artistic visuality" (i.e., the style) within classic paintings or textures, and transcribe them to live video feed through the Pi. The final deliverable is to create a narrative piece that will use style transfer for still and moving images, or the montage style of filmmaking (e.g., [Le Jetée (1962)](https://www.youtube.com/watch?v=Pf4AY_DI9BE). This film is also the main artistic inspiration for this project).</mark>
+<mark> This lab is both an experiment in computational optimization, an artistic exploration with the nature of computer vision via style transfer, and a discourse created between vision and computation. The goal of this lab is to be able to capture the "artistic visuality" (i.e., the style) within classic paintings or textures, and transcribe them to live video feed through the Pi. The final deliverable is to create a narrative piece that will use style transfer for still and moving images, or the montage style of filmmaking (e.g., [Le Jetée (1962)](https://www.youtube.com/watch?v=Pf4AY_DI9BE). This film is also the main artistic inspiration for this project).</mark>
 
 <mark> We began with loading up the Pi with modern art preset images that would serve as examples for style transfer. </mark>
 
@@ -203,7 +203,7 @@ In an earlier version of this class students experimented with foundational comp
 
 <mark> _**Image Source(s):** Kandinsky, Composition VII (1913); Roy Lichtenstein, Drowning Girl (1963); Henri Matisse, The Dance (1910); Piet Mondrian, Composition with Red, Blue, and Yellow (1930); Claude Monet, Water Lilies (1914-26); Edvard Munch, The Scream (1893)._ </mark>
 
-<mark> From there, we loaded up style transfer models from TensorFlow onto the Pi and mapped the secondary input image to be the WebCam feed. We remapped the vector space so that it could accommodate the camera feed dimensions. We experimented with various output dimensions and decided on a relatively small resolution of 380 x 285, just so that the video can efficiently process at a higher frame rate. We also chose to use the 256-fp16 version of the model, which proved to be faster than the initial model we downloaded, which was the quantized verison. Our first FPS rate was around 2. Our final FPS rate ranged between 6-7. </mark>
+<mark> From there, we loaded up style-transfer models from TensorFlow onto the Pi and mapped the secondary input image to be the WebCam feed. We remapped the vector space so that it could accommodate the camera feed dimensions. We experimented with various output dimensions and decided on a relatively small resolution of 380 x 285, just so that the video can efficiently process at a higher frame rate. We also chose to use the 256-fp16 version of the model, which proved to be faster than the initial model we downloaded, which was the quantized version. Our first FPS rate was around 2. Our final FPS rate ranged between 6-7. </mark>
 
 <mark> Our code can be found at [stylecam_hdmi.py](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/style/stylecam_hdmi.py) </mark>
 
@@ -402,7 +402,7 @@ Following exploration and reflection from Part 1, finish building your interacti
 
 <mark> _**Cons:** The code initially placed the generated video file at the top of the Pi directory. It did not specify this requirement when generating the code, and thus led to some confusion in locating the file when first starting out. Also, the generated file appeared to be inverted and playing at a faster rate, mainly due to the limitations of the model._ </mark>
 
-<mark> Adding on the already existing function of the camera, we decided to implement a record feature that would allow users to record what they are able to capture on the WebCam through the Pi. The videos would be recorded in the same resolution as the Mini piTFT. Because the model requires a slower rate in order to process each stylized image frame, the camera needed to be slowly panned in order for it to capture a relatively stable tracking shot. This adda some frustration to its used case, and a pain point that can be further iterated with advancements to the frame rate problem. (i.e., models and hardware)</mark>
+<mark> Adding on the already existing function of the camera, we decided to implement a record feature that would allow users to record what they are able to capture on the webcam through the Pi. The videos would be recorded in the same resolution as the Mini piTFT. Because the model requires a slower rate in order to process each stylized image frame, the camera needed to be slowly panned in order for it to capture a relatively stable tracking shot. This adda some frustration to its used case, and a pain point that can be further iterated with advancements to the frame rate problem. (i.e., models and hardware)</mark>
 
 <p align="center">
 	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/GIFs/Demo_1.1.gif" alt="Demo 1.1" width="33%"/>
@@ -417,7 +417,7 @@ Following exploration and reflection from Part 1, finish building your interacti
 
 - <mark> Watch Proof of Concept Testing: [Testing Video Link](https://drive.google.com/file/d/144vzqSskL6Qu3vT3IOZuoYkMDqs3gQaq/view?usp=sharing) </mark>
 
-<mark> We allowed participants from class to use the proof of concept assembly. They appreciated the customization aspect where users were able to upload their favorite artists and styles and be able to see them come alive through the Mini piTFT screen, while observing the world around them. Some input gained from the testing was to both implement a form factor to the assembly. (i.e., enclosure), and to incorportate a participatory aspect to the work (e.g., allowing multiple users to use the device to contribute to a larger database/repository of images and video that are mapped to geographic or community regions and overlay the styles chosen) </mark>
+<mark> We allowed participants from class to use the proof of concept assembly. They appreciated the customization aspect where users were able to upload their favorite artists and styles and be able to see them come alive through the Mini piTFT screen, while observing the world around them. Some input gained from the testing was to both implement a form factor to the assembly. (i.e., enclosure), and to incorporate a participatory aspect to the work (e.g., allowing multiple users to use the device to contribute to a larger database/repository of images and video that are mapped to geographic or community regions and overlay the styles chosen) </mark>
 
 <p align="center">
 	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Concept/Concept_1.jpg" alt="Concept 1" width="33%"/>
@@ -428,9 +428,9 @@ Following exploration and reflection from Part 1, finish building your interacti
 	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Concept/Concept_6.jpg" alt="Concept 6" width="33%"/>
 </p>
 
-### <mark> Diagram & 3D Modeling </mark>
+### <mark> Interaction Diagram & 3D Modeling </mark>
 
-<mark> Considering the interaction that we were planning, we decided to make the form factor mimic classic cameras, where the lens would appear on one side, and the screen would act as a viewfinder and be located on the otherside. This way users can be able to make an immediate mental model for the system and use it in a way that's familiar to them. All models were made in Rhino and Grasshopper. </mark>
+<mark> Considering the interaction that we were planning, we decided to make the form factor mimic classic cameras, where the lens would appear on one side, and the screen would act as a viewfinder and be located on the otherside. This way users can be able to make an immediate mental model for the system and use it in a way that's familiar to them. All 3D models were made in Rhino and Grasshopper. </mark>
 
 ![Diagram](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Sketches/Diagram.png)
 ![Workspace](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Sketches/Workspace.png)
@@ -452,7 +452,7 @@ Following exploration and reflection from Part 1, finish building your interacti
 
 <mark> _**Synopsis:** A designer, feeling alienated and despondent from her current day-to-day life, goes on a stroll to the museum to find some sort of inspiration. She finds it in the form of an abstract painting that she falls in love with. Obsessed with the magical aura of the image, she tries to find a way to capture the essence of the painting through the use of interactive devices and computer vision algorithms._ </mark>
 
-<mark> The film is in the style of a montage movie with the series of subsequent images to denote a narrative story throughout. The film is supposed to be a designed artifact, in the same way as a storyboard is to give the overarching context and emotional pain points where the use cases of this device might take place in. All content and assets used for this film are in the public domain. Music used is Lyric Pieces, Op. 54 - IV. Notturno by Edvard Grieg. </mark>
+<mark> The film is in the style of a montage movie with the series of subsequent images to denote a narrative story throughout. The film is supposed to be a design artifact, in the same way as a storyboard is to give the overarching context and emotional pain points where the use cases of this device might take place in. All content and assets used for this film are in the public domain. Music used is Lyric Pieces, Op. 54 - IV. Notturno by Edvard Grieg. </mark>
 
 ![Cover](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Cover.jpg)
 
@@ -471,7 +471,9 @@ Following exploration and reflection from Part 1, finish building your interacti
 
 - <mark> Watch User Testing Video #2: [User Test #2 Link](https://drive.google.com/file/d/1sNOVcUmyRJ6Uf2LxbvetQro9cyMmsJkX/view?usp=sharing) </mark>
 
-<mark> The user testing yielded generally the same insights from the proof of concept testing, although certain features that we incorporated into the form factor proved to be no ideal. The way the viewfinder is at an incline actually prompts the user to tilt the whole device upwards to have a perpendicular view of the screen, which is not user friendly. Having the ability to take video recordings and snapshots within the same program was also an idea that was expressed. Overall, participants enjoyed getting to choose their favorite artists or art styles and viewing them through the viewfinder.</mark>
+<mark> Participants were designed texts that were approached in studio. Both were given the opportunity to select their favorite artist and work for style transfer, giving them an element of customization to the interaction.</mark>
+
+<mark> The user testing yielded generally the same insights from the proof of concept testing, although certain features that we incorporated into the form factor proved to be not ideal. The way the viewfinder is at an incline actually prompts the user to tilt the whole device upwards to have a perpendicular view of the screen, which is not user friendly. Having the ability to take video recordings and snapshots within the same program was also an idea that was expressed from both participants. Overall, participants enjoyed getting to choose their favorite artists or art styles and viewing them through the viewfinder.</mark>
 
 ![User Testing](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images//User_Testing.jpg)
 
