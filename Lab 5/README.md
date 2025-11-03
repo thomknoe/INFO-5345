@@ -341,9 +341,10 @@ Following exploration and reflection from Part 1, finish building your interacti
 ![Concept](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Concept/Concept.jpg)
 
 <p align="center">
-	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Concept/Concept_1.jpg" alt="Concept 1" width="33%"/>
-	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Concept/Concept_2.jpg" alt="Concept 2" width="33%"/>
-	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Concept/Concept_3.jpg" alt="Concept 3" width="33%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Concept/Concept_1.jpg" alt="Concept 1" width="49.5%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Concept/Concept_2.jpg" alt="Concept 2" width="49.5%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Concept/Concept_3.jpg" alt="Concept 3" width="49.5%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Concept/Concept_4.jpg" alt="Concept 4" width="49.5%"/>
 </p>
 
 ### <mark> 3D Modeling & Design </mark>
