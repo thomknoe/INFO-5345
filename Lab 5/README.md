@@ -398,7 +398,7 @@ Following exploration and reflection from Part 1, finish building your interacti
 
 <mark> A project that is similar to our device is Bjørn Karmaann's Paragraphica, a handheld camera that converts environmental data into paragraph text, which is then fed through a transformer model and generates an image. The camera playfully utilizes a forward facing tendril design that is inspired by the blind mole, making an allusion to how the animal operates using a similar sensorial function.</mark>
 
-<mark> As stated before, the film we created took inspiration from Le Jetee, an experimental black-and-white film following a time traveling agent that is trying to reconstruct a memory from his past, and learning from a girl that exists across time. The film is a classic in film studies as it's a demonstration of the montage technique and brings into consideration how all motion films that are made are merely just a set still images in sequence, they simply go too fast for us to notice. Even with a low frame rate (i.e., 1 every 4 seconds), meaningful narratives and ideas can still be communicated.</mark>
+<mark> As stated before, the film we created took inspiration from Le Jetee, an experimental black-and-white film following a time traveling agent that is trying to reconstruct a memory from his past, and learning from a girl that exists across time. The film is a classic in film studies as it's a demonstration of the montage technique and brings into consideration how all motion films are merely just a set still images in sequence. Even with a low frame rate (i.e., 1 every 4 seconds), meaningful narratives and ideas can still be communicated.</mark>
 
 ![Le Jetee](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Paragraphica.jpg)
 
