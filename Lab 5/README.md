@@ -317,14 +317,17 @@ Following exploration and reflection from Part 1, finish building your interacti
 
 **\*\*\*Include a short video demonstrating the finished result.\*\*\***
 
+### <mark> Proof of Concept Testing</mark>
+
+- <mark> Watch Proof of Concept Testing: [Testing Video Link](https://drive.google.com/file/d/144vzqSskL6Qu3vT3IOZuoYkMDqs3gQaq/view?usp=sharing) </mark>
+
 <p align="center">
 	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Concept/Concept_1.jpg" alt="Concept 1" width="33%"/>
 	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Concept/Concept_2.jpg" alt="Concept 2" width="33%"/>
 	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Concept/Concept_3.jpg" alt="Concept 3" width="33%"/>
 </p>
 
-<p align="center">
-	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Concept/Concept_4.jpg" alt="Concept 4" width="33%"/>
-	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Concept/Concept_5.jpg" alt="Concept 5" width="33%"/>
-	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Concept/Concept_6.jpg" alt="Concept 6" width="33%"/>
-</p>
+### <mark> 3D Modeling & Design </mark>
+
+![Workspace](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Sketches/Workspace.png)
+![Technical Drawings](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Sketches/Technical_Drawings.png)
