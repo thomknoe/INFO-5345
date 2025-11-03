@@ -302,7 +302,7 @@ During the lecture, we mentioned questions to help characterize a material:
 - <mark> When processing demand exceeds the Pi’s CPU capacity. </mark>
 - <mark> Output freezes and ceases to display further frames. </mark>
 - <mark> Ideally, a recording or capture feature on a portable device. </mark>
-- <mark> This is an experimental device that considers vision, style and computation </mark>
+- <mark> This is an experimental device that considers vision, style and computation. </mark>
 
 **\*\*\*Include a short video demonstrating the answers to these questions.\*\*\***
 
