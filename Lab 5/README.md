@@ -247,6 +247,15 @@ For example:
 
 </details>
 
+- <mark> Works when the style-transfer model and camera/display resolutions match (380×285). </mark>
+- <mark> Fails when model or style reference files are missing or corrupted. </mark>
+- <mark> Usually fails due to CPU limits or mismatched input dimensions. </mark>
+- <mark> Can also fail from overheating and other perfomance based issues. </mark>
+- <mark> Users would definitley be aware of low FPS and inconsistent visual styles. </mark>
+- <mark> Misclassifications are aseathic based. Do they match the style of the reference?. </mark>
+- <mark> Depending on how the user subjectively experiences the device, perhaps creating a narrative. </mark>
+- <mark> Optimize by downscaling outputs, reducing frame rates, or using lighter models. </mark>
+
 **\*\*\*Think about someone using the system. Describe how you think this will work.\*\*\***
 
 <mark> Now that the code worked on the laptop, we decided to fully move the set up to the Pi by mapping the video feed onto the Mini piTFT screen. Despite the new resolution, the frame rate remained about the same, ranging from 6-7.</mark>
@@ -286,6 +295,14 @@ During the lecture, we mentioned questions to help characterize a material:
 - How does X feel?
 
 </details>
+
+- <mark> Real-time artistic style transfer on live video from a Raspberry Pi camera. </mark>
+- <mark> Cooler temperatures for CPU, stationary, close -up, and slow-moving subject. </mark>
+- <mark> High temperatures and fastest, rapid movement. </mark>
+- <mark> When processing demand exceeds the Pi’s CPU capacity. </mark>
+- <mark> Output freezes and ceases to display further frames. </mark>
+- <mark> Ideally, a recording or capture feature. </mark>
+- <mark> This is an experimental device that considers vision, style and computation </mark>
 
 **\*\*\*Include a short video demonstrating the answers to these questions.\*\*\***
 
