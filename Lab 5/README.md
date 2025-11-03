@@ -336,12 +336,15 @@ Following exploration and reflection from Part 1, finish building your interacti
 
 - <mark> Watch Proof of Concept Testing: [Testing Video Link](https://drive.google.com/file/d/144vzqSskL6Qu3vT3IOZuoYkMDqs3gQaq/view?usp=sharing) </mark>
 
-<mark> We allowed participants from class to use the proof of concept assembly. This is appreciated the customization aspect where they were able to upload their favorite artists and styles and be able to see them come alive through the Mini piTFT screen, while observing the world around them. Some input gained from the testing was to both implement a form factor to the assembly. (i.e., enclosure), and to incorportate a participatory aspect to the work (e.g., allowing multiple users to use the device to contribute to a larger database/repository of images and video that are mapped to geographic or community regions and overlay the styles chosen) </mark>
+<mark> We allowed participants from class to use the proof of concept assembly. They appreciated the customization aspect where users were able to upload their favorite artists and styles and be able to see them come alive through the Mini piTFT screen, while observing the world around them. Some input gained from the testing was to both implement a form factor to the assembly. (i.e., enclosure), and to incorportate a participatory aspect to the work (e.g., allowing multiple users to use the device to contribute to a larger database/repository of images and video that are mapped to geographic or community regions and overlay the styles chosen) </mark>
 
 <p align="center">
 	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Concept/Concept_1.jpg" alt="Concept 1" width="33%"/>
 	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Concept/Concept_2.jpg" alt="Concept 2" width="33%"/>
 	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Concept/Concept_3.jpg" alt="Concept 3" width="33%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Concept/Concept_4.jpg" alt="Concept 4" width="33%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Concept/Concept_5.jpg" alt="Concept 5" width="33%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Concept/Concept_6.jpg" alt="Concept 6" width="33%"/>
 </p>
 
 ### <mark> 3D Modeling & Design </mark>
