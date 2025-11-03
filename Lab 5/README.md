@@ -408,7 +408,7 @@ Following exploration and reflection from Part 1, finish building your interacti
 
 <mark> _**Image Source:** Le Jetée (1962)_ </mark>
 
-<mark> Collaborators: Thomas Knoepffler (Assembly & Cinematographer), Carrie Wang (Diagram Maker & Actor), Xiaocheng Li (3D Modeling), Julia Chen (Developer & Tester) </mark>
+<mark> Collaborators: Thomas Knoepffler (Cinematographer & Assembly), Carrie Wang (Diagrams & Actor), Xiaocheng Li (3D Modeling & Industrial Design), Julia Chen (Developer & Tester) </mark>
 
 <p align="center">
 	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Bonus_1.jpg" alt="Bonus 1" width="49.5%"/>
