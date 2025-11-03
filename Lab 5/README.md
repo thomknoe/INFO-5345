@@ -335,9 +335,9 @@ Following exploration and reflection from Part 1, finish building your interacti
 - <mark> Watch Proof of Concept Testing: [Testing Video Link](https://drive.google.com/file/d/144vzqSskL6Qu3vT3IOZuoYkMDqs3gQaq/view?usp=sharing) </mark>
 
 <p align="center">
-	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Concept/Concept_1.jpg" alt="Concept 1" width="24.75%"/>
-	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Concept/Concept_2.jpg" alt="Concept 4" width="24.75%"/>
-	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Concept/Concept_3.jpg" alt="Concept 3" width="24.75%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Concept/Concept_1.jpg" alt="Concept 1" width="33%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Concept/Concept_2.jpg" alt="Concept 4" width="33%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Concept/Concept_3.jpg" alt="Concept 3" width="33%"/>
 </p>
 
 ### <mark> 3D Modeling & Design </mark>
@@ -380,5 +380,7 @@ Following exploration and reflection from Part 1, finish building your interacti
 
 <mark> Collaborators: Thomas Knoepffler (Assembly & Cinematographer), Carrie Wang (Diagram Maker & Actor), Xiaocheng Li (3D Modeling), Julia Chen (Developer & Tester) </mark>
 
-![Bonus 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Bonus_1.jpg)
-![Bonus 2](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Bonus_2.jpg)
+<p align="center">
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Bonus_1.jpg" alt="Bonus 1" width="49.5%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Bonus_2.jpg" alt="Bonus 2" width="49.5%"/>
+</p>
