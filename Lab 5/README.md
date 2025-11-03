@@ -249,10 +249,10 @@ For example:
 
 - <mark> Works when the style-transfer model and camera/display resolutions match (380×285). </mark>
 - <mark> Fails when model or style reference files are missing or corrupted. </mark>
-- <mark> Usually fails due to CPU limits or mismatched input dimensions. </mark>
-- <mark> Can also fail from overheating and other perfomance based issues. </mark>
+- <mark> Fails due to CPU limits or mismatched input dimensions. </mark>
+- <mark> Can also fail from overheating and other perfomance-based issues. </mark>
 - <mark> Users would definitley be aware of low FPS and inconsistent visual styles. </mark>
-- <mark> Misclassifications are aseathic based. Do they match the style of the reference?. </mark>
+- <mark> Misclassifications are astheatic based. Do they match the style of the reference?. </mark>
 - <mark> Depending on how the user subjectively experiences the device, perhaps creating a narrative. </mark>
 - <mark> Optimize by downscaling outputs, reducing frame rates, or using lighter models. </mark>
 
@@ -296,12 +296,12 @@ During the lecture, we mentioned questions to help characterize a material:
 
 </details>
 
-- <mark> Real-time artistic style transfer on live video from a Raspberry Pi camera. </mark>
-- <mark> Cooler temperatures for CPU, stationary, close -up, and slow-moving subject. </mark>
+- <mark> Real-time style transfer on live video from a Raspberry Pi webcam. </mark>
+- <mark> Cooler temperatures for CPU, stationary, close-up, and slow-moving subject. </mark>
 - <mark> High temperatures and fastest, rapid movement. </mark>
 - <mark> When processing demand exceeds the Pi’s CPU capacity. </mark>
 - <mark> Output freezes and ceases to display further frames. </mark>
-- <mark> Ideally, a recording or capture feature. </mark>
+- <mark> Ideally, a recording or capture feature on a portable device. </mark>
 - <mark> This is an experimental device that considers vision, style and computation </mark>
 
 **\*\*\*Include a short video demonstrating the answers to these questions.\*\*\***
