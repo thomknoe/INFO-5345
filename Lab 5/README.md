@@ -347,10 +347,11 @@ Following exploration and reflection from Part 1, finish building your interacti
 	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Concept/Concept_6.jpg" alt="Concept 6" width="33%"/>
 </p>
 
-### <mark> 3D Modeling & Design </mark>
+### <mark> 3D Modeling & DesDiagramign </mark>
 
 ![Workspace](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Sketches/Workspace.png)
 ![Technical Drawings](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Sketches/Technical_Drawings.png)
+![Diagram](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Sketches/Diagram.png)
 
 ### <mark> 3D Printed & Laser Cut Assembly </mark>
 
