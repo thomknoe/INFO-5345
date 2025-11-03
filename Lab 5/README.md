@@ -197,12 +197,12 @@ In an earlier version of this class students experimented with foundational comp
 <mark> We began with loading up the Pi with modern art preset images that would serve as examples for style transfer. </mark>
 
 <p align="center">
-	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/kandinsky.jpg" alt="Kandinsky" width="49.5%"/>
-	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/lichtenstein.jpg" alt="Lichtenstein" width="49.5%"/>
-    <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/matisse.jpg" alt="Matisse" width="49.5%"/>
-    <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/mondrian.jpg" alt="Mondrian" width="49.5%"/>
-    <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/monet.jpg" alt="Monet" width="49.5%"/>
-    <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/munch.jpg" alt="Munch" width="49.5%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Styles/kandinsky.jpg" alt="Kandinsky" width="49.5%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Styles/lichtenstein.jpg" alt="Lichtenstein" width="49.5%"/>
+    <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Styles/matisse.jpg" alt="Matisse" width="49.5%"/>
+    <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Styles/mondrian.jpg" alt="Mondrian" width="49.5%"/>
+    <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Styles/monet.jpg" alt="Monet" width="49.5%"/>
+    <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Styles/munch.jpg" alt="Munch" width="49.5%"/>
 </p>
 
 <mark> _**Image Source(s):** Kandinsky, Composition VII (1913); Roy Lichtenstein, Drowning Girl (1963); Henri Matisse, The Dance (1910); Piet Mondrian, Composition with Red, Blue, and Yellow (1930); Claude Monet, Water Lilies (1914-26); Edvard Munch, The Scream (1893)._ </mark>
@@ -356,3 +356,16 @@ Following exploration and reflection from Part 1, finish building your interacti
 ![Mockups 3](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Mockups/Mockup_3.jpg)
 ![Mockups 4](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Mockups/Mockup_4.jpg)
 ![Mockups 5](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Mockups/Mockup_5.jpg)
+
+### <mark> Montage Concept Film </mark>
+
+<p align="center">
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Montage/Montage_1.jpg" alt="Montage 1" width="45.5%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Montage/Montage_2.jpg" alt="Montage 2" width="45.5%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Montage/Montage_3.jpg" alt="Montage 3" width="45.5%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Montage/Montage_4.jpg" alt="Montage 4" width="45.5%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Montage/Montage_5.jpg" alt="Montage 5" width="45.5%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Montage/Montage_6.jpg" alt="Montage 6" width="45.5%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Montage/Montage_7.jpg" alt="Montage 7" width="45.5%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Montage/Montage_8.jpg" alt="Montage 8" width="45.5%"/>
+</p>
