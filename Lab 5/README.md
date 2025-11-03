@@ -319,7 +319,7 @@ Following exploration and reflection from Part 1, finish building your interacti
 
 <mark> _**Pros:** Generating the code was efficient and simple, considering that it was simply building upon the base code and adding a new feature (i.e., recording and saving a video on the Pi)._ </mark>
 
-<mark> _**Cons:** The code initially placed the generated audio file at the top of the pie directory. It did not specify this requirement when generating the code, and thus led to some confusion in locating the file when first starting out, also the generated file appeared to be inverted and playing at a faster rate, mainly due to the limitations fo the model._ </mark>
+<mark> _**Cons:** The code initially placed the generated video file at the top of the Pi directory. It did not specify this requirement when generating the code, and thus led to some confusion in locating the file when first starting out. Also, the generated file appeared to be inverted and playing at a faster rate, mainly due to the limitations of the model._ </mark>
 
 <mark> Adding on the already existing function of the camera, we decided to implement a record feature that would allow users to record what they are able to capture on the WebCam through the Pi. The videos would be recorded in the same resolution as the Mini piTFT. Because the model requires a slower rate in order to process each stylized image frame, the camera needed to be slowly panned in order for it to capture a relatively stable tracking shot. This adda some frustration to its used case, and a pain point that can be further iterated with advancements to the frame rate problem. (i.e., models and hardware)</mark>
 
@@ -349,7 +349,7 @@ Following exploration and reflection from Part 1, finish building your interacti
 
 ### <mark> Diagram & 3D Modeling </mark>
 
-<mark> Considering the interaction that we were planning, we decided to make the form factor mimic classic cameras, where the lens would appear on one side, and the screen would act as a viewfinder and be located on the otherside. This way users can be able to make an immediate mental model for the system and use it in a way that's familiar to them. All models were made in Rhino3D. </mark>
+<mark> Considering the interaction that we were planning, we decided to make the form factor mimic classic cameras, where the lens would appear on one side, and the screen would act as a viewfinder and be located on the otherside. This way users can be able to make an immediate mental model for the system and use it in a way that's familiar to them. All models were made in Rhino and Grasshopper. </mark>
 
 ![Diagram](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Sketches/Diagram.png)
 ![Workspace](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Sketches/Workspace.png)
@@ -369,9 +369,9 @@ Following exploration and reflection from Part 1, finish building your interacti
 
 - <mark> Watch Concept Film: [Film Link](https://drive.google.com/file/d/1WP1p4zbhoKj6DwM54dAZwIpF7Rtdq-JO/view?usp=sharing) </mark>
 
-<mark> _**Synopsis:** A designer, feeling alienated and despondent from her current day-to-day life, goes on a stroll to the museum to find some sort of inspiration. She finds it in the form of an abstract painting that she falls in love with. Obsessed with the magical aura of the image, she tries to find a way to capture the essence of the painting did the use of interactive devices and computer vision algorithms._ </mark>
+<mark> _**Synopsis:** A designer, feeling alienated and despondent from her current day-to-day life, goes on a stroll to the museum to find some sort of inspiration. She finds it in the form of an abstract painting that she falls in love with. Obsessed with the magical aura of the image, she tries to find a way to capture the essence of the painting through the use of interactive devices and computer vision algorithms._ </mark>
 
-<mark> The film is in the style of a montage movie with the series of subsequent images to denote a narrative story throughout. The film is supposed to be a designed artifact, in the same way as a storyboard is, to give the overarching context and emotional pain points where the use cases of this device might take place in. All content and assets used for this film are in the public domain. Music used is Lyric Pieces, Op. 54 - IV. Notturno by Edvard Grieg. </mark>
+<mark> The film is in the style of a montage movie with the series of subsequent images to denote a narrative story throughout. The film is supposed to be a designed artifact, in the same way as a storyboard is to give the overarching context and emotional pain points where the use cases of this device might take place in. All content and assets used for this film are in the public domain. Music used is Lyric Pieces, Op. 54 - IV. Notturno by Edvard Grieg. </mark>
 
 ![Cover](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Cover.jpg)
 
@@ -386,11 +386,19 @@ Following exploration and reflection from Part 1, finish building your interacti
 
 ### <mark> User Testing </mark>
 
-- <mark> Watch User Testing Video 1: [User Test 1 Link](https://drive.google.com/file/d/1ojG_3RU0L8Bz4JsV-FlnG23a-zYZqH3E/view?usp=sharing) </mark>
+- <mark> Watch User Testing Video 1: [User Test 1 Link](https://drive.google.com/file/d/1dWZLqXqecgF_Xpy_CwUn4EGPl5gq8Ox4/view?usp=sharing) </mark>
 
-- <mark> Watch User Testing Video 2: [User Test 2 Link](https://drive.google.com/file/d/1BT97tRddPxMqk9dBNU6Jq5tuXp0AUJUf/view?usp=sharing) </mark>
+- <mark> Watch User Testing Video 2: [User Test 2 Link](https://drive.google.com/file/d/1sNOVcUmyRJ6Uf2LxbvetQro9cyMmsJkX/view?usp=sharing) </mark>
+
+<mark> The user testing yielded generally the same insights from the proof of concept testing, although certain features that we incorporated into the form factor proved to be no ideal. The way the viewfinder is at an incline actually prompts the user to tilt the whole device upwards to have a perpendicular view of the screen, which is not user friendly. Having the ability to take video recordings and snapshots within the same program was also an idea that was expressed. Overall, participants enjoyed getting to choose their favorite artists or art styles and viewing them through the viewfinder.</mark>
+
+<mark> </mark>
 
 ### <mark> Inspiration </mark>
+
+<mark> A project that is similar to our device is Bjørn Karmaann's Paragraphica. This is a handheld camera converts, environmental data into paragraph text, which is then fed through an image, image transformer, and generates image from the camera. The camera playfully utilizes a forward facing tendril design that is inspired by the blind mole, making an illusion to the animal that is operating in a similar sensorial function.</mark>
+
+<mark> As stated before, the film we created, took inspiration from Le Jetee, an experimental black-and-white film, following a time traveling agent that is trying to reconstruct a memory he had from his past, and learning from a girl that exists across different periods of time. The film is a classic in film studies as it's a demonstration of the montage technique and brains into consideration how all motion films are merely just a set still images in sequence. Even with a low frame rate (i.e., 1 every 4 seconds) meaningful anrratives can still be made.</mark>
 
 ![Le Jetee](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Paragraphica.jpg)
 
