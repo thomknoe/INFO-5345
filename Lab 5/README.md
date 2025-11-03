@@ -392,6 +392,8 @@ Following exploration and reflection from Part 1, finish building your interacti
 
 <mark> The user testing yielded generally the same insights from the proof of concept testing, although certain features that we incorporated into the form factor proved to be no ideal. The way the viewfinder is at an incline actually prompts the user to tilt the whole device upwards to have a perpendicular view of the screen, which is not user friendly. Having the ability to take video recordings and snapshots within the same program was also an idea that was expressed. Overall, participants enjoyed getting to choose their favorite artists or art styles and viewing them through the viewfinder.</mark>
 
+![User Testing](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images//User_Testing.jpg)
+
 <mark> </mark>
 
 ### <mark> Inspiration </mark>
