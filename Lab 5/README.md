@@ -246,15 +246,22 @@ For example:
 1. Are there optimizations you can try to do on your sense-making algorithm.
 
 </details>
-
-- <mark> **When does it do what it is supposed to do:** Works when the style-transfer model and camera/display resolutions match (380×285). </mark>
-- <mark> **When does it fail:** Fails when model or style reference files are missing or corrupted. </mark>
-- <mark> **When it fails, why does it fail:** Fails due to CPU limits or mismatched input dimensions. </mark>
-- <mark> **Based on the behavior you have seen, what other scenarios could cause problems:** Can also fail from overheating and other perfomance-based issues. </mark>
-- <mark> **Are they aware of the uncertainties in the system:** Users would definitley be aware of low FPS and inconsistent visual styles. </mark>
-- <mark> **How bad would they be impacted by a miss classification:** Misclassifications are astheatic based. Do they match the style of the reference?. </mark>
-- <mark> **How could change your interactive system to address this:** Depending on how the user subjectively experiences the device, perhaps creating a narrative. </mark>
-- <mark> **Are there optimizations you can try to do on your sense-making algorithm:** Optimize by downscaling outputs, reducing frame rates, or using lighter models. </mark>
+**When does it do what it is supposed to do**
+- <mark> Works when the style-transfer model and camera/display resolutions match (380×285). </mark>
+**When does it fail**
+- <mark> Fails when model or style reference files are missing or corrupted. </mark>
+**When it fails, why does it fail**
+- <mark> Fails due to CPU limits or mismatched input dimensions. </mark>
+**Based on the behavior you have seen, what other scenarios could cause problems**
+- <mark> Can also fail from overheating and other perfomance-based issues. </mark>
+**Are they aware of the uncertainties in the system**
+- <mark> Users would definitley be aware of low FPS and inconsistent visual styles. </mark>
+**How bad would they be impacted by a miss classification**
+- <mark> Misclassifications are astheatic based. Do they match the style of the reference?. </mark>
+**How could change your interactive system to address this**
+- <mark> Depending on how the user subjectively experiences the device, perhaps creating a narrative. </mark>
+**Are there optimizations you can try to do on your sense-making algorithm**
+- <mark> Optimize by downscaling outputs, reducing frame rates, or using lighter models. </mark>
 
 **\*\*\*Think about someone using the system. Describe how you think this will work.\*\*\***
 
