@@ -222,12 +222,12 @@ In an earlier version of this class students experimented with foundational comp
 ![Electronics Setup](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Electronics_Setup.jpg)
 
 <p align="center">
-	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/style_1.jpg" alt="Style 1" width="49.5%"/>
-	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/style_2.jpg" alt="Style 2" width="49.5%"/>
-	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/style_3.jpg" alt="Style 3" width="49.5%"/>
-	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/style_4.jpg" alt="Style 4" width="49.5%"/>
-	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/style_5.jpg" alt="Style 5" width="49.5%"/>
-	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/style_6.jpg" alt="Style 6" width="49.5%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Static/style_1.jpg" alt="Style 1" width="49.5%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Static/style_2.jpg" alt="Style 2" width="49.5%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Static/style_3.jpg" alt="Style 3" width="49.5%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Static/style_4.jpg" alt="Style 4" width="49.5%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Static/style_5.jpg" alt="Style 5" width="49.5%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Static/style_6.jpg" alt="Style 6" width="49.5%"/>
 </p>
 
 <details>
@@ -266,9 +266,9 @@ For example:
 <mark> _**Cons:** It was difficult to find the model that would best suit the Pi. We ultimately found an appropriate model through Google because the archived CDN downloads that ChatGPT tried to provide were all broken or returned a 404. Not a single one provided by ChatGPT seems to work, which means that most models provided in chat could not be used._ </mark>
 
 <p align="center">
-	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/piTFT_1.jpg" alt="piTFT 1" width="33%"/>
-	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/piTFT_2.jpg" alt="piTFT 2" width="33%"/>
-	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/piTFT_3.jpg" alt="piTFT 3" width="33%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Screen/piTFT_1.jpg" alt="piTFT 1" width="33%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Screen/piTFT_2.jpg" alt="piTFT 2" width="33%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Screen/piTFT_3.jpg" alt="piTFT 3" width="33%"/>
 </p>
 
 <details>
@@ -359,7 +359,7 @@ Following exploration and reflection from Part 1, finish building your interacti
 
 ### <mark> Montage Concept Film </mark>
 
-- <mark> Watch Concept Film [Film Link](https://drive.google.com/file/d/1WP1p4zbhoKj6DwM54dAZwIpF7Rtdq-JO/view?usp=sharing) </mark>
+- <mark> Watch Concept Film: [Film Link](https://drive.google.com/file/d/1WP1p4zbhoKj6DwM54dAZwIpF7Rtdq-JO/view?usp=sharing) </mark>
 
 ![Cover](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Cover.jpg)
 
@@ -371,3 +371,11 @@ Following exploration and reflection from Part 1, finish building your interacti
 	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Montage/Montage_5.jpg" alt="Montage 5" width="49.5%"/>
 	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Montage/Montage_6.jpg" alt="Montage 6" width="49.5%"/>
 </p>
+
+### <mark> Inspiration </mark>
+
+<blockquote class="twitter-tweet" data-media-max-width="560"><p lang="en" dir="ltr">Introducing – Paragraphica! 📡📷<br>A camera that takes photos using location data. It describes the place you are at and then converts it into an AI-generated &quot;photo&quot;. <br><br>See more here: <a href="https://t.co/Oh2BZuhRcf">https://t.co/Oh2BZuhRcf</a><br>or try to take your own photo here: <a href="https://t.co/w9UFjckiF2">https://t.co/w9UFjckiF2</a> <a href="https://t.co/23kR2QGzpa">pic.twitter.com/23kR2QGzpa</a></p>&mdash; Bjørn Karmann (@BjoernKarmann) <a href="https://twitter.com/BjoernKarmann/status/1663496103998750721?ref_src=twsrc%5Etfw">May 30, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<mark> Collaborators: Thomas Knoepffler (Assembly & Cinematographer), Carrie Wang (Diagram Maker & Actor), Xiaocheng Li (3D Modeling), Julia Chen (Developer & Tester) </mark>
+
+![Bonus](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Bonus.jpg)
