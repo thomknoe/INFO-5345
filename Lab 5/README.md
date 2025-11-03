@@ -455,14 +455,13 @@ Following exploration and reflection from Part 1, finish building your interacti
 <mark> The film is in the style of a montage movie with the series of subsequent images to denote a narrative story throughout. The film is supposed to be a design artifact, in the same way as a storyboard is to give the overarching context and emotional pain points where the use cases of this device might take place in. All content and assets used for this film are in the public domain. Music used is Lyric Pieces, Op. 54 - IV. Notturno by Edvard Grieg. </mark>
 
 ![Cover](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Cover.jpg)
+![Cover](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Montage/Montage_2.jpg)
 
 <p align="center">
 	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Montage/Montage_3.jpg" alt="Montage 3" width="49.5%"/>
-	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Montage/Montage_6.jpg" alt="Montage 6" width="49.5%"/>
-	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Montage/Montage_5.jpg" alt="Montage 5" width="49.5%"/>
 	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Montage/Montage_4.jpg" alt="Montage 4" width="49.5%"/>
-	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Montage/Montage_1.jpg" alt="Montage 1" width="49.5%"/>
-	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Montage/Montage_2.jpg" alt="Montage 2" width="49.5%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Montage/Montage_5.jpg" alt="Montage 5" width="49.5%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Montage/Montage_6.jpg" alt="Montage 6" width="49.5%"/>
 </p>
 
 ### <mark> User Testing </mark>
