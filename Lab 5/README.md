@@ -247,35 +247,35 @@ For example:
 
 </details>
 
-**When does it do what it is supposed to do**
+**\*\*\*When does it do what it is supposed to do\*\*\***
 
 - <mark> Works when the style-transfer model and camera/display resolutions match (380×285). </mark>
 
-**When does it fail**
+**\*\*\*When does it fail\*\*\***
 
 - <mark> Fails when model or style reference files are missing or corrupted. </mark>
 
-**When it fails, why does it fail**
+**\*\*\*When it fails, why does it fail\*\*\***
 
 - <mark> Fails due to CPU limits or mismatched input dimensions. </mark>
 
-**Based on the behavior you have seen, what other scenarios could cause problems**
+**\*\*\*Based on the behavior you have seen, what other scenarios could cause problems\*\*\***
 
 - <mark> Can also fail from overheating and other perfomance-based issues. </mark>
 
-**Are they aware of the uncertainties in the system**
+**\*\*\*Are they aware of the uncertainties in the system\*\*\***
 
 - <mark> Users would definitley be aware of low FPS and inconsistent visual styles. </mark>
 
-**How bad would they be impacted by a miss classification**
+**\*\*\*How bad would they be impacted by a miss classification\*\*\***
 
 - <mark> Misclassifications are astheatic based. Do they match the style of the reference?. </mark>
 
-**How could change your interactive system to address this**
+**\*\*\*How could change your interactive system to address this\*\*\***
 
 - <mark> Depending on how the user subjectively experiences the device, perhaps creating a narrative. </mark>
 
-**Are there optimizations you can try to do on your sense-making algorithm**
+**\*\*\*Are there optimizations you can try to do on your sense-making algorithm\*\*\***
 
 - <mark> Optimize by downscaling outputs, reducing frame rates, or using lighter models. </mark>
 
@@ -319,12 +319,32 @@ During the lecture, we mentioned questions to help characterize a material:
 
 </details>
 
+**\*\*\*What can you use X for?\*\*\***
+
 - <mark> Real-time style transfer on live video from a Raspberry Pi webcam. </mark>
+
+**\*\*\*What is a good environment for X?\*\*\***
+
 - <mark> Cooler temperatures for CPU, stationary, close-up, and slow-moving subject. </mark>
+
+**\*\*\*What is a bad environment for X?\*\*\***
+
 - <mark> High temperatures and fastest, rapid movement. </mark>
+
+**\*\*\*When will X break?\*\*\***
+
 - <mark> When processing demand exceeds the Pi’s CPU capacity. </mark>
+
+**\*\*\*When it breaks how will X break?\*\*\***
+
 - <mark> Output freezes and ceases to display further frames. </mark>
+
+**\*\*\*What are other properties/behaviors of X?\*\*\***
+
 - <mark> Ideally, a recording or capture feature on a portable device. </mark>
+
+**\*\*\*How does X feel?\*\*\***
+
 - <mark> This is an experimental device that considers vision, style and computation. </mark>
 
 **\*\*\*Include a short video demonstrating the answers to these questions.\*\*\***
