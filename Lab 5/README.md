@@ -497,4 +497,6 @@ Following exploration and reflection from Part 1, finish building your interacti
 <p align="center">
 	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Bonus_1.jpg" alt="Bonus 1" width="49.5%"/>
 	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Bonus_2.jpg" alt="Bonus 2" width="49.5%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Bonus_3.jpg" alt="Bonus 3" width="49.5%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Bonus_4.jpg" alt="Bonus 4" width="49.5%"/>
 </p>
