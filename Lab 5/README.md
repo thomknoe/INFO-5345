@@ -190,10 +190,6 @@ In an earlier version of this class students experimented with foundational comp
 
 <mark> This lab is both an experiment in computational optimization, an artistic exploration with the nature of computer vision via style transfer, and the discourse created between vision and computation. The goal of this lab is to be able to capture the "artistic visuality" (i.e., the style) within classic paintings or textures, and transcribe them to live video feed through the Pi. The final deliverable is to create a narrative piece that will use style transfer for still and moving images, or the montage style of filmmaking (e.g., [Le Jetée (1962)](https://www.youtube.com/watch?v=Pf4AY_DI9BE). This film is also the main artistic inspiration for this project).</mark>
 
-![Le Jetee](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Le_Jetee.jpg)
-
-<mark> _**Image Source:** Le Jetée (1962)_ </mark>
-
 <mark> We began with loading up the Pi with modern art preset images that would serve as examples for style transfer. </mark>
 
 <p align="center">
@@ -374,7 +370,13 @@ Following exploration and reflection from Part 1, finish building your interacti
 
 ### <mark> Inspiration </mark>
 
-<blockquote class="twitter-tweet" data-media-max-width="560"><p lang="en" dir="ltr">Introducing – Paragraphica! 📡📷<br>A camera that takes photos using location data. It describes the place you are at and then converts it into an AI-generated &quot;photo&quot;. <br><br>See more here: <a href="https://t.co/Oh2BZuhRcf">https://t.co/Oh2BZuhRcf</a><br>or try to take your own photo here: <a href="https://t.co/w9UFjckiF2">https://t.co/w9UFjckiF2</a> <a href="https://t.co/23kR2QGzpa">pic.twitter.com/23kR2QGzpa</a></p>&mdash; Bjørn Karmann (@BjoernKarmann) <a href="https://twitter.com/BjoernKarmann/status/1663496103998750721?ref_src=twsrc%5Etfw">May 30, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+![Le Jetee](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Paragraphica.jpg)
+
+<mark> _**Image Source:** Paragraphica, Bjørn Karmaann (2023)_ </mark>
+
+![Le Jetee](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/Images/Le_Jetee.jpg)
+
+<mark> _**Image Source:** Le Jetée (1962)_ </mark>
 
 <mark> Collaborators: Thomas Knoepffler (Assembly & Cinematographer), Carrie Wang (Diagram Maker & Actor), Xiaocheng Li (3D Modeling), Julia Chen (Developer & Tester) </mark>
 
