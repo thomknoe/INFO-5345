@@ -317,6 +317,14 @@ Following exploration and reflection from Part 1, finish building your interacti
 
 ### <mark> Camera Recording Add-On</mark>
 
+<mark> Our code can be found at [stylecam_record.py](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/style/stylecam_record.py) </mark>
+
+<mark> _**AI Usage:** Utilized assistance from ChatGPT for the writing of code._ </mark>
+
+<mark> _**Pros:** _ </mark>
+
+<mark> _**Cons:** _ </mark>
+
 <p align="center">
 	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/GIFs/Demo_1.1.gif" alt="Demo 1.1" width="33%"/>
 	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/GIFs/Demo_1.2.gif" alt="Demo 1.2" width="33%"/>
@@ -324,15 +332,6 @@ Following exploration and reflection from Part 1, finish building your interacti
 	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/GIFs/Demo_1.4.gif" alt="Demo 1.4" width="33%"/>
 	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/GIFs/Demo_1.5.gif" alt="Demo 1.5" width="33%"/>
 	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/GIFs/Demo_1.6.gif" alt="Demo 1.6" width="33%"/>
-</p>
-
-<p align="center">
-	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/GIFs/Demo_2.1.gif" alt="Demo 2.1" width="33%"/>
-	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/GIFs/Demo_2.2.gif" alt="Demo 2.2" width="33%"/>
-	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/GIFs/Demo_2.3.gif" alt="Demo 2.3" width="33%"/>
-	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/GIFs/Demo_2.4.gif" alt="Demo 2.4" width="33%"/>
-	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/GIFs/Demo_2.5.gif" alt="Demo 2.5" width="33%"/>
-	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%205/GIFs/Demo_2.6.gif" alt="Demo 2.6" width="33%"/>
 </p>
 
 ### <mark> Proof of Concept Testing</mark>
