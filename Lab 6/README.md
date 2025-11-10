@@ -78,19 +78,15 @@ mosquitto_pub -h farlab.infosci.cornell.edu -p 1883 -t 'IDD/test/yourname' -m 'H
 
 **\*\*\*Brainstorm 5 ideas for messaging between devices\*\*\***
 
-<mark>
-
-| #     | Concept                       | Description                                                                            | Interaction / Behavior                                                               | Technical Layer                                            | Emotional or Experiential Focus                            |
-| ----- | ----------------------------- | -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ | ---------------------------------------------------------- | ---------------------------------------------------------- |
-| **1** | **Telepresent Emotion Cubes** | Small acrylic cubes that glow in colors matching remote users’ facial or vocal emotion | FER-based emotion detection → MQTT broadcast → LED diffusion through frosted acrylic | Raspberry Pi + NeoPixel + MQTT broker (e.g. Mosquitto)     | Emotional transparency and connectedness across distance   |
-| **2** | **Mood Beacon Lamps**         | Cylindrical desk lights that collectively visualize shared team mood                   | Users tap the lamp to select emotion; lamp color syncs to others via MQTT topic      | Capacitive touch sensor + MQTT publish/subscribe + RGB LED | Create ambient emotional awareness in shared workspaces    |
-| **3** | **Pulse Orbs**                | Handheld devices that emit soft rhythmic light mirroring user’s heartbeat              | Heart rate sensor → normalized pulse → broadcast as brightness modulation            | BLE heart sensor → MQTT bridge → PWM LED driver            | Encourage calmness, co-regulation, and biofeedback empathy |
-| **4** | **Weather Spirits**           | Portable diffused lights that mirror remote weather or environment data                | Pull weather API → encode as dynamic color + motion pattern                          | Cloud-to-MQTT bridge + Pi client + LED animation           | Merge digital ambient data with personal space atmosphere  |
-| **5** | **Memory Stones**             | Acrylic diffusers that store and replay past collective color states                   | Record shared color history → replay as time-based gradient loop                     | MQTT logging service + playback script + RTC               | Represent continuity and nostalgia in shared experiences   |
+| #     | Concept                                | Description / Interaction                                                                                                                                                                                                                                                              |
+| ----- | -------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **1** | <mark>Telepresent Emotion Cubes</mark> | <mark>Small acrylic cubes that glow in colors matching remote users’ facial or vocal emotion. FER-based emotion detection → MQTT broadcast → LED diffusion through frosted acrylic.</mark> Enables <mark>emotional transparency</mark> and <mark>connectedness across distance</mark>. |
+| **2** | Mood Beacon Lamps                      | Cylindrical desk lights that collectively visualize shared team mood. Users tap the lamp to select emotion; color syncs with others via MQTT topics for ambient awareness.                                                                                                             |
+| **3** | Pulse Orbs                             | Handheld diffused lights that emit rhythmic glow mirroring a user’s heartbeat. Heart rate sensor normalizes pulse → brightness modulation to create calm biofeedback loops.                                                                                                            |
+| **4** | Weather Spirits                        | Portable diffused lights reflecting remote environmental data (like sunlight or weather). Cloud API maps temperature and condition data to animated color gradients.                                                                                                                   |
+| **5** | Memory Stones                          | Acrylic diffusers that store and replay past collective color states. Shared color history replays as a soft gradient loop representing group continuity over time.                                                                                                                    |
 
 ---
-
-</mark>
 
 <details>
 	<summary><strong>Part B: Collaborative Pixel Grid</strong></summary>
