@@ -82,13 +82,13 @@ mosquitto_pub -h farlab.infosci.cornell.edu -p 1883 -t 'IDD/test/yourname' -m 'H
 
 <mark>Taking inspiration from product studio, we decided to utilize AI to do a rapid ideation session to generate a few adjacent ideas to what we were thinking of. The original idea to begin the permutations included various MMQTT and affective computing related ideas. We decided to settle on a classic idea in the world of creative technology, Telepresent Emotion Cubes.</mark>
 
-| #     | Concept                                | Description / Interaction                                                                                                                                                                  |
-| ----- | -------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **1** | <mark>Telepresent Emotion Cubes</mark> | <mark>Small acrylic cubes that glow in colors matching remote users’ facial or vocal emotion. FER-based emotion detection → MQTT broadcast → LED diffusion through frosted acrylic.</mark> |
-| **2** | Mood Beacon Lamps                      | Cylindrical desk lights that collectively visualize shared team mood. Users tap the lamp to select emotion; color syncs with others via MQTT topics for ambient awareness.                 |
-| **3** | Pulse Orbs                             | Handheld diffused lights that emit rhythmic glow mirroring a user’s heartbeat. Heart rate sensor normalizes pulse → brightness modulation to create calm biofeedback loops.                |
-| **4** | Weather Spirits                        | Portable diffused lights reflecting remote environmental data (like sunlight or weather). Cloud API maps temperature and condition data to animated color gradients.                       |
-| **5** | Memory Stones                          | Acrylic diffusers that store and replay past collective color states. Shared color history replays as a soft gradient loop representing group continuity over time.                        |
+| #     | Concept                                | Description / Interaction                                                                                                                                                                     |
+| ----- | -------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **1** | <mark>Telepresent Emotion Cubes</mark> | <mark>Small acrylic cubes that glow in colors matching remote users’ facial or vocal emotion. OpenCV-based emotion detection → MQTT broadcast → LED diffusion through frosted acrylic.</mark> |
+| **2** | Mood Beacon Lamps                      | Cylindrical desk lights that collectively visualize shared team mood. Users tap the lamp to select emotion; color syncs with others via MQTT topics for ambient awareness.                    |
+| **3** | Pulse Orbs                             | Handheld diffused lights that emit rhythmic glow mirroring a user’s heartbeat. Heart rate sensor normalizes pulse → brightness modulation to create calm biofeedback loops.                   |
+| **4** | Weather Spirits                        | Portable diffused lights reflecting remote environmental data (like sunlight or weather). Cloud API maps temperature and condition data to animated color gradients.                          |
+| **5** | Memory Stones                          | Acrylic diffusers that store and replay past collective color states. Shared color history replays as a soft gradient loop representing group continuity over time.                           |
 
 <mark> _**AI Usage:** Utilized assistance from ChatGPT for ideation and generation._ </mark>
 
@@ -220,7 +220,7 @@ Hold colored objects near sensor to change your pixel!
 
 **\*\*\*1. Project Description\*\*\***
 
-- What does it do? Why interesting? User experience?
+<mark> Telepresence Emotion Cubes are a networked system of illuminated modules that visualize and transmit human emotion. Each cube features an OpenCV-based facial expression detector that analyzes the user’s face in real time through the webcam. Detected emotions are displayed through a frosted acrylic enclosure, diffusing internal LEDs into a soft, ambient glow. As emotion shifts, the cubes change color and publish their data across the network, enabling feedback between screen recognition and physical illumination. This interface allows users to physically see their emotional state in both the interface and the surrounding light. </mark>
 
 **\*\*\*2. Architecture Diagram\*\*\***
 
