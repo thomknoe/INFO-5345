@@ -220,7 +220,7 @@ Hold colored objects near sensor to change your pixel!
 
 **\*\*\*1. Project Description\*\*\***
 
-<mark> Telepresence Emotion Cubes are a networked system of illuminated modules that visualize and transmit human emotion. Each cube features an OpenCV-based facial expression detector that analyzes the user’s face in real time through the webcam. Detected emotions are displayed through a frosted acrylic enclosure, diffusing internal LEDs into a soft, ambient glow. As emotion shifts, the cubes change color and publish their data across the network, enabling feedback between screen recognition and physical illumination. This interface allows users to physically see their emotional state in both the interface and the surrounding light. </mark>
+<mark> Telepresence Emotion Cubes are an MQTT networked system of illuminated modules that visualize and transmit human emotion. Each cube features an OpenCV-based facial expression detector that analyzes the user’s face in real time through the webcam. Detected emotions are displayed through a frosted acrylic enclosure, diffusing internal LEDs into a soft, ambient glow. As emotion shifts, the cubes change color and publish their data across the network, enabling feedback between screen recognition and physical illumination. This interface allows users to physically see their emotional state in both the interface and the surrounding light. </mark>
 
 |   Emotion    |   RGB Values    | Color  |
 | :----------: | :-------------: | :----: |
@@ -396,7 +396,7 @@ Before submitting:
 
 ### <mark>Inspiration</mark>
 
-<mark> The primary aesthetic inspiration for our project came from James Turrell's light art pieces. Wanted to capture the same ambient and sublime experience coming from the gentle colors and diffused light that is present in his works. </mark>
+<mark> The primary aesthetic inspiration for our project came from James Turrell's light art pieces. We wanted to capture the same ambient and sublime experience coming from the gentle colors and diffused light that is present in his works. </mark>
 
 ![Inspiration](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Inspiration.jpg)
 
