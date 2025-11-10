@@ -242,6 +242,8 @@ Hold colored objects near sensor to change your pixel!
 
 ### <mark>Fabrication Process</mark>
 
+<mark> _**AI Usage:** the cubes were made from laser, cut wood panels, and a buyer of frosted white acrylic and diffused clear acrylic. This is so that the light would be able to diffuse across the top surface of each cube. The electronics included integrating WS2812B RGB LED lights. Each assembly was compact for each cubic enclosure. Openings were made for USB and USB-C ports._ </mark>
+
 ![Parts](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Part_2/Parts.jpg)
 ![Electronics](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Part_2/Electronics.jpg)
 
