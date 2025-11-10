@@ -78,13 +78,13 @@ mosquitto_pub -h farlab.infosci.cornell.edu -p 1883 -t 'IDD/test/yourname' -m 'H
 
 **\*\*\*Brainstorm 5 ideas for messaging between devices\*\*\***
 
-| #     | Concept                                | Description / Interaction                                                                                                                                                                                                                                                              |
-| ----- | -------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **1** | <mark>Telepresent Emotion Cubes</mark> | <mark>Small acrylic cubes that glow in colors matching remote users’ facial or vocal emotion. FER-based emotion detection → MQTT broadcast → LED diffusion through frosted acrylic.</mark> Enables <mark>emotional transparency</mark> and <mark>connectedness across distance</mark>. |
-| **2** | Mood Beacon Lamps                      | Cylindrical desk lights that collectively visualize shared team mood. Users tap the lamp to select emotion; color syncs with others via MQTT topics for ambient awareness.                                                                                                             |
-| **3** | Pulse Orbs                             | Handheld diffused lights that emit rhythmic glow mirroring a user’s heartbeat. Heart rate sensor normalizes pulse → brightness modulation to create calm biofeedback loops.                                                                                                            |
-| **4** | Weather Spirits                        | Portable diffused lights reflecting remote environmental data (like sunlight or weather). Cloud API maps temperature and condition data to animated color gradients.                                                                                                                   |
-| **5** | Memory Stones                          | Acrylic diffusers that store and replay past collective color states. Shared color history replays as a soft gradient loop representing group continuity over time.                                                                                                                    |
+| #     | Concept                                | Description / Interaction                                                                                                                                                                  |
+| ----- | -------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **1** | <mark>Telepresent Emotion Cubes</mark> | <mark>Small acrylic cubes that glow in colors matching remote users’ facial or vocal emotion. FER-based emotion detection → MQTT broadcast → LED diffusion through frosted acrylic.</mark> |
+| **2** | Mood Beacon Lamps                      | Cylindrical desk lights that collectively visualize shared team mood. Users tap the lamp to select emotion; color syncs with others via MQTT topics for ambient awareness.                 |
+| **3** | Pulse Orbs                             | Handheld diffused lights that emit rhythmic glow mirroring a user’s heartbeat. Heart rate sensor normalizes pulse → brightness modulation to create calm biofeedback loops.                |
+| **4** | Weather Spirits                        | Portable diffused lights reflecting remote environmental data (like sunlight or weather). Cloud API maps temperature and condition data to animated color gradients.                       |
+| **5** | Memory Stones                          | Acrylic diffusers that store and replay past collective color states. Shared color history replays as a soft gradient loop representing group continuity over time.                        |
 
 ---
 
