@@ -238,13 +238,11 @@ Hold colored objects near sensor to change your pixel!
 
 <mark> _**AI Usage:** Utilized assistance from ChatGPT for the writing of code._ </mark>
 
-<mark> This code is the boiler plate code that showcases how emotion and sentiment is derived from user's facial expressions. This instance would then be multiplied across all individual emotion cubes and be networks together through MQTT subscription. This can allow for a variety of different telepresent interactions, being able to interpret emotions across a network. For our purposes, we decided to collect all these emotions and combine them to create a blended color; An amalgamation of all the emotions on the network. </mark>
+<mark> This code is the boiler plate code that showcases how emotion and sentiment is derived from user's facial expressions. This instance would then be applied across all individual emotion cubes and be networks together through MQTT subscription. This can allow for a variety of different telepresent interactions, being able to interpret emotions across a network (e.g., havign two participants know the emotional affect of their partner remotley). For our purposes, we decided to collect all these emotions (i.e., 3 Pis) and combine them to create a blended color; An amalgamation of all the emotions on the network. </mark>
 
-- <mark> cv2 </mark>
-- <mark> fer </mark>
+- <mark> cv2, fer </mark>
 - <mark> facenet-pytorch </mark>
-- <mark> numpy </mark>
-- <mark> torch </mark>
+- <mark> numpy, torch </mark>
 - <mark> adafruit-blinka </mark>
 - <mark> rpi_ws281x </mark>
 - <mark> adafruit-circuitpython-neopixel </mark>
@@ -272,7 +270,7 @@ Hold colored objects near sensor to change your pixel!
 
 ### <mark>Fabrication Assembly</mark>
 
-<mark> The emotion cubes were uniform in their assembly. The webcam was prominently attached as an add-on. </mark>
+<mark> The emotion cubes were uniform in their assembly. The webcam was prominently attached to the side as an add-on. </mark>
 
 ![Mockups 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Part_2/Mockups_5.jpg)
 ![Mockups 2](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Part_2/Mockups_4.jpg)
@@ -289,10 +287,6 @@ Hold colored objects near sensor to change your pixel!
 - <mark> Our web app can be found at [app.py](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/app.py) + [index.html](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/templates/index.html) </mark>
 
 <mark> _**AI Usage:** Utilized assistance from ChatGPT for the writing of code._ </mark>
-
-<mark> _**Pros:** ._ </mark>
-
-<mark> _**Cons:** ._ </mark>
 
 <mark> For testing purposes, we decided to array the emotion cubes out on a desk facing the monitor where the web app would display the colors and blend them together, alongside the video feed and the OpenCV inference. However, this set up can also be arranged in a variety of remote, environments and situations, allowing for the telepresence aspects to fully come into effect. This testing set up was made so that all inputs and outputs could be situated in one place so as to record and document clearly.</mark>
 
@@ -416,6 +410,8 @@ Before submitting:
 <mark> The primary aesthetic inspiration for our project came from James Turrell's light art pieces. We wanted to capture the same ambient and sublime experience coming from the gentle colors and diffused light that is present in his works. </mark>
 
 ![Inspiration](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Inspiration.jpg)
+
+<mark> _**Image Source:** James Turrell, Guggenheim Museum (2013)_ </mark>
 
 <mark> Collaborators: Thomas Knoepffler (Assembly & Fabrication), Carrie Wang (Hardware & Systems), Xiaocheng Li (Tester & Facilitator), Julia Chen (Developer & Debugger) </mark>
 
