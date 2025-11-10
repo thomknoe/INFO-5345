@@ -224,15 +224,14 @@ Hold colored objects near sensor to change your pixel!
 
 <mark> Telepresent Emotion Cubes are an MQTT networked system of illuminated modules that visualize and transmit human emotion. Each cube features an OpenCV-based facial expression detector that analyzes the user’s face in real time through the webcam. Detected emotions are displayed through a frosted acrylic enclosure, diffusing internal LEDs into a soft, ambient glow. As emotion shifts, the cubes change color and publish their data across the network, enabling feedback between screen recognition and physical illumination. This interface allows users to physically see their emotional state in both the interface and the surrounding light. </mark>
 
-|   Emotion    |   RGB Values    | Color  |
-| :----------: | :-------------: | :----: |
-|  **Happy**   |  `255, 200, 0`  | Yellow |
-|   **Sad**    |   `0, 0, 255`   |  Blue  |
-|  **Angry**   |   `255, 0, 0`   |  Red   |
-| **Neutral**  | `255, 255, 255` | White  |
-| **Surprise** |  `0, 255, 255`  |  Cyan  |
-| **Disgust**  |   `0, 255, 0`   | Green  |
-|   **Fear**   |  `180, 0, 255`  | Purple |
+|   Emotion   |   RGB Values    | Color  | Swatch |
+| :---------: | :-------------: | :----: | :----: |
+|  **Happy**  |  `255, 200, 0`  | Yellow |   🟨   |
+|   **Sad**   |   `0, 0, 255`   |  Blue  |   🟦   |
+|  **Angry**  |   `255, 0, 0`   |  Red   |   🟥   |
+| **Neutral** | `255, 255, 255` | White  |  ⬜️   |
+| **Disgust** |   `0, 255, 0`   | Green  |   🟩   |
+|  **Fear**   |  `180, 0, 255`  | Purple |   🟪   |
 
 **\*\*\*2. Architecture Diagram\*\*\***
 
