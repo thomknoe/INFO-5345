@@ -224,20 +224,21 @@ Hold colored objects near sensor to change your pixel!
 
 **\*\*\*2. Architecture Diagram\*\*\***
 
-|   Emotion    |   RGB Values    |                                                         Color                                                         |
-| :----------: | :-------------: | :-------------------------------------------------------------------------------------------------------------------: |
-|  **Happy**   |  `255, 200, 0`  |  <div style="width:30px;height:30px;background-color:rgb(255,200,0);border-radius:4px;border:1px solid #ccc;"></div>  |
-|   **Sad**    |   `0, 0, 255`   |   <div style="width:30px;height:30px;background-color:rgb(0,0,255);border-radius:4px;border:1px solid #ccc;"></div>   |
-|  **Angry**   |   `255, 0, 0`   |   <div style="width:30px;height:30px;background-color:rgb(255,0,0);border-radius:4px;border:1px solid #ccc;"></div>   |
-| **Neutral**  | `255, 255, 255` | <div style="width:30px;height:30px;background-color:rgb(255,255,255);border-radius:4px;border:1px solid #ccc;"></div> |
-| **Surprise** |  `0, 255, 255`  |  <div style="width:30px;height:30px;background-color:rgb(0,255,255);border-radius:4px;border:1px solid #ccc;"></div>  |
-| **Disgust**  |   `0, 255, 0`   |   <div style="width:30px;height:30px;background-color:rgb(0,255,0);border-radius:4px;border:1px solid #ccc;"></div>   |
-|   **Fear**   |  `180, 0, 255`  |  <div style="width:30px;height:30px;background-color:rgb(180,0,255);border-radius:4px;border:1px solid #ccc;"></div>  |
+## 🎨 Emotion-to-Color Mapping
+
+|   Emotion    |   RGB Values    | Color  |
+| :----------: | :-------------: | :----: |
+|  **Happy**   |  `255, 200, 0`  | Yellow |
+|   **Sad**    |   `0, 0, 255`   |  Blue  |
+|  **Angry**   |   `255, 0, 0`   |  Red   |
+| **Neutral**  | `255, 255, 255` | White  |
+| **Surprise** |  `0, 255, 255`  |  Cyan  |
+| **Disgust**  |   `0, 255, 0`   | Green  |
+|   **Fear**   |  `180, 0, 255`  | Purple |
 
 **\*\*\*3. Build Documentation\*\*\***
 
 ![Parts](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Part_2/Parts.jpg)
-
 ![Electronics](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Part_2/Electronics.jpg)
 
 ![Mockups 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Part_2/Mockups_5.jpg)
