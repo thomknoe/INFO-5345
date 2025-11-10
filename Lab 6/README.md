@@ -263,7 +263,6 @@ flowchart LR
     subgraph UserLoop [User Interaction]
         user[User expresses emotion]
     end
-
 ```
 
 |   Emotion    |   RGB Values    | Color  |
