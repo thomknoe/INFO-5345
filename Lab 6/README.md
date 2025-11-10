@@ -224,8 +224,6 @@ Hold colored objects near sensor to change your pixel!
 
 **\*\*\*2. Architecture Diagram\*\*\***
 
-## 🎨 Emotion-to-Color Mapping
-
 |   Emotion    |   RGB Values    | Color  | Swatch |
 | :----------: | :-------------: | :----: | :----: |
 |  **Happy**   |  `255, 200, 0`  | Yellow |   💛   |
