@@ -328,6 +328,8 @@ Hold colored objects near sensor to change your pixel!
 
 **\*\*\*5. Reflection\*\*\***
 
+### <mark>Lab Reflection</mark>
+
 <mark>The mapping of emotions to colors was captivating and intriguing to observe. While there are some reservations about affective computing in general, the concept of a system recognizing and displaying human emotions is often intriguing, and this lab effectively explored it. With that said, working with distributed systems was challenging due to the need for compliance and consistency across all devices. Any deviation from the norm or miscommunication regarding publisher and broker setups can cause errors (e.g., we came across an issue concerning GPIO pins that were different in programming across the Pis, perhaps due to different root dependencies).</mark>
 
 <mark>Additionally, edge computing and machine learning introduced an elements of latency, which further complicated real-time synchronization with MQTT. This ultimatley led to an erratic display at times of the cubes, which did not correpsond to the users face, but on the lack of data being read in due to lag. One benefit of this project was, due to the subjective nature of the color coding and emotions, there were no real "errors," so to speak, just different interpretations of color. With a more step-by-step interaction and code modifications to account for waiting for responses directly from the broker before updating, the cubes can become more versatile and consistent in their outputs.</mark>
