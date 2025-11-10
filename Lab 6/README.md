@@ -240,6 +240,17 @@ Hold colored objects near sensor to change your pixel!
 
 <mark> This code is the boiler plate code that showcases how emotion and sentiment is derived from user's facial expressions. This instance would then be multiplied across all individual emotion cubes and be networks together through MQTT subscription. This can allow for a variety of different telepresent interactions, being able to interpret emotions across a network. For our purposes, we decided to collect all these emotions and combine them to create a blended color; An amalgamation of all the emotions on the network. </mark>
 
+- <mark> cv2 </mark>
+- <mark> fer </mark>
+- <mark> facenet-pytorch </mark>
+- <mark> numpy </mark>
+- <mark> torch </mark>
+- <mark> adafruit-blinka </mark>
+- <mark> rpi_ws281x </mark>
+- <mark> adafruit-circuitpython-neopixel </mark>
+- <mark> paho-mqtt </mark>
+- <mark> board, digitalio </mark>
+
 ![Diagram](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Part_2/Diagram.jpg)
 
 <mark> _**AI Usage:** Utilized assistance from ChatGPT fand PlanetUML for diagram layout._ </mark>
@@ -249,6 +260,12 @@ Hold colored objects near sensor to change your pixel!
 ### <mark>Fabrication Process</mark>
 
 <mark> The cubes were made from laser, cut wood panels, and a buyer of frosted white acrylic and diffused clear acrylic. This is so that the light would be able to diffuse across the top surface of each cube. The main electronics componenents included integrating WS2812B RGB LED for the addressable lights. Each assembly was compact for each cubic enclosure. Openings were made for USB and USB-C ports. </mark>
+
+- <mark> Raspberry Pi 5 Model B/8GB </mark>
+- <mark> WS2812B RGB LED Rings 7 Bits </mark>
+- <mark> Basswood Panels (1/16") </mark>
+- <mark> Translucent Acrylic (1/8") </mark>
+- <mark> Diffuse Acrylic (1/8") </mark>
 
 ![Parts](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Part_2/Parts.jpg)
 ![Electronics](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Part_2/Electronics.jpg)
@@ -267,9 +284,9 @@ Hold colored objects near sensor to change your pixel!
 
 ### <mark>Testing Setup</mark>
 
-<mark> Our code can be found at [emotion_publisher.py](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/emotion_publisher.py) </mark>
+- <mark> Our code can be found at [emotion_publisher.py](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/emotion_publisher.py) </mark>
 
-<mark> Our web app can be found at [app.py](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/app.py) + [index.html](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/templates/index.html) </mark>
+- <mark> Our web app can be found at [app.py](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/app.py) + [index.html](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/templates/index.html) </mark>
 
 <mark> _**AI Usage:** Utilized assistance from ChatGPT for the writing of code._ </mark>
 
