@@ -220,7 +220,7 @@ Hold colored objects near sensor to change your pixel!
 
 **\*\*\*1. Project Description\*\*\***
 
-<mark> Telepresence Emotion Cubes are an MQTT networked system of illuminated modules that visualize and transmit human emotion. Each cube features an OpenCV-based facial expression detector that analyzes the user’s face in real time through the webcam. Detected emotions are displayed through a frosted acrylic enclosure, diffusing internal LEDs into a soft, ambient glow. As emotion shifts, the cubes change color and publish their data across the network, enabling feedback between screen recognition and physical illumination. This interface allows users to physically see their emotional state in both the interface and the surrounding light. </mark>
+<mark> Telepresent Emotion Cubes are an MQTT networked system of illuminated modules that visualize and transmit human emotion. Each cube features an OpenCV-based facial expression detector that analyzes the user’s face in real time through the webcam. Detected emotions are displayed through a frosted acrylic enclosure, diffusing internal LEDs into a soft, ambient glow. As emotion shifts, the cubes change color and publish their data across the network, enabling feedback between screen recognition and physical illumination. This interface allows users to physically see their emotional state in both the interface and the surrounding light. </mark>
 
 |   Emotion    |   RGB Values    | Color  |
 | :----------: | :-------------: | :----: |
@@ -288,7 +288,7 @@ Hold colored objects near sensor to change your pixel!
 
 <mark> _**AI Usage:** Utilized assistance from ChatGPT for the writing of code._ </mark>
 
-<mark> For testing purposes, we decided to array the emotion cubes out on a desk facing the monitor where the web app would display the colors and blend them together, alongside the video feed and the OpenCV inference. However, this set up can also be arranged in a variety of remote, environments and situations, allowing for the telepresence aspects to fully come into effect. This testing set up was made so that all inputs and outputs could be situated in one place so as to record and document clearly.</mark>
+<mark> For testing purposes, we decided to array the emotion cubes out on a desk facing the monitor where the web app would display the colors and blend them together, alongside the video feed and the OpenCV inference. However, this set up can also be arranged in a variety of remote, environments and situations, allowing for the telepresent aspects to fully come into effect. This testing set up was made so that all inputs and outputs could be situated in one place so as to record and document clearly.</mark>
 
 <mark> One issue with this code set up is the amount of latency that is present when reading emotions directly from a live feed camera using OpenCV. This latency also factored into problems with the color display, whereby delays between the inference and the MQTT server, cause the color to change to lag slight. This became more apparent in our user testing.</mark>
 
@@ -300,7 +300,7 @@ Hold colored objects near sensor to change your pixel!
 - <mark> Watch Testing Session # 1: [Testing Session # 1](https://drive.google.com/file/d/180PDUNI8GRM15R_p8Bw-a6V1HNUoArFK/view?usp=sharing) </mark>
 - <mark> Watch Testing Session # 2: [Testing Session # 2](https://drive.google.com/file/d/1wpqyTuACpf4Y45PojNBQiz9cMRhHCeiW/view?usp=sharing) </mark>
 
-<mark> We recruited 2 users from Architecture and 1 user from Design Tech to test and experience the emotion cubes. We gave them a brief introduction on the project and decided to allow them to explore the different emotion inferences that can make in front of the webcam. Displayed great interest in the feedback mechnaism, but the latency often affected the overall experience. Ultimately users found the experience to be delayed, yet charming and unexpected in its output.</mark>
+<mark> We recruited 2 users from Architecture and 1 user from Design Tech to test and experience the emotion cubes. We approached them in studio, gave a brief introduction on the project, and allowed them to enact various emotional reactions they can make in front of the webcam. Users displayed great interest in the feedback mechanism of the system, but the latency often effected the overall experience. Ultimately users found the experience to be delayed, yet charming and unexpected in its output.</mark>
 
 <p align="center">
 	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Part_2/Testing_Group.jpg" alt="Testing Group" width="100%">
@@ -312,10 +312,7 @@ Hold colored objects near sensor to change your pixel!
 
 **\*\*\*5. Reflection\*\*\***
 
-- What worked well?
-- Challenges with distributed interaction?
-- How did sensor events work?
-- What would you improve?
+<mark>The mapping of emotions to colors was captivating and intriguing to observe. While there are some reservations about affective computing, the concept of a system recognizing and displaying human emotions is often intriguing, and this lab effectively explored it. However, working with distributed systems can be challenging due to the need for compliance and consistency across all devices. Any deviation from the norm or miscommunication regarding publisher and broker setups can casue errors (e.g., we came across an issue concerning GPIO pins that were different in programming, and thus led to differing blinka calls). Additionally, edge computing and machine learning introduce an elements of latency, which further complicates real-time synchronization with MQTT. Despite these delays, the system provided appropriate feedback and color correspondence to emotions, which, due to the subjective nature of the coding resulted in to real "errors," so to speak. With a more discrete, step-by-step interaction and code modifications to account for waiting for responses directly from the broker, the emotion cubes can become more versatile and consistent in their outputs.</mark>
 
 ---
 
