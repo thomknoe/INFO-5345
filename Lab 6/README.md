@@ -226,36 +226,43 @@ Hold colored objects near sensor to change your pixel!
 
 ```mermaid
 flowchart LR
-    %% === USER INTERACTION ===
-    user["User expresses emotion"] --> cam["Camera using OpenCV and FER"]
-
-    %% === EMOTION CUBE LAYER ===
-    subgraph Cube["Emotion Cube (Raspberry Pi)"]
-        cam --> detect["Emotion Detection via FER (mtcnn=False)"]
-        detect -->|Map to RGB using emotion color table| led["NeoPixel LED Ring"]
-        detect -->|Publish RGB message 'cube/{id}/emotion'| mqtt_pub["paho-mqtt Client"]
-        led -->|Light diffused through frosted acrylic| user_feedback["Visual Light Feedback"]
-    end
-
-    %% === BROKER LAYER ===
-    subgraph Broker["MQTT Broker (Mosquitto @ 10.56.129.182)"]
-        mqtt_pub --> broker_server["Receives cube/#/emotion topics"]
-    end
-
-    %% === BACKEND LAYER ===
-    subgraph FlaskApp["Flask Server using flask_mqtt"]
-        broker_server --> flask_mqtt["MQTT Subscriber"]
-        flask_mqtt -->|Store cube RGB and compute blend| colors_api["/colors JSON Endpoint"]
-    end
-
-    %% === FRONTEND LAYER ===
-    subgraph Dashboard["Web Dashboard (HTML + JavaScript)"]
-        colors_api --> js_client["JavaScript fetch to /colors every 500ms"]
-        js_client --> html_grid["Grid Interface showing Cube 1, Cube 2, Cube 3, and Blend"]
-    end
-
-    %% === FEEDBACK LOOP ===
+    user --> cam
+    cam --> detect
+    detect --> led
+    detect --> mqtt_pub
+    led --> user_feedback
+    mqtt_pub --> broker_server
+    broker_server --> flask_mqtt
+    flask_mqtt --> colors_api
+    colors_api --> js_client
+    js_client --> html_grid
     user_feedback --> user
+
+    subgraph Cube [Emotion Cube - Raspberry Pi]
+        cam[Camera (OpenCV and FER)]
+        detect[Emotion Detection (FER mtcnn False)]
+        led[NeoPixel LED Ring]
+        mqtt_pub[MQTT Publish cube id emotion]
+        user_feedback[Light Feedback through Frosted Acrylic]
+    end
+
+    subgraph Broker [MQTT Broker - Mosquitto 10.56.129.182]
+        broker_server[Receives cube topics]
+    end
+
+    subgraph FlaskApp [Flask Server - flask mqtt]
+        flask_mqtt[MQTT Subscriber]
+        colors_api[/colors JSON Endpoint]
+    end
+
+    subgraph Dashboard [Web Dashboard - HTML and JS]
+        js_client[JavaScript Fetch colors]
+        html_grid[Grid UI for Cube1 Cube2 Cube3 Blend]
+    end
+
+    subgraph UserLoop [User Interaction]
+        user[User expresses emotion]
+    end
 
 ```
 
