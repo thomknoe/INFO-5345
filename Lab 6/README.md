@@ -152,14 +152,13 @@ Hold colored objects near sensor to change your pixel!
 **\*\*\*Include: Screenshot of grid + photo of your Pi setup\*\*\***
 
 ![Colors Command](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Part_1/Colors_Command.jpg)
-![Colors Screen](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Part_1/Colors_Screen.jpg)
-
 ![Pi](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Part_1/Pi.jpg)
 
 <p align="center">
-	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Part_1/Colors_1.jpg" alt="Colors 1" width="33%"/>
-	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Part_1/Colors_2.jpg" alt="Colors 2" width="33%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Part_1/Colors_Screen.jpg" alt="Colors Screen" width="100%"/>
 	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Part_1/Colors_3.jpg" alt="Colors 3" width="33%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Part_1/Colors_2.jpg" alt="Colors 2" width="33%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Part_1/Colors_1.jpg" alt="Colors 1" width="33%"/>
 </p>
 
 ---
