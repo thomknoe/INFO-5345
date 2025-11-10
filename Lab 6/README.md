@@ -78,6 +78,10 @@ mosquitto_pub -h farlab.infosci.cornell.edu -p 1883 -t 'IDD/test/yourname' -m 'H
 
 **\*\*\*Brainstorm 5 ideas for messaging between devices\*\*\***
 
+### <mark>AI Ideation Sessions</mark>
+
+<mark>Taking inspiration from product studio, we decided to utilize AI to do a rapid ideation session to generate a few adjacent ideas to what we were thinking of. The original idea to begin the permutations included various MMQTT and affective computing related ideas. We decided to settle on a classic idea in the world of creative technology, Telepresent Emotion Cubes.</mark>
+
 | #     | Concept                                | Description / Interaction                                                                                                                                                                  |
 | ----- | -------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | **1** | <mark>Telepresent Emotion Cubes</mark> | <mark>Small acrylic cubes that glow in colors matching remote users’ facial or vocal emotion. FER-based emotion detection → MQTT broadcast → LED diffusion through frosted acrylic.</mark> |
@@ -161,8 +165,17 @@ Hold colored objects near sensor to change your pixel!
 
 **\*\*\*Include: Screenshot of grid + photo of your Pi setup\*\*\***
 
+### <mark>Pi Setup</mark>
+
+<mark>We assembled the Pis accordingly and and organize them to communicate through MQTT, where one acted as the broker and the publisher, while the rest were simply publishers.</mark>
+
 ![Colors Command](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Part_1/Colors_Command.jpg)
 ![Pi](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Part_1/Pi.jpg)
+
+### <mark>Color Setup</mark>
+
+- <mark> Watch Color Setup Video #1: [Color Setup #1](https://drive.google.com/file/d/1CXdVea-lqv6L5eO-JHko9C_X-M5XaORt/view?usp=sharing) </mark>
+- <mark> Watch Color Setup Video #2: [Color Setup #2](https://drive.google.com/file/d/1KRodRo5o58lJu0WbyLFOLQJq8SOu-ERN/view?usp=sharing) </mark>
 
 <p align="center">
 	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Part_1/Colors_Screen.jpg" alt="Colors Screen" width="100%"/>
