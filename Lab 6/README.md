@@ -396,7 +396,7 @@ Before submitting:
 
 ### <mark>Inspiration</mark>
 
-<mark> The primary aesthetic inspiration for our project came from James Turrel's light art pieces. Wanted to capture the same ambient experience from the gentle colors and diffused light that his works evoke. </mark>
+<mark> The primary aesthetic inspiration for our project came from James Turrell's light art pieces. Wanted to capture the same ambient and sublime experience coming from the gentle colors and diffused light that is present in his works. </mark>
 
 ![Inspiration](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Inspiration.jpg)
 
