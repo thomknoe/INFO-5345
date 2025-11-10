@@ -216,9 +216,21 @@ Hold colored objects near sensor to change your pixel!
 
 **\*\*\*3. Build Documentation\*\*\***
 
-- Photos of each Pi + sensors
-- MQTT topics used
-- Code snippets with explanations
+<p align="center">
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Part_2/Parts_1.jpg" alt="Parts 1" width="44.5%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Part_2/Parts_2.jpg" alt="parts 2" width="44.5%"/>
+</p>
+
+<p align="center">
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Part_2/Electronics_1.jpg" alt="Electronics 1" width="44.5%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Part_2/Electronics_2.jpg" alt="Electronics 2" width="44.5%"/>
+</p>
+
+![Mockups 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Part_2/Mockups_5.jpg)
+![Mockups 2](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Part_2/Mockups_4.jpg)
+![Mockups 3](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Part_2/Mockups_3.jpg)
+![Mockups 4](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Part_2/Mockups_2.jpg)
+![Mockups 5](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Part_2/Mockups_1.jpg)
 
 **\*\*\*4. User Testing\*\*\***
 
