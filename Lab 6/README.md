@@ -249,6 +249,8 @@ Hold colored objects near sensor to change your pixel!
 
 ### <mark>Fabrication Assembly</mark>
 
+<mark> cubes were uniform in their assembly. The webcam was prominently attached as an add-on. </mark>
+
 ![Mockups 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Part_2/Mockups_5.jpg)
 ![Mockups 2](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Part_2/Mockups_4.jpg)
 ![Mockups 3](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Part_2/Mockups_3.jpg)
