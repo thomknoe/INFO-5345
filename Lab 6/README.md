@@ -230,7 +230,7 @@ Hold colored objects near sensor to change your pixel!
 |   **Sad**    |   `0, 0, 255`   |  Blue  |   🟦   |
 |  **Angry**   |   `255, 0, 0`   |  Red   |   🟥   |
 | **Neutral**  | `255, 255, 255` | White  |  ⬜️   |
-| **Surprise** |  `0, 255, 255`  |  Cyan  | 🟦+🟩  |
+| **Surprise** |  `0, 255, 255`  |  Cyan  |  🟦🟩  |
 | **Disgust**  |   `0, 255, 0`   | Green  |   🟩   |
 |   **Fear**   |  `180, 0, 255`  | Purple |   🟪   |
 
