@@ -224,29 +224,26 @@ Hold colored objects near sensor to change your pixel!
 
 **\*\*\*2. Architecture Diagram\*\*\***
 
-```plantuml
-@startuml
-actor User
+```mermaid
+flowchart LR
+    subgraph EmotionCubes[Emotion Cubes (Raspberry Pi 1–3)]
+        Camera[Camera (OpenCV + FER)] --> Detector[Emotion Recognition]
+        Detector -->|Maps to RGB| LED[NeoPixel LED Ring]
+        Detector -->|Publishes RGB via MQTT| MQTTClient[MQTT Client]
+        LED -->|Frosted Acrylic Diffusion| User[(User sees light feedback)]
+    end
 
-package "Emotion Cube" {
-  [Camera + OpenCV + FER] --> [Emotion Classifier]
-  [Emotion Classifier] --> [NeoPixel LED]
-  [Emotion Classifier] --> (MQTT Publish cube/{id}/emotion)
-}
+    subgraph Broker[MQTT Broker (10.56.129.182)]
+        MQTTClient --> BrokerServer[(Mosquitto Broker)]
+    end
 
-package "MQTT Broker" {
-  (MQTT Publish cube/{id}/emotion) --> [Mosquitto]
-}
+    subgraph Dashboard[Flask + Web Dashboard]
+        BrokerServer --> FlaskApp[Flask App (flask_mqtt)]
+        FlaskApp -->|/colors JSON API| JSClient[JavaScript Fetch]
+        JSClient --> WebUI[HTML Grid Dashboard]
+    end
 
-package "Flask Server" {
-  [Mosquitto] --> [Flask MQTT Subscriber]
-  [Flask MQTT Subscriber] --> [Flask /colors API]
-  [Flask /colors API] --> [Web Dashboard]
-}
-
-User --> [Camera + OpenCV + FER]
-[NeoPixel LED] --> User
-@enduml
+    User -->|Facial Expression| Camera
 ```
 
 |   Emotion    |   RGB Values    | Color  |
