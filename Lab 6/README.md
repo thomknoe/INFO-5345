@@ -238,8 +238,8 @@ flowchart LR
     js_client --> html_grid
     user_feedback --> user
 
-    subgraph Cube [Emotion Cube - Raspberry Pi]
-        cam[Camera (OpenCV and FER)]
+    subgraph Cube [Telepresence Emotion Cube Raspberry Pi]
+        cam[Camera OpenCV and FER]
         detect[Emotion Detection (FER mtcnn False)]
         led[NeoPixel LED Ring]
         mqtt_pub[MQTT Publish cube id emotion]
