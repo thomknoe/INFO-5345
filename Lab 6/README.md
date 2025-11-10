@@ -394,6 +394,12 @@ Before submitting:
 
 ---
 
+### <mark>Inspiration</mark>
+
+<mark> The primary aesthetic inspiration for our project came from James Turrel's light art pieces. Wanted to capture the same ambient experience from the gentle colors and diffused light that his works evoke. </mark>
+
+![Inspiration](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Inspiration.jpg)
+
 <mark> Collaborators: Thomas Knoepffler (Assembly & Fabrication), Carrie Wang (Hardware & Systems), Xiaocheng Li (Tester & Facilitator), Julia Chen (Developer & Debugger) </mark>
 
 ![Bonus](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Bonus.jpg)
