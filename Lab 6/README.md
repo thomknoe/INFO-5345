@@ -151,7 +151,8 @@ Hold colored objects near sensor to change your pixel!
 
 **\*\*\*Include: Screenshot of grid + photo of your Pi setup\*\*\***
 
-![Colors Screenshot](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Part_1/Colors_Screenshot.jpg)
+![Colors Command](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Part_1/Colors_Command.jpg)
+![Colors Screen](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Part_1/Colors_Screen.jpg)
 
 ![Pi](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Part_1/Pi.jpg)
 
