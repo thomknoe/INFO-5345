@@ -244,6 +244,8 @@ Hold colored objects near sensor to change your pixel!
 
 <mark> This code is the boiler plate code that showcases how emotion and sentiment is derived from user's facial expressions. This instance would then be applied across all individual cubes and be networks together through MQTT subscription. This could allow for a variety of different telepresent interactions, being able to interpret emotions across a network (e.g., havign two participants know the emotional affect of their partner remotley). For our purposes, we decided to collect all these emotions (i.e., 3 Pis) and combine them to create a blended color; An amalgamation of all the emotions on the network. </mark>
 
+### <mark>Dependencies</mark>
+
 - <mark> cv2, fer </mark>
 - <mark> facenet-pytorch </mark>
 - <mark> numpy, torch </mark>
@@ -262,6 +264,8 @@ Hold colored objects near sensor to change your pixel!
 ### <mark>Fabrication Process</mark>
 
 <mark> The cubes were made from laser, cut wood panels, and a buyer of frosted white acrylic and diffused clear acrylic. This is so that the light would be able to diffuse across the top surface of each cube. The main electronics componenents included integrating WS2812B RGB LEDs for the addressable lights. Each assembly was compact for each cubic enclosure. Openings were made for USB and USB-C ports. </mark>
+
+### <mark>Materials</mark>
 
 - <mark> Raspberry Pi 5 Model B/8GB </mark>
 - <mark> WS2812B RGB LED Rings 7 Bits </mark>
