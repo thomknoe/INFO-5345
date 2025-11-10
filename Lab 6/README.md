@@ -1,6 +1,6 @@
 # Distributed Interaction
 
-**NAMES OF COLLABORATORS HERE**
+<mark> **Collaborators: Thomas Knoepffler, Carrie Wang, Xiaocheng Li, Julia Chen** </mark>
 
 For submission, replace this section with your documentation!
 
@@ -78,7 +78,7 @@ mosquitto_pub -h farlab.infosci.cornell.edu -p 1883 -t 'IDD/test/yourname' -m 'H
 
 </details>
 
-**💡 Brainstorm 5 ideas for messaging between devices**
+**\*\*\*Brainstorm 5 ideas for messaging between devices\*\*\***
 
 ---
 
@@ -151,7 +151,7 @@ Hold colored objects near sensor to change your pixel!
 
 </details>
 
-**📸 Include: Screenshot of grid + photo of your Pi setup**
+**\*\*\*Include: Screenshot of grid + photo of your Pi setup\*\*\***
 
 ---
 
@@ -185,26 +185,28 @@ Hold colored objects near sensor to change your pixel!
 
 **Others:** Games, presence display, mood ring
 
+</details>
+
 ### Deliverables
 
 Replace this README with your documentation:
 
-**1. Project Description**
+**\*\*\*1. Project Description\*\*\***
 
 - What does it do? Why interesting? User experience?
 
-**2. Architecture Diagram**
+**\*\*\*2. Architecture Diagram\*\*\***
 
 - Hardware, connections, data flow
 - Label input/computation/output
 
-**3. Build Documentation**
+**\*\*\*3. Build Documentation\*\*\***
 
 - Photos of each Pi + sensors
 - MQTT topics used
 - Code snippets with explanations
 
-**4. User Testing**
+**\*\*\*4. User Testing\*\*\***
 
 - **Test with 2+ people NOT on your team**
 - Photos/video of use
@@ -212,14 +214,12 @@ Replace this README with your documentation:
 - What surprised them?
 - What would they change?
 
-**5. Reflection**
+**\*\*\*5. Reflection\*\*\***
 
 - What worked well?
 - Challenges with distributed interaction?
 - How did sensor events work?
 - What would you improve?
-
-</details>
 
 ---
 
@@ -308,6 +308,8 @@ Before submitting:
 </details>
 
 ---
+
+<mark> Collaborators: Thomas Knoepffler (Assembly & Fabrication), Carrie Wang (Hardware & Systems), Xiaocheng Li (Tester & Facilitator), Julia Chen (Developer & Debugger) </mark>
 
 <details>
 	<summary><strong>Resources</strong></summary>
