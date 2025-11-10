@@ -224,31 +224,29 @@ Hold colored objects near sensor to change your pixel!
 
 **\*\*\*2. Architecture Diagram\*\*\***
 
-```mermaid
-flowchart LR
-    %% === Emotion Cubes Layer ===
-    subgraph A[Emotion Cubes (Raspberry Pi 1–3)]
-        C1[Camera<br/>(OpenCV + FER)] --> E1[Emotion Recognition<br/>(facial analysis)]
-        E1 -->|Mapped to RGB| L1[NeoPixel LED Ring]
-        E1 -->|Publishes RGB<br/>MQTT topic: cube/{id}/emotion| M1[MQTT Client]
-        L1 -->|Diffused through frosted acrylic| USER[(Human Viewer)]
-    end
+````plantuml
+@startuml
+actor User
 
-    %% === Broker Layer ===
-    subgraph B[MQTT Broker (10.56.129.182)]
-        M1 --> BROKER[(Mosquitto Broker)]
-    end
+package "Emotion Cube" {
+  [Camera + OpenCV + FER] --> [Emotion Classifier]
+  [Emotion Classifier] --> [NeoPixel LED]
+  [Emotion Classifier] --> (MQTT Publish cube/{id}/emotion)
+}
 
-    %% === Web Dashboard Layer ===
-    subgraph C[Flask + Web Dashboard]
-        BROKER --> F1[Flask App<br/>(flask_mqtt)]
-        F1 -->|/colors endpoint (JSON)| JS[Dashboard JavaScript (fetch every 500 ms)]
-        JS --> GRID[HTML Grid UI<br/>Cube 1 | Cube 2 | Cube 3 | Blend]
-    end
+package "MQTT Broker" {
+  (MQTT Publish cube/{id}/emotion) --> [Mosquitto]
+}
 
-    %% === Feedback ===
-    USER -->|Facial Expression| C1
-```
+package "Flask Server" {
+  [Mosquitto] --> [Flask MQTT Subscriber]
+  [Flask MQTT Subscriber] --> [Flask /colors API]
+  [Flask /colors API] --> [Web Dashboard]
+}
+
+User --> [Camera + OpenCV + FER]
+[NeoPixel LED] --> User
+@enduml
 
 |   Emotion    |   RGB Values    | Color  |
 | :----------: | :-------------: | :----: |
@@ -344,7 +342,7 @@ flowchart LR
 ```bash
 # See all IDD messages
 mosquitto_sub -h farlab.infosci.cornell.edu -p 1883 -t "IDD/#" -u idd -P "device@theFarm"
-```
+````
 
 </details>
 
