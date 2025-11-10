@@ -242,7 +242,7 @@ Hold colored objects near sensor to change your pixel!
 
 <mark> _**AI Usage:** Utilized assistance from ChatGPT for the writing of code._ </mark>
 
-<mark> This code is the boiler plate code that showcases how emotion and sentiment is derived from user's facial expressions. This instance would then be applied across all individual emotion cubes and be networks together through MQTT subscription. This could allow for a variety of different telepresent interactions, being able to interpret emotions across a network (e.g., havign two participants know the emotional affect of their partner remotley). For our purposes, we decided to collect all these emotions (i.e., 3 Pis) and combine them to create a blended color; An amalgamation of all the emotions on the network. </mark>
+<mark> This code is the boiler plate code that showcases how emotion and sentiment is derived from user's facial expressions. This instance would then be applied across all individual cubes and be networks together through MQTT subscription. This could allow for a variety of different telepresent interactions, being able to interpret emotions across a network (e.g., havign two participants know the emotional affect of their partner remotley). For our purposes, we decided to collect all these emotions (i.e., 3 Pis) and combine them to create a blended color; An amalgamation of all the emotions on the network. </mark>
 
 - <mark> cv2, fer </mark>
 - <mark> facenet-pytorch </mark>
@@ -272,9 +272,9 @@ Hold colored objects near sensor to change your pixel!
 ![Parts](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Part_2/Parts.jpg)
 ![Electronics](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Part_2/Electronics.jpg)
 
-### <mark>Fabrication Assembly</mark>
+### <mark>Fabrication & Assembly</mark>
 
-<mark> The emotion cubes were uniform in their assembly. The webcam was prominently attached to the side as an add-on. </mark>
+<mark> The cubes were uniform in their fabrication and assembly. The webcam was prominently attached to the side of the cube as an add-on. </mark>
 
 ![Mockups 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Part_2/Mockups_5.jpg)
 ![Mockups 2](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Part_2/Mockups_4.jpg)
@@ -284,7 +284,7 @@ Hold colored objects near sensor to change your pixel!
 
 **\*\*\*4. User Testing\*\*\***
 
-### <mark>Testing Setup</mark>
+### <mark>Testing & Setup</mark>
 
 - <mark> Our code can be found at [emotion_publisher.py](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/emotion_publisher.py) </mark>
 
@@ -292,7 +292,7 @@ Hold colored objects near sensor to change your pixel!
 
 <mark> _**AI Usage:** Utilized assistance from ChatGPT for the writing of code._ </mark>
 
-<mark> For testing purposes, we decided to array the emotion cubes out on a desk facing the monitor where the web app would display the colors and blend them together, alongside the video feed and the OpenCV inference. However, this set up can also be arranged in a variety of remote environments and situations, allowing for the telepresent aspects to fully come into effect. This testing set up was made so that all inputs and outputs could be situated in one place, so as to record and document clearly.</mark>
+<mark> For testing purposes, we decided to array the cubes out on a desk facing the monitor where the web app would display the colors and blend them together, alongside the video feed and the OpenCV inference. However, this set up can also be arranged in a variety of remote environments and situations, allowing for the telepresent aspects to fully come into effect. This testing set up was made so that all inputs and outputs could be situated in one place, so as to record and document clearly.</mark>
 
 <mark> One issue with this generated code is the amount of latency that is present when reading emotions directly from a live feed camera using OpenCV. This latency also factored into problems with the color display, whereby delays between the inference and the MQTT server cause errors in the color change or color persistence. This became apparent in our user testing.</mark>
 
@@ -304,7 +304,7 @@ Hold colored objects near sensor to change your pixel!
 - <mark> Watch Testing Session # 1: [Testing Session # 1](https://drive.google.com/file/d/180PDUNI8GRM15R_p8Bw-a6V1HNUoArFK/view?usp=sharing) </mark>
 - <mark> Watch Testing Session # 2: [Testing Session # 2](https://drive.google.com/file/d/1wpqyTuACpf4Y45PojNBQiz9cMRhHCeiW/view?usp=sharing) </mark>
 
-<mark> We recruited 2 users from Architecture and 1 user from Design Tech to test and experience the emotion cubes. We approached them in studio, gave a brief introduction on the IxD project, and allowed them to enact various emotional reactions they can make in front of the webcam. Users displayed great interest in the feedback mechanism of the system, but the latency often effected the overall experience (i.e., insufficient inferencing data to display the correct light or delayed in display for the correct emotion). Ultimately users found the experience to be delayed, yet charming and unexpected in its output.</mark>
+<mark> We recruited 2 users from Architecture and 1 user from Design Tech to test and experience the cubes. We approached them in studio, gave a brief introduction on the IxD project, and allowed them to enact various emotional reactions they can make in front of the webcam. Users displayed great interest in the feedback mechanism of the system, but the latency often effected the overall experience (i.e., insufficient inferencing data to display the correct light or delayed in display for the correct emotion). Ultimately users found the experience to be delayed, yet charming and unexpected in its output.</mark>
 
 <p align="center">
 	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Part_2/Testing_Group.jpg" alt="Testing Group" width="100%">
@@ -318,7 +318,7 @@ Hold colored objects near sensor to change your pixel!
 
 <mark>The mapping of emotions to colors was captivating and intriguing to observe. While there are some reservations about affective computing in general, the concept of a system recognizing and displaying human emotions is often intriguing, and this lab effectively explored it. With that said, working with distributed systems was challenging due to the need for compliance and consistency across all devices. Any deviation from the norm or miscommunication regarding publisher and broker setups can casue errors (e.g., we came across an issue concerning GPIO pins that were different in programming across the Pis, perhaps due to different root dependencies).</mark>
 
-<mark>Additionally, edge computing and machine learning introduced an elements of latency, which further complicated real-time synchronization with MQTT. This ultimatley led to an erratic display at times of the emotion cubes, which did not correpsond to the users face, but ot the lack of data being read in due to lag. One benefit of this project was due to the subjective nature of the color coding resulted in no real "errors," so to speak, just different interpretations. With a more step-by-step interaction and code modifications to account for waiting for responses directly from the broker before updating, the emotion cubes can become more versatile and consistent in their outputs.</mark>
+<mark>Additionally, edge computing and machine learning introduced an elements of latency, which further complicated real-time synchronization with MQTT. This ultimatley led to an erratic display at times of the cubes, which did not correpsond to the users face, but ot the lack of data being read in due to lag. One benefit of this project was due to the subjective nature of the color coding resulted in no real "errors," so to speak, just different interpretations. With a more step-by-step interaction and code modifications to account for waiting for responses directly from the broker before updating, the cubes can become more versatile and consistent in their outputs.</mark>
 
 ---
 
