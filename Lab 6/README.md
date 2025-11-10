@@ -78,6 +78,14 @@ mosquitto_pub -h farlab.infosci.cornell.edu -p 1883 -t 'IDD/test/yourname' -m 'H
 
 **\*\*\*Brainstorm 5 ideas for messaging between devices\*\*\***
 
+| #     | Concept                                | Description                                                                                                      | Interaction / Behavior                                                                                         | Technical Layer                                                         | Emotional or Experiential Focus                                       |
+| ----- | -------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- | --------------------------------------------------------------------- |
+| **1** | <mark>Telepresent Emotion Cubes</mark> | <mark>Small acrylic cubes</mark> that glow in colors matching remote users’ <mark>facial or vocal emotion</mark> | <mark>FER-based emotion detection</mark> → MQTT broadcast → <mark>LED diffusion through frosted acrylic</mark> | <mark>Raspberry Pi + NeoPixel + MQTT broker</mark> (e.g., Mosquitto)    | <mark>Emotional transparency</mark> and connectedness across distance |
+| **2** | <mark>Mood Beacon Lamps</mark>         | <mark>Cylindrical desk lights</mark> that collectively visualize <mark>shared team mood</mark>                   | Users tap the lamp to select emotion; color syncs via <mark>MQTT topic</mark>                                  | <mark>Capacitive touch sensor + MQTT publish/subscribe + RGB LED</mark> | <mark>Ambient emotional awareness</mark> in shared spaces             |
+| **3** | <mark>Pulse Orbs</mark>                | <mark>Handheld diffused lights</mark> that emit rhythmic glow mirroring user’s <mark>heartbeat</mark>            | <mark>Heart rate sensor</mark> → normalized pulse → brightness modulation                                      | <mark>BLE heart sensor → MQTT bridge → PWM LED driver</mark>            | <mark>Calmness + biofeedback empathy</mark>                           |
+| **4** | <mark>Weather Spirits</mark>           | Portable <mark>diffused lights</mark> reflecting <mark>remote environmental data</mark> like weather             | Pull weather API → encode as <mark>dynamic color + motion pattern</mark>                                       | <mark>Cloud-to-MQTT bridge + Pi client + LED animation</mark>           | <mark>Atmospheric connection</mark> between spaces                    |
+| **5** | <mark>Memory Stones</mark>             | <mark>Acrylic diffusers</mark> that store and replay <mark>past collective color states</mark>                   | Record shared color history → replay as <mark>time-based gradient loop</mark>                                  | <mark>MQTT logging service + playback script + RTC</mark>               | <mark>Continuity and nostalgia</mark> in shared experience            |
+
 ---
 
 <details>
@@ -314,6 +322,8 @@ Before submitting:
 ---
 
 <mark> Collaborators: Thomas Knoepffler (Assembly & Fabrication), Carrie Wang (Hardware & Systems), Xiaocheng Li (Tester & Facilitator), Julia Chen (Developer & Debugger) </mark>
+
+![Bonus](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Bonus.jpg)
 
 <details>
 	<summary><strong>Resources</strong></summary>
