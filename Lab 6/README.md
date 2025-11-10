@@ -177,7 +177,7 @@ Hold colored objects near sensor to change your pixel!
 - <mark> Watch Color Setup Video #1: [Color Setup #1](https://drive.google.com/file/d/1CXdVea-lqv6L5eO-JHko9C_X-M5XaORt/view?usp=sharing) </mark>
 - <mark> Watch Color Setup Video #2: [Color Setup #2](https://drive.google.com/file/d/1KRodRo5o58lJu0WbyLFOLQJq8SOu-ERN/view?usp=sharing) </mark>
 
-<mark> We ran the publisher color code and displayed the class MQTT server website to test out the color readings.</mark>
+<mark> We ran the publisher code and displayed the class MQTT server website on a laptop to test out the color readings.</mark>
 
 <p align="center">
 	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Part_1/Colors_Screen.jpg" alt="Colors Screen" width="100%"/>
