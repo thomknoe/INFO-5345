@@ -224,7 +224,7 @@ Hold colored objects near sensor to change your pixel!
 
 **\*\*\*2. Architecture Diagram\*\*\***
 
-````plantuml
+```plantuml
 @startuml
 actor User
 
@@ -247,6 +247,7 @@ package "Flask Server" {
 User --> [Camera + OpenCV + FER]
 [NeoPixel LED] --> User
 @enduml
+```
 
 |   Emotion    |   RGB Values    | Color  |
 | :----------: | :-------------: | :----: |
@@ -342,7 +343,7 @@ User --> [Camera + OpenCV + FER]
 ```bash
 # See all IDD messages
 mosquitto_sub -h farlab.infosci.cornell.edu -p 1883 -t "IDD/#" -u idd -P "device@theFarm"
-````
+```
 
 </details>
 
