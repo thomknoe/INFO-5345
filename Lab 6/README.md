@@ -224,6 +224,32 @@ Hold colored objects near sensor to change your pixel!
 
 **\*\*\*2. Architecture Diagram\*\*\***
 
+```mermaid
+flowchart LR
+    %% === Emotion Cubes Layer ===
+    subgraph A[Emotion Cubes (Raspberry Pi 1–3)]
+        C1[Camera<br/>(OpenCV + FER)] --> E1[Emotion Recognition<br/>(facial analysis)]
+        E1 -->|Mapped to RGB| L1[NeoPixel LED Ring]
+        E1 -->|Publishes RGB<br/>MQTT topic: cube/{id}/emotion| M1[MQTT Client]
+        L1 -->|Diffused through frosted acrylic| USER[(Human Viewer)]
+    end
+
+    %% === Broker Layer ===
+    subgraph B[MQTT Broker (10.56.129.182)]
+        M1 --> BROKER[(Mosquitto Broker)]
+    end
+
+    %% === Web Dashboard Layer ===
+    subgraph C[Flask + Web Dashboard]
+        BROKER --> F1[Flask App<br/>(flask_mqtt)]
+        F1 -->|/colors endpoint (JSON)| JS[Dashboard JavaScript (fetch every 500 ms)]
+        JS --> GRID[HTML Grid UI<br/>Cube 1 | Cube 2 | Cube 3 | Blend]
+    end
+
+    %% === Feedback ===
+    USER -->|Facial Expression| C1
+```
+
 |   Emotion    |   RGB Values    | Color  |
 | :----------: | :-------------: | :----: |
 |  **Happy**   |  `255, 200, 0`  | Yellow |
