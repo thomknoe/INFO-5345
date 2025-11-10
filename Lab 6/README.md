@@ -224,20 +224,24 @@ Hold colored objects near sensor to change your pixel!
 
 **\*\*\*2. Architecture Diagram\*\*\***
 
-|   Emotion    |   RGB Values    | Color  | Swatch |
-| :----------: | :-------------: | :----: | :----: |
-|  **Happy**   |  `255, 200, 0`  | Yellow |   💛   |
-|   **Sad**    |   `0, 0, 255`   |  Blue  |   💙   |
-|  **Angry**   |   `255, 0, 0`   |  Red   |   ❤️   |
-| **Neutral**  | `255, 255, 255` | White  |   🤍   |
-| **Surprise** |  `0, 255, 255`  |  Cyan  |   🩵    |
-| **Disgust**  |   `0, 255, 0`   | Green  |   💚   |
-|   **Fear**   |  `180, 0, 255`  | Purple |   💜   |
+|   Emotion    |   RGB Values    | Color  |
+| :----------: | :-------------: | :----: |
+|  **Happy**   |  `255, 200, 0`  | Yellow |
+|   **Sad**    |   `0, 0, 255`   |  Blue  |
+|  **Angry**   |   `255, 0, 0`   |  Red   |
+| **Neutral**  | `255, 255, 255` | White  |
+| **Surprise** |  `0, 255, 255`  |  Cyan  |
+| **Disgust**  |   `0, 255, 0`   | Green  |
+|   **Fear**   |  `180, 0, 255`  | Purple |
 
 **\*\*\*3. Build Documentation\*\*\***
 
+### <mark>Fabrication Process</mark>
+
 ![Parts](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Part_2/Parts.jpg)
 ![Electronics](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Part_2/Electronics.jpg)
+
+### <mark>Fabrication Assembly</mark>
 
 ![Mockups 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Part_2/Mockups_5.jpg)
 ![Mockups 2](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Part_2/Mockups_4.jpg)
@@ -247,8 +251,12 @@ Hold colored objects near sensor to change your pixel!
 
 **\*\*\*4. User Testing\*\*\***
 
+### <mark>Testing Setup</mark>
+
 ![Live Feed 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Part_2/Live_Feed_1.gif)
 ![Live Feed 2](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Part_2/Live_Feed_2.gif)
+
+### <mark>Testing Sessions</mark>
 
 <p align="center">
 	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Part_2/Testing_Group.jpg" alt="Testing Group" width="100%">
