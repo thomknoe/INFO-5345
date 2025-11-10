@@ -96,7 +96,7 @@ mosquitto_pub -h farlab.infosci.cornell.edu -p 1883 -t 'IDD/test/yourname' -m 'H
 
 <mark> _**AI Usage:** Drawing generated using Dall-E, ChatGPT. All artifacts preserved._ </mark>
 
-<mark> \_**Original Prompt:** "Generate a highly detailed rendering of a small cubic form that emits emotional data through color and light. Make dramatic, geometric, and expressive. Make the colors gradient based, pinkish blue, yellow, horizon-like."\_ </mark>
+<mark> _**Original Prompt:** "Generate a highly detailed rendering of a small cubic form that emits emotional data through color and light. Make dramatic, geometric, and expressive. Make the colors gradient based, pinkish blue, yellow, horizon-like."_ </mark>
 
 ---
 
