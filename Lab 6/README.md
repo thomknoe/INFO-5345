@@ -236,6 +236,8 @@ Hold colored objects near sensor to change your pixel!
 
 **\*\*\*2. Architecture Diagram\*\*\***
 
+### <mark>Initial Code System</mark>
+
 <mark> Our code can be found at [emotion_led.py](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/emotion_led.py) </mark>
 
 <mark> _**AI Usage:** Utilized assistance from ChatGPT for the writing of code._ </mark>
