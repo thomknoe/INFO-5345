@@ -227,36 +227,35 @@ Hold colored objects near sensor to change your pixel!
 ```mermaid
 flowchart LR
     %% === USER INTERACTION ===
-    user["🧑 User<br/>(expresses emotion)"] --> cam["📷 Camera<br/>(OpenCV + FER)"]
+    user["User (expresses emotion)"] --> cam["Camera (OpenCV + FER)"]
 
     %% === EMOTION CUBE LAYER ===
-    subgraph Cube["💡 Emotion Cube (Raspberry Pi)"]
-        cam --> detect["🧠 Emotion Detection<br/>(FER, mtcnn=False)"]
-        detect -->|Map to RGB via emotion_colors{}| led["🌈 NeoPixel LED Ring"]
-        detect -->|Publish RGB<br/>cube/{id}/emotion| mqtt_pub["📡 paho-mqtt Client"]
-        led -->|Diffuse through frosted acrylic| user_feedback["✨ Visual Light Feedback"]
+    subgraph Cube["Emotion Cube (Raspberry Pi)"]
+        cam --> detect["Emotion Detection (FER, mtcnn=False)"]
+        detect -->|Map to RGB via emotion_colors{}| led["NeoPixel LED Ring"]
+        detect -->|Publish RGB cube/{id}/emotion| mqtt_pub["paho-mqtt Client"]
+        led -->|Diffuse through frosted acrylic| user_feedback["Visual Light Feedback"]
     end
 
     %% === BROKER LAYER ===
-    subgraph Broker["🔁 MQTT Broker (Mosquitto @ 10.56.129.182)"]
-        mqtt_pub --> broker_server["💬 Receives cube/#/emotion topics"]
+    subgraph Broker["MQTT Broker (Mosquitto @ 10.56.129.182)"]
+        mqtt_pub --> broker_server["Receives cube/#/emotion topics"]
     end
 
     %% === BACKEND LAYER ===
-    subgraph FlaskApp["🧩 Flask Server (flask_mqtt)"]
-        broker_server --> flask_mqtt["📥 MQTT Subscriber"]
-        flask_mqtt -->|Store cube RGB & compute blend| colors_api["🌐 /colors JSON Endpoint"]
+    subgraph FlaskApp["Flask Server (flask_mqtt)"]
+        broker_server --> flask_mqtt["MQTT Subscriber"]
+        flask_mqtt -->|Store cube RGB & compute blend| colors_api["/colors JSON Endpoint"]
     end
 
     %% === FRONTEND LAYER ===
-    subgraph Dashboard["🖥️ Web Dashboard (index.html + JS)"]
-        colors_api --> js_client["⚙️ JS fetch('/colors') every 500ms"]
-        js_client --> html_grid["🟪 HTML Grid UI<br/>Cube 1 | Cube 2 | Cube 3 | Blend"]
+    subgraph Dashboard["Web Dashboard (index.html + JS)"]
+        colors_api --> js_client["JavaScript fetch('/colors') every 500ms"]
+        js_client --> html_grid["HTML Grid UI (Cube 1 | Cube 2 | Cube 3 | Blend)"]
     end
 
     %% === FEEDBACK LOOP ===
     user_feedback --> user
-
 ```
 
 |   Emotion    |   RGB Values    | Color  |
