@@ -226,24 +226,36 @@ Hold colored objects near sensor to change your pixel!
 
 ```mermaid
 flowchart LR
-    subgraph EmotionCubes["Emotion Cubes (Raspberry Pi 1-3)"]
-        cam["Camera (OpenCV + FER)"] --> detect["Emotion Recognition"]
-        detect -->|Map to RGB| led["NeoPixel LED Ring"]
-        detect -->|Publish RGB via MQTT| mqtt_client["MQTT Client"]
-        led -->|Frosted Acrylic Diffusion| user["User sees light feedback"]
+    %% USER INTERACTION
+    user["User expresses emotion"] --> cam["Camera using OpenCV and FER"]
+
+    %% EMOTION CUBE LAYER
+    subgraph Cube["Emotion Cube (Raspberry Pi)"]
+        cam --> detect["Emotion Detection (FER mtcnn False)"]
+        detect --> led["NeoPixel LED Ring"]
+        detect --> mqtt_pub["MQTT Publish cube id emotion"]
+        led --> user_feedback["Light Feedback through Frosted Acrylic"]
     end
 
-    subgraph Broker["MQTT Broker (10.56.129.182)"]
-        mqtt_client --> broker_server["Mosquitto Broker"]
+    %% BROKER LAYER
+    subgraph Broker["MQTT Broker Mosquitto 10.56.129.182"]
+        mqtt_pub --> broker_server["Receives cube emotion topics"]
     end
 
-    subgraph Dashboard["Flask + Web Dashboard"]
-        broker_server --> flask_app["Flask App (flask_mqtt)"]
-        flask_app -->|/colors JSON API| js_client["JavaScript Fetch"]
-        js_client --> web_ui["HTML Grid Dashboard"]
+    %% FLASK BACKEND
+    subgraph FlaskApp["Flask Server using flask mqtt"]
+        broker_server --> flask_mqtt["MQTT Subscriber"]
+        flask_mqtt --> colors_api["JSON Endpoint for cube colors and blend"]
     end
 
-    user -->|Facial Expression| cam
+    %% FRONTEND DASHBOARD
+    subgraph Dashboard["Web Dashboard HTML and JavaScript"]
+        colors_api --> js_client["JavaScript fetch colors every 500ms"]
+        js_client --> html_grid["Grid UI showing Cube1 Cube2 Cube3 and Blend"]
+    end
+
+    %% FEEDBACK LOOP
+    user_feedback --> user
 ```
 
 |   Emotion    |   RGB Values    | Color  |
