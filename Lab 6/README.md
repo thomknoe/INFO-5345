@@ -86,6 +86,8 @@ mosquitto_pub -h farlab.infosci.cornell.edu -p 1883 -t 'IDD/test/yourname' -m 'H
 | **4** | Weather Spirits                        | Portable diffused lights reflecting remote environmental data (like sunlight or weather). Cloud API maps temperature and condition data to animated color gradients.                       |
 | **5** | Memory Stones                          | Acrylic diffusers that store and replay past collective color states. Shared color history replays as a soft gradient loop representing group continuity over time.                        |
 
+<mark> _**AI Usage:** Utilized assistance from ChatGPT for ideation and generation._ </mark>
+
 ---
 
 <details>
