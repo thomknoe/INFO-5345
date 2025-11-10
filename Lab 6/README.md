@@ -227,14 +227,14 @@ Hold colored objects near sensor to change your pixel!
 ```mermaid
 flowchart LR
     %% === USER INTERACTION ===
-    user["User (expresses emotion)"] --> cam["Camera (OpenCV + FER)"]
+    user["User expresses emotion"] --> cam["Camera using OpenCV and FER"]
 
     %% === EMOTION CUBE LAYER ===
     subgraph Cube["Emotion Cube (Raspberry Pi)"]
-        cam --> detect["Emotion Detection (FER, mtcnn=False)"]
-        detect -->|Map to RGB via emotion_colors{}| led["NeoPixel LED Ring"]
-        detect -->|Publish RGB cube/{id}/emotion| mqtt_pub["paho-mqtt Client"]
-        led -->|Diffuse through frosted acrylic| user_feedback["Visual Light Feedback"]
+        cam --> detect["Emotion Detection via FER (mtcnn=False)"]
+        detect -->|Map to RGB using emotion color table| led["NeoPixel LED Ring"]
+        detect -->|Publish RGB message 'cube/{id}/emotion'| mqtt_pub["paho-mqtt Client"]
+        led -->|Light diffused through frosted acrylic| user_feedback["Visual Light Feedback"]
     end
 
     %% === BROKER LAYER ===
@@ -243,19 +243,20 @@ flowchart LR
     end
 
     %% === BACKEND LAYER ===
-    subgraph FlaskApp["Flask Server (flask_mqtt)"]
+    subgraph FlaskApp["Flask Server using flask_mqtt"]
         broker_server --> flask_mqtt["MQTT Subscriber"]
-        flask_mqtt -->|Store cube RGB & compute blend| colors_api["/colors JSON Endpoint"]
+        flask_mqtt -->|Store cube RGB and compute blend| colors_api["/colors JSON Endpoint"]
     end
 
     %% === FRONTEND LAYER ===
-    subgraph Dashboard["Web Dashboard (index.html + JS)"]
-        colors_api --> js_client["JavaScript fetch('/colors') every 500ms"]
-        js_client --> html_grid["HTML Grid UI (Cube 1 | Cube 2 | Cube 3 | Blend)"]
+    subgraph Dashboard["Web Dashboard (HTML + JavaScript)"]
+        colors_api --> js_client["JavaScript fetch to /colors every 500ms"]
+        js_client --> html_grid["Grid Interface showing Cube 1, Cube 2, Cube 3, and Blend"]
     end
 
     %% === FEEDBACK LOOP ===
     user_feedback --> user
+
 ```
 
 |   Emotion    |   RGB Values    | Color  |
