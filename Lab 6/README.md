@@ -236,7 +236,7 @@ Hold colored objects near sensor to change your pixel!
 
 **\*\*\*2. Architecture Diagram\*\*\***
 
-### <mark>Initial Code System</mark>
+### <mark>Initial Code</mark>
 
 <mark> Our code can be found at [emotion_led.py](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/emotion_led.py) </mark>
 
@@ -308,7 +308,7 @@ Hold colored objects near sensor to change your pixel!
 - <mark> Watch Testing Session # 1: [Testing Session # 1](https://drive.google.com/file/d/180PDUNI8GRM15R_p8Bw-a6V1HNUoArFK/view?usp=sharing) </mark>
 - <mark> Watch Testing Session # 2: [Testing Session # 2](https://drive.google.com/file/d/1wpqyTuACpf4Y45PojNBQiz9cMRhHCeiW/view?usp=sharing) </mark>
 
-<mark> We recruited 2 users from Architecture and 1 user from Design Tech to test and experience the cubes. We approached them in studio, gave a brief introduction on the IxD project, and allowed them to enact various emotional reactions they can make in front of the webcam. Users displayed great interest in the feedback mechanism of the system, but the latency often effected the overall experience (i.e., insufficient inferencing data to display the correct light or delayed in display for the correct emotion). Ultimately users found the experience to be delayed, yet charming and unexpected in its output.</mark>
+<mark> We recruited 2 users from Architecture and 1 user from Design Tech to test and experience the cubes. We approached them in-person in studio, gave a brief introduction on the IxD project, and allowed them to enact various emotional reactions they can make in front of the webcam. Users displayed great interest in the feedback mechanism of the system, but the latency often effected the overall experience (i.e., insufficient inferencing data to display the correct light or delayed in display for the correct emotion). Ultimately users found the experience to be delayed, yet charming and unexpected in its output.</mark>
 
 <p align="center">
 	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Part_2/Testing_Group.jpg" alt="Testing Group" width="100%">
