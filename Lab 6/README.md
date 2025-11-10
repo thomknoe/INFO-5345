@@ -222,42 +222,6 @@ Hold colored objects near sensor to change your pixel!
 
 <mark> Telepresence Emotion Cubes are a networked system of illuminated modules that visualize and transmit human emotion. Each cube features an OpenCV-based facial expression detector that analyzes the user’s face in real time through the webcam. Detected emotions are displayed through a frosted acrylic enclosure, diffusing internal LEDs into a soft, ambient glow. As emotion shifts, the cubes change color and publish their data across the network, enabling feedback between screen recognition and physical illumination. This interface allows users to physically see their emotional state in both the interface and the surrounding light. </mark>
 
-**\*\*\*2. Architecture Diagram\*\*\***
-
-```mermaid
-flowchart LR
-    %% USER INTERACTION
-    user["User expresses emotion"] --> cam["Camera using OpenCV and FER"]
-
-    %% EMOTION CUBE LAYER
-    subgraph Cube["Emotion Cube (Raspberry Pi)"]
-        cam --> detect["Emotion Detection (FER mtcnn False)"]
-        detect --> led["NeoPixel LED Ring"]
-        detect --> mqtt_pub["MQTT Publish cube id emotion"]
-        led --> user_feedback["Light Feedback through Frosted Acrylic"]
-    end
-
-    %% BROKER LAYER
-    subgraph Broker["MQTT Broker Mosquitto 10.56.129.182"]
-        mqtt_pub --> broker_server["Receives cube emotion topics"]
-    end
-
-    %% FLASK BACKEND
-    subgraph FlaskApp["Flask Server using flask mqtt"]
-        broker_server --> flask_mqtt["MQTT Subscriber"]
-        flask_mqtt --> colors_api["JSON Endpoint for cube colors and blend"]
-    end
-
-    %% FRONTEND DASHBOARD
-    subgraph Dashboard["Web Dashboard HTML and JavaScript"]
-        colors_api --> js_client["JavaScript fetch colors every 500ms"]
-        js_client --> html_grid["Grid UI showing Cube1 Cube2 Cube3 and Blend"]
-    end
-
-    %% FEEDBACK LOOP
-    user_feedback --> user
-```
-
 |   Emotion    |   RGB Values    | Color  |
 | :----------: | :-------------: | :----: |
 |  **Happy**   |  `255, 200, 0`  | Yellow |
@@ -267,6 +231,12 @@ flowchart LR
 | **Surprise** |  `0, 255, 255`  |  Cyan  |
 | **Disgust**  |   `0, 255, 0`   | Green  |
 |   **Fear**   |  `180, 0, 255`  | Purple |
+
+**\*\*\*2. Architecture Diagram\*\*\***
+
+![Diagram](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Part_2/Diagram.jpg)
+
+<mark> _**AI Usage:** Utilized assistance from ChatGPT fand PlanetUML for diagram layout._ </mark>
 
 **\*\*\*3. Build Documentation\*\*\***
 
@@ -291,6 +261,9 @@ flowchart LR
 ![Live Feed 2](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Part_2/Live_Feed_2.gif)
 
 ### <mark>Testing Sessions</mark>
+
+- <mark> Watch Testing Session # 1: [Testing Session # 1](https://drive.google.com/file/d/180PDUNI8GRM15R_p8Bw-a6V1HNUoArFK/view?usp=sharing) </mark>
+- <mark> Watch Testing Session # 2: [Testing Session # 2](https://drive.google.com/file/d/1wpqyTuACpf4Y45PojNBQiz9cMRhHCeiW/view?usp=sharing) </mark>
 
 <p align="center">
 	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Part_2/Testing_Group.jpg" alt="Testing Group" width="100%">
