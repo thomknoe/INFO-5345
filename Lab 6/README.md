@@ -222,6 +222,8 @@ Hold colored objects near sensor to change your pixel!
 
 **\*\*\*1. Project Description\*\*\***
 
+### <mark>Description</mark>
+
 <mark> Telepresent Emotion Cubes are an MQTT networked system of illuminated modules that visualize and transmit human emotion. Each cube features an OpenCV-based facial expression detector that analyzes the user’s face in real time through the webcam. Detected emotions are displayed through a frosted acrylic enclosure, diffusing internal LEDs into a soft, ambient glow. As emotion shifts, the cubes change color and publish their data across the network, enabling feedback between screen recognition and physical illumination. This interface allows users to physically see their emotional state in both the interface and the surrounding light. </mark>
 
 |   Emotion    |   RGB Values    | Color  | Swatch |
