@@ -226,24 +226,24 @@ Hold colored objects near sensor to change your pixel!
 
 ```mermaid
 flowchart LR
-    subgraph EmotionCubes[Emotion Cubes (Raspberry Pi 1–3)]
-        Camera[Camera (OpenCV + FER)] --> Detector[Emotion Recognition]
-        Detector -->|Maps to RGB| LED[NeoPixel LED Ring]
-        Detector -->|Publishes RGB via MQTT| MQTTClient[MQTT Client]
-        LED -->|Frosted Acrylic Diffusion| User[(User sees light feedback)]
+    subgraph EmotionCubes["Emotion Cubes (Raspberry Pi 1-3)"]
+        cam["Camera (OpenCV + FER)"] --> detect["Emotion Recognition"]
+        detect -->|Map to RGB| led["NeoPixel LED Ring"]
+        detect -->|Publish RGB via MQTT| mqtt_client["MQTT Client"]
+        led -->|Frosted Acrylic Diffusion| user["User sees light feedback"]
     end
 
-    subgraph Broker[MQTT Broker (10.56.129.182)]
-        MQTTClient --> BrokerServer[(Mosquitto Broker)]
+    subgraph Broker["MQTT Broker (10.56.129.182)"]
+        mqtt_client --> broker_server["Mosquitto Broker"]
     end
 
-    subgraph Dashboard[Flask + Web Dashboard]
-        BrokerServer --> FlaskApp[Flask App (flask_mqtt)]
-        FlaskApp -->|/colors JSON API| JSClient[JavaScript Fetch]
-        JSClient --> WebUI[HTML Grid Dashboard]
+    subgraph Dashboard["Flask + Web Dashboard"]
+        broker_server --> flask_app["Flask App (flask_mqtt)"]
+        flask_app -->|/colors JSON API| js_client["JavaScript Fetch"]
+        js_client --> web_ui["HTML Grid Dashboard"]
     end
 
-    User -->|Facial Expression| Camera
+    user -->|Facial Expression| cam
 ```
 
 |   Emotion    |   RGB Values    | Color  |
