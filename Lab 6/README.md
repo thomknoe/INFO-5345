@@ -249,7 +249,7 @@ Hold colored objects near sensor to change your pixel!
 
 ### <mark>Fabrication Assembly</mark>
 
-<mark> cubes were uniform in their assembly. The webcam was prominently attached as an add-on. </mark>
+<mark> The emotion cubes were uniform in their assembly. The webcam was prominently attached as an add-on. </mark>
 
 ![Mockups 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Part_2/Mockups_5.jpg)
 ![Mockups 2](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Part_2/Mockups_4.jpg)
@@ -261,6 +261,18 @@ Hold colored objects near sensor to change your pixel!
 
 ### <mark>Testing Setup</mark>
 
+<mark> Our code can be found at [emotion_publisher.py](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/emotion_publisher.py) </mark>
+
+<mark> Our web app can be found at [app.py](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/app.py) + [index.html](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/templates/index.html) </mark>
+
+<mark> _**AI Usage:** Utilized assistance from ChatGPT for the writing of code._ </mark>
+
+<mark> _**Pros:** ._ </mark>
+
+<mark> _**Cons:** ._ </mark>
+
+<mark> For testing purposes, we decided to array the emotion cubes out on a desk facing the monitor where the web app would display the colors and blend them together, alongside the video feed and the OpenCV inference. However, this set up can also be arranged in a variety of remote, environments and situations, allowing for the telepresence aspects to fully come into effect. This testing set up was made so that all inputs and outputs could be situated in one place so as to record and document clearly.</mark>
+
 ![Live Feed 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Part_2/Live_Feed_1.gif)
 ![Live Feed 2](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Part_2/Live_Feed_2.gif)
 
@@ -268,6 +280,8 @@ Hold colored objects near sensor to change your pixel!
 
 - <mark> Watch Testing Session # 1: [Testing Session # 1](https://drive.google.com/file/d/180PDUNI8GRM15R_p8Bw-a6V1HNUoArFK/view?usp=sharing) </mark>
 - <mark> Watch Testing Session # 2: [Testing Session # 2](https://drive.google.com/file/d/1wpqyTuACpf4Y45PojNBQiz9cMRhHCeiW/view?usp=sharing) </mark>
+
+<mark> We recruited 2 users from Architecture and 1 user from Design Tech to test and experience the emotion cubes. We gave them a brief introduction on the project and decided to allow them to explore the different emotion inferences that can make in front of the webcam. Displayed great interest in the feedback mechnaism, but the latency often affected the overall experience.</mark>
 
 <p align="center">
 	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Part_2/Testing_Group.jpg" alt="Testing Group" width="100%">
