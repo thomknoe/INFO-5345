@@ -226,24 +226,37 @@ Hold colored objects near sensor to change your pixel!
 
 ```mermaid
 flowchart LR
-    subgraph EmotionCubes["Emotion Cubes (Raspberry Pi 1-3)"]
-        cam["Camera (OpenCV + FER)"] --> detect["Emotion Recognition"]
-        detect -->|Map to RGB| led["NeoPixel LED Ring"]
-        detect -->|Publish RGB via MQTT| mqtt_client["MQTT Client"]
-        led -->|Frosted Acrylic Diffusion| user["User sees light feedback"]
+    %% === USER INTERACTION ===
+    user["🧑 User<br/>(expresses emotion)"] --> cam["📷 Camera<br/>(OpenCV + FER)"]
+
+    %% === EMOTION CUBE LAYER ===
+    subgraph Cube["💡 Emotion Cube (Raspberry Pi)"]
+        cam --> detect["🧠 Emotion Detection<br/>(FER, mtcnn=False)"]
+        detect -->|Map to RGB via emotion_colors{}| led["🌈 NeoPixel LED Ring"]
+        detect -->|Publish RGB<br/>cube/{id}/emotion| mqtt_pub["📡 paho-mqtt Client"]
+        led -->|Diffuse through frosted acrylic| user_feedback["✨ Visual Light Feedback"]
     end
 
-    subgraph Broker["MQTT Broker (10.56.129.182)"]
-        mqtt_client --> broker_server["Mosquitto Broker"]
+    %% === BROKER LAYER ===
+    subgraph Broker["🔁 MQTT Broker (Mosquitto @ 10.56.129.182)"]
+        mqtt_pub --> broker_server["💬 Receives cube/#/emotion topics"]
     end
 
-    subgraph Dashboard["Flask + Web Dashboard"]
-        broker_server --> flask_app["Flask App (flask_mqtt)"]
-        flask_app -->|/colors JSON API| js_client["JavaScript Fetch"]
-        js_client --> web_ui["HTML Grid Dashboard"]
+    %% === BACKEND LAYER ===
+    subgraph FlaskApp["🧩 Flask Server (flask_mqtt)"]
+        broker_server --> flask_mqtt["📥 MQTT Subscriber"]
+        flask_mqtt -->|Store cube RGB & compute blend| colors_api["🌐 /colors JSON Endpoint"]
     end
 
-    user -->|Facial Expression| cam
+    %% === FRONTEND LAYER ===
+    subgraph Dashboard["🖥️ Web Dashboard (index.html + JS)"]
+        colors_api --> js_client["⚙️ JS fetch('/colors') every 500ms"]
+        js_client --> html_grid["🟪 HTML Grid UI<br/>Cube 1 | Cube 2 | Cube 3 | Blend"]
+    end
+
+    %% === FEEDBACK LOOP ===
+    user_feedback --> user
+
 ```
 
 |   Emotion    |   RGB Values    | Color  |
