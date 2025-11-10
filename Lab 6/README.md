@@ -80,7 +80,7 @@ mosquitto_pub -h farlab.infosci.cornell.edu -p 1883 -t 'IDD/test/yourname' -m 'H
 
 ### <mark>AI Ideation Sessions</mark>
 
-<mark>Taking inspiration from product studio, we decided to utilize AI to do a rapid ideation session to generate a few adjacent ideas to what we were thinking of. The original idea to begin the permutations included various MMQTT and affective computing related ideas. We decided to settle on a classic idea in the world of creative technology, Telepresent Emotion Cubes.</mark>
+<mark>Taking inspiration from product studio, we decided to utilize AI to do a rapid ideation session to generate a few adjacent ideas to what we were thinking of. The original idea to begin the permutations included various MQTT and affective computing related ideas. We decided to settle on a classic idea in the world of creative technology, Telepresent Emotion Cubes.</mark>
 
 | #     | Concept                   | Description / Interaction                                                                                                                                                        |
 | ----- | ------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
