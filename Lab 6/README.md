@@ -167,7 +167,7 @@ Hold colored objects near sensor to change your pixel!
 
 ### <mark>Pi Setup</mark>
 
-<mark>We assembled the Pis accordingly and organized them to communicate through MQTT, where one acted as the broker and the publisher, while the rest were simply publishers. Each Pic ame with its appropriate color detector.</mark>
+<mark>We assembled the Pis accordingly and organized them to communicate through MQTT, where one acted as the broker and the publisher, while the rest were simply publishers. Each Pi came with its appropriate color detector.</mark>
 
 ![Colors Command](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Part_1/Colors_Command.jpg)
 ![Pi](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Part_1/Pi.jpg)
@@ -240,7 +240,7 @@ Hold colored objects near sensor to change your pixel!
 
 <mark> _**AI Usage:** Utilized assistance from ChatGPT for the writing of code._ </mark>
 
-<mark> This code is the boiler plate code that showcases how emotion and sentiment is derived from user's facial expressions. This instance would then be applied across all individual emotion cubes and be networks together through MQTT subscription. This can allow for a variety of different telepresent interactions, being able to interpret emotions across a network (e.g., havign two participants know the emotional affect of their partner remotley). For our purposes, we decided to collect all these emotions (i.e., 3 Pis) and combine them to create a blended color; An amalgamation of all the emotions on the network. </mark>
+<mark> This code is the boiler plate code that showcases how emotion and sentiment is derived from user's facial expressions. This instance would then be applied across all individual emotion cubes and be networks together through MQTT subscription. This could allow for a variety of different telepresent interactions, being able to interpret emotions across a network (e.g., havign two participants know the emotional affect of their partner remotley). For our purposes, we decided to collect all these emotions (i.e., 3 Pis) and combine them to create a blended color; An amalgamation of all the emotions on the network. </mark>
 
 - <mark> cv2, fer </mark>
 - <mark> facenet-pytorch </mark>
@@ -259,7 +259,7 @@ Hold colored objects near sensor to change your pixel!
 
 ### <mark>Fabrication Process</mark>
 
-<mark> The cubes were made from laser, cut wood panels, and a buyer of frosted white acrylic and diffused clear acrylic. This is so that the light would be able to diffuse across the top surface of each cube. The main electronics componenents included integrating WS2812B RGB LED for the addressable lights. Each assembly was compact for each cubic enclosure. Openings were made for USB and USB-C ports. </mark>
+<mark> The cubes were made from laser, cut wood panels, and a buyer of frosted white acrylic and diffused clear acrylic. This is so that the light would be able to diffuse across the top surface of each cube. The main electronics componenents included integrating WS2812B RGB LEDs for the addressable lights. Each assembly was compact for each cubic enclosure. Openings were made for USB and USB-C ports. </mark>
 
 - <mark> Raspberry Pi 5 Model B/8GB </mark>
 - <mark> WS2812B RGB LED Rings 7 Bits </mark>
@@ -290,9 +290,9 @@ Hold colored objects near sensor to change your pixel!
 
 <mark> _**AI Usage:** Utilized assistance from ChatGPT for the writing of code._ </mark>
 
-<mark> For testing purposes, we decided to array the emotion cubes out on a desk facing the monitor where the web app would display the colors and blend them together, alongside the video feed and the OpenCV inference. However, this set up can also be arranged in a variety of remote, environments and situations, allowing for the telepresent aspects to fully come into effect. This testing set up was made so that all inputs and outputs could be situated in one place so as to record and document clearly.</mark>
+<mark> For testing purposes, we decided to array the emotion cubes out on a desk facing the monitor where the web app would display the colors and blend them together, alongside the video feed and the OpenCV inference. However, this set up can also be arranged in a variety of remote environments and situations, allowing for the telepresent aspects to fully come into effect. This testing set up was made so that all inputs and outputs could be situated in one place, so as to record and document clearly.</mark>
 
-<mark> One issue with this code set up is the amount of latency that is present when reading emotions directly from a live feed camera using OpenCV. This latency also factored into problems with the color display, whereby delays between the inference and the MQTT server, cause the color to change to lag slight. This became more apparent in our user testing.</mark>
+<mark> One issue with this generated code is the amount of latency that is present when reading emotions directly from a live feed camera using OpenCV. This latency also factored into problems with the color display, whereby delays between the inference and the MQTT server cause the color to change to lag slightly. This became apparent in our user testing.</mark>
 
 ![Live Feed 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Part_2/Live_Feed_1.gif)
 ![Live Feed 2](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Part_2/Live_Feed_2.gif)
@@ -302,7 +302,7 @@ Hold colored objects near sensor to change your pixel!
 - <mark> Watch Testing Session # 1: [Testing Session # 1](https://drive.google.com/file/d/180PDUNI8GRM15R_p8Bw-a6V1HNUoArFK/view?usp=sharing) </mark>
 - <mark> Watch Testing Session # 2: [Testing Session # 2](https://drive.google.com/file/d/1wpqyTuACpf4Y45PojNBQiz9cMRhHCeiW/view?usp=sharing) </mark>
 
-<mark> We recruited 2 users from Architecture and 1 user from Design Tech to test and experience the emotion cubes. We approached them in studio, gave a brief introduction on the project, and allowed them to enact various emotional reactions they can make in front of the webcam. Users displayed great interest in the feedback mechanism of the system, but the latency often effected the overall experience. Ultimately users found the experience to be delayed, yet charming and unexpected in its output.</mark>
+<mark> We recruited 2 users from Architecture and 1 user from Design Tech to test and experience the emotion cubes. We approached them in studio, gave a brief introduction on the IxD project, and allowed them to enact various emotional reactions they can make in front of the webcam. Users displayed great interest in the feedback mechanism of the system, but the latency often effected the overall experience (i.e., insufficient inferencing data to display the correct light or delayed in display for the correct emotion). Ultimately users found the experience to be delayed, yet charming and unexpected in its output.</mark>
 
 <p align="center">
 	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Part_2/Testing_Group.jpg" alt="Testing Group" width="100%">
