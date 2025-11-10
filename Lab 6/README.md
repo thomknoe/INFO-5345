@@ -292,7 +292,7 @@ Hold colored objects near sensor to change your pixel!
 
 <mark> For testing purposes, we decided to array the emotion cubes out on a desk facing the monitor where the web app would display the colors and blend them together, alongside the video feed and the OpenCV inference. However, this set up can also be arranged in a variety of remote environments and situations, allowing for the telepresent aspects to fully come into effect. This testing set up was made so that all inputs and outputs could be situated in one place, so as to record and document clearly.</mark>
 
-<mark> One issue with this generated code is the amount of latency that is present when reading emotions directly from a live feed camera using OpenCV. This latency also factored into problems with the color display, whereby delays between the inference and the MQTT server cause the color to change to lag slightly. This became apparent in our user testing.</mark>
+<mark> One issue with this generated code is the amount of latency that is present when reading emotions directly from a live feed camera using OpenCV. This latency also factored into problems with the color display, whereby delays between the inference and the MQTT server cause errors in the color change or color persistence. This became apparent in our user testing.</mark>
 
 ![Live Feed 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Part_2/Live_Feed_1.gif)
 ![Live Feed 2](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Part_2/Live_Feed_2.gif)
