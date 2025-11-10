@@ -217,6 +217,7 @@ Hold colored objects near sensor to change your pixel!
 **\*\*\*3. Build Documentation\*\*\***
 
 ![Parts](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Part_2/Parts.jpg)
+
 ![Electronics](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Part_2/Electronics.jpg)
 
 ![Mockups 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Part_2/Mockups_5.jpg)
@@ -227,11 +228,10 @@ Hold colored objects near sensor to change your pixel!
 
 **\*\*\*4. User Testing\*\*\***
 
-- **Test with 2+ people NOT on your team**
-- Photos/video of use
-- What did they think before trying?
-- What surprised them?
-- What would they change?
+<p align="center">
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Part_2/Live_Feed_1.jpg" alt="Colors 3" width="49.5%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Part_2/Live_Feed_2.jpg" alt="Colors 2" width="49.5%"/>
+</p>
 
 **\*\*\*5. Reflection\*\*\***
 
