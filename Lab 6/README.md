@@ -226,43 +226,24 @@ Hold colored objects near sensor to change your pixel!
 
 ```mermaid
 flowchart LR
-    user --> cam
-    cam --> detect
-    detect --> led
-    detect --> mqtt_pub
-    led --> user_feedback
-    mqtt_pub --> broker_server
-    broker_server --> flask_mqtt
-    flask_mqtt --> colors_api
-    colors_api --> js_client
-    js_client --> html_grid
-    user_feedback --> user
-
-    subgraph Cube [Telepresence Emotion Cube Raspberry Pi]
-        cam[Camera OpenCV and FER]
-        detect[Emotion Detection (FER mtcnn False)]
-        led[NeoPixel LED Ring]
-        mqtt_pub[MQTT Publish cube id emotion]
-        user_feedback[Light Feedback through Frosted Acrylic]
+    subgraph EmotionCubes["Emotion Cubes (Raspberry Pi 1-3)"]
+        cam["Camera (OpenCV + FER)"] --> detect["Emotion Recognition"]
+        detect -->|Map to RGB| led["NeoPixel LED Ring"]
+        detect -->|Publish RGB via MQTT| mqtt_client["MQTT Client"]
+        led -->|Frosted Acrylic Diffusion| user["User sees light feedback"]
     end
 
-    subgraph Broker [MQTT Broker - Mosquitto 10.56.129.182]
-        broker_server[Receives cube topics]
+    subgraph Broker["MQTT Broker (10.56.129.182)"]
+        mqtt_client --> broker_server["Mosquitto Broker"]
     end
 
-    subgraph FlaskApp [Flask Server - flask mqtt]
-        flask_mqtt[MQTT Subscriber]
-        colors_api[/colors JSON Endpoint]
+    subgraph Dashboard["Flask + Web Dashboard"]
+        broker_server --> flask_app["Flask App (flask_mqtt)"]
+        flask_app -->|/colors JSON API| js_client["JavaScript Fetch"]
+        js_client --> web_ui["HTML Grid Dashboard"]
     end
 
-    subgraph Dashboard [Web Dashboard - HTML and JS]
-        js_client[JavaScript Fetch colors]
-        html_grid[Grid UI for Cube1 Cube2 Cube3 Blend]
-    end
-
-    subgraph UserLoop [User Interaction]
-        user[User expresses emotion]
-    end
+    user -->|Facial Expression| cam
 ```
 
 |   Emotion    |   RGB Values    | Color  |
