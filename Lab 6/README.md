@@ -2,8 +2,6 @@
 
 <mark> **Collaborators: Thomas Knoepffler, Carrie Wang, Xiaocheng Li, Julia Chen** </mark>
 
-For submission, replace this section with your documentation!
-
 ---
 
 <details>
@@ -153,6 +151,12 @@ Hold colored objects near sensor to change your pixel!
 
 **\*\*\*Include: Screenshot of grid + photo of your Pi setup\*\*\***
 
+<p align="center">
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Part 1/Colors_1.jpg" alt="Colors 1" width="33%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Part 1/Colors_2.jpg" alt="Colors 2" width="33%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Part 1/Colors_3.jpg" alt="Colors 3" width="33%"/>
+</p>
+
 ---
 
 <details>
@@ -186,10 +190,6 @@ Hold colored objects near sensor to change your pixel!
 **Others:** Games, presence display, mood ring
 
 </details>
-
-### Deliverables
-
-Replace this README with your documentation:
 
 **\*\*\*1. Project Description\*\*\***
 
