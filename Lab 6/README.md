@@ -167,7 +167,7 @@ Hold colored objects near sensor to change your pixel!
 
 ### <mark>Pi Setup</mark>
 
-<mark>We assembled the Pis accordingly and and organize them to communicate through MQTT, where one acted as the broker and the publisher, while the rest were simply publishers.</mark>
+<mark>We assembled the Pis accordingly and organized them to communicate through MQTT, where one acted as the broker and the publisher, while the rest were simply publishers. Each Picame with its appropriate color detector.</mark>
 
 ![Colors Command](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Part_1/Colors_Command.jpg)
 ![Pi](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Part_1/Pi.jpg)
