@@ -80,7 +80,7 @@ mosquitto_pub -h farlab.infosci.cornell.edu -p 1883 -t 'IDD/test/yourname' -m 'H
 
 ### <mark>AI Ideation Sessions</mark>
 
-<mark>Taking inspiration from product studio, we decided to utilize AI to do a rapid ideation session to generate a few adjacent ideas to what we were thinking of. The original idea to begin the permutations included various MQTT and affective computing related ideas. We decided to settle on a classic idea in the world of creative technology, Telepresent Emotion Cubes.</mark>
+<mark>Taking inspiration from product studio, we decided to utilize AI to do a rapid ideation session to generate a few adjacent ideas to what we were thinking of. The original theme to begin the permutations included various MQTT and affective computing related ideas. We decided to settle on a classic idea in the world of creative technology, Telepresent Emotion Cubes.</mark>
 
 | #     | Concept                   | Description / Interaction                                                                                                                                                        |
 | ----- | ------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -160,6 +160,7 @@ source .venv/bin/activate
 pip install -r requirements-pi.txt
 
 # Run the publisher
+
 python pixel_grid_publisher.py
 ```
 
@@ -252,7 +253,7 @@ Hold colored objects near sensor to change your pixel!
 
 <mark> _**Pros:** ChatGPT was able to come up with a comprehensive list of dependencies that would suffice for this project which normally would take a long time searching through pip, or some other package manager._ </mark>
 
-<mark> _**Cons:** The code base for these dependencies were out of date and therefore required very specific versions to be installed on each individual Pi so as to not differ from the code that would be provided in reference to a specific dependency library. This actually proved to be so unreliable and so detrimental that we had to utilize another Pi, because all the dependencies were clashing with each other, even within a virtual environment._ </mark>
+<mark> _**Cons:** The code base for these dependencies were out of date and therefore required very specific versions to be installed on each individual Pi so as to not differ from the code that would be provided in reference to a specific dependency library. This actually proved to be so unreliable and so detrimental that we had to utilize another Pi, because all the dependencies were clashing with each other, even within a contained virtual environment._ </mark>
 
 <mark> This code is the boiler plate code that showcases how emotion and sentiment is derived from user's facial expressions. This instance would then be applied across all individual cubes and be networks together through MQTT subscription. This could allow for a variety of different telepresent interactions, being able to interpret emotions across a network (e.g., havign two participants know the emotional affect of their partner remotley). For our purposes, we decided to collect all these emotions (i.e., 3 Pis) and combine them to create a blended color; An amalgamation of all the emotions on the network. </mark>
 
@@ -308,13 +309,13 @@ Hold colored objects near sensor to change your pixel!
 
 <mark> _**AI Usage:** Utilized assistance from ChatGPT for the writing of code._ </mark>
 
-<mark> _**Pros:** Transitioning from following a incremental coding procedure, where we began with local publishers and then extended to an MQTT server hosted on flask was very seamless using AI._ </mark>
+<mark> _**Pros:** Transitioning from following a incremental coding procedure, where we began with local publishers and then extended to an MQTT server hosted on flask was very seamless.._ </mark>
 
-<mark> _**Cons:** as with before, it was critical to ensure that all the dependencies were of the correct aversion across each individual pie, otherwise it would lead to problems with publishing to the broker, utilizing the GPIO pins, or accessing another peripheral that would be vital in the process._ </mark>
+<mark> _**Cons:** As with before, it was critical to ensure that all the dependencies were of the correct version across each individual Pi, otherwise it would lead to problems with publishing to the broker, utilizing the GPIO pins, or accessing another peripheral._ </mark>
 
-<mark> For testing purposes, we decided to array the cubes out on a desk facing the monitor where the web app would display the colors and blend them together, alongside the video feed and the OpenCV inference. However, this set up can also be arranged in a variety of remote environments and situations, allowing for the telepresent aspects to fully come into effect. This testing set up was made so that all inputs and outputs could be situated in one place, so as to record and document clearly.</mark>
+<mark> For testing purposes, we decided to array the cubes out on a desk facing the monitor where the web app would display the colors and blend them together, alongside the video feed and the OpenCV inference. However, this set up can also be arranged in a variety of remote environments and discrete situations, allowing for the telepresent aspects to fully come into effect. This testing set up was made so that all inputs and outputs could be situated in one place, so as to record and document clearly.</mark>
 
-<mark> One issue with this generated code is the amount of latency that is present when reading emotions directly from a live feed camera using OpenCV. This latency also factored into problems with the color display, whereby delays between the inference and the MQTT server cause errors in the color change or color persistence. This became apparent in our user testing.</mark>
+<mark> One issue with this generated code is the amount of latency that is present when reading emotions directly from a live feed camera using OpenCV. This latency also factored into problems with the color display, whereby delays between the inference and the MQTT server caused errors in the color change or color persistence. This became apparent in our user testing.</mark>
 
 ![Live Feed 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Part_2/Live_Feed_1.gif)
 ![Live Feed 2](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Part_2/Live_Feed_2.gif)
@@ -324,7 +325,7 @@ Hold colored objects near sensor to change your pixel!
 - <mark> Watch Testing Session # 1: [Testing Session # 1](https://drive.google.com/file/d/180PDUNI8GRM15R_p8Bw-a6V1HNUoArFK/view?usp=sharing) </mark>
 - <mark> Watch Testing Session # 2: [Testing Session # 2](https://drive.google.com/file/d/1wpqyTuACpf4Y45PojNBQiz9cMRhHCeiW/view?usp=sharing) </mark>
 
-<mark> We recruited 2 users from Architecture and 1 user from Design Tech to test and experience the cubes. We approached them in-person in studio, gave a brief introduction on the project, and allowed them to enact various emotional reactions they can make in front of the webcam. Users displayed great interest in the feedback mechanism of the system, but the latency often effected the overall experience (i.e., insufficient inferencing data to display the correct light or delayed in display for the correct emotion). Ultimately users found the experience to be delayed in interaction, yet charming and unexpected in its output, especially the color blend.</mark>
+<mark> We recruited 2 users from Architecture and 1 user from Design Tech to test and experience the cubes. We approached them in-person in studio, gave a brief introduction on the project, and allowed them to enact various emotional reactions they can make in front of the webcam. Users displayed great interest in the feedback mechanism of the system, but the latency often effected the overall experience (i.e., insufficient inferencing data to display the correct light or delayed in display for the correct emotion). Ultimately, users found the experience to be delayed in interaction, yet charming and unexpected in its output, especially the color blend.</mark>
 
 <p align="center">
 	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Part_2/Testing_Group.jpg" alt="Testing Group" width="100%">
@@ -340,7 +341,7 @@ Hold colored objects near sensor to change your pixel!
 
 <mark>The mapping of emotions to colors was captivating and intriguing to observe. While there are some reservations about affective computing in general, the concept of a system recognizing and displaying human emotions is often intriguing, and this lab effectively explored it. With that said, working with distributed systems was challenging due to the need for compliance and consistency across all devices. Any deviation from the norm or miscommunication regarding publisher and broker setups can cause errors (e.g., we came across an issue concerning GPIO pins that were different in programming across the Pis, perhaps due to different root dependencies).</mark>
 
-<mark>Additionally, edge computing and machine learning introduced an elements of latency, which further complicated real-time synchronization with MQTT. This ultimatley led to an erratic display at times of the cubes, which did not correpsond to the users face, but on the lack of data being read in due to lag. One benefit of this project was, due to the subjective nature of the color coding and emotions, there were no real "errors," so to speak, just different interpretations of color. With a more step-by-step interaction and code modifications to account for waiting for responses directly from the broker before updating, the cubes can become more versatile and consistent in their outputs.</mark>
+<mark>Additionally, edge computing and machine learning introduced an elements of latency, which further complicated real-time synchronization with MQTT. This ultimatley led to an erratic display at times of the cubes, which did not correspond to the users face, but on the lack of data being read in due to lag. One benefit of this project was, due to the subjective nature of color and emotion mapping, there were no real "errors" on the user side, so to speak, just different interpretations of color. With a more step-by-step interaction and code modifications to account for waiting for responses directly from the broker before updating, the cubes can become more versatile and consistent in their outputs.</mark>
 
 ---
 
