@@ -286,6 +286,7 @@ Hold colored objects near sensor to change your pixel!
 - <mark> Translucent Acrylic (1/8") </mark>
 - <mark> Diffuse Acrylic (1/8") </mark>
 
+![Squares](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Part_2/Squares.jpg)
 ![Parts](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Part_2/Parts.jpg)
 ![Electronics](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Part_2/Electronics.jpg)
 
