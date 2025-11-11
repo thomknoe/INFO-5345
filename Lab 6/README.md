@@ -250,6 +250,10 @@ Hold colored objects near sensor to change your pixel!
 
 <mark> _**AI Usage:** Utilized assistance from ChatGPT for the writing of code._ </mark>
 
+<mark> _**Pros:** ChatGPT was able to come up with a comprehensive list of dependencies that would suffice for this project which normally would take a long time searching through pip, or some other package manager._ </mark>
+
+<mark> _**Cons:** The code base for these dependencies were out of date and therefore required very specific versions to be installed on each individual Pi so as to not differ from the code that would be provided in reference to a specific dependency library. This actually proved to be so unreliable and so detrimental that we had to utilize another Pi, because all the dependencies were clashing with each other, even within a virtual environment._ </mark>
+
 <mark> This code is the boiler plate code that showcases how emotion and sentiment is derived from user's facial expressions. This instance would then be applied across all individual cubes and be networks together through MQTT subscription. This could allow for a variety of different telepresent interactions, being able to interpret emotions across a network (e.g., havign two participants know the emotional affect of their partner remotley). For our purposes, we decided to collect all these emotions (i.e., 3 Pis) and combine them to create a blended color; An amalgamation of all the emotions on the network. </mark>
 
 ### <mark>Dependencies</mark>
@@ -265,13 +269,13 @@ Hold colored objects near sensor to change your pixel!
 
 ![Diagram](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/Images/Part_2/Diagram.jpg)
 
-<mark> _**AI Usage:** Utilized assistance from ChatGPT fand PlanetUML for diagram layout._ </mark>
+<mark> _**AI Usage:** Utilized assistance from ChatGPT and PlanetUML for diagram layout._ </mark>
 
 **\*\*\*3. Build Documentation\*\*\***
 
 ### <mark>Fabrication Process</mark>
 
-<mark> The cubes were made from laser, cut wood panels, and a buyer of frosted white acrylic and diffused clear acrylic. This is so that the light would be able to diffuse across the top surface of each cube. The main electronics componenents included integrating WS2812B RGB LEDs for the addressable lights. Each assembly was compact for each cubic enclosure. Openings were made for USB and USB-C ports. </mark>
+<mark> The cubes were made from laser, cut wood panels, and a layer of frosted white acrylic and diffused clear acrylic. This is so that the light would be able to diffuse across the top surface of each cube. The main electronics componenents included integrating WS2812B RGB LEDs for the addressable lights. Each assembly was compact for each cubic enclosure. Openings were made for USB and USB-C ports. </mark>
 
 ### <mark>Materials</mark>
 
@@ -303,6 +307,10 @@ Hold colored objects near sensor to change your pixel!
 - <mark> Our web app can be found at [app.py](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/app.py) + [index.html](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%206/templates/index.html) </mark>
 
 <mark> _**AI Usage:** Utilized assistance from ChatGPT for the writing of code._ </mark>
+
+<mark> _**Pros:** Transitioning from following a incremental coding procedure, where we began with local publishers and then extended to an MQTT server hosted on flask was very seamless using AI._ </mark>
+
+<mark> _**Cons:** as with before, it was critical to ensure that all the dependencies were of the correct aversion across each individual pie, otherwise it would lead to problems with publishing to the broker, utilizing the GPIO pins, or accessing another peripheral that would be vital in the process._ </mark>
 
 <mark> For testing purposes, we decided to array the cubes out on a desk facing the monitor where the web app would display the colors and blend them together, alongside the video feed and the OpenCV inference. However, this set up can also be arranged in a variety of remote environments and situations, allowing for the telepresent aspects to fully come into effect. This testing set up was made so that all inputs and outputs could be situated in one place, so as to record and document clearly.</mark>
 
