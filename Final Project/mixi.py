@@ -75,7 +75,7 @@ music_proc = None  # subprocess handle for background music
 # ------------------------------------------------------------
 # LOAD YAML CONFIG (INGREDIENTS, EMOTIONS, RECIPES)
 # ------------------------------------------------------------
-with open("wine_matrix.yaml", "r") as f:
+with open("matrix.yaml", "r") as f:
     cfg = yaml.safe_load(f)
 
 INGREDIENTS = cfg.get(
