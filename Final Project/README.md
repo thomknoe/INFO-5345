@@ -107,6 +107,17 @@ print(f"Elapsed time: {elapsed:.2f} seconds")
 
 <mark>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</mark>
 
+### <mark>Dependencies</mark>
+
+- <mark> Arduino.h </mark>
+- <mark> pyserial </mark>
+- <mark> pyyaml </mark>
+- <mark> numpy </mark>
+- <mark> sounddevice </mark>
+- <mark> SpeechRecognition </mark>
+- <mark> pillow </mark>
+- <mark> openai </mark>
+
 ![UML Diagram](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Final%20Project/Diagrams/UML_Diagram.png)
 
 **\*\*\*7. Form Factor\*\*\***
@@ -123,6 +134,12 @@ print(f"Elapsed time: {elapsed:.2f} seconds")
 **\*\*\*8. Technical Drawings\*\*\***
 
 <mark>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</mark>
+
+### <mark>Materials</mark>
+
+- <mark> 1/16" Balsawood Stock </mark>
+- <mark> Fine Grain Sandpaper </mark>
+- <mark> Wood Glue </mark>
 
 ![Technical Sections](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Final%20Project/Diagrams/Technical_Sections.png)
 ![Technical Isometric](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Final%20Project/Diagrams/Technical_Isometric.png)
