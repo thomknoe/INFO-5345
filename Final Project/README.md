@@ -33,7 +33,7 @@
 
 <mark>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</mark>
 
-### <mark>Components</mark>
+**\*\*\*Components\*\*\***
 
 - <mark> Raspberry Pi 5 Model B/8GB </mark>
 - <mark> (6) 5V Peristaltic Pump Motors </mark>
@@ -116,9 +116,13 @@ print(f"Elapsed time: {elapsed:.2f} seconds")
 
 **\*\*\*6. Coding Stack\*\*\***
 
+<mark> Our code can be found at [mixi.py](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Final%20Project/mixi.py), [matrix.yaml](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Final%20Project/matrix.yaml), and [firmware.ino](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Final%20Project/firmware.ino) </mark>
+
+<mark> _**AI Usage:** Utilized assistance from Cursor for the writing of code._ </mark>
+
 <mark>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</mark>
 
-### <mark>Dependencies</mark>
+**\*\*\*Dependencies\*\*\***
 
 - <mark> Arduino.h </mark>
 - <mark> pyserial </mark>
@@ -142,13 +146,13 @@ print(f"Elapsed time: {elapsed:.2f} seconds")
 <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Final%20Project/Images/Inspiration_2.jpg" alt="Inspiration 2" width="49.5%"/>
 </p>
 
-<mark> _**Image Source:** Lorem Ipsum._ </mark>
+<mark> \_**Image Source:** Images found from Pinterest for keywords: "Beverage Bar," "Liquid Array," "Glass Arrangements." </mark>
 
 **\*\*\*8. Technical Drawings\*\*\***
 
 <mark>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</mark>
 
-### <mark>Materials</mark>
+**\*\*\*Materials\*\*\***
 
 - <mark> 1/16" Balsawood Stock </mark>
 - <mark> 1/4" ID x 3/8" OD Clear Tubing </mark>
@@ -174,7 +178,11 @@ print(f"Elapsed time: {elapsed:.2f} seconds")
 ![Assembly 9](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Final%20Project/Images/Assembly_9.jpg)
 ![Assembly 10](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Final%20Project/Images/Assembly_10.jpg)
 
-**\*\*\*10. Demo\*\*\***
+**\*\*\*10. User Demo\*\*\***
+
+- <mark> Watch User Demo Video # 1: [User Demo #1: Part 1](https://drive.google.com/file/d/1ng0rriCnv4IIJMrV4pIEbAiaqybnliK9/view?usp=sharing) and [Demo #1: Part 2](https://drive.google.com/file/d/1h4tnX7UXlHBnixwkRbmMY9bSQM1rhkLw/view?usp=sharing)</mark>
+
+- <mark> Watch User Demo Video # 2: [User Demo #2: Part 1](https://drive.google.com/file/d/1AeCpl_paqU5a5wBIbb9jwm_wgQ3LofRY/view?usp=sharing) and [Demo #2: Part 2](https://drive.google.com/file/d/1_AxzxZydFRWsPnGCHymTg6LKP1zpls3W/view?usp=sharing)</mark>
 
 <mark>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</mark>
 
