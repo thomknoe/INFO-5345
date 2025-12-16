@@ -6,7 +6,7 @@
 
 **\*\*\*1. Background\*\*\***
 
-<mark>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</mark>
+<mark>This project is a continuation of a previous project conducted in a previous semester within the Design for Physical Interaction I course, a specialized course for M.S. Design Technology students at the Ithaca campus. The original project aimed to develop a telepresent beverage serving machine that facilitated remote communication between individuals. The machine incorporated a concept of emotional analysis, mapping emotions to specific liquids that would be dispensed by the machine. However, the original project primarily served as a speculative proof of concept, lacking the functionality of safely consuming beverages from the device, refiling the beevrage container, and the complete integration of AI for taste mapping. The objective of this current iteration is to incorporate these elements while expanding the social aspect of the project, inviting multiple users to utilize the device, rather than limiting it to two participants.</mark>
 
 <p align="center">
 <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Final%20Project/Images/MIXI_1.jpg" alt="MIXI 1" width="49.5%"/>
@@ -19,7 +19,7 @@
 
 **\*\*\*2. User Interaction\*\*\***
 
-<mark>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</mark>
+<mark>The device was conceptualized to serve an initial user flow, enabling individuals to express their emotions either verbally or through typed text. Upon receiving these inputs, the AI-integrated device would provide personalized recommendations. The device would be designed as a consumer product, accessible to users both in their homes and at various beverage establishments. Its versatility would allow it to adapt to different use cases, such as cracking open a beverage, complementing a specific sentiment, or suggesting novel recipes that align with the user’s current emotional state.</mark>
 
 ![Storyboard](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Final%20Project/Diagrams/Storyboard.png)
 
@@ -31,7 +31,7 @@
 
 **\*\*\*3. Electronics Assembly\*\*\***
 
-<mark>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</mark>
+<mark>The electronics assembly underwent a significant integration compared to previous labs, employing both a Raspberry Pi and an Arduino microcontroller. This integration was necessitated by the requirement to control six peristaltic pump motors and prevent excessive utilization of the GPIO pins on the Raspberry Pi, which were allocated for the Mini PiTFT screen and rotary encoder. The ultimate electronics assembly comprised of six distinct pump motors connected to a relay, which was interfaced by the Arduino microcontroller. The Arduino microcontroller communicated directly with the Raspberry Pi via serial communication. Additionally, the Raspberry Pi served as the user interface and control system as well as providing access to the microphone via the webcam and enabling direct Bluetooth connection to a mini speaker.</mark>
 
 **\*\*\*Components\*\*\***
 
@@ -55,9 +55,11 @@
 
 - <mark> Watch Mix Testing Video: [Mix Testing](https://drive.google.com/file/d/16aIuF2HokIAy-B7x9K5U18C-VjKTIVIT/view?usp=sharing) </mark>
 
-<mark>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</mark>
+<mark>One initial challenge we encountered was ensuring the precise calibration of the pump motors to achieve a specific liquid dispensing rate from the container to the cup. Due to the non-standardization of the motors and the physics governing liquid transfer, the length of the tubes also played a crucial role. Consequently, initial calibration and firmware programming into the Arduino were necessary. All tubes were cut to the same length to establish a consistent distance for liquid travel, eliminating it as a variable to consider. To address this, we utilized ChatGPT to generate a calibration code that enabled us to test the motor’s fill-up capacity at least five liquid ounces in a container. We then marked the moment when the flow should cease by tracking the time. The period during which the motor operates was used to calculate the exact velocity at which the motor induces the liquid, resulting in the final constants we determined. These constants were then applied across all serialized callbacks to the Arduino, ensuring a consistent amount of liquid is poured into the cup and maintaining the desired ratio of each liquid extracted from its respective container.</mark>
 
 ```
+// MOTOR CALIBRATION CODE
+
 import time
 import serial
 
@@ -100,7 +102,7 @@ print(f"Elapsed time: {elapsed:.2f} seconds")
 
 **\*\*\*5. Beverage Logic\*\*\***
 
-<mark>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</mark>
+<mark>Ultimately, we decided to utilize teas as a versatile mixing substrate, enabling the creation of a wide variety of beverages while simultaneously establishing a precise correlation for emotions. Teas have a longstanding history of mapping emotional states and moods, whether it be through calming teas, uplifting teas, energetic teas, cleansing teas, or others. Additionally, teas are increasingly being embraced as a foundational ingredient in mixology. The mixing of teas can also be considered a form of gas mixology. Furthermore, teas are cost-effective and can be brewed in batches, making them efficient for multiple uses and aligning with our objective of batch production, which we had in mind when we initially began testing the device. Below is a table of the tea ingredients we used the beverage mixture they correspond to and the amount of parts one would need to in order to brew that particular batch.</mark>
 
 | Emotion    | Beverage Name    | Black Tea | Green Tea | Rooibos Tea | Chamomile Tea | Lemon Tea | Sparkling Water |
 | ---------- | ---------------- | --------- | --------- | ----------- | ------------- | --------- | --------------- |
@@ -120,7 +122,7 @@ print(f"Elapsed time: {elapsed:.2f} seconds")
 
 <mark> _**AI Usage:** Utilized assistance from Cursor for the writing of code._ </mark>
 
-<mark>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</mark>
+<mark>The primary configuration is loaded from the .yaml (Pi) file and establishes a fixed ordering of ingredients, a closed set of emotion labels, and recipe definitions expressed as proportional arrays. The .py (Pi) file maintains a state loop that handles menu navigation, mode switching, and user actions. It also calls the OpenAI API to engage in text classification for sentiment analysis. When an emotion is selected—either manually or via text classification via ChatGPT—the corresponding recipe array is retrieved, normalized to a fixed total volume by proportional scaling, and serialized to the .ino (Arduino) file to handle the pump logics.</mark>
 
 **\*\*\*Dependencies\*\*\***
 
@@ -139,18 +141,18 @@ print(f"Elapsed time: {elapsed:.2f} seconds")
 
 **\*\*\*7. Form Factor\*\*\***
 
-<mark>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</mark>
+<mark>The exploration of form factors encompassed various image references to arrayed beverage machines or siphon valves, drawing inspiration from tonics, tinctures, and other scent-related confluences. The primary source for the majority of these images was Pinterest.</mark>
 
 <p align="center">
 <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Final%20Project/Images/Inspiration_1.jpg" alt="Inspiration 1" width="49.5%"/>
 <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Final%20Project/Images/Inspiration_2.jpg" alt="Inspiration 2" width="49.5%"/>
 </p>
 
-<mark> \_**Image Source:** Images found from Pinterest for keywords: "Beverage Bar," "Liquid Array," "Glass Arrangements." </mark>
+<mark> \_**Image Source:** Images found from Pinterest for keywords: "Beverage Bar," "Siphon Array," "Glass Arrangements." </mark>
 
 **\*\*\*8. Technical Drawings\*\*\***
 
-<mark>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</mark>
+<mark>3D models were created using Rhino and Grasshopper software. The primary fabrication method was laser cutting, so models were flattened and transcribed in Adobe Illustrator for the cutting of each face of the device. These individual faces were subsequently assembled manually using wood adhesives.</mark>
 
 **\*\*\*Materials\*\*\***
 
@@ -165,8 +167,6 @@ print(f"Elapsed time: {elapsed:.2f} seconds")
 
 **\*\*\*9. Full Assembly\*\*\***
 
-<mark>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</mark>
-
 ![Assembly 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Final%20Project/Images/Assembly_1.jpg)
 ![Assembly 2](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Final%20Project/Images/Assembly_2.jpg)
 ![Assembly 3](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Final%20Project/Images/Assembly_3.jpg)
@@ -178,13 +178,13 @@ print(f"Elapsed time: {elapsed:.2f} seconds")
 ![Assembly 9](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Final%20Project/Images/Assembly_9.jpg)
 ![Assembly 10](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Final%20Project/Images/Assembly_10.jpg)
 
-**\*\*\*10. User Demo\*\*\***
+**\*\*\*10. User Testing\*\*\***
 
-- <mark> Watch User Demo Video # 1: [User Demo #1: Part 1](https://drive.google.com/file/d/1ng0rriCnv4IIJMrV4pIEbAiaqybnliK9/view?usp=sharing) and [Demo #1: Part 2](https://drive.google.com/file/d/1h4tnX7UXlHBnixwkRbmMY9bSQM1rhkLw/view?usp=sharing)</mark>
+- <mark> Watch User Testing Video # 1: [User Testing #1: Part 1](https://drive.google.com/file/d/1ng0rriCnv4IIJMrV4pIEbAiaqybnliK9/view?usp=sharing) and [User Testing #1: Part 2](https://drive.google.com/file/d/1h4tnX7UXlHBnixwkRbmMY9bSQM1rhkLw/view?usp=sharing)</mark>
 
-- <mark> Watch User Demo Video # 2: [User Demo #2: Part 1](https://drive.google.com/file/d/1AeCpl_paqU5a5wBIbb9jwm_wgQ3LofRY/view?usp=sharing) and [Demo #2: Part 2](https://drive.google.com/file/d/1_AxzxZydFRWsPnGCHymTg6LKP1zpls3W/view?usp=sharing)</mark>
+- <mark> Watch User Testing Video # 2: [User Testing #2: Part 1](https://drive.google.com/file/d/1AeCpl_paqU5a5wBIbb9jwm_wgQ3LofRY/view?usp=sharing) and [User Testing #2: Part 2](https://drive.google.com/file/d/1_AxzxZydFRWsPnGCHymTg6LKP1zpls3W/view?usp=sharing)</mark>
 
-<mark>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</mark>
+<mark>During the showcase, we conducted user testing with a vast range of participants. The majority were from the interactive device design class, while a few participants, particularly those providing detailed feedback, worked in the maker space or adjacent to the Cornell Tech ecosystem. Five batches of iced tea were brewed the previous evening and chilled overnight to create five reservoirs of ice tea, each with an added sparkling water element. Users had the option to select a drink from the printed menu or engage with the AI bartender for a recommendation. All interaction elements were prominently displayed and illuminated with a lamp to ensure user awareness of the available options. Team members were also present to assist participants throughout the process.</mark>
 
 ![Demo 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Final%20Project/GIFs/Demo_1.gif)
 ![Demo 2](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Final%20Project/GIFs/Demo_2.gif)
@@ -195,7 +195,9 @@ print(f"Elapsed time: {elapsed:.2f} seconds")
 
 **\*\*\*11. Reflections\*\*\***
 
-<mark>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</mark>
+<mark>The interactive device gained significant popularity and was engaged with multiple times throughout the night. Participants were eager to utilize the device, possibly motivated by the prospect of obtaining a personalized beverage at the conclusion of the interaction. The project also received positive feedback regarding its form factor, with appreciation expressed for the wood materials used and the overall compactness of the system. However, some critiques proved to be valuable for future iterations on the project.</mark>
+
+<mark>One critique suggested implementing a more sophisticated AI taste pipeline. The current setup involves manually fixing labels to sentiment—happy, sad, angry, etc. One participant expressed interest in creating a system that maps each individual word in the dialogue and transforms it into the subsequent recipe, resulting in a more nuanced algorithm and potentially a more complex beverage with various competing sentiment vectors influencing the overall taste. Additionally, participants noted that the machine was somewhat messy, dripping excess tea even before the pumps began. They also had to remain dry to prevent warping or bending the wood. This issue could be mitigated by using a siphon that allows all the tubes to converge at a single point, enabling the spigot to dispense the mixed beverages in one centralized location. Another problem was that most participants remained within the more positively affiliated affects and sentiments, such as happiness or excitement. As a means of encouraging individuals to explore other sentiments or even more complex emotions, changes in the flow or invitation to interaction would need to be considered to ensure that users can engage in the majority of the system’s features rather than remaining limited to a shallow end of the emotional spectrum.</mark>
 
 **\*\*\*12. Conclusions\*\*\***
 
