@@ -86,11 +86,18 @@
 
 <mark>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</mark>
 
+![Demo 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Final%20Project/GIFs/Demo_1.gif)
+![Demo 2](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Final%20Project/GIFs/Demo_2.gif)
+
+![Showcase 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Final%20Project/Images/Showcase_1.jpg)
+![Showcase 2](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Final%20Project/Images/Showcase_2.jpg)
+![Showcase 3](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Final%20Project/Images/Showcase_3.jpg)
+
 **\*\*\*11. Reflections\*\*\***
 
 <mark>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</mark>
 
-**\*\*\*12. Inspiration\*\*\***
+**\*\*\*12. Conclusions\*\*\***
 
 <mark>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</mark>
 
