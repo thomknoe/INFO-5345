@@ -81,6 +81,8 @@
 ![Assembly 6](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Final%20Project/Images/Assembly_6.jpg)
 ![Assembly 7](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Final%20Project/Images/Assembly_7.jpg)
 ![Assembly 8](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Final%20Project/Images/Assembly_8.jpg)
+![Assembly 9](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Final%20Project/Images/Assembly_9.jpg)
+![Assembly 10](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Final%20Project/Images/Assembly_10.jpg)
 
 **\*\*\*10. Demo\*\*\***
 
