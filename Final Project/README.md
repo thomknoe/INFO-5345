@@ -15,13 +15,18 @@
 <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Final%20Project/Images/MIXI_4.jpg" alt="MIXI 4" width="49.5%"/>
 </p>
 
-<mark> _**Image Source:** Original MIXI Project, Design for Physical Interaction, Fall 2024._ </mark>
+<mark> _**Image Source:** Original MIXI Project, DESIGN 6397: Physical Interaction I, Fall 2024._ </mark>
 
 **\*\*\*2. User Interaction\*\*\***
 
 <mark>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</mark>
 
 ![Storyboard](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Final%20Project/Diagrams/Storyboard.png)
+
+<mark> _**AI Usage:** Storyboard generated using Dall-E, ChatGPT. All artifacts preserved._ </mark>
+
+<mark> _**Original Prompt:** "Generate a storyboard for a user that is feeling sad but uses a AI powered beverage device called "MIXI" to make them an ideal drink that changes their mood for the better. Let them also have the option to try out new recipes generated from the AI."_ </mark>
+
 ![System Diagram](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Final%20Project/Diagrams/System_Diagram.png)
 
 **\*\*\*3. Electronics Assembly\*\*\***
@@ -42,7 +47,13 @@
 ![Electronics Assembly](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Final%20Project/Images/Electronics_Assembly.jpg)
 ![Componenent Diagram](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Final%20Project/Diagrams/Component_Diagram.png)
 
+<mark> _**AI Usage:** Utilized assistance from ChatGPT and PlanetUML for diagram layout._ </mark>
+
 **\*\*\*4. Fluid Mechanisms\*\*\***
+
+- <mark> Watch Calibration Setup Video: [Calibration Setup](https://drive.google.com/file/d/1KsrHT6vBCfjpTmsm-kpGdOIEWaFsvj8Y/view?usp=sharing) </mark>
+
+- <mark> Watch Mix Testing Video: [Mix Testing](https://drive.google.com/file/d/16aIuF2HokIAy-B7x9K5U18C-VjKTIVIT/view?usp=sharing) </mark>
 
 <mark>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</mark>
 
@@ -119,6 +130,8 @@ print(f"Elapsed time: {elapsed:.2f} seconds")
 - <mark> openai </mark>
 
 ![UML Diagram](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Final%20Project/Diagrams/UML_Diagram.png)
+
+<mark> _**AI Usage:** Utilized assistance from ChatGPT and PlanetUML for diagram layout._ </mark>
 
 **\*\*\*7. Form Factor\*\*\***
 
