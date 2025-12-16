@@ -21,7 +21,7 @@
 
 **\*\*\*2. User Interaction\*\*\***
 
-<mark>The device was conceptualized to serve an initial user flow, enabling individuals to express their emotions either verbally or through typed text. Upon receiving these inputs, the AI-integrated device would provide personalized recommendations. The device would be designed as a consumer product, accessible to users both in their homes and at various beverage establishments. It would adapt to different use cases such as serving a beverage that complements a specific sentiment, or suggest novel recipes that align with the user’s current emotional state.</mark>
+<mark>The device was conceptualized to serve an initial user flow, enabling individuals to express their emotions either verbally or through typed text. Upon receiving these inputs, the AI-integrated device would provide personalized recommendations. The device would be designed as a consumer product, accessible to users both in their homes and at various beverage venues. It would adapt to different use cases such as serving a beverage that complements a specific sentiment, or suggest novel recipes that align with the user’s current emotional state.</mark>
 
 ![Storyboard](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Final%20Project/Diagrams/Storyboard.png)
 
