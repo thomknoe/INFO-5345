@@ -53,6 +53,17 @@
 
 <mark>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</mark>
 
+![Inspiration 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Final%20Project/Images/Inspiration_1.jpg)
+![Inspiration 2](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Final%20Project/Images/Inspiration_2.jpg)
+
+<p align="center">
+<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Final%20Project/Images/AI_Image_1.jpg" alt="AI Image 1" width="49.5%"/>
+<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Final%20Project/Images/AI_Image_2.jpg" alt="AI Image 2" width="49.5%"/>
+<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Final%20Project/Images/AI_Image_3.jpg" alt="AI Image 3" width="49.5%"/>
+<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Final%20Project/Images/AI_Image_4.jpg" alt="AI Image 4" width="49.5%"/>
+</p>
+<mark> _**Image Source:** Original MIXI Project, Design for Physical Interaction, Fall 2024._ </mark>
+
 **\*\*\*8. Technical Drawings\*\*\***
 
 <mark>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</mark>
