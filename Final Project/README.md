@@ -138,7 +138,9 @@ print(f"Elapsed time: {elapsed:.2f} seconds")
 ### <mark>Materials</mark>
 
 - <mark> 1/16" Balsawood Stock </mark>
+- <mark> 1/4" ID x 3/8" OD Clear Tubing </mark>
 - <mark> Fine Grain Sandpaper </mark>
+- <mark> Black Felt </mark>
 - <mark> Wood Glue </mark>
 
 ![Technical Sections](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Final%20Project/Diagrams/Technical_Sections.png)
