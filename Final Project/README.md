@@ -28,6 +28,17 @@
 
 <mark>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</mark>
 
+### <mark>Components</mark>
+
+- <mark> Raspberry Pi 5 Model B/8GB </mark>
+- <mark> (6) 5V Peristaltic Pump Motors </mark>
+- <mark> 8-Channel 5V Relay </mark>
+- <mark> Arduino Micro Pro </mark>
+- <mark> Adafruit Mini PiTFT 1.14" 135x240 </mark>
+- <mark> Adafruit I2C Stemma QT Rotary Encoder </mark>
+- <mark> USB Webcam/Microphone </mark>
+- <mark> Mini Bluetooth Speacker </mark>
+
 ![Electronics Assembly](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Final%20Project/Images/Electronics_Assembly.jpg)
 ![Componenent Diagram](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Final%20Project/Diagrams/Component_Diagram.png)
 
