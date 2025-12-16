@@ -6,7 +6,9 @@
 
 **\*\*\*1. Background\*\*\***
 
-<mark>This project is a continuation of a previous project conducted in a previous semester within the Design for Physical Interaction I course, a specialized course for M.S. Design Technology students at the Ithaca campus. The original project aimed to develop a telepresent beverage serving machine that facilitated remote communication between individuals. The machine incorporated a concept of emotional analysis, mapping emotions to specific liquids that would be dispensed by the machine. However, the original project primarily served as a speculative proof of concept, lacking the functionality of safely consuming beverages from the device, refiling the beevrage container, and the complete integration of AI for taste mapping. The objective of this current iteration is to incorporate these elements while expanding the social aspect of the project, inviting multiple users to utilize the device, rather than limiting it to two participants.</mark>
+<mark>This project is a continuation of a previous project conducted in a previous semester within the Design for Physical Interaction I course, a specialized course for M.S. Design Technology students at the Ithaca campus. The original project aimed to develop a telepresent beverage serving machine that facilitated remote communication between individuals. The machine incorporated a concept of emotional analysis, mapping emotions to specific liquids that would be dispensed by the machine. However, the original project primarily served as a speculative proof of concept, lacking the functionality of safely consuming beverages from the device, refilling the beverage container, and the complete integration of AI for taste mapping. The objective of this current iteration is to incorporate these elements while expanding the social aspect of the project, inviting multiple users to utilize the device, rather than limiting it to two participants.</mark>
+
+<mark>Conveniently, CHI 2025 features a recent study on emotion-based mixology, which proposes an algorithmic framework linking emotional states to drink compositions. The paper can be found here: [Sip Your Emotions: Blending Emotion and Data in Cocktail Design](https://programs.sigchi.org/chi/2025/program/content/194424)</mark>
 
 <p align="center">
 <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Final%20Project/Images/MIXI_1.jpg" alt="MIXI 1" width="49.5%"/>
@@ -19,7 +21,7 @@
 
 **\*\*\*2. User Interaction\*\*\***
 
-<mark>The device was conceptualized to serve an initial user flow, enabling individuals to express their emotions either verbally or through typed text. Upon receiving these inputs, the AI-integrated device would provide personalized recommendations. The device would be designed as a consumer product, accessible to users both in their homes and at various beverage establishments. Its versatility would allow it to adapt to different use cases, such as cracking open a beverage, complementing a specific sentiment, or suggesting novel recipes that align with the user’s current emotional state.</mark>
+<mark>The device was conceptualized to serve an initial user flow, enabling individuals to express their emotions either verbally or through typed text. Upon receiving these inputs, the AI-integrated device would provide personalized recommendations. The device would be designed as a consumer product, accessible to users both in their homes and at various beverage establishments. It would adapt to different use cases such as serving a beverage that complements a specific sentiment, or suggest novel recipes that align with the user’s current emotional state.</mark>
 
 ![Storyboard](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Final%20Project/Diagrams/Storyboard.png)
 
@@ -31,7 +33,7 @@
 
 **\*\*\*3. Electronics Assembly\*\*\***
 
-<mark>The electronics assembly underwent a significant integration compared to previous labs, employing both a Raspberry Pi and an Arduino microcontroller. This integration was necessitated by the requirement to control six peristaltic pump motors and prevent excessive utilization of the GPIO pins on the Raspberry Pi, which were allocated for the Mini PiTFT screen and rotary encoder. The ultimate electronics assembly comprised of six distinct pump motors connected to a relay, which was interfaced by the Arduino microcontroller. The Arduino microcontroller communicated directly with the Raspberry Pi via serial communication. Additionally, the Raspberry Pi served as the user interface and control system as well as providing access to the microphone via the webcam and enabling direct Bluetooth connection to a mini speaker.</mark>
+<mark>The electronics assembly utilized significant integration compared to previous labs, employing both a Raspberry Pi and an Arduino microcontroller. This integration was needed to control six peristaltic pump motors and prevent excessive utilization of the GPIO pins on the Raspberry Pi, which were allocated for the Mini PiTFT screen and rotary encoder. The ultimate electronics assembly comprised of six distinct pump motors connected to a relay, which was interfaced by the Arduino. The Arduino then communicated directly with the Raspberry Pi via serial communication. The Raspberry Pi served as the user interface and control system as well as providing access to the microphone via the webcam and enabling direct Bluetooth connection to a mini speaker.</mark>
 
 **\*\*\*3.1 Components\*\*\***
 
@@ -55,7 +57,7 @@
 
 - <mark> Watch Mix Testing Video: [Mix Testing](https://drive.google.com/file/d/16aIuF2HokIAy-B7x9K5U18C-VjKTIVIT/view?usp=sharing) </mark>
 
-<mark>One initial challenge we encountered was ensuring the precise calibration of the pump motors to achieve a specific liquid dispensing rate from the container to the cup. Due to the non-standardization of the motors and the physics governing liquid transfer, the length of the tubes also played a crucial role. Consequently, initial calibration and firmware programming into the Arduino were necessary. All tubes were cut to the same length to establish a consistent distance for liquid travel, eliminating it as a variable to consider. To address this, we utilized ChatGPT to generate a calibration code that enabled us to test the motor’s fill-up capacity at least five liquid ounces in a container. We then marked the moment when the flow should cease by tracking the time. The period during which the motor operates was used to calculate the exact velocity at which the motor induces the liquid, resulting in the final constants we determined. These constants were then applied across all serialized callbacks to the Arduino, ensuring a consistent amount of liquid is poured into the cup and maintaining the desired ratio of each liquid extracted from its respective container.</mark>
+<mark>One initial challenge we encountered was ensuring the precise calibration of the pump motors to achieve a specific liquid dispensing rate from the container to the cup. Due to the non-standardization of the motors and the physics governing liquid transfer, the length of the tubes also played a crucial role. Consequently, initial calibration and firmware programming into the Arduino were necessary. All tubes were cut to the same length to establish a consistent distance for liquid travel, eliminating it as a variable to consider. We then utilized ChatGPT to generate a calibration code that enabled us to test the motor’s fill-up capacity at least five liquid ounces in a container. We marked the moment when the flow should cease by tracking the time. The period during which the motor operates was used to calculate the exact velocity at which the motor induces the liquid, resulting in the final constants we determined. These constants were then applied across all serialized callbacks to the Arduino, ensuring a consistent amount of liquid is poured into the cup and maintaining the desired ratio of each liquid extracted from its respective container.</mark>
 
 ```
 // MOTOR CALIBRATION CODE
@@ -102,7 +104,7 @@ print(f"Elapsed time: {elapsed:.2f} seconds")
 
 **\*\*\*5. Beverage Logic\*\*\***
 
-<mark>Ultimately, we decided to utilize teas as a versatile mixing substrate, enabling the creation of a wide variety of beverages while simultaneously establishing a precise correlation for emotions. Teas have a longstanding history of mapping emotional states and moods, whether it be through calming teas, uplifting teas, energetic teas, cleansing teas, or others. Additionally, teas are increasingly being embraced as a foundational ingredient in mixology. The mixing of teas can also be considered a form of gas mixology. Furthermore, teas are cost-effective and can be brewed in batches, making them efficient for multiple uses and aligning with our objective of batch production, which we had in mind when we initially began testing the device. Below is a table of the tea ingredients we used the beverage mixture they correspond to and the amount of parts one would need to in order to brew that particular batch.</mark>
+<mark>Ultimately, we decided to utilize teas as a versatile mixing substrate, enabling the creation of a wide variety of beverages while simultaneously establishing a precise correlation for emotions. Teas have a longstanding history of mapping emotional states and moods, whether it be through calming teas, uplifting teas, energetic teas, cleansing teas, or others. Additionally, teas are increasingly being embraced as a foundational ingredient in mixology. Furthermore, teas are cost-effective and can be brewed in batches, making them efficient for multiple uses and aligning with our objective of batch production, which we had in mind when we initially began testing the device. Below is a table of the tea ingredients we used, the beverage mixture they correspond to, and the amount of parts one would need to in order to brew that particular batch.</mark>
 
 | Emotion    | Beverage Name    | Black Tea | Green Tea | Rooibos Tea | Chamomile Tea | Lemon Tea | Sparkling Water |
 | ---------- | ---------------- | --------- | --------- | ----------- | ------------- | --------- | --------------- |
@@ -122,7 +124,7 @@ print(f"Elapsed time: {elapsed:.2f} seconds")
 
 <mark> _**AI Usage:** Utilized assistance from Cursor for the writing of code._ </mark>
 
-<mark> _**Pros:** Cursor has proven to be overall much more efficient than other LLMs since it analyzes the entirety of the code based into its context and is able to make quick changes on the fly without having to backtrack or manually search for the instances or snippets of code that need to be changed._ </mark>
+<mark> _**Pros:** Cursor has proven to be overall much more efficient than other LLMs since it analyzes the entirety of the code based into its context and is able to make quick changes on the fly without having to backtrack or manually search for the instances of code that need to be changed._ </mark>
 
 <mark> _**Cons:** Since the changes are carried out with it every single prompt command, certain changes that would like to not be preserved versus those that would are hard to discern. The element of version control is an added benefit, but ultimately there needs to be more finer user control over what code elements are changed, and which remain the same._ </mark>
 
@@ -156,7 +158,7 @@ print(f"Elapsed time: {elapsed:.2f} seconds")
 
 **\*\*\*8. Technical Drawings\*\*\***
 
-<mark>3D models were created using Rhino and Grasshopper software. The primary fabrication method was laser cutting, so models were flattened and transcribed in Adobe Illustrator for the cutting of each face of the device. These individual faces were subsequently assembled manually using wood adhesives and finished with sandpapers.</mark>
+<mark>3D models were created using Rhino and Grasshopper software. The primary fabrication method was laser cutting, so models were flattened and transcribed in Adobe Illustrator for the cutting of each face of the device. These individual faces were subsequently assembled manually using wood adhesives and finished with sandpaper.</mark>
 
 **\*\*\*8.1 Materials\*\*\***
 
