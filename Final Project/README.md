@@ -20,20 +20,7 @@
 
 <mark>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</mark>
 
-<p align="center">
-<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Final%20Project/Storyboards/Storyboard_Panel 1.png" alt="Panel 1" width="49.5%"/>
-<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Final%20Project/Storyboards/Storyboard_Panel 2.png" alt="Panel 2" width="49.5%"/>
-<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Final%20Project/Storyboards/Storyboard_Panel 3.png" alt="Panel 3" width="49.5%"/>
-<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Final%20Project/Storyboards/Storyboard_Panel 4.png" alt="Panel 4" width="49.5%"/>
-</p>
-
-<p align="center">
-<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Final%20Project/Storyboards/Storyboard_Panel 5.png" alt="Panel 5" width="49.5%"/>
-<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Final%20Project/Storyboards/Storyboard_Panel 6.png" alt="Panel 6" width="49.5%"/>
-<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Final%20Project/Storyboards/Storyboard_Panel 7.png" alt="Panel 7" width="49.5%"/>
-<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Final%20Project/Storyboards/Storyboard_Panel 8.png" alt="Panel 8" width="49.5%"/>
-</p>
-
+![Storyboard](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Final%20Project/Diagrams/Storyboard.png)
 ![Interaction Flow](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Final%20Project/Diagrams/System_Diagram.png)
 
 **\*\*\*3. Electronics Assembly\*\*\***
