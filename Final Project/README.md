@@ -1,12 +1,19 @@
-# MIXI II: Sentiment Analysis & Beverage Mixology
+# MIXI: Sentiment Analysis & Beverage Mixology
 
 <mark> **Collaborators: Thomas Knoepffler, Carrie Wang, Julia Chen** </mark>
 
 ---
 
-**\*\*\*1. Background: MIXI I\*\*\***
+**\*\*\*1. Background\*\*\***
 
 <mark>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</mark>
+
+<p align="center">
+  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Fianl%20Project/Images/MIXI_1.jpg" alt="MIXI 1" width="49.5%"/>
+    <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Fianl%20Project/Images/MIXI_2.jpg" alt="MIXI 2" width="49.5%"/>
+      <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Fianl%20Project/Images/MIXI_3.jpg" alt="MIXI 3" width="49.5%"/>
+        <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Fianl%20Project/Images/MIXI_4.jpg" alt="MIXI 4" width="49.5%"/>
+</p>
 
 **\*\*\*2. User Interaction\*\*\***
 
