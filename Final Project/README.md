@@ -69,11 +69,28 @@
 ![Technical Sections](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Final%20Project/Diagrams/Technical_Sections.png)
 ![Technical Isometric](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Final%20Project/Diagrams/Technical_Isometric.png)
 
-**\*\*\*9. Assembly & Demo\*\*\***
+**\*\*\*9. Full Assembly\*\*\***
 
 <mark>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</mark>
 
-**\*\*\*10. Reflections\*\*\***
+![Assembly 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Final%20Project/Images/Assembly_1.jpg)
+![Assembly 2](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Final%20Project/Images/Assembly_2.jpg)
+![Assembly 3](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Final%20Project/Images/Assembly_3.jpg)
+![Assembly 4](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Final%20Project/Images/Assembly_4.jpg)
+![Assembly 5](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Final%20Project/Images/Assembly_5.jpg)
+![Assembly 6](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Final%20Project/Images/Assembly_6.jpg)
+![Assembly 7](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Final%20Project/Images/Assembly_7.jpg)
+![Assembly 8](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Final%20Project/Images/Assembly_8.jpg)
+
+**\*\*\*10. Demo\*\*\***
+
+<mark>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</mark>
+
+**\*\*\*11. Reflections\*\*\***
+
+<mark>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</mark>
+
+**\*\*\*12. Inspiration\*\*\***
 
 <mark>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</mark>
 
