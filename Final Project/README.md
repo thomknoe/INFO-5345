@@ -201,7 +201,7 @@ print(f"Elapsed time: {elapsed:.2f} seconds")
 
 **\*\*\*12. Conclusions\*\*\***
 
-<mark>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</mark>
+<mark>Toward the end of the showcase, a clear pattern emerged: participants expressed a desire for more direct, self-directed engagement with the system. While initial interactions were mediated by team members—who navigated menus and physically handled the device—participants increasingly sought to operate the system themselves. In response, facilitation was reduced, allowing users to engage independently except where intervention was necessary. This shift highlights a central principle of the course: the importance of intentional physical interaction in design practice. Effective interaction design should support experiences that are not only legible and functional, but also empowering, enabling users to engage with systems in ways that feel comfortable, intuitive, and aligned with their sense of agency. This observation reinforces the value of designing interactions that ultimately recede, allowing users to act freely within them.</mark>
 
 <mark> Collaborators: Thomas Knoepffler (Digital Fabrication & Assembly), Carrie Wang (3D Modeling & User Experience), Julia Chen (Hardware & Software Engineer) </mark>
 
