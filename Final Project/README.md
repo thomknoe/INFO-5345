@@ -124,7 +124,7 @@ print(f"Elapsed time: {elapsed:.2f} seconds")
 
 <mark> _**AI Usage:** Utilized assistance from Cursor for the writing of code._ </mark>
 
-<mark> _**Pros:** Cursor has proven to be overall much more efficient than other LLMs since it analyzes the entirety of the code based into its context and is able to make quick changes on the fly without having to backtrack or manually search for the instances of code that need to be changed._ </mark>
+<mark> _**Pros:** Cursor has proven to be overall much more efficient than other LLMs since it analyzes the entirety of the code based into its context and is able to make quick changes without having to backtrack or manually search for the instances of code that need to be changed._ </mark>
 
 <mark> _**Cons:** Since the changes are carried out with it every single prompt command, certain changes that would like to not be preserved versus those that would are hard to discern. The element of version control is an added benefit, but ultimately there needs to be more finer user control over what code elements are changed, and which remain the same._ </mark>
 
