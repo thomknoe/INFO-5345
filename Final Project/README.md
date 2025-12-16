@@ -14,6 +14,7 @@
 <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Final%20Project/Images/MIXI_3.jpg" alt="MIXI 3" width="49.5%"/>
 <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Final%20Project/Images/MIXI_4.jpg" alt="MIXI 4" width="49.5%"/>
 </p>
+
 <mark> _**Image Source:** Original MIXI Project, Design for Physical Interaction, Fall 2024._ </mark>
 
 **\*\*\*2. User Interaction\*\*\***
@@ -54,8 +55,8 @@
 <mark>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</mark>
 
 <p align="center">
-<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Final%20Project/Images/Inspiration_1.jpg" alt="Inspiration 1 1" width="49.5%"/>
-<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Final%20Project/Images/Inspiration_2.jpg" alt="Inspiration 2 2" width="49.5%"/>
+<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Final%20Project/Images/Inspiration_1.jpg" alt="Inspiration 1" width="49.5%"/>
+<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Final%20Project/Images/Inspiration_2.jpg" alt="Inspiration 2" width="49.5%"/>
 </p>
 
 <mark> _**Image Source:** Lorem Ipsum._ </mark>
@@ -102,3 +103,9 @@
 <mark>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</mark>
 
 <mark> Collaborators: Thomas Knoepffler (Digital Fabrication & Assembly), Carrie Wang (3D Modeling & User Experience), Julia Chen (Hardware & Software Engineer) </mark>
+
+<p align="center">
+<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Final%20Project/Images/Bonus_1.jpg" alt="Bonus 1" width="33%"/>
+<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Final%20Project/Images/Bonus_2.jpg" alt="Bonus 2" width="33%"/>
+<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Final%20Project/Images/Bonus_3.jpg" alt="Bonus 3" width="33%"/>
+</p>
