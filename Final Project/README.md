@@ -2,8 +2,7 @@
 
 <mark> **Collaborators: Thomas Knoepffler, Carrie Wang, Julia Chen** </mark>
 
-<mark>Our previous project timeline can be found in this [Google Slides Presentaion](<mark> **Collaborators: Thomas Knoepffler, Carrie Wang, Julia Chen** </mark>
-)</mark>
+<mark>Our previous project timeline can be found in this [Google Slides Presentaion](https://docs.google.com/presentation/d/15_Q3_lkcpeTdOB9RntO9GSOc6RVdMcENesf1MnFc8Mg/edit?usp=sharing) </mark>
 
 ---
 
