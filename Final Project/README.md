@@ -33,7 +33,7 @@
 
 <mark>The electronics assembly underwent a significant integration compared to previous labs, employing both a Raspberry Pi and an Arduino microcontroller. This integration was necessitated by the requirement to control six peristaltic pump motors and prevent excessive utilization of the GPIO pins on the Raspberry Pi, which were allocated for the Mini PiTFT screen and rotary encoder. The ultimate electronics assembly comprised of six distinct pump motors connected to a relay, which was interfaced by the Arduino microcontroller. The Arduino microcontroller communicated directly with the Raspberry Pi via serial communication. Additionally, the Raspberry Pi served as the user interface and control system as well as providing access to the microphone via the webcam and enabling direct Bluetooth connection to a mini speaker.</mark>
 
-**\*\*\*Components\*\*\***
+**\*\*\*3.1 Components\*\*\***
 
 - <mark> Raspberry Pi 5 Model B/8GB </mark>
 - <mark> (6) 5V Peristaltic Pump Motors </mark>
@@ -128,7 +128,7 @@ print(f"Elapsed time: {elapsed:.2f} seconds")
 
 <mark>The primary configuration is loaded from the .yaml (Pi) file and establishes a fixed ordering of ingredients, a closed set of emotion labels, and recipe definitions expressed as proportional arrays. The .py (Pi) file maintains a state loop that handles menu navigation, mode switching, and user actions. It also calls the OpenAI API to engage in text classification for sentiment analysis. When an emotion is selected—either manually or via text classification via ChatGPT—the corresponding recipe array is retrieved, normalized to a fixed total volume by proportional scaling, and serialized to the .ino (Arduino) file to handle the pump logics.</mark>
 
-**\*\*\*Dependencies\*\*\***
+**\*\*\*6.1 Dependencies\*\*\***
 
 - <mark> Arduino.h </mark>
 - <mark> pyserial </mark>
@@ -158,7 +158,7 @@ print(f"Elapsed time: {elapsed:.2f} seconds")
 
 <mark>3D models were created using Rhino and Grasshopper software. The primary fabrication method was laser cutting, so models were flattened and transcribed in Adobe Illustrator for the cutting of each face of the device. These individual faces were subsequently assembled manually using wood adhesives and finished with sandpapers.</mark>
 
-**\*\*\*Materials\*\*\***
+**\*\*\*8.1 Materials\*\*\***
 
 - <mark> 1/16" Balsawood Stock </mark>
 - <mark> 1/4" ID x 3/8" OD Clear Tubing </mark>
