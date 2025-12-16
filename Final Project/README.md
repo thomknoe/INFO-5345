@@ -58,13 +58,16 @@
 <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Final%20Project/Images/Inspiration_2.jpg" alt="Inspiration 2" width="49.5%"/>
 </p>
 
+<mark> _**Image Source:** Lorem Ipsum._ </mark>
+
 <p align="center">
 <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Final%20Project/Images/AI_Image_1.jpg" alt="AI Image 1" width="49.5%"/>
 <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Final%20Project/Images/AI_Image_2.jpg" alt="AI Image 2" width="49.5%"/>
 <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Final%20Project/Images/AI_Image_3.jpg" alt="AI Image 3" width="49.5%"/>
 <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Final%20Project/Images/AI_Image_4.jpg" alt="AI Image 4" width="49.5%"/>
 </p>
-<mark> _**Image Source:** Original MIXI Project, Design for Physical Interaction, Fall 2024._ </mark>
+
+<mark> _**Image Source:** Lorem Ipsum._ </mark>
 
 **\*\*\*8. Technical Drawings\*\*\***
 
