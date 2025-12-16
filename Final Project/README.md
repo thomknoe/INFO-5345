@@ -75,8 +75,17 @@ ser.write(f"OFF {PUMP_INDEX}\n".encode())
 elapsed = time.time() - start_time
 
 print(f"Elapsed time: {elapsed:.2f} seconds")
-
 ```
+
+| Parameter              | Value                          |
+| ---------------------- | ------------------------------ |
+| Target volume          | 5 fl oz                        |
+| Target volume (metric) | 148 mL                         |
+| Measured fill time     | 6.77 seconds                   |
+| Flow rate              | 21.877 mL / second             |
+| Time per mL            | 45.7 ms / mL                   |
+| Pump consistency       | All pumps assumed equivalent   |
+| Tubing state           | Pre-filled (continuous column) |
 
 ![Calibration](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Final%20Project/GIFs/Calibration.gif)
 
