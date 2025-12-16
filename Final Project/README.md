@@ -158,7 +158,7 @@ print(f"Elapsed time: {elapsed:.2f} seconds")
 
 **\*\*\*8. Technical Drawings\*\*\***
 
-<mark>3D models were created using Rhino and Grasshopper software. The primary fabrication method was laser cutting, so models were flattened and transcribed in Adobe Illustrator for the cutting of each face of the device. These individual faces were subsequently assembled manually using wood adhesives and finished with sandpaper.</mark>
+<mark>3D models were created using Rhino and Grasshopper. The primary fabrication method was laser cutting, so models were flattened and transcribed in Adobe Illustrator for the cutting of each face of the device, keeping in mind thickness of materials. These individual faces were subsequently assembled manually using wood adhesives and finished with sandpaper.</mark>
 
 **\*\*\*8.1 Materials\*\*\***
 
