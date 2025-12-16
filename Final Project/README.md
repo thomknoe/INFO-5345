@@ -46,6 +46,38 @@
 
 <mark>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</mark>
 
+```
+import time
+import serial
+
+SERIAL_PORT = "/dev/ttyACM0"
+BAUD = 9600
+
+PUMP_INDEX = 1          # the pump you calibrated
+TARGET_OZ = 5.0         # calibration target
+
+ser = serial.Serial(SERIAL_PORT, BAUD, timeout=1)
+time.sleep(2)
+
+print("Starting calibration...")
+print(f"Pump {PUMP_INDEX} ON — press ENTER when cup reaches {TARGET_OZ} fl oz")
+
+start_time = time.time()
+
+# Start pump
+ser.write(f"ON {PUMP_INDEX}\n".encode())
+
+input()  # you press enter manually when cup hits 5 oz
+
+# Stop pump
+ser.write(f"OFF {PUMP_INDEX}\n".encode())
+
+elapsed = time.time() - start_time
+
+print(f"Elapsed time: {elapsed:.2f} seconds")
+
+```
+
 ![Calibration](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Final%20Project/GIFs/Calibration.gif)
 
 **\*\*\*5. Beverage Logic\*\*\***
