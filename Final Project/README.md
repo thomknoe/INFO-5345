@@ -122,6 +122,10 @@ print(f"Elapsed time: {elapsed:.2f} seconds")
 
 <mark> _**AI Usage:** Utilized assistance from Cursor for the writing of code._ </mark>
 
+<mark> _**Pros:** Cursor has proven to be overall much more efficient than other LLMS since it analyzes the entirety of the code based into its context and is able to make quick changes on the fly without having to backtrack or manually search for the instances or snippets of code that need to be changed._ </mark>
+
+<mark> _**Cons:** Since the changes are carried out with it every single prompt command, certain changes that would like to not be preserved versus those that would are hard to discern. The element of version control is an added benefit, but ultimately there needs to be more finer user control over what code elements are changed, and which remain the same._ </mark>
+
 <mark>The primary configuration is loaded from the .yaml (Pi) file and establishes a fixed ordering of ingredients, a closed set of emotion labels, and recipe definitions expressed as proportional arrays. The .py (Pi) file maintains a state loop that handles menu navigation, mode switching, and user actions. It also calls the OpenAI API to engage in text classification for sentiment analysis. When an emotion is selected—either manually or via text classification via ChatGPT—the corresponding recipe array is retrieved, normalized to a fixed total volume by proportional scaling, and serialized to the .ino (Arduino) file to handle the pump logics.</mark>
 
 **\*\*\*Dependencies\*\*\***
@@ -148,11 +152,11 @@ print(f"Elapsed time: {elapsed:.2f} seconds")
 <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Final%20Project/Images/Inspiration_2.jpg" alt="Inspiration 2" width="49.5%"/>
 </p>
 
-<mark> \_**Image Source:** Images found from Pinterest for keywords: "Beverage Bar," "Siphon Array," "Glass Arrangements." </mark>
+<mark> \_**Image Source:** Images found from Pinterest for keywords: "Beverage Bar," "Siphon Array," "Glass Arrangements," etc. </mark>
 
 **\*\*\*8. Technical Drawings\*\*\***
 
-<mark>3D models were created using Rhino and Grasshopper software. The primary fabrication method was laser cutting, so models were flattened and transcribed in Adobe Illustrator for the cutting of each face of the device. These individual faces were subsequently assembled manually using wood adhesives.</mark>
+<mark>3D models were created using Rhino and Grasshopper software. The primary fabrication method was laser cutting, so models were flattened and transcribed in Adobe Illustrator for the cutting of each face of the device. These individual faces were subsequently assembled manually using wood adhesives and finished with sandpapers.</mark>
 
 **\*\*\*Materials\*\*\***
 
@@ -197,7 +201,9 @@ print(f"Elapsed time: {elapsed:.2f} seconds")
 
 <mark>The interactive device gained significant popularity and was engaged with multiple times throughout the night. Participants were eager to utilize the device, possibly motivated by the prospect of obtaining a personalized beverage at the conclusion of the interaction. The project also received positive feedback regarding its form factor, with appreciation expressed for the wood materials used and the overall compactness of the system. However, some critiques proved to be valuable for future iterations on the project.</mark>
 
-<mark>One critique suggested implementing a more sophisticated AI taste pipeline. The current setup involves manually fixing labels to sentiment—happy, sad, angry, etc. One participant expressed interest in creating a system that maps each individual word in the dialogue and transforms it into the subsequent recipe, resulting in a more nuanced algorithm and potentially a more complex beverage with various competing sentiment vectors influencing the overall taste. Additionally, participants noted that the machine was somewhat messy, dripping excess tea even before the pumps began. They also had to remain dry to prevent warping or bending the wood. This issue could be mitigated by using a siphon that allows all the tubes to converge at a single point, enabling the spigot to dispense the mixed beverages in one centralized location. Another problem was that most participants remained within the more positively affiliated affects and sentiments, such as happiness or excitement. As a means of encouraging individuals to explore other sentiments or even more complex emotions, changes in the flow or invitation to interaction would need to be considered to ensure that users can engage in the majority of the system’s features rather than remaining limited to a shallow end of the emotional spectrum.</mark>
+<mark>One critique suggested implementing a more sophisticated AI taste pipeline. The current setup involves manually fixing labels to sentiment—happy, sad, angry, etc. One participant expressed interest in creating a system that maps each individual word in the dialogue and transforms it into the subsequent recipe, resulting in a more nuanced algorithm and potentially a more complex beverage with various competing sentiment vectors influencing the overall taste. Additionally, participants noted that the machine was somewhat messy, dripping excess tea even before the pumps began. They also had to remain dry to prevent warping or bending the wood. This issue could be mitigated by using a siphon that allows all the tubes to converge at a single point, enabling the spigot to dispense the mixed beverages in one centralized location.</mark>
+
+<mark>Another problem was that most participants remained within the more positively affiliated affects and sentiments, such as happiness or excitement. As a means of encouraging individuals to explore other sentiments or even more complex emotions, changes in the flow or invitation to interaction would need to be considered to ensure that users can engage in the majority of the system’s features rather than remaining limited to a shallow end of the emotional spectrum.</mark>
 
 **\*\*\*12. Conclusions\*\*\***
 
