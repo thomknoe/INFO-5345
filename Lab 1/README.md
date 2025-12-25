@@ -188,13 +188,13 @@ _Original Prompt:_ "Clean up these notes to make them suitable for a document on
 
 We produced seven storyboards to map out user flow and device behavior in realistic scenes.
 
-|                                                                   |                                                                   |                                                                   |                                                                   |
-| :---------------------------------------------------------------: | :---------------------------------------------------------------: | :---------------------------------------------------------------: | :---------------------------------------------------------------: |
-| <img src="assets/storyboard1.jpg" width="25%" alt="Storyboard 1"> | <img src="assets/storyboard2.jpg" width="25%" alt="Storyboard 2"> | <img src="assets/storyboard3.jpg" width="25%" alt="Storyboard 3"> | <img src="assets/storyboard4.jpg" width="25%" alt="Storyboard 4"> |
-
-|                                                                     |                                                                     |                                                                     |
-| :-----------------------------------------------------------------: | :-----------------------------------------------------------------: | :-----------------------------------------------------------------: |
-| <img src="assets/storyboard5.jpg" width="33.3%" alt="Storyboard 5"> | <img src="assets/storyboard6.jpg" width="33.3%" alt="Storyboard 6"> | <img src="assets/storyboard7.jpg" width="33.3%" alt="Storyboard 7"> |
+![Storyboard 1](assets/storyboard1.png)
+![Storyboard 2](assets/storyboard2.png)
+![Storyboard 3](assets/storyboard3.png)
+![Storyboard 4](assets/storyboard4.png)
+![Storyboard 5](assets/storyboard5.png)
+![Storyboard 6](assets/storyboard6.png)
+![Storyboard 7](assets/storyboard7.png)
 
 _AI Usage:_ Storyboard 7 generated via ChatGPT (DALL-E) to visualize a music-festival necklace variant. Original hand-drawn boards preserved.  
 _Original Prompt:_ "My team and I are creating a wearable prototype that lights up whenever it detects someone nearby that has something in common with you..."
@@ -203,9 +203,7 @@ _Original Prompt:_ "My team and I are creating a wearable prototype that lights 
 
 Our breakout-room session was lively and productive. We pitched ideas, challenged feasibility, and debated implementation. Early concepts leaned toward private or domestic settings, but we quickly realized public social spaces offered richer opportunities for serendipity. We explored AI and computer-vision approaches to infer similarities automatically, weighed the data-privacy implications, and considered use-cases like dating or emotion-based matching—both ultimately felt too loaded and complex for a light-based wearable. In the end we converged on three grounded, relatable scenarios: matching runners in a park, food tastes in a cafe, and commuter destinations from the same workplace.
 
-| Ideation Process 1                | Ideation Process 2                | Ideation Process 3                | Ideation Process 4                |
-| --------------------------------- | --------------------------------- | --------------------------------- | --------------------------------- |
-| ![Process 1](assets/process1.jpg) | ![Process 2](assets/process2.jpg) | ![Process 3](assets/process3.jpg) | ![Process 4](assets/process4.jpg) |
+![Process 1](assets/ideation.png)
 
 ## Prototyping
 
@@ -221,50 +219,48 @@ The Tinkerbelle web-app proved excellent for this lab. Hosting multiple phones f
 
 ### Wizarding & Follow-up Prototypes
 
-| Follow-up 1                         | Follow-up 2                         | Follow-up 3                         |
-| ----------------------------------- | ----------------------------------- | ----------------------------------- |
-| ![Follow-up 1](assets/process5.jpg) | ![Follow-up 2](assets/process6.jpg) | ![Follow-up 3](assets/process7.jpg) |
+![Follow-up 1](assets/process1.png)
+![Follow-up 2](assets/process2.png)
+![Follow-up 3](assets/process3.png)
 
 ### Costuming the Device
 
 We explored forms that would accommodate an iPhone while remaining visible to both wearer and onlooker. Firefly bioluminescence provided the guiding metaphor—creatures that use light for social signaling.
 
-| Sketch 1                        | Sketch 2                        | Sketch 3                        |
-| ------------------------------- | ------------------------------- | ------------------------------- |
-| ![Sketch 1](assets/sketch1.jpg) | ![Sketch 2](assets/sketch2.jpg) | ![Sketch 3](assets/sketch3.jpg) |
+![Sketch 1](assets/sketch1.png)
+![Sketch 2](assets/sketch2.png)
 
-| Costume 1                         | Costume 2                         | AI-Generated Costume                 |
-| --------------------------------- | --------------------------------- | ------------------------------------ |
-| ![Costume 1](assets/costume1.jpg) | ![Costume 2](assets/costume2.jpg) | ![AI Costume](assets/ai_costume.jpg) |
+![Costume 1](assets/costume.png)
+![AI Costume](assets/ai_image.png)
 
 _AI Usage:_ Firefly-inspired bicep wearable generated with ChatGPT (DALL-E). Original sketches preserved.  
 _Original Prompt:_ "Create an image of a firefly inspired wearable device that glows and can be worn by people on their arm..."
 
-## Interaction Videos
+## Interaction Videos (YouTube Thumbnails)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PLACEHOLDER_TINKERBELLE" title="Tinkerbelle color-shift demo" frameborder="0" allowfullscreen></iframe>
+(Upload videos to YouTube, then replace the image paths below with actual thumbnail URLs or local thumbnail files.)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PLACEHOLDER_INTERACTION1" title="Scenario 1 – Park runners" frameborder="0" allowfullscreen></iframe>
+![Tinkerbelle Demo Thumbnail](assets/video_tinkerbelle_thumb.jpg)  
+[Watch on YouTube](https://www.youtube.com/watch?v=PLACEHOLDER_TINKERBELLE)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PLACEHOLDER_INTERACTION2" title="Scenario 2 – Cafe customers" frameborder="0" allowfullscreen></iframe>
+![Scenario 1 Thumbnail](assets/video_interaction1_thumb.jpg)  
+[Watch Scenario 1 – Park runners on YouTube](https://www.youtube.com/watch?v=PLACEHOLDER_INTERACTION1)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PLACEHOLDER_INTERACTION3" title="Scenario 3 – Station commuters" frameborder="0" allowfullscreen></iframe>
+![Scenario 2 Thumbnail](assets/video_interaction2_thumb.jpg)  
+[Watch Scenario 2 – Cafe customers on YouTube](https://www.youtube.com/watch?v=PLACEHOLDER_INTERACTION2)
+
+![Scenario 3 Thumbnail](assets/video_interaction3_thumb.jpg)  
+[Watch Scenario 3 – Station commuters on YouTube](https://www.youtube.com/watch?v=PLACEHOLDER_INTERACTION3)
 
 ### Part 2 – Make It Your Own (Incorporating Haptics)
 
 Partner feedback pushed us to think harder about privacy, visibility, and consent. Rather than abandon the original provocation, we layered in haptic feedback: vibration intensity increases as the matching wearer approaches, making the act of locating each other part of the experience while keeping the interaction more discreet in bright or crowded settings.
 
-|                                                                                                        |                                                                                                             |                                                                                                           |
-| :----------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------: |
-| <img src="assets/updated_storyboard1.jpg" width="100%" alt="Updated Storyboard 1"><br>1 – Haptic onset | <img src="assets/updated_storyboard2.jpg" width="100%" alt="Updated Storyboard 2"><br>2 – Growing intensity | <img src="assets/updated_storyboard3.jpg" width="100%" alt="Updated Storyboard 3"><br>3 – Discreet meetup |
+![Updated Storyboard 1](assets/updated_storyboard1.png)
+![Updated Storyboard 2](assets/updated_storyboard2.png)
+![Updated Storyboard 3](assets/updated_storyboard3.png)
 
 _AI Usage:_ Updated storyboards generated with Google Gemini.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PLACEHOLDER_HAPTIC1" title="Haptic Scenario 1" frameborder="0" allowfullscreen></iframe>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PLACEHOLDER_HAPTIC2" title="Haptic Scenario 2" frameborder="0" allowfullscreen></iframe>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PLACEHOLDER_HAPTIC3" title="Haptic Scenario 3" frameborder="0" allowfullscreen></iframe>
 
 ### Partner Feedback Highlights
 
@@ -285,6 +281,8 @@ Balancing provocation with practicality remains the central challenge. Light is 
 
 ## Inspirations
 
-| Inspiration 1                                                                                                 | Inspiration 2                                                 | Inspiration 3                                                     |
-| ------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------- | ----------------------------------------------------------------- |
-| ![Insp 1](assets/insp1.jpg)<br>Eastern firefly (Photinus pyralis) – Ivan Kuzmin (Adobe Stock Cornell License) | ![Insp 2](assets/insp2.jpg)<br>Firefly social bioluminescence | ![Insp 3](assets/insp3.jpg)<br>Miranda July – Somebody app (2014) |
+![Inspiration 1](assets/insp1.png)  
+Eastern firefly (Photinus pyralis) – Ivan Kuzmin (Adobe Stock Cornell License)
+
+![Inspiration 2](assets/insp2.png)  
+Miranda July – Somebody app (2014)
