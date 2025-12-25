@@ -266,7 +266,7 @@ _AI Usage:_ Google Gemini generated realistic storyboard renderings; ChatGPT ass
 
 ## Ideation & Individual Brainstorm
 
-I was drawn to Tega Brain’s practice of frustrating modern infrastructures to open up new ways of thinking about time and ecology. Pieces like _Being Radiotropic (2016)_ and _Ecological Time_ imagine clocks governed by organisms or systems outside human control.
+I was drawn to Tega Brain’s practice of frustrating modern infrastructures to open up new ways of thinking about time and ecology. Pieces like _Being Radiotropic (2016)_ and _Ecological Time_ imagine clocks governed by organisms or systems outside human control. My initial sketches played with alternative timekeeping: one tracking bird migration patterns, another marking discrete intervals between F-line subway stops.
 
 ![Inspiration 1](assets/insp1.png)  
 Tega Brain, _Being Radiotropic_ (2016)
@@ -274,8 +274,6 @@ Tega Brain, _Being Radiotropic_ (2016)
 ![Inspiration 2](assets/insp2.png)
 ![Inspiration 3](assets/insp3.png)  
 Tega Brain, _Ecological Time_
-
-My initial sketches played with alternative timekeeping: one tracking bird migration patterns, another marking discrete intervals between F-line subway stops.
 
 ![Brainstorm 1](assets/brainstorm1.png)
 ![Brainstorm 2](assets/brainstorm2.png)
@@ -318,7 +316,7 @@ _Pros:_ Fast generation, strong contextual memory.
 
 _Cons:_ Got stuck in suggestion loops; completely blind to hardware/wiring issues (our biggest bug turned out to be a physical pin change).
 
-## Demonstration Videos (YouTube Thumbnails)
+## Demonstration Videos
 
 (Replace thumbnail paths with your own screenshots or YouTube auto-thumbnails once uploaded.)
 
