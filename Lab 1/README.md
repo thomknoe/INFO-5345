@@ -162,7 +162,8 @@ The primary signal is a shared colored light. When the device is active it glows
 
 The concept draws directly from the original stage production of _Peter Pan_, where Tinker Bell existed only as a darting spot of light created off-stage with a mirror and lamp. Her presence was felt entirely through the other characters’ reactions to her. We took that theatrical cue—presence through interaction rather than embodiment—and applied it to a device whose main output is lighting.
 
-_AI Usage:_ Apple Writing Tools helped condense raw ideation notes into the descriptive paragraph above.  
+_AI Usage:_ Apple Writing Tools helped condense raw ideation notes into the descriptive paragraph above.
+
 _Original Prompt:_ "Clean up these notes to make them suitable for a document on a prototype device that lights up a specific color..."
 
 ## Ideation & Planning
@@ -196,7 +197,8 @@ We produced seven storyboards to map out user flow and device behavior in realis
 ![Storyboard 6](assets/storyboard6.png)
 ![Storyboard 7](assets/storyboard7.png)
 
-_AI Usage:_ Storyboard 7 generated via ChatGPT (DALL-E) to visualize a music-festival necklace variant. Original hand-drawn boards preserved.  
+_AI Usage:_ Storyboard 7 generated via ChatGPT (DALL-E) to visualize a music-festival necklace variant. Original hand-drawn boards preserved.
+
 _Original Prompt:_ "My team and I are creating a wearable prototype that lights up whenever it detects someone nearby that has something in common with you..."
 
 ### Group Feedback & Ideation Process
@@ -232,7 +234,8 @@ We explored forms that would accommodate an iPhone while remaining visible to bo
 ![Costume 1](assets/costume.png)
 ![AI Costume](assets/ai_image.png)
 
-_AI Usage:_ Firefly-inspired bicep wearable generated with ChatGPT (DALL-E). Original sketches preserved.  
+_AI Usage:_ Firefly-inspired bicep wearable generated with ChatGPT (DALL-E). Original sketches preserved.
+
 _Original Prompt:_ "Create an image of a firefly inspired wearable device that glows and can be worn by people on their arm..."
 
 ## Interaction Videos
