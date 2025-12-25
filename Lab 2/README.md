@@ -268,29 +268,29 @@ _AI Usage:_ Google Gemini generated realistic storyboard renderings; ChatGPT ass
 
 I was drawn to Tega Brain’s practice of frustrating modern infrastructures to open up new ways of thinking about time and ecology. Pieces like _Being Radiotropic (2016)_ and _Ecological Time_ imagine clocks governed by organisms or systems outside human control.
 
-![Inspiration 1](assets/insp1.jpg)  
+![Inspiration 1](assets/insp1.png)  
 Tega Brain, _Being Radiotropic_ (2016)
 
-![Inspiration 2](assets/insp2.jpg)
+![Inspiration 2](assets/insp2.png)
 
-![Inspiration 3](assets/insp3.jpg)  
+![Inspiration 3](assets/insp3.png)  
 Tega Brain, _Ecological Time_
 
 My initial sketches played with alternative timekeeping: one tracking bird migration patterns, another marking discrete intervals between F-line subway stops.
 
-![Brainstorm 1](assets/brainstorm1.jpg)
+![Brainstorm 1](assets/brainstorm1.png)
 
-![Brainstorm 2](assets/brainstorm2.jpg)
+![Brainstorm 2](assets/brainstorm2.png)
 
 ## Group Concept & Storyboards
 
 We pooled ideas and landed on the water-pouring alarm clock—equal parts provocation and morning theater.
 
-![Storyboard 1](assets/storyboard1.jpg)
+![Storyboard 1](assets/storyboard1.png)
 
-![Storyboard 2](assets/storyboard2.jpg)
+![Storyboard 2](assets/storyboard2.png)
 
-![Storyboard 3](assets/storyboard3.jpg)
+![Storyboard 3](assets/storyboard3.png)
 
 _AI Usage:_ Realistic storyboard set generated using Google Gemini. All original artifacts preserved.  
 _Original Prompt:_ "Please design product renderings for a water-based alarm clock..."
@@ -299,74 +299,82 @@ _Original Prompt:_ "Please design product renderings for a water-based alarm clo
 
 We used the MiniPiTFT for countdown and messaging, paired with a stepper motor holding a small cup of water. Multi-threading kept display and motor control independent. Initial pin conflicts required a pin-extender add-on. A 3D-printed platform held the electronics; cardboard enclosure hid wiring and was decorated for domestic camouflage.
 
-![Process 1](assets/process1.jpg)
+![Process 1](assets/process1.png)
 
-![Process 2](assets/process2.jpg)
+![Process 2](assets/process2.png)
 
-![Process 3](assets/process3.jpg)
+![Process 3](assets/process3.png)
 
-![Assembly 1](assets/assembly1.jpg)
+![Assembly 1](assets/assembly1.png)
 
-![Assembly 2](assets/assembly2.jpg)
+![Assembly 2](assets/assembly2.png)
 
-![Assembly 3](assets/assembly3.jpg)
+![Assembly 3](assets/assembly3.png)
 
-![Assembly 4](assets/assembly4.jpg)
+![Assembly 4](assets/assembly4.png)
 
-![Assembly 5](assets/assembly5.jpg)
+![Assembly 5](assets/assembly5.png)
 
-![Assembly 6](assets/assembly6.jpg)
+![Assembly 6](assets/assembly6.png)
 
 The device hangs above the bed. One button repositions the stepper arm (a limitation of steppers—only directional steps, no absolute angle memory). Future versions would swap in a servo for precision. The pour itself is gloriously unpredictable depending on sleeping position.
 
-![View 1](assets/view1.jpg)
+![View 1](assets/view1.png)
 
-![View 2](assets/view2.jpg)
+![View 2](assets/view2.png)
 
-![View 3](assets/view3.jpg)
+![View 3](assets/view3.png)
 
 ## Code & AI Assistance
 
+````python
+import threading
+import time
+
+def countdown():
+    for i in range(10, 0, -1):
+        print(i)
+        time.sleep(1)
+    print("WAKE UP!!!")
+
+def pour_water():
+    time.sleep(10)  # Sync with countdown
+    print("Pouring water")
+
+thread1 = threading.Thread(target=countdown)
+thread2 = threading.Thread(target=pour_water)
+thread1.start()
+thread2.start()
+
+```# Full code continues below... (replace with actual full code from file)```
+
 Code available at [water_alarm_clock.py](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/water_alarm_clock.py)
 
-_AI Usage:_ ChatGPT helped write and iterate the code—great at remembering context across revisions for both MiniPiTFT and stepper control.  
-_Pros:_ Fast generation, strong contextual memory.  
+_AI Usage:_ ChatGPT helped write and iterate the code—great at remembering context across revisions for both MiniPiTFT and stepper control.
+_Pros:_ Fast generation, strong contextual memory.
 _Cons:_ Got stuck in suggestion loops; completely blind to hardware/wiring issues (our biggest bug turned out to be a physical pin change).
 
 ## Demonstration Videos (YouTube Thumbnails)
 
 (Replace thumbnail paths with your own screenshots or YouTube auto-thumbnails once uploaded.)
 
-[![Edited Clock Demo](assets/clock_demo_thumb.jpg)](https://www.youtube.com/watch?v=PLACEHOLDER_EDITED)  
+[![Edited Clock Demo](assets/clock_demo_thumb.png)](https://www.youtube.com/watch?v=PLACEHOLDER_EDITED)
 Watch edited demo on YouTube
 
-[![Unedited Demo 1](assets/unedited1_thumb.jpg)](https://www.youtube.com/watch?v=PLACEHOLDER_UNEDITED1)  
+[![Unedited Demo 1](assets/unedited1_thumb.png)](https://www.youtube.com/watch?v=PLACEHOLDER_UNEDITED1)
 Watch unedited demo 1 on YouTube
 
-[![Unedited Demo 2](assets/unedited2_thumb.jpg)](https://www.youtube.com/watch?v=PLACEHOLDER_UNEDITED2)  
+[![Unedited Demo 2](assets/unedited2_thumb.png)](https://www.youtube.com/watch?v=PLACEHOLDER_UNEDITED2)
 Watch unedited demo 2 on YouTube
-
-[![Behind the Scenes 1](assets/behind1_thumb.jpg)](https://www.youtube.com/watch?v=PLACEHOLDER_BEHIND1)  
-Watch behind the scenes 1 on YouTube
-
-[![Behind the Scenes 2](assets/behind2_thumb.jpg)](https://www.youtube.com/watch?v=PLACEHOLDER_BEHIND2)  
-Watch behind the scenes 2 on YouTube
 
 ## Additional Inspiration
 
 Kathleen McDermott’s _Urban Armor #9_ (2019)—a harness that slaps the wearer at 5:00 pm to end the workday—offered a parallel satirical lens on punitive timekeeping objects.
 
-![Inspiration 4](assets/insp4.jpg)  
+![Inspiration 4](assets/insp4.png)
 Kathleen McDermott, _Urban Armor #9_ (2019)
-
-## Internals
-
-![Internals 1](assets/internals1.jpg)
-
-![Internals 2](assets/internals2.jpg)
-
-![Internals 3](assets/internals3.jpg)
 
 ## Reflections
 
 The clock works convincingly as concept and provocation. The countdown builds genuine anticipation; the pour delivers the punchline. Stepper limitations taught us the value of absolute positioning (servo next time). AI accelerated code but couldn’t see physical reality—debugging remained firmly human territory. Overall the piece succeeds at turning a daily resentment into shared absurd theater.
+````
