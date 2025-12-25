@@ -238,17 +238,17 @@ _Original Prompt:_ "Create an image of a firefly inspired wearable device that g
 
 ## Interaction Videos (YouTube Thumbnails)
 
-![Tinkerbelle Demo Thumbnail](assets/video_tinkerbelle_thumb.png)  
-[Watch Tinkerbelle Demo on YouTube](https://www.youtube.com/watch?v=PLACEHOLDER_TINKERBELLE)
+[![Tinkerbelle Demo Thumbnail](assets/video_tinkerbelle_thumb.png)](https://youtu.be/spCgc1vKdgQ)  
+[Watch Tinkerbelle Demo on YouTube](https://youtu.be/spCgc1vKdgQ)
 
-![Scenario 1 Thumbnail](assets/video_interaction1_thumb.png)  
-[Watch Scenario 1 – Park runners on YouTube](https://www.youtube.com/watch?v=PLACEHOLDER_INTERACTION1)
+[![Scenario 1 Thumbnail](assets/video_interaction1_thumb.png)](https://youtu.be/3J6mW0_NUnQ)  
+[Watch Scenario 1 – Park runners on YouTube](https://youtu.be/3J6mW0_NUnQ)
 
-![Scenario 2 Thumbnail](assets/video_interaction2_thumb.png)  
-[Watch Scenario 2 – Cafe customers on YouTube](https://www.youtube.com/watch?v=PLACEHOLDER_INTERACTION2)
+[![Scenario 2 Thumbnail](assets/video_interaction2_thumb.png)](https://youtu.be/fvk_GieFJp0)  
+[Watch Scenario 2 – Cafe customers on YouTube](https://youtu.be/fvk_GieFJp0)
 
-![Scenario 3 Thumbnail](assets/video_interaction3_thumb.png)  
-[Watch Scenario 3 – Station commuters on YouTube](https://www.youtube.com/watch?v=PLACEHOLDER_INTERACTION3)
+[![Scenario 3 Thumbnail](assets/video_interaction3_thumb.png)](https://youtu.be/GtnpgtDS9No)  
+[Watch Scenario 3 – Station commuters on YouTube](https://youtu.be/GtnpgtDS9No)
 
 ### Part 2 – Make It Your Own (Incorporating Haptics)
 
