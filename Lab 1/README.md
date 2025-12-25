@@ -162,7 +162,7 @@ The primary signal is a shared colored light. When the device is active it glows
 
 The concept draws directly from the original stage production of _Peter Pan_, where Tinker Bell existed only as a darting spot of light created off-stage with a mirror and lamp. Her presence was felt entirely through the other characters’ reactions to her. We took that theatrical cue—presence through interaction rather than embodiment—and applied it to a device whose main output is lighting.
 
-_AI Usage:_ Apple Writing Tools helped condense raw ideation notes into the descriptive paragraph above.  
+_AI Usage:_ Apple Writing Tools helped condense raw ideation notes into the descriptive paragraph above.
 _Original Prompt:_ "Clean up these notes to make them suitable for a document on a prototype device that lights up a specific color..."
 
 ## Ideation & Planning
