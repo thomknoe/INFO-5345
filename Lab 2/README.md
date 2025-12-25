@@ -272,14 +272,12 @@ I was drawn to Tega Brain’s practice of frustrating modern infrastructures to 
 Tega Brain, _Being Radiotropic_ (2016)
 
 ![Inspiration 2](assets/insp2.png)
-
 ![Inspiration 3](assets/insp3.png)  
 Tega Brain, _Ecological Time_
 
 My initial sketches played with alternative timekeeping: one tracking bird migration patterns, another marking discrete intervals between F-line subway stops.
 
 ![Brainstorm 1](assets/brainstorm1.png)
-
 ![Brainstorm 2](assets/brainstorm2.png)
 
 ## Group Concept & Storyboards
@@ -287,12 +285,10 @@ My initial sketches played with alternative timekeeping: one tracking bird migra
 We pooled ideas and landed on the water-pouring alarm clock—equal parts provocation and morning theater.
 
 ![Storyboard 1](assets/storyboard1.png)
-
 ![Storyboard 2](assets/storyboard2.png)
 
-![Storyboard 3](assets/storyboard3.png)
+_AI Usage:_ Realistic storyboard set generated using Google Gemini. All original artifacts preserved.
 
-_AI Usage:_ Realistic storyboard set generated using Google Gemini. All original artifacts preserved.  
 _Original Prompt:_ "Please design product renderings for a water-based alarm clock..."
 
 ## Prototyping & Assembly
@@ -300,58 +296,30 @@ _Original Prompt:_ "Please design product renderings for a water-based alarm clo
 We used the MiniPiTFT for countdown and messaging, paired with a stepper motor holding a small cup of water. Multi-threading kept display and motor control independent. Initial pin conflicts required a pin-extender add-on. A 3D-printed platform held the electronics; cardboard enclosure hid wiring and was decorated for domestic camouflage.
 
 ![Process 1](assets/process1.png)
-
 ![Process 2](assets/process2.png)
-
 ![Process 3](assets/process3.png)
 
 ![Assembly 1](assets/assembly1.png)
-
 ![Assembly 2](assets/assembly2.png)
-
 ![Assembly 3](assets/assembly3.png)
-
 ![Assembly 4](assets/assembly4.png)
-
 ![Assembly 5](assets/assembly5.png)
-
 ![Assembly 6](assets/assembly6.png)
 
 The device hangs above the bed. One button repositions the stepper arm (a limitation of steppers—only directional steps, no absolute angle memory). Future versions would swap in a servo for precision. The pour itself is gloriously unpredictable depending on sleeping position.
 
 ![View 1](assets/view1.png)
-
 ![View 2](assets/view2.png)
-
 ![View 3](assets/view3.png)
 
 ## Code & AI Assistance
 
-```python
-import threading
-import time
-
-def countdown():
-    for i in range(10, 0, -1):
-        print(i)
-        time.sleep(1)
-    print("WAKE UP!!!")
-
-def pour_water():
-    time.sleep(10)  # Sync with countdown
-    print("Pouring water")
-
-thread1 = threading.Thread(target=countdown)
-thread2 = threading.Thread(target=pour_water)
-thread1.start()
-thread2.start()
-
-```
-
 Code available at [water_alarm_clock.py](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/water_alarm_clock.py)
 
 _AI Usage:_ ChatGPT helped write and iterate the code—great at remembering context across revisions for both MiniPiTFT and stepper control.
+
 _Pros:_ Fast generation, strong contextual memory.
+
 _Cons:_ Got stuck in suggestion loops; completely blind to hardware/wiring issues (our biggest bug turned out to be a physical pin change).
 
 ## Demonstration Videos (YouTube Thumbnails)
@@ -377,7 +345,3 @@ Kathleen McDermott, _Urban Armor #9_ (2019)
 ## Reflections
 
 The clock works convincingly as concept and provocation. The countdown builds genuine anticipation; the pour delivers the punchline. Stepper limitations taught us the value of absolute positioning (servo next time). AI accelerated code but couldn’t see physical reality—debugging remained firmly human territory. Overall the piece succeeds at turning a daily resentment into shared absurd theater.
-
-```
-
-```
