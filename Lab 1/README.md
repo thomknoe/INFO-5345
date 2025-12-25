@@ -1,6 +1,9 @@
 # Staging Interaction
 
-<mark> **Collaborators: Thomas Knoepffler, Rajvi Ranjit Patil, Om Kamath, Laura Moren** </mark>
+**Collaborators:** Thomas Knoepffler (Storyboards & Sketches), Rajvi Ranjit Patil (Storyboards & Wizard), Om Kamath (AI Artist & Videographer), Laura Moreno (Sketches)
+
+<details>
+  <summary><strong>Original Lab Brief</strong></summary>
 
 In the original stage production of Peter Pan, Tinker Bell was represented by a darting light created by a small handheld mirror off-stage, reflecting a little circle of light from a powerful lamp. Tinkerbell communicates her presence through this light to the other characters. See more info [here](https://en.wikipedia.org/wiki/Tinker_Bell).
 
@@ -9,9 +12,6 @@ There is no actor that plays Tinkerbell--her existence in the play comes from th
 For lab this week, we draw on this and other inspirations from theatre to stage interactions with a device where the main mode of display/output for the interactive device you are designing is lighting. You will plot the interaction with a storyboard, and use your computer and a smartphone to experiment with what the interactions will look and feel like.
 
 _Make sure you read all the instructions and understand the whole of the laboratory activity before starting!_
-
-<details>
-  <summary><strong>Prep</strong></summary>
 
 ## Prep
 
@@ -43,11 +43,6 @@ _Make sure you read all the instructions and understand the whole of the laborat
 
 This README.md page in your own repository should be edited to include the work you have done (the deliverables mentioned above). Following the format below, you can delete everything but the headers and the sections between the **stars**. Write the answers to the questions under the starred sentences. Include any material that explains what you did in this lab hub folder, and link it in your README.md for the lab.
 
-</details>
-
-<details>
-  <summary><strong>Lab Overview</strong></summary>
-
 ## Lab Overview
 
 For this assignment, you are going to:
@@ -66,11 +61,6 @@ F) [Record the interaction](#part-f-record)
 
 Labs are due on Mondays. Make sure this page is linked to on your main class hub page.
 
-</details>
-
-<details>
-  <summary><strong>Part A. Plan</strong></summary>
-
 ## Part A. Plan
 
 To stage an interaction with your interactive device, think about:
@@ -85,85 +75,23 @@ _Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening th
 
 The interactive device can be anything _except_ a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
 
-</details>
-
 \*\***Describe your setting, players, activity and goals here.**\*\*
-
-<mark> This speculative wearable device is set in public or social contexts where strangers can be close by, like waiting areas or events. Two or more strangers, who’ve never met, are brought together by the device’s indication of a shared characteristic, context, or goal. They share a passive presence in these environments, and the device’s activation transforms this into a potential shared activity, inviting conversation. The device’s goal is to facilitate connection in specific contexts using a shared, colored light signal. The light glows when the device is active, and when in proximity to another device with a matching setting, both devices react simultaneously, intensifying, pulsing, or changing in sync. Players can acknowledge the match and initiate a conversation to discover their shared commonality. The light acts as a natural icebreaker, providing a shared topic to discuss. </mark>
-
-<mark> _**AI Usage:** Utilized assistance from Apple Writing Tools to condense notes taken durring ideation discussion into a succinct paragraph._ </mark>
-
-<mark> _**Original Prompt:** "Clean up these notes to make them suitable for a document on a prototype device that lights up a specific color. If two people share a characteristic, both devices would light up when they’re in a shared context, like traveling to the same destination or have the same interest. The setting will be in public or social places, creating opportunities for people to randomly encounter each other who share something similar. Here are the corresponding notes [Input Raw Notes]"_ </mark>
-
-### <mark> Interaction Scenario 1 </mark>
-
-- <mark> **Setting:** City park </mark>
-- <mark> **Players:** Runners / Running Enthusiasts </mark>
-- <mark> **Activity:** Marathon Training / Hobby Running </mark>
-- <mark> **Goals:** To match runners training for the same marathon or following the same route </mark>
-
-### <mark> Interaction Scenario 2 </mark>
-
-- <mark> **Setting:** The Cafe </mark>
-- <mark> **Players:** Cafe customers </mark>
-- <mark> **Activity:** Miscellaneous / Consuming cafe food </mark>
-- <mark> **Goals:** To match people having same food likings. </mark>
-
-### <mark> Interaction Scenario 3 </mark>
-
-- <mark> **Setting:** Station </mark>
-- <mark> **Players:** Commuters </mark>
-- <mark> **Activity:** Waiting for the Bus / Tram / Train / Metro </mark>
-- <mark> **Goals:** To match people traveling to the same destination and are from the same organization. </mark>
 
 Storyboards are a tool for visually exploring a users interaction with a device. They are a fast and cheap method to understand user flow, and iterate on a design before attempting to build on it. Take some time to read through this explanation of [storyboarding in UX design](https://www.smashingmagazine.com/2017/10/storyboarding-ux-design/). Sketch seven storyboards of the interactions you are planning. **It does not need to be perfect**, but must get across the behavior of the interactive device and the other characters in the scene.
 
 \*\***Include pictures of your storyboards here**\*\*
 
-![Storyboard 1](https://drive.google.com/uc?export=view&id=1DNT6S1OwPsuJSe-ho4xnuKZxBhkNxbTm)
-![Storyboard 2](https://drive.google.com/uc?export=view&id=1KggTxAP4BKmhTJ9vc0BkbEbVfGs2tqWN)
-![Storyboard 3](https://drive.google.com/uc?export=view&id=1hNgNOJl6hK6eKRoGfw5tt_NJagru3F1f)
-![Storyboard 4](https://drive.google.com/uc?export=view&id=1jXh6JSjGKLXYJ3p9iwrgKQPpWsT_IN4q)
-![Storyboard 5](https://drive.google.com/uc?export=view&id=1LCfbMxDwaGZt4cT1jcVMpQMHh2OSqfZt)
-![Storyboard 6](https://drive.google.com/uc?export=view&id=16kX6WVp1qsnAE1dylU-2C1H1LGspn6v1)
-![Storyboard 7](https://drive.google.com/uc?export=view&id=1DtkhyAWIwUQ8_SAQZOftXEV3YZDdLUcb)
-
-<mark> _**AI Usage:** Storyboard seven generated using ChatGPT (Dall-E). All original artifacts preserved._ </mark>
-
-<mark> _**Original Prompt:** "My team and I are creating a wearable prototype that lights up whenever it detects someone nearby that has something in common with you...Give me a storyboard of this happening at a music festival and necklace for form of prototype."_ </mark>
-
 Present your ideas to the other people in your breakout room (or in small groups). You can just get feedback from one another or you can work together on the other parts of the lab.
 
 \*\***Summarize feedback you got here.**\*\*
-
-<mark> We held a collaborative conversation and ideation session with our team members. They proposed ideas, critiqued each other’s suggestions, and discussed the feasibility of implementing the technology itself. We explored different settings and technologies that could facilitate such a spontaneous protocol that also infered similarities from the user. Considering the vast amount of data each user would need to provide and the proximity to the device would have to perform meaningfully, technologies like AI and computer vision were also considered. </mark>
-
-<mark> Initially, the wearable was conceived for private settings like homes or domestic spaces, but it evolved into a more public-facing device for social engagement. We discussed dating and matchmaking as a use case, but the complexity was deemed too challenging and could lead to more cumbersome interactions. We also explored the idea of color-coding emotions, but it too was deemed improbable for a wearable device. After discussing various topics and potential use cases, we narrowed them down to the ones we’re representing in this lab assignment: meeting someone out on a run, meeting someone in a café, or meeting someone waiting for public transit. </mark>
-
-![Proccess 1](https://drive.google.com/uc?export=view&id=1x5aKIgKqHNHzvoW6f9XkQiBrgZVTa8O7)
-![Proccess 2](https://drive.google.com/uc?export=view&id=1QZNThR1SkePLOlSDfhi0mrHDsFTCek5d)
-![Proccess 3](https://drive.google.com/uc?export=view&id=1TvBJOAIamJLoWt_QL83mgbCvJ8FvZgOd)
-![Proccess 4](https://drive.google.com/uc?export=view&id=129fMUCplb0ZboBEU8F6uQIO5pYaRpCrx)
-
-<details>
-  <summary><strong>Act out the Interaction</strong></summary>
 
 ## Part B. Act out the Interaction
 
 Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it.
 
-</details>
-
 \*\***Are there things that seemed better on paper than acted out?**\*\*
 
-<mark> We soon discovered that not all associations lend themselves to pleasant conversations. For instance, in our café skit, we attempt to convey this by having the association simply ordering the same items, and then having that associative light turn on, even though there’s no real reason for having such a conversation beyond simply ordering the same food. Another challenge was accounting for the device’s wearability and how well it can withstand high-intensity activities like running. Ultimately, the problems that arose from acting out the scenes had to do with more of the social conventions of an interaction, but at the same time, the device is trying to break social conventions by immediately allowing for a conversation between two strangers, which inevitably would have to create some form of awkwardness. </mark>
-
 \*\***Are there new ideas that occur to you or your collaborator that come up from the acting?**\*\*
-
-<mark> Perhaps allowing for other forms of feedback so that a user doesn't always have to be looking at the light in order to understand whether or not there is a person nearby that shares similarities. Perhaps also considering different parameters that can be placed within such a device to allow only for a more refined selection of associations rather than whatever it can infer from situational context. </mark>
-
-<details>
-  <summary><strong>Prototype the device</strong></summary>
 
 ## Part C. Prototype the device
 
@@ -175,37 +103,17 @@ We invented this tool for this lab!
 
 If you run into technical issues with this tool, you can also use a light switch, dimmer, etc. that you can can manually or remotely control.
 
-</details>
-
 \*\***Give us feedback on Tinkerbelle.**\*\*
-
-<mark> The app worked very well for the purposes of this lab. We appreciated the fact that it was able to be hosted on multiple devices from a single server, which means that we could have multiple Tinkerbells at once, which is very useful for our use case since we were having a complementary interactive system (i.e. two wearable devices that were supposedly communicating with one another synchronously). </mark>
-
-<mark> One limitation that somewhat changed our design was the fact that it is difficult to change the hue and the contrast of a color at the same time. This makes it difficult to cycle through different shades of colors, and thus means that we would be limited primarily to either changing the hue continuously or the contrast continuously. Thankfully, for our testing purposes, we only needed to change the contrast of a color as we decided that each color corresponded to one particular connective interaction. </mark>
-
-<details>
-  <summary><strong>Wizard the device</strong></summary>
 
 ## Part D. Wizard the device
 
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record.
 
-</details>
-
 \*\***Include your first attempts at recording the set-up video here.**\*\*
 
-- <mark> Watch the Tinkerbelle demo for our device color shifting here: [Tinkerbelle Video Link](https://drive.google.com/file/d/1FQ5VyOZF2lZmyyvNrP85Ij5tZ8VhFULe/view?usp=sharing) </mark>
-
-Now, hange the goal within the same setting, and update the interaction with the paper prototype.
+Now, change the goal within the same setting, and update the interaction with the paper prototype.
 
 \*\***Show the follow-up work here.**\*\*
-
-![Proccess 5](https://drive.google.com/uc?export=view&id=1lr-00TYFbz1nkZiVcvh8trO6atkVOFJH)
-![Proccess 6](https://drive.google.com/uc?export=view&id=1ibBb8trA6n87Gx9thfTjUA37HFNHaS00)
-![Proccess 7](https://drive.google.com/uc?export=view&id=1TAmUKwKK_F1HE85MswIAyOts93ot4E3j)
-
-<details>
-  <summary><strong>Costume the device</strong></summary>
 
 ## Part E. Costume the device
 
@@ -213,62 +121,18 @@ Only now should you start worrying about what the device should look like. Devel
 
 Think about the setting of the device: is the environment a place where the device could overheat? Is water a danger? Does it need to have bright colors in an emergency setting?
 
-</details>
-
 \*\***Include sketches of what your devices might look like here.**\*\*
-
-![Sketch 1](https://drive.google.com/uc?export=view&id=1tepSAp-KW_ectntW8Dd9SYeAr9RH-Z11)
-![Sketch 2](https://drive.google.com/uc?export=view&id=1XdM6OE1qnXflwuE-t3_da87JPlh0IZWl)
-![Sketch 3](https://drive.google.com/uc?export=view&id=18rgMHo47hVwGpO377oQYzKz64q6NAqqw)
-![Costume 1](https://drive.google.com/uc?export=view&id=19xqGIgo3DbIaURVgZKu3NXW6pet1ETpQ)
-![Costume 2](https://drive.google.com/uc?export=view&id=1vmid1Ehm8HJtlF2j7SUiVYk65DrzhVnm)
-![AI Image](https://drive.google.com/uc?export=view&id=1BsdcIcqCg8jfHblXLg3SWejmCzc4jZWm)
-
-<mark> _**AI Usage:** AI Image generated using ChatGPT (Dall-E). All original artifacts preserved._ </mark>
-
-<mark> _**Original Prompt:** "Create an image of a firefly inspired wearable device that glows and can be worn by people on their arm. The design should be minimalistic and apple-inspired. It will be worn around the bicep."_ </mark>
 
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
 
-<mark> The original form factor drew inspiration from fireflies, which use bioluminescence to socially interact with their kind. The costume needed to conform to the rectangular oblong shape of the iPhone, necessitating a shell-like design. Since the device would be wearable, we also explored alternative forms that could be attached to the body, such as an arm band, wrist band, and necklace, as shown in the sketches. The wearable needed to be prominently worn and displayed, so that the light could be seen both by the wearer (i.e. user) and the observer (i.e. partner) that it would correspond to. </mark>
-
-![Inspiration 1](https://drive.google.com/uc?export=view&id=1MhIP03aqoVcB6L1NYfTGv5FH-9afgP9J)
-![Inspiration 2](https://drive.google.com/uc?export=view&id=1M0BbuJeI3kwu18xlP09gP6Nb0BEsYJPl)
-
-<mark> _**Image Source:** Eastern firefly (Photinus pyralis) flying at late evening (Georgia, USA). By Ivan Kuzmin. (Adobe Stock Cornell License)_ </mark>
-
-<mark> One interesting note we received during our feedback session was that our device had a similar provocation to the instructional art of Miranda, July, namely the Somebody app (2014), which functioned as a messaging app where users could not send a text directly to a friend. Instead, they had to entrust their message to a stranger who was physically near the intended recipient. This feedback served as a grounding theme for our device, whereby the awkward and serendipitous nature of spontaneous conversation would serve as the thesis of the device itself, not just as a quirk that needed to be systematically fixed. </mark>
-
-![Inspiration 3](https://drive.google.com/uc?export=view&id=1E_dxsxBfH0qth43c25rZUR-H1sd_sLv1)
-
-<mark> _**Image Source:** Miranda July, Somebody (2014)._ </mark>
-
-<details>
-  <summary><strong>(to be done before Lab on Wednesday)</strong></summary>
-
 ## Part F. Record
 
-</details>
-
 \*\***Take a video of your prototyped interaction.**\*\*
-
-### <mark> Prototyped Interaction Series </mark>
-
-- <mark> Watch the Interaction Scenario 1 here: [Interaction 1 Video Link](https://drive.google.com/file/d/1IGFkaVVd7U4Mh4-HQyjOTki25YtIyRfO/view?usp=sharing) </mark>
-
-- <mark> Watch the Interaction Scenario 2 here: [Interaction 2 Video Link](https://drive.google.com/file/d/1X66-dfjI5zwb1OP5SWAp3vRn2fMXzl8W/view?usp=sharing) </mark>
-
-- <mark> Watch the Interaction Scenario 3 here: [Interaction 3 Video Link](https://drive.google.com/file/d/1f6PCroTVs_g10yARHF7w9Fh4jsFMOw69/view?usp=sharing) </mark>
 
 \*\***Please indicate who you collaborated with on this Lab.**\*\*
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design.
 
-<mark> Collaborators: Thomas Knoepffler (Storyboards & Sketches), Rajvi Ranjit Patil (Storyboards & Wizard), Om Kamath (AI Artist & Videographer), Laura Moreno (Sketches) </mark>
-
 # Staging Interaction, Part 2
-
-<details>
-  <summary><strong>(to be done before Lab on Wednesday)</strong></summary>
 
 This describes the second week's work for this lab activity.
 
@@ -276,25 +140,7 @@ This describes the second week's work for this lab activity.
 
 You will be assigned three partners from other groups. Go to their github pages, view their videos, and provide them with reactions, suggestions & feedback: explain to them what you saw happening in their video. Guess the scene and the goals of the character. Ask them about anything that wasn’t clear.
 
-</details>
-
 \*\***Summarize feedback from your partners here.**\*\*
-
-### <mark> Key Feedback Points </mark>
-
-- <mark> The device must not be "always on." It should activate only in pre-approved, receptive settings (e.g., networking events, conferences, concerts) and remain discreet otherwise. </mark>
-- <mark> A bright, always-visible light is problematic. It's ineffective in sunlight and intrusive in public. The design should be fashionable and adaptable—more like a piece of jewelry than a tech device, allowing it to fit different environments. </mark>
-- <mark> Use a color-coded system (e.g., Red/No, Yellow/Maybe, Green/Go) to indicate openness to interaction. </mark>
-- <mark> Ability to limit connections to specific groups (e.g., close friends, same professional field) or by regional programming. </mark>
-- <mark> Instead of relying solely on light, use haptic feedback (e.g., vibrations that "grow" in intensity as users get closer) as the primary, more discreet notification method to guide the meetup. </mark>
-- <mark> A notification and security layer is essential to ensure user safety and consent. </mark>
-
-<mark> _**AI Usage:** Utilized assistance from Apple Writing Tools to condense raw notes taken durring feedback sessions into itemized bullet points._ </mark>
-
-<mark> _**Original Prompt:** "Take this feedback about a haptic wearable device that lights up when you’re close to someone who shares a characteristic with you, almost like a social device. Clean up these notes and feedback and make them very concise for a summary of feedback [Input Raw Notes]"_ </mark>
-
-<details>
-  <summary><strong>Make it your own</strong></summary>
 
 ## Make it your own
 
@@ -304,22 +150,141 @@ Do last week’s assignment again, but this time:
 2. You can use any modality (e.g., vibration, sound) to prototype the behaviors! Again, be creative! Feel free to fork and modify the tinkerbell code!
 3. We will be grading with an emphasis on creativity.
 
-</details>
-
 \*\***Document everything here. (Particularly, we would like to see the storyboard and video, although photos of the prototype are also great.)**\*\*
 
-<mark> Given the feedback on our project, we decided to incorporate some elements of haptic feedback into the interaction. While we also were interested in taking the direction of being more context-aware with the device (i.e. limiting it to certain venues and locations that called for conversational engagement), we ultimately decided to continue with our original vision of keeping the device as a wearable that provokes discussion. The incorporation of haptics does allow for it to be more discreet, allowing the user not to bring too much attention to themselves at the moment of a connective interaction. The frequency of the vibration will modulate as they approach the Interlocutor, making the act of finding the other person as part of the engagement. </mark>
+</details>
 
-![Updated Storyboard 1](https://drive.google.com/uc?export=view&id=1ktzreSTQk7Wtno3PIrKNeIugFqczAtAJ)
-![Updated Storyboard 2](https://drive.google.com/uc?export=view&id=17XWD-Un3ubpCbNJf9fFO87nkrLTTI7A_)
-![Updated Storyboard 3](https://drive.google.com/uc?export=view&id=1i1bRM52hTgcEDlMHTkgQMvntas7f_90A)
+## Overview
 
-<mark> _**AI Usage:** AI Storyboards refactored and generated using Google Gemini. All original artifacts preserved._ </mark>
+This speculative wearable device operates in public or social contexts where strangers are physically close—waiting areas, events, parks, cafes, transit hubs. The core idea is to bring two or more strangers who’ve never met into potential conversation by signaling a shared characteristic, context, or goal. In otherwise passive environments, the sudden activation of the device turns incidental proximity into an invitation for interaction.
 
-### <mark> Updated Prototyped Interaction Series (Haptic Overlay) </mark>
+The primary signal is a shared colored light. When the device is active it glows softly; when another device with a matching setting comes into range, both react in unison—intensifying, pulsing, or shifting in sync. This synchronized display gives both wearers an immediate, mutual cue to acknowledge the match, discover what they have in common, and—if they choose—start talking. The light becomes a natural, low-pressure icebreaker, supplying a ready-made topic without forcing commitment.
 
-- <mark> Watch the Updated Haptic Interaction Scenario 1 here: [Haptic Interaction 1 Video Link](https://drive.google.com/file/d/1ktKe_nPDNFaMgdUzrm6dHQKmYQ28m3cy/view?usp=sharing) </mark>
+The concept draws directly from the original stage production of _Peter Pan_, where Tinker Bell existed only as a darting spot of light created off-stage with a mirror and lamp. Her presence was felt entirely through the other characters’ reactions to her. We took that theatrical cue—presence through interaction rather than embodiment—and applied it to a device whose main output is lighting.
 
-- <mark> Watch the Updated Haptic Interaction Scenario 2 here: [Haptic Interaction 2 Video Link](https://drive.google.com/file/d/1RYV4q3CxR32O6BMdA7oLW0dWzQGctyrb/view?usp=sharing) </mark>
+_AI Usage:_ Apple Writing Tools helped condense raw ideation notes into the descriptive paragraph above.  
+_Original Prompt:_ "Clean up these notes to make them suitable for a document on a prototype device that lights up a specific color..."
 
-- <mark> Watch the Updated Haptic Interaction Scenario 3 here: [Haptic Interaction 3 Video Link](https://drive.google.com/file/d/1KXg1cpbe75Kh11Tz4souRe962TKug9FD/view?usp=sharing) </mark>
+## Ideation & Planning
+
+### Interaction Scenarios
+
+- **City Park**  
+  Players: Runners and running enthusiasts  
+  Activity: Marathon training or casual hobby running  
+  Goal: Match people training for the same marathon or following the same route
+
+- **Cafe**  
+  Players: Cafe customers  
+  Activity: Eating, drinking, lingering  
+  Goal: Match people who share similar food or drink preferences
+
+- **Station**  
+  Players: Commuters  
+  Activity: Waiting for bus, tram, train, or metro  
+  Goal: Match people traveling to the same destination and belonging to the same organization
+
+### Storyboards
+
+We produced seven storyboards to map out user flow and device behavior in realistic scenes.
+
+| Storyboard 1                            | Storyboard 2                            | Storyboard 3                            | Storyboard 4                            |
+| --------------------------------------- | --------------------------------------- | --------------------------------------- | --------------------------------------- |
+| ![Storyboard 1](assets/storyboard1.jpg) | ![Storyboard 2](assets/storyboard2.jpg) | ![Storyboard 3](assets/storyboard3.jpg) | ![Storyboard 4](assets/storyboard4.jpg) |
+
+| Storyboard 5                            | Storyboard 6                            | Storyboard 7                            |
+| --------------------------------------- | --------------------------------------- | --------------------------------------- |
+| ![Storyboard 5](assets/storyboard5.jpg) | ![Storyboard 6](assets/storyboard6.jpg) | ![Storyboard 7](assets/storyboard7.jpg) |
+
+_AI Usage:_ Storyboard 7 generated via ChatGPT (DALL-E) to visualize a music-festival necklace variant. Original hand-drawn boards preserved.  
+_Original Prompt:_ "My team and I are creating a wearable prototype that lights up whenever it detects someone nearby that has something in common with you..."
+
+### Group Feedback & Ideation Process
+
+Our breakout-room session was lively and productive. We pitched ideas, challenged feasibility, and debated implementation. Early concepts leaned toward private or domestic settings, but we quickly realized public social spaces offered richer opportunities for serendipity. We explored AI and computer-vision approaches to infer similarities automatically, weighed the data-privacy implications, and considered use-cases like dating or emotion-based matching—both ultimately felt too loaded and complex for a light-based wearable. In the end we converged on three grounded, relatable scenarios: matching runners in a park, food tastes in a cafe, and commuter destinations from the same workplace.
+
+| Ideation Process 1                | Ideation Process 2                | Ideation Process 3                | Ideation Process 4                |
+| --------------------------------- | --------------------------------- | --------------------------------- | --------------------------------- |
+| ![Process 1](assets/process1.jpg) | ![Process 2](assets/process2.jpg) | ![Process 3](assets/process3.jpg) | ![Process 4](assets/process4.jpg) |
+
+## Prototyping
+
+### Acting Out the Interaction
+
+Physically performing the scenarios surfaced nuances that sketches alone couldn’t reveal. Some associations that seemed promising on paper—like lighting up simply because two strangers ordered the same coffee—felt thin and forced when enacted. Wearability during vigorous activity (running) became an obvious concern. More fundamentally, the device deliberately violates everyday social norms by prompting immediate conversation between strangers, and that violation inevitably produces a degree of awkwardness. Rather than smooth it away, we began to see that awkwardness as part of the provocation.
+
+Ideas that emerged during acting: introduce secondary feedback channels (so users aren’t glued to the light) and allow finer-grained control over what kinds of commonalities the device surfaces.
+
+### Tinkerbelle Tool
+
+The Tinkerbelle web-app proved excellent for this lab. Hosting multiple phones from a single server let us simulate true pairwise synchronization—exactly what our concept required. The main limitation was that hue and contrast couldn’t be animated independently, so we settled on contrast-only modulation for each color-association.
+
+### Wizarding & Follow-up Prototypes
+
+| Follow-up 1                         | Follow-up 2                         | Follow-up 3                         |
+| ----------------------------------- | ----------------------------------- | ----------------------------------- |
+| ![Follow-up 1](assets/process5.jpg) | ![Follow-up 2](assets/process6.jpg) | ![Follow-up 3](assets/process7.jpg) |
+
+### Costuming the Device
+
+We explored forms that would accommodate an iPhone while remaining visible to both wearer and onlooker. Firefly bioluminescence provided the guiding metaphor—creatures that use light for social signaling.
+
+| Sketch 1                        | Sketch 2                        | Sketch 3                        |
+| ------------------------------- | ------------------------------- | ------------------------------- |
+| ![Sketch 1](assets/sketch1.jpg) | ![Sketch 2](assets/sketch2.jpg) | ![Sketch 3](assets/sketch3.jpg) |
+
+| Costume 1                         | Costume 2                         | AI-Generated Costume                 |
+| --------------------------------- | --------------------------------- | ------------------------------------ |
+| ![Costume 1](assets/costume1.jpg) | ![Costume 2](assets/costume2.jpg) | ![AI Costume](assets/ai_costume.jpg) |
+
+_AI Usage:_ Firefly-inspired bicep wearable generated with ChatGPT (DALL-E). Original sketches preserved.  
+_Original Prompt:_ "Create an image of a firefly inspired wearable device that glows and can be worn by people on their arm..."
+
+## Interaction Videos
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PLACEHOLDER_TINKERBELLE" title="Tinkerbelle color-shift demo" frameborder="0" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PLACEHOLDER_INTERACTION1" title="Scenario 1 – Park runners" frameborder="0" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PLACEHOLDER_INTERACTION2" title="Scenario 2 – Cafe customers" frameborder="0" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PLACEHOLDER_INTERACTION3" title="Scenario 3 – Station commuters" frameborder="0" allowfullscreen></iframe>
+
+### Part 2 – Make It Your Own (Incorporating Haptics)
+
+Partner feedback pushed us to think harder about privacy, visibility, and consent. Rather than abandon the original provocation, we layered in haptic feedback: vibration intensity increases as the matching wearer approaches, making the act of locating each other part of the experience while keeping the interaction more discreet in bright or crowded settings.
+
+| Updated Storyboard 1                         | Updated Storyboard 2                         | Updated Storyboard 3                         |
+| -------------------------------------------- | -------------------------------------------- | -------------------------------------------- |
+| ![Updated 1](assets/updated_storyboard1.jpg) | ![Updated 2](assets/updated_storyboard2.jpg) | ![Updated 3](assets/updated_storyboard3.jpg) |
+
+_AI Usage:_ Updated storyboards generated with Google Gemini.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PLACEHOLDER_HAPTIC1" title="Haptic Scenario 1" frameborder="0" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PLACEHOLDER_HAPTIC2" title="Haptic Scenario 2" frameborder="0" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PLACEHOLDER_HAPTIC3" title="Haptic Scenario 3" frameborder="0" allowfullscreen></iframe>
+
+### Partner Feedback Highlights
+
+- Device should not be “always on”—activate only in explicitly receptive contexts (networking events, concerts, conferences).
+- Constant bright light is ineffective outdoors and can feel intrusive; consider jewelry-like, adaptable aesthetics.
+- Color-coding for openness (Red/No, Yellow/Maybe, Green/Go) could give users control.
+- Allow restriction to specific groups or geographic programming.
+- Haptic feedback (growing vibration intensity) is far more discreet than visible light for guiding meetups.
+- Safety and consent mechanisms are essential.
+
+_AI Usage:_ Apple Writing Tools condensed raw partner notes into the bullets above.
+
+## Reflections
+
+One comment that stuck with us compared the project to Miranda July’s _Somebody_ app (2014)—messages delivered by strangers physically near the recipient. That deliberate injection of awkward, mediated serendipity felt like the real heart of our concept: the tension itself is the point, not something to engineer away.
+
+Balancing provocation with practicality remains the central challenge. Light is an extraordinarily effective social signal, but context, discretion, and user agency determine whether it feels magical or intrusive. Adding haptics gave us a subtler channel without diluting the original spark. Moving forward, thoughtful activation modes and consent layers seem critical for anything approaching real-world deployment.
+
+## Inspirations
+
+| Inspiration 1                                                                                                 | Inspiration 2                                                 | Inspiration 3                                                     |
+| ------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------- | ----------------------------------------------------------------- |
+| ![Insp 1](assets/insp1.jpg)<br>Eastern firefly (Photinus pyralis) – Ivan Kuzmin (Adobe Stock Cornell License) | ![Insp 2](assets/insp2.jpg)<br>Firefly social bioluminescence | ![Insp 3](assets/insp3.jpg)<br>Miranda July – Somebody app (2014) |
