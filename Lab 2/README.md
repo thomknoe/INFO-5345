@@ -322,14 +322,14 @@ _Cons:_ Got stuck in suggestion loops; completely blind to hardware/wiring issue
 
 (Replace thumbnail paths with your own screenshots or YouTube auto-thumbnails once uploaded.)
 
-[![Edited Clock Demo](assets/clock_demo_thumb.png)](https://www.youtube.com/watch?v=PLACEHOLDER_EDITED)
-Watch edited demo on YouTube
+[![Clock Demo 1](assets/clock_demo1.png)](https://youtu.be/2jAuKsEkn1A)
+[Watch Clock Demo 1 on YouTube](https://youtu.be/2jAuKsEkn1A)
 
-[![Unedited Demo 1](assets/unedited1_thumb.png)](https://www.youtube.com/watch?v=PLACEHOLDER_UNEDITED1)
-Watch unedited demo 1 on YouTube
+[![Clock Demo 2](assets/clock_demo2.png)](https://youtu.be/ZMM2v4Hwoms)
+[Watch Clock Demo 2 on YouTube](https://youtu.be/ZMM2v4Hwoms)
 
-[![Unedited Demo 2](assets/unedited2_thumb.png)](https://www.youtube.com/watch?v=PLACEHOLDER_UNEDITED2)
-Watch unedited demo 2 on YouTube
+[![Clock Demo 3](assets/clock_demo3.png)](https://youtu.be/iekUGyjbt7Q)
+[Watch Clock Demo 3 on YouTube](https://youtu.be/iekUGyjbt7Q)
 
 ## Additional Inspiration
 
