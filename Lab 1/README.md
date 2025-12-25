@@ -188,39 +188,13 @@ _Original Prompt:_ "Clean up these notes to make them suitable for a document on
 
 We produced seven storyboards to map out user flow and device behavior in realistic scenes.
 
-<div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin: 24px 0;">
-  <div style="text-align: center;">
-    <img src="assets/storyboard1.jpg" alt="Storyboard 1" style="width: 100%; height: auto; object-fit: contain; max-height: 300px;">
-    <p style="margin-top: 8px; font-size: 0.9em;">1 – Initial detection</p>
-  </div>
-  <div style="text-align: center;">
-    <img src="assets/storyboard2.jpg" alt="Storyboard 2" style="width: 100%; height: auto; object-fit: contain; max-height: 300px;">
-    <p style="margin-top: 8px; font-size: 0.9em;">2 – Proximity cue</p>
-  </div>
-  <div style="text-align: center;">
-    <img src="assets/storyboard3.jpg" alt="Storyboard 3" style="width: 100%; height: auto; object-fit: contain; max-height: 300px;">
-    <p style="margin-top: 8px; font-size: 0.9em;">3 – Sync begins</p>
-  </div>
-  <div style="text-align: center;">
-    <img src="assets/storyboard4.jpg" alt="Storyboard 4" style="width: 100%; height: auto; object-fit: contain; max-height: 300px;">
-    <p style="margin-top: 8px; font-size: 0.9em;">4 – Intensifying pulse</p>
-  </div>
-</div>
+|                                                                                             |                                                                                         |                                                                                       |                                                                                              |
+| :-----------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------: |
+| <img src="assets/storyboard1.jpg" width="100%" alt="Storyboard 1"><br>1 – Initial detection | <img src="assets/storyboard2.jpg" width="100%" alt="Storyboard 2"><br>2 – Proximity cue | <img src="assets/storyboard3.jpg" width="100%" alt="Storyboard 3"><br>3 – Sync begins | <img src="assets/storyboard4.jpg" width="100%" alt="Storyboard 4"><br>4 – Intensifying pulse |
 
-<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin: 24px 0;">
-  <div style="text-align: center;">
-    <img src="assets/storyboard5.jpg" alt="Storyboard 5" style="width: 100%; height: auto; object-fit: contain; max-height: 300px;">
-    <p style="margin-top: 8px; font-size: 0.9em;">5 – Acknowledgment</p>
-  </div>
-  <div style="text-align: center;">
-    <img src="assets/storyboard6.jpg" alt="Storyboard 6" style="width: 100%; height: auto; object-fit: contain; max-height: 300px;">
-    <p style="margin-top: 8px; font-size: 0.9em;">6 – Approach & conversation</p>
-  </div>
-  <div style="text-align: center;">
-    <img src="assets/storyboard7.jpg" alt="Storyboard 7" style="width: 100%; height: auto; object-fit: contain; max-height: 300px;">
-    <p style="margin-top: 8px; font-size: 0.9em;">7 – Shared discovery (festival variant)</p>
-  </div>
-</div>
+|                                                                                          |                                                                                                   |                                                                                                               |
+| :--------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------: |
+| <img src="assets/storyboard5.jpg" width="100%" alt="Storyboard 5"><br>5 – Acknowledgment | <img src="assets/storyboard6.jpg" width="100%" alt="Storyboard 6"><br>6 – Approach & conversation | <img src="assets/storyboard7.jpg" width="100%" alt="Storyboard 7"><br>7 – Shared discovery (festival variant) |
 
 _AI Usage:_ Storyboard 7 generated via ChatGPT (DALL-E) to visualize a music-festival necklace variant. Original hand-drawn boards preserved.  
 _Original Prompt:_ "My team and I are creating a wearable prototype that lights up whenever it detects someone nearby that has something in common with you..."
@@ -280,20 +254,9 @@ _Original Prompt:_ "Create an image of a firefly inspired wearable device that g
 
 Partner feedback pushed us to think harder about privacy, visibility, and consent. Rather than abandon the original provocation, we layered in haptic feedback: vibration intensity increases as the matching wearer approaches, making the act of locating each other part of the experience while keeping the interaction more discreet in bright or crowded settings.
 
-<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin: 24px 0;">
-  <div style="text-align: center;">
-    <img src="assets/updated_storyboard1.jpg" alt="Updated Storyboard 1" style="width: 100%; height: auto; object-fit: contain; max-height: 300px;">
-    <p style="margin-top: 8px; font-size: 0.9em;">1 – Haptic onset</p>
-  </div>
-  <div style="text-align: center;">
-    <img src="assets/updated_storyboard2.jpg" alt="Updated Storyboard 2" style="width: 100%; height: auto; object-fit: contain; max-height: 300px;">
-    <p style="margin-top: 8px; font-size: 0.9em;">2 – Growing intensity</p>
-  </div>
-  <div style="text-align: center;">
-    <img src="assets/updated_storyboard3.jpg" alt="Updated Storyboard 3" style="width: 100%; height: auto; object-fit: contain; max-height: 300px;">
-    <p style="margin-top: 8px; font-size: 0.9em;">3 – Discreet meetup</p>
-  </div>
-</div>
+|                                                                                                        |                                                                                                             |                                                                                                           |
+| :----------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------: |
+| <img src="assets/updated_storyboard1.jpg" width="100%" alt="Updated Storyboard 1"><br>1 – Haptic onset | <img src="assets/updated_storyboard2.jpg" width="100%" alt="Updated Storyboard 2"><br>2 – Growing intensity | <img src="assets/updated_storyboard3.jpg" width="100%" alt="Updated Storyboard 3"><br>3 – Discreet meetup |
 
 _AI Usage:_ Updated storyboards generated with Google Gemini.
 
