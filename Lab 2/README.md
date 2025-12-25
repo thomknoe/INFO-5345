@@ -293,21 +293,17 @@ _Original Prompt:_ "Please design product renderings for a water-based alarm clo
 
 ## Prototyping & Assembly
 
-We used the MiniPiTFT for countdown and messaging, paired with a stepper motor holding a small cup of water. Multi-threading kept display and motor control independent. Initial pin conflicts required a pin-extender add-on. A 3D-printed platform held the electronics; cardboard enclosure hid wiring and was decorated for domestic camouflage.
+We used the MiniPiTFT for countdown and messaging, paired with a stepper motor holding a small cup of water. Multi-threading kept display and motor control independent. Initial pin conflicts required a pin-extender add-on. A 3D-printed platform held the electronics; cardboard enclosure hid wiring and was decorated for domestic camouflage. The device hangs above the bed. One button repositions the stepper arm (a limitation of steppers—only directional steps, no absolute angle memory). Future versions would swap in a servo for precision. The pour itself is gloriously unpredictable depending on sleeping position.
 
 ![Process 1](assets/process1.png)
 ![Process 2](assets/process2.png)
 ![Process 3](assets/process3.png)
-
 ![Assembly 1](assets/assembly1.png)
 ![Assembly 2](assets/assembly2.png)
 ![Assembly 3](assets/assembly3.png)
 ![Assembly 4](assets/assembly4.png)
 ![Assembly 5](assets/assembly5.png)
 ![Assembly 6](assets/assembly6.png)
-
-The device hangs above the bed. One button repositions the stepper arm (a limitation of steppers—only directional steps, no absolute angle memory). Future versions would swap in a servo for precision. The pour itself is gloriously unpredictable depending on sleeping position.
-
 ![View 1](assets/view1.png)
 ![View 2](assets/view2.png)
 ![View 3](assets/view3.png)
