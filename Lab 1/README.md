@@ -229,14 +229,13 @@ We explored forms that would accommodate an iPhone while remaining visible to bo
 
 ![Sketch 1](assets/sketch1.png)
 ![Sketch 2](assets/sketch2.png)
-
 ![Costume 1](assets/costume.png)
 ![AI Costume](assets/ai_image.png)
 
 _AI Usage:_ Firefly-inspired bicep wearable generated with ChatGPT (DALL-E). Original sketches preserved.  
 _Original Prompt:_ "Create an image of a firefly inspired wearable device that glows and can be worn by people on their arm..."
 
-## Interaction Videos (YouTube Thumbnails)
+## Interaction Videos
 
 [![Tinkerbelle Demo Thumbnail](assets/video_tinkerbelle_thumb.png)](https://youtu.be/spCgc1vKdgQ)  
 [Watch Tinkerbelle Demo on YouTube](https://youtu.be/spCgc1vKdgQ)
