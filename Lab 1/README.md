@@ -238,18 +238,16 @@ _Original Prompt:_ "Create an image of a firefly inspired wearable device that g
 
 ## Interaction Videos (YouTube Thumbnails)
 
-(Upload videos to YouTube, then replace the image paths below with actual thumbnail URLs or local thumbnail files.)
+![Tinkerbelle Demo Thumbnail](assets/video_tinkerbelle_thumb.png)  
+[Watch Tinkerbelle Demo on YouTube](https://www.youtube.com/watch?v=PLACEHOLDER_TINKERBELLE)
 
-![Tinkerbelle Demo Thumbnail](assets/video_tinkerbelle_thumb.jpg)  
-[Watch on YouTube](https://www.youtube.com/watch?v=PLACEHOLDER_TINKERBELLE)
-
-![Scenario 1 Thumbnail](assets/video_interaction1_thumb.jpg)  
+![Scenario 1 Thumbnail](assets/video_interaction1_thumb.png)  
 [Watch Scenario 1 – Park runners on YouTube](https://www.youtube.com/watch?v=PLACEHOLDER_INTERACTION1)
 
-![Scenario 2 Thumbnail](assets/video_interaction2_thumb.jpg)  
+![Scenario 2 Thumbnail](assets/video_interaction2_thumb.png)  
 [Watch Scenario 2 – Cafe customers on YouTube](https://www.youtube.com/watch?v=PLACEHOLDER_INTERACTION2)
 
-![Scenario 3 Thumbnail](assets/video_interaction3_thumb.jpg)  
+![Scenario 3 Thumbnail](assets/video_interaction3_thumb.png)  
 [Watch Scenario 3 – Station commuters on YouTube](https://www.youtube.com/watch?v=PLACEHOLDER_INTERACTION3)
 
 ### Part 2 – Make It Your Own (Incorporating Haptics)
