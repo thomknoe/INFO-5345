@@ -327,7 +327,7 @@ The device hangs above the bed. One button repositions the stepper arm (a limita
 
 ## Code & AI Assistance
 
-````python
+```python
 import threading
 import time
 
@@ -346,7 +346,7 @@ thread2 = threading.Thread(target=pour_water)
 thread1.start()
 thread2.start()
 
-```# Full code continues below... (replace with actual full code from file)```
+```
 
 Code available at [water_alarm_clock.py](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/water_alarm_clock.py)
 
@@ -377,4 +377,7 @@ Kathleen McDermott, _Urban Armor #9_ (2019)
 ## Reflections
 
 The clock works convincingly as concept and provocation. The countdown builds genuine anticipation; the pour delivers the punchline. Stepper limitations taught us the value of absolute positioning (servo next time). AI accelerated code but couldn’t see physical reality—debugging remained firmly human territory. Overall the piece succeeds at turning a daily resentment into shared absurd theater.
-````
+
+```
+
+```
