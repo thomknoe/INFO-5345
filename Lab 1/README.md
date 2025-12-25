@@ -162,7 +162,7 @@ The primary signal is a shared colored light. When the device is active it glows
 
 The concept draws directly from the original stage production of _Peter Pan_, where Tinker Bell existed only as a darting spot of light created off-stage with a mirror and lamp. Her presence was felt entirely through the other characters’ reactions to her. We took that theatrical cue—presence through interaction rather than embodiment—and applied it to a device whose main output is lighting.
 
-_AI Usage:_ Apple Writing Tools helped condense raw ideation notes into the descriptive paragraph above.
+_AI Usage:_ Apple Writing Tools helped condense raw ideation notes into the descriptive paragraph above.  
 _Original Prompt:_ "Clean up these notes to make them suitable for a document on a prototype device that lights up a specific color..."
 
 ## Ideation & Planning
@@ -188,13 +188,39 @@ _Original Prompt:_ "Clean up these notes to make them suitable for a document on
 
 We produced seven storyboards to map out user flow and device behavior in realistic scenes.
 
-| Storyboard 1                            | Storyboard 2                            | Storyboard 3                            | Storyboard 4                            |
-| --------------------------------------- | --------------------------------------- | --------------------------------------- | --------------------------------------- |
-| ![Storyboard 1](assets/storyboard1.jpg) | ![Storyboard 2](assets/storyboard2.jpg) | ![Storyboard 3](assets/storyboard3.jpg) | ![Storyboard 4](assets/storyboard4.jpg) |
+<div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin: 24px 0;">
+  <div style="text-align: center;">
+    <img src="assets/storyboard1.jpg" alt="Storyboard 1" style="width: 100%; height: auto; object-fit: contain; max-height: 300px;">
+    <p style="margin-top: 8px; font-size: 0.9em;">1 – Initial detection</p>
+  </div>
+  <div style="text-align: center;">
+    <img src="assets/storyboard2.jpg" alt="Storyboard 2" style="width: 100%; height: auto; object-fit: contain; max-height: 300px;">
+    <p style="margin-top: 8px; font-size: 0.9em;">2 – Proximity cue</p>
+  </div>
+  <div style="text-align: center;">
+    <img src="assets/storyboard3.jpg" alt="Storyboard 3" style="width: 100%; height: auto; object-fit: contain; max-height: 300px;">
+    <p style="margin-top: 8px; font-size: 0.9em;">3 – Sync begins</p>
+  </div>
+  <div style="text-align: center;">
+    <img src="assets/storyboard4.jpg" alt="Storyboard 4" style="width: 100%; height: auto; object-fit: contain; max-height: 300px;">
+    <p style="margin-top: 8px; font-size: 0.9em;">4 – Intensifying pulse</p>
+  </div>
+</div>
 
-| Storyboard 5                            | Storyboard 6                            | Storyboard 7                            |
-| --------------------------------------- | --------------------------------------- | --------------------------------------- |
-| ![Storyboard 5](assets/storyboard5.jpg) | ![Storyboard 6](assets/storyboard6.jpg) | ![Storyboard 7](assets/storyboard7.jpg) |
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin: 24px 0;">
+  <div style="text-align: center;">
+    <img src="assets/storyboard5.jpg" alt="Storyboard 5" style="width: 100%; height: auto; object-fit: contain; max-height: 300px;">
+    <p style="margin-top: 8px; font-size: 0.9em;">5 – Acknowledgment</p>
+  </div>
+  <div style="text-align: center;">
+    <img src="assets/storyboard6.jpg" alt="Storyboard 6" style="width: 100%; height: auto; object-fit: contain; max-height: 300px;">
+    <p style="margin-top: 8px; font-size: 0.9em;">6 – Approach & conversation</p>
+  </div>
+  <div style="text-align: center;">
+    <img src="assets/storyboard7.jpg" alt="Storyboard 7" style="width: 100%; height: auto; object-fit: contain; max-height: 300px;">
+    <p style="margin-top: 8px; font-size: 0.9em;">7 – Shared discovery (festival variant)</p>
+  </div>
+</div>
 
 _AI Usage:_ Storyboard 7 generated via ChatGPT (DALL-E) to visualize a music-festival necklace variant. Original hand-drawn boards preserved.  
 _Original Prompt:_ "My team and I are creating a wearable prototype that lights up whenever it detects someone nearby that has something in common with you..."
@@ -254,9 +280,20 @@ _Original Prompt:_ "Create an image of a firefly inspired wearable device that g
 
 Partner feedback pushed us to think harder about privacy, visibility, and consent. Rather than abandon the original provocation, we layered in haptic feedback: vibration intensity increases as the matching wearer approaches, making the act of locating each other part of the experience while keeping the interaction more discreet in bright or crowded settings.
 
-| Updated Storyboard 1                         | Updated Storyboard 2                         | Updated Storyboard 3                         |
-| -------------------------------------------- | -------------------------------------------- | -------------------------------------------- |
-| ![Updated 1](assets/updated_storyboard1.jpg) | ![Updated 2](assets/updated_storyboard2.jpg) | ![Updated 3](assets/updated_storyboard3.jpg) |
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin: 24px 0;">
+  <div style="text-align: center;">
+    <img src="assets/updated_storyboard1.jpg" alt="Updated Storyboard 1" style="width: 100%; height: auto; object-fit: contain; max-height: 300px;">
+    <p style="margin-top: 8px; font-size: 0.9em;">1 – Haptic onset</p>
+  </div>
+  <div style="text-align: center;">
+    <img src="assets/updated_storyboard2.jpg" alt="Updated Storyboard 2" style="width: 100%; height: auto; object-fit: contain; max-height: 300px;">
+    <p style="margin-top: 8px; font-size: 0.9em;">2 – Growing intensity</p>
+  </div>
+  <div style="text-align: center;">
+    <img src="assets/updated_storyboard3.jpg" alt="Updated Storyboard 3" style="width: 100%; height: auto; object-fit: contain; max-height: 300px;">
+    <p style="margin-top: 8px; font-size: 0.9em;">3 – Discreet meetup</p>
+  </div>
+</div>
 
 _AI Usage:_ Updated storyboards generated with Google Gemini.
 
