@@ -504,8 +504,6 @@ For this lab, we decided to begin our ideation by considering different kinds of
 
 As we decided to narrow down our ideas further, we found that having a specific kind of game made the design of our interaction far more deliberate and filled with intention, so we decided to select the game Snake as a preliminary game to design our controller off of. The classic Snake made use of up, down, left, and right controls. Furthermore, the game relied on timing and precision in order for a player to navigate the winding path that the snake creates. Because of this, we wanted to think about how we might be able to place a directional pad or some other form of directional movement analog, in a way that is both playful but also takes into account the affordance of instant control over the snake character.
 
-We created a very simple prototype utilizing a row of four tactile switches to denote each direction and coded a very simple prototype of the Snake game through the Raspberry Pi. While this set up was simple, we wanted to expand the control aspect further and started to take inspiration directly from the snake character itself for our physical housing and control enclosure.
-
 ![Electronics Setup](assets/electronics.png)
 
 ## Display & Housing Sketches
@@ -525,7 +523,6 @@ The final assembly needs to be robust enough for it to hold together and be held
 
 ![Spine Unit](assets/spine_unit.png)
 ![Cardboard Assembly](assets/cardboard_assembly.png)
-
 ![Cardboard Prototype 1](assets/cardboard1_prototype.png)
 ![Cardboard Prototype 2](assets/cardboard2_prototype.png)
 ![Cardboard Prototype 3](assets/cardboard3_prototype.png)
