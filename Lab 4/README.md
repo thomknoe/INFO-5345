@@ -555,7 +555,8 @@ We went ahead and built the assembly process, just like we did with the first pr
 - Fishing Line
 - Can Tabs
 
-![Process 1](assets/process.png)
+![Process 1](assets/process1.png)
+![Process 2](assets/process2.png)
 
 ### Assembled Cardboard Prototype (Works Like)
 
@@ -609,8 +610,6 @@ After testing the soft fabric assembly (i.e., looks like prototype) with users, 
 ![Mockup 1](assets/view1.png)
 ![Mockup 2](assets/view2.png)
 ![Mockup 3](assets/view3.png)
-![Mockup 4](assets/view4.png)
-![Mockup 5](assets/view5.png)
 
 ### AI Product Mockups
 
