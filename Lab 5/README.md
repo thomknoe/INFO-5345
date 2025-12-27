@@ -241,16 +241,8 @@ _Cons:_ The first generation provided the lowest resolution and efficiency model
 
 In order to use this code, one would need to run the Pi GUI through an HDMI or remote VNC connection.
 
-![Electronics Setup](assets/electronics.png)
-
-<p align="center">
-	<img src="assets/gifs/test_1.gif" alt="Test 1" width="33%"/>
-	<img src="assets/gifs/test_2.gif" alt="Test 2" width="33%"/>
-	<img src="assets/gifs/test_3.gif" alt="Test 3" width="33%"/>
-	<img src="assets/gifs/test_4.gif" alt="Test 4" width="33%"/>
-	<img src="assets/gifs/test_5.gif" alt="Test 5" width="33%"/>
-	<img src="assets/gifs/test_6.gif" alt="Test 6" width="33%"/>
-</p>
+![Electronics](assets/electronics.png)
+![Static Styles](assets/static_style.png)
 
 ## System Characterization
 
