@@ -587,6 +587,7 @@ For the final assembly, we decided to add cotton between each vertebrae. This wa
 - White Thread
 
 ![Material](assets/material.png)
+![Cotton](assets/cotton.png)
 
 ### Soft Fabric Assembly (Looks Like)
 
