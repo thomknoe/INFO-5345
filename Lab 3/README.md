@@ -354,7 +354,6 @@ We imagined the dialogue starting with a simple doorbell press but quickly evolv
 
 ![Sketch 1](assets/sketch1.png)
 ![Sketch 2](assets/sketch2.png)
-![Diagram](assets/diagram.png)
 ![Rendering 1](assets/rendering1.png)
 ![Rendering 2](assets/rendering2.png)
 
