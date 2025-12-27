@@ -243,12 +243,14 @@ In order to use this code, one would need to run the Pi GUI through an HDMI or r
 
 ![Electronics Setup](assets/electronics.png)
 
-![Test 1](assets/gifs/test_1.gif)
-![Test 2](assets/gifs/test_2.gif)
-![Test 3](assets/gifs/test_3.gif)
-![Test 4](assets/gifs/test_4.gif)
-![Test 5](assets/gifs/test_5.gif)
-![Test 6](assets/gifs/test_6.gif)
+<p align="center">
+	<img src="assets/gifs/test_1.gif" alt="Test 1" width="33%"/>
+	<img src="assets/gifs/test_2.gif" alt="Test 2" width="33%"/>
+	<img src="assets/gifs/test_3.gif" alt="Test 3" width="33%"/>
+	<img src="assets/gifs/test_4.gif" alt="Test 4" width="33%"/>
+	<img src="assets/gifs/test_5.gif" alt="Test 5" width="33%"/>
+	<img src="assets/gifs/test_6.gif" alt="Test 6" width="33%"/>
+</p>
 
 ## System Characterization
 
@@ -294,12 +296,14 @@ _Cons:_ The code initially placed the generated video file at the top of the Pi 
 
 Adding on the already existing function of the camera, we decided to implement a record feature that would allow users to record what they are able to capture on the webcam through the Pi. The videos would be recorded in the same resolution as the Mini piTFT. Because the model requires a slower rate in order to process each stylized image frame, the camera needed to be slowly panned in order for it to capture a relatively stable tracking shot. This adds some frustration to its use case, and a pain point that can be further iterated with advancements to the frame rate problem (i.e., models and hardware).
 
-![Demo 1](assets/gifs/demo_1.gif)
-![Demo 2](assets/gifs/demo_2.gif)
-![Demo 3](assets/gifs/demo_3.gif)
-![Demo 4](assets/gifs/demo_4.gif)
-![Demo 5](assets/gifs/demo_5.gif)
-![Demo 6](assets/gifs/demo_6.gif)
+<p align="center">
+	<img src="assets/gifs/demo_1.gif" alt="Demo 1" width="33%"/>
+	<img src="assets/gifs/demo_2.gif" alt="Demo 2" width="33%"/>
+	<img src="assets/gifs/demo_3.gif" alt="Demo 3" width="33%"/>
+	<img src="assets/gifs/demo_4.gif" alt="Demo 4" width="33%"/>
+	<img src="assets/gifs/demo_5.gif" alt="Demo 5" width="33%"/>
+	<img src="assets/gifs/demo_6.gif" alt="Demo 6" width="33%"/>
+</p>
 
 ### Proof of Concept Testing
 
