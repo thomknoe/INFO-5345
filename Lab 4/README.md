@@ -504,9 +504,6 @@ For this lab, we decided to begin our ideation by considering different kinds of
 
 As we decided to narrow down our ideas further, we found that having a specific kind of game made the design of our interaction far more deliberate and filled with intention, so we decided to select the game Snake as a preliminary game to design our controller off of. The classic Snake made use of up, down, left, and right controls. Furthermore, the game relied on timing and precision in order for a player to navigate the winding path that the snake creates. Because of this, we wanted to think about how we might be able to place a directional pad or some other form of directional movement analog, in a way that is both playful but also takes into account the affordance of instant control over the snake character.
 
-[![Snake Prototype Interaction Thumbnail](assets/snake_proto_thumb.png)](https://www.youtube.com/watch?v=PLACEHOLDER_SNAKE_PROTO)  
-Watch Snake Prototype Interaction on YouTube
-
 We created a very simple prototype utilizing a row of four tactile switches to denote each direction and coded a very simple prototype of the Snake game through the Raspberry Pi. While this set up was simple, we wanted to expand the control aspect further and started to take inspiration directly from the snake character itself for our physical housing and control enclosure.
 
 ![Electronics Setup](assets/electronics.png)
@@ -533,8 +530,8 @@ The final assembly needs to be robust enough for it to hold together and be held
 ![Cardboard Prototype 2](assets/cardboard2_prototype.png)
 ![Cardboard Prototype 3](assets/cardboard3_prototype.png)
 
-[![Snake Cardboard Thumbnail](assets/cardboard_thumb.png)](https://www.youtube.com/watch?v=PLACEHOLDER_SNAKE_CARDBOARD)  
-Watch Snake Cardboard on YouTube
+[![Snake Cardboard Thumbnail](assets/cardboard_thumb.png)](https://youtu.be/8EBTSw1zsnI)  
+[Watch Snake Cardboard on YouTube](https://youtu.be/8EBTSw1zsnI)
 
 Unfortunately, our cardboard prototype, as it stands, was not sufficient enough to create an undulating motion through movement at the top of the assembly. Our current prototype needs to provide some tensile strength in between each cardboard vertebrae as well. This can possibly be achieved by including some crimps or knots in between each vertebrae or by increasing the tension of the rope at each end to create a more tense structure that's able to naturally orient itself to its original straight position whenver the user bends it. More electronics integration and iterations on this prototype are yet to come.
 
@@ -560,8 +557,8 @@ We went ahead and built the assembly process, just like we did with the first pr
 
 ### Assembled Cardboard Prototype (Works Like)
 
-[![Prototype Demo Thumbnail](assets/proto_demo_thumb.png)](https://www.youtube.com/watch?v=PLACEHOLDER_PROTO_DEMO)  
-Watch Prototype Demo on YouTube
+[![Prototype Demo Thumbnail](assets/proto_demo_thumb.png)](https://youtu.be/bk8eQdtZXL4)  
+[Watch Prototype Demo on YouTube](https://youtu.be/bk8eQdtZXL4)
 
 Our code can be found at [snake_game.py](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/snake_game.py)
 
@@ -596,14 +593,14 @@ For the final assembly, we decided to add cotton between each vertebrae. This wa
 
 ### Soft Fabric Assembly (Looks Like)
 
-[![Final Demo Thumbnail](assets/final_demo_thumb.png)](https://www.youtube.com/watch?v=PLACEHOLDER_FINAL_DEMO)  
-Watch Final Demo on YouTube
+[![Main Demo #1 Thumbnail](assets/main_demo1_thumb.png)](https://youtu.be/0_0Am5ub7nc)  
+[Watch Main Demo #1 on YouTube](https://youtu.be/0_0Am5ub7nc)
 
-[![Main Demo #1 Thumbnail](assets/main_demo1_thumb.png)](https://www.youtube.com/watch?v=PLACEHOLDER_MAIN_DEMO1)  
-Watch Main Demo #1 on YouTube
+[![Main Demo #2 Thumbnail](assets/main_demo2_thumb.png)](https://youtu.be/qnWo3dm69Zw)  
+[Watch Main Demo #2 on YouTube](https://youtu.be/qnWo3dm69Zw)
 
-[![Main Demo #2 Thumbnail](assets/main_demo2_thumb.png)](https://www.youtube.com/watch?v=PLACEHOLDER_MAIN_DEMO2)  
-Watch Main Demo #2 on YouTube
+[![Main Demo #3 Thumbnail](assets/main_demo3_thumb.png)](https://youtu.be/9HQaPcGT6h8)  
+[Watch Main Demo #3 on YouTube](https://youtu.be/9HQaPcGT6h8)
 
 After testing the soft fabric assembly (i.e., looks like prototype) with users, we got some feedback that’s worth keeping in mind for future versions. First, while the soft cotton made the plushie somewhat comfortable, the cardboard inside doesn’t feel as soft as we’d hoped. It’s also hard to tell where exactly to bend the plushy to control the snake. We should make it clear where each direction is mapped to each bend in the future by adding some sort of sign or signifier for the user. Second, the game is simple, but it’s too fast for most people to keep up with. We should make it slower so that users can respond more easily. The original version had a death penalty for touching the edges of the screen, but that’s too harsh. Lastly, the plushie, while cute, could benefit from more snake-like design choices such as the inclusion of scales or different colors (i.e., green, black, yellow, etc.).
 
