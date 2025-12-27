@@ -307,8 +307,8 @@ Adding on the already existing function of the camera, we decided to implement a
 
 ### Proof of Concept Testing
 
-[![Proof of Concept Testing Thumbnail](assets/testing_thumb.png)](https://www.youtube.com/watch?v=PLACEHOLDER_TESTING)  
-Watch Proof of Concept Testing on YouTube
+[![Proof of Concept Testing Thumbnail](assets/testing_thumb.png)](https://youtu.be/DH3E05BBvWw)  
+[Watch Proof of Concept Testing on YouTube](https://youtu.be/DH3E05BBvWw)
 
 We allowed participants from class to use the proof of concept assembly. They appreciated the customization aspect where users were able to upload their favorite artists and styles and be able to see them come alive through the Mini piTFT screen, while observing the world around them. Some input gained from the testing was to both implement a form factor to the assembly (i.e., enclosure), and to incorporate a participatory aspect to the work (e.g., allowing multiple users to use the device to contribute to a larger database/repository of images and video that are mapped to geographic or community regions and overlay the styles chosen).
 
@@ -333,8 +333,8 @@ We incorporated both 3D printed PLA and laser cut wood for this enclosure.
 
 ### Montage Concept Film
 
-[![Concept Film Thumbnail](assets/film_thumb.png)](https://www.youtube.com/watch?v=PLACEHOLDER_FILM)  
-Watch Concept Film on YouTube
+[![Concept Film Thumbnail](assets/film_thumb.png)](https://youtu.be/IUZp3Lja2aw)  
+[Watch Concept Film on YouTube](https://youtu.be/IUZp3Lja2aw)
 
 _Synopsis:_ A designer, feeling alienated and despondent from her current day-to-day life, goes on a stroll to the museum to find some sort of inspiration. She finds it in the form of an abstract painting that she falls in love with. Obsessed with the magical aura of the image, she tries to find a way to capture the essence of the painting through the use of interactive devices and computer vision algorithms.
 
@@ -343,6 +343,7 @@ The film is in the style of a montage movie with the series of subsequent images
 ![Cover](assets/cover.png)
 ![Scene](assets/scene.png)
 ![Montage](assets/montage.png)
+![Finale](assets/finale.png)
 
 ### User Testing
 
@@ -367,5 +368,3 @@ _Image Source:_ Le Jetée (1962)
 ## Reflections
 
 The low frame rate and processing demands forced a slower, more deliberate interaction—users had to pan carefully to get coherent results. This constraint actually aligned with the artistic intent: turning everyday observation into something meditative and stylized. Customization (choosing any artwork) was the most appreciated feature. The physical enclosure needs refinement for ergonomics, especially viewfinder angle. Future directions could include on-device recording toggles, geographic style mapping, or community-contributed style libraries.
-
-![Finale](assets/finale.png)
