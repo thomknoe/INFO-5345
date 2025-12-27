@@ -314,11 +314,8 @@ We assembled the Pis accordingly and organized them to communicate through MQTT,
 ![Colors Command](assets/colors_command.png)
 ![Pi](assets/pi.png)
 
-[![Color Setup #1 Thumbnail](assets/color_setup1_thumb.png)](https://www.youtube.com/watch?v=PLACEHOLDER_COLOR_SETUP1)  
-Watch Color Setup #1 on YouTube
-
-[![Color Setup #2 Thumbnail](assets/color_setup2_thumb.png)](https://www.youtube.com/watch?v=PLACEHOLDER_COLOR_SETUP2)  
-Watch Color Setup #2 on YouTube
+[![Color Setup Thumbnail](assets/color_setup_thumb.png)](https://youtu.be/OZxbYuJix2c)  
+[Watch Color Setup on YouTube](https://youtu.be/OZxbYuJix2c)
 
 We ran the publisher code and displayed the class MQTT server website on a laptop to test out the color readings.
 
@@ -400,11 +397,11 @@ One issue with this generated code is the amount of latency that is present when
 
 ### Testing Sessions
 
-[![Testing Session #1 Thumbnail](assets/testing1_thumb.png)](https://www.youtube.com/watch?v=PLACEHOLDER_TESTING1)  
-Watch Testing Session #1 on YouTube
+[![Testing Session #1 Thumbnail](assets/testing1_thumb.png)](https://youtu.be/pNMjAitujkQ)  
+[Watch Main Testing Session #1 on YouTube](https://youtu.be/pNMjAitujkQ)
 
-[![Testing Session #2 Thumbnail](assets/testing2_thumb.png)](https://www.youtube.com/watch?v=PLACEHOLDER_TESTING2)  
-Watch Testing Session #2 on YouTube
+[![Testing Session #2 Thumbnail](assets/testing2_thumb.png)](https://youtu.be/rlM4WHJhlFs)  
+[Watch Main Testing Session #2 on YouTube](https://youtu.be/rlM4WHJhlFs)
 
 We recruited 2 users from Architecture and 1 user from Design Tech to test and experience the cubes. We approached them in-person in studio, gave a brief introduction on the project, and allowed them to enact various emotional reactions they can make in front of the webcam. Users displayed great interest in the feedback mechanism of the system, but the latency often affected the overall experience (i.e., insufficient inferencing data to display the correct light or delayed in display for the correct emotion). Ultimately, users found the experience to be delayed in interaction, yet charming and unexpected in its output, especially the color blend.
 
