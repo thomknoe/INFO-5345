@@ -368,13 +368,15 @@ _AI Usage:_ Storyboard generated using Google Gemini. All original artifacts pre
 
 ### Acting Out the Dialogue
 
-[![Acting Out Dialogue Thumbnail](assets/acting_thumb.png)](https://www.youtube.com/watch?v=PLACEHOLDER_ACTING)
+[![Acting Out Dialogue Thumbnail](assets/acting_thumb.png)](https://youtu.be/CgxGJ1TXoC4)
+[Watch Acting Out Dialogue on YouTube](https://youtu.be/CgxGJ1TXoC4)
 
 The acted-out dialogue was a perfect example of learning by failure. We originally thought that the dialogue would feel a little bit funny or absurd, having a doorbell talk back to the user after it has been rung. However, as demonstrated by this dramatized reenactment of the tests, the interaction turned out to be rather awkward and clumsy. The users had no idea how to react to a belligerent doorbell, and trying to come up with quippy dialogue for the doorbell without having any context or any computer vision would be very difficult, without making any assumptions. So, considering these insights, it would be best to refactor the doorbell and implement other techniques to make the interaction slightly smoother while still maintaining the absurdity of the situation. Maybe incorporating a more robotic voice and changing the cadence to be more procedural rather than expressive so as to put the user in a different kind of context (i.e., knowing they are interacting with a machine rather than a human).
 
 ### Wizarding with OpenAI
 
-[![Prototyped OpenAI Interaction Thumbnail](assets/openai_thumb.png)](https://www.youtube.com/watch?v=PLACEHOLDER_OPENAI)
+[![Prototyped OpenAI Interaction Thumbnail](assets/openai_thumb.png)](https://youtu.be/UBRcxi9Pte4)
+[Watch Prototyped OpenAI Interaction on YouTube](https://youtu.be/UBRcxi9Pte4)
 
 The prototyped interaction ran much smoother compared to the acted-out interaction. We managed to run OpenAI models through an API onto the Pi and made use of its extensive library of voices, cadences, and prompts. We decided to shift the tone of the device to mimic the individual who is interacting with it, instead of having an angry machine all the time. The initial instruction parameter was, "You are an emotion-responsive system that listens to transcribed speech from people (text converted from audio), detects emotion, and generates a short, friendly response." We also included various different adjectives so that it could qualify the cadence and speech, including a vector containing the strings ["Enthusiastic", "Indifferent", "Playful", "Sarcastic", "Caring", "Melancholic", "Grumpy", "Mysterious"]. While the interaction ran smoother, it still felt too contrived. The responses also seemed too short, giving the impression that the device was not animated, but rather a responsive chatbot.
 
@@ -423,13 +425,18 @@ _Pros:_ We were working together through pair programming for this assignment an
 
 _Cons:_ This, however, can also be a con whereby if code is passed on from one developer to the next, there can be multiple layers of abstraction being created when working within a new code base. It could then become highly difficult to determine what code is becoming refactored and which code might also be vital to preserve for updates. It could also lead to more dependencies than need be.
 
-## Testing & Final Interaction
+## Testing the Interaction
 
 ### Test Dialogue
 
-[![Proof of Concept Thumbnail](assets/concept_thumb.png)](https://www.youtube.com/watch?v=PLACEHOLDER_DOORBELL1)
+[![Proof of Concept Thumbnail](assets/concept_thumb.png)](https://youtu.be/lGGVGLdvbkA)
+[Watch Proof of Concept on YouTube](https://youtu.be/lGGVGLdvbkA)
 
-[![Test Dialogue Thumbnail](assets/test_thumb.png)](https://www.youtube.com/watch?v=PLACEHOLDER_DOORBELL2)
+[![User Test Dialogue Thumbnail](assets/test1_thumb.png)](https://youtu.be/Cr50KOwwtT8)
+[Watch User Test Dialogue on YouTube](https://youtu.be/Cr50KOwwtT8)
+
+[![Guided Test Dialogue Thumbnail](assets/test2_thumb.png)](https://youtu.be/u8ZZ5UYYnJs)
+[Watch Guided Test Dialogue on YouTube](https://youtu.be/u8ZZ5UYYnJs)
 
 ### System Performance
 
