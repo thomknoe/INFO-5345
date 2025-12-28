@@ -1,4 +1,4 @@
-# MIXI: Sentiment Analysis & Beverage Mixology
+# Final Project: MIXI
 
 **Collaborators:** Thomas Knoepffler (Digital Fabrication & Assembly), Carrie Wang (3D Modeling & User Experience), Julia Chen (Hardware & Software Engineer)
 
@@ -156,9 +156,6 @@ Watch User Testing #2: Part 1 on YouTube
 Watch User Testing #2: Part 2 on YouTube
 
 During the showcase, we conducted user testing with a vast range of participants. The majority were from the interactive device design class, while a few participants, particularly those providing detailed feedback, worked in the maker space or adjacent to the Cornell Tech ecosystem. Five batches of iced tea were brewed the previous evening and chilled overnight to create five reservoirs of ice tea, each with an added sparkling water element. Users were given the option to either select a drink from the printed menu or engage with the AI bartender for a recommendation. All interaction elements were prominently displayed and illuminated with a lamp to ensure user awareness of the available options. Team members were also present to assist participants throughout the process.
-
-![Demo 1](assets/demo1.gif)
-![Demo 2](assets/demo2.gif)
 
 ![Showcase 1](assets/showcase1.png)
 ![Showcase 2](assets/showcase2.png)
