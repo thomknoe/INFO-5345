@@ -1,4 +1,4 @@
-# Distributed Interaction
+# Little Interactions Everywhere
 
 **Collaborators:** Thomas Knoepffler (Assembly & Fabrication), Carrie Wang (Hardware & Systems), Xiaocheng Li (Tester & Facilitator), Julia Chen (Developer & Debugger)
 
