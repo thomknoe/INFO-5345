@@ -390,11 +390,6 @@ For testing purposes, we decided to array the cubes out on a desk facing the mon
 
 One issue with this generated code is the amount of latency that is present when reading emotions directly from a live feed camera using OpenCV. This latency also factored into problems with the color display, whereby delays between the inference and the MQTT server caused errors in the color change or color persistence. This became apparent in our user testing.
 
-<p align="center">
-	<img src="assets/gifs/live_feed1.gif" alt="Live Feed 1" width="49.5%"/>
-	<img src="assets/gifs/live_feed2.gif" alt="Live Feed 2" width="49.5%"/>
-</p>
-
 ### Testing Sessions
 
 [![Testing Session #1 Thumbnail](assets/testing1_thumb.png)](https://youtu.be/pNMjAitujkQ)  
