@@ -44,7 +44,7 @@ The electronics assembly utilized significant integration compared to previous l
 ![Electronics](assets/electronics.png)
 ![System](assets/system.png)
 
-_AI Usage:_ Utilized assistance from ChatGPT and PlanetUML for diagram layout.
+_AI Usage:_ Utilized assistance from ChatGPT and PlantUML for diagram layout.
 
 ## Fluid Mechanisms
 
@@ -104,14 +104,13 @@ The primary configuration is loaded from the .yaml (Pi) file and establishes a f
 
 ![UML Diagram](assets/uml_diagram.png)
 
-_AI Usage:_ Utilized assistance from ChatGPT and PlanetUML for diagram layout.
+_AI Usage:_ Utilized assistance from ChatGPT and PlantUML for diagram layout.
 
 ## Form Factor
 
 The exploration of form factors encompassed various image references to arrayed beverage machines or siphon valves, drawing inspiration from tonics, tinctures, and other scent-related confluences. The primary source for the majority of these images was Pinterest.
 
-![Inspiration 1](assets/insp1.png)
-![Inspiration 2](assets/insp2.png)
+![Inspiration](assets/insp.png)
 
 _Image Source:_ Images found from Pinterest for keywords: "Beverage Bar," "Siphon Array," "Glass Arrangements," etc.
 
@@ -127,7 +126,8 @@ _Image Source:_ Images found from Pinterest for keywords: "Beverage Bar," "Sipho
 - Black Felt
 - Wood Glue
 
-![3dmodel](assets/3dmodel.png)
+![3D Model 1](assets/3dmodel1.png)
+![3Dmodel 2] (assets/3dmodel2.png)
 
 ## Full Assembly
 
