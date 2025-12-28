@@ -110,7 +110,8 @@ _AI Usage:_ Utilized assistance from ChatGPT and PlanetUML for diagram layout.
 
 The exploration of form factors encompassed various image references to arrayed beverage machines or siphon valves, drawing inspiration from tonics, tinctures, and other scent-related confluences. The primary source for the majority of these images was Pinterest.
 
-![Inspiration](assets/insp.png)
+![Inspiration 1](assets/insp1.png)
+![Inspiration 2](assets/insp2.png)
 
 _Image Source:_ Images found from Pinterest for keywords: "Beverage Bar," "Siphon Array," "Glass Arrangements," etc.
 
