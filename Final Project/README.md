@@ -48,8 +48,8 @@ _AI Usage:_ Utilized assistance from ChatGPT and PlantUML for diagram layout.
 
 ## Fluid Mechanisms
 
-[![Calibration Setup Thumbnail](assets/calibration_thumb.png)](https://www.youtube.com/watch?v=PLACEHOLDER_CALIBRATION)  
-Watch Calibration Setup on YouTube
+[![Calibration Setup Thumbnail](assets/calibration_thumb.png)](https://youtu.be/LPgmXyhD6Zw)  
+[Watch Calibration Setup on YouTube](https://youtu.be/LPgmXyhD6Zw)
 
 One initial challenge we encountered was ensuring the precise calibration of the pump motors to achieve a specific liquid dispensing rate from the container to the cup. Due to the non-standardization of the motors and the physics governing liquid transfer, the length of the tubes also played a crucial role. Consequently, initial calibration and firmware programming into the Arduino were necessary. All tubes were cut to the same length to establish a consistent distance for liquid travel, eliminating it as a variable to consider. We then utilized ChatGPT to generate a calibration code that enabled us to test the motor’s fill-up capacity at least five liquid ounces in a container. We marked the moment when the flow should cease by tracking the time. The period during which the motor operates was used to calculate the exact velocity at which the motor induces the liquid, resulting in the final constants we determined. These constants were then applied across all serialized callbacks to the Arduino, ensuring a consistent amount of liquid is poured into the cup and maintaining the desired ratio of each liquid extracted from its respective container.
 
@@ -144,17 +144,11 @@ _Image Source:_ Images found from Pinterest for keywords: "Beverage Bar," "Sipho
 
 ## User Testing
 
-[![User Testing #1 Part 1 Thumbnail](assets/user1_part1_thumb.png)](https://www.youtube.com/watch?v=PLACEHOLDER_USER1_PART1)  
-Watch User Testing #1: Part 1 on YouTube
+[![User Testing #1 Part 1 Thumbnail](assets/user1_thumb.png)](https://youtu.be/UvjsJDqqkms)  
+[Watch User Testing #1 on YouTube](https://youtu.be/UvjsJDqqkms)
 
-[![User Testing #1 Part 2 Thumbnail](assets/user1_part2_thumb.png)](https://www.youtube.com/watch?v=PLACEHOLDER_USER1_PART2)  
-Watch User Testing #1: Part 2 on YouTube
-
-[![User Testing #2 Part 1 Thumbnail](assets/user2_part1_thumb.png)](https://www.youtube.com/watch?v=PLACEHOLDER_USER2_PART1)  
-Watch User Testing #2: Part 1 on YouTube
-
-[![User Testing #2 Part 2 Thumbnail](assets/user2_part2_thumb.png)](https://www.youtube.com/watch?v=PLACEHOLDER_USER2_PART2)  
-Watch User Testing #2: Part 2 on YouTube
+[![User Testing #2 Part 1 Thumbnail](assets/user2_thumb.png)](https://youtu.be/hI-nyOW3aA4)  
+[Watch User Testing #2 on YouTube](https://youtu.be/hI-nyOW3aA4)
 
 During the showcase, we conducted user testing with a vast range of participants. The majority were from the interactive device design class, while a few participants, particularly those providing detailed feedback, worked in the maker space or adjacent to the Cornell Tech ecosystem. Five batches of iced tea were brewed the previous evening and chilled overnight to create five reservoirs of ice tea, each with an added sparkling water element. Users were given the option to either select a drink from the printed menu or engage with the AI bartender for a recommendation. All interaction elements were prominently displayed and illuminated with a lamp to ensure user awareness of the available options. Team members were also present to assist participants throughout the process.
 
