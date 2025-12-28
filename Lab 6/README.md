@@ -345,7 +345,7 @@ This code is the boiler plate code that showcases how emotion and sentiment is d
 - paho-mqtt
 - board, digitalio
 
-![Diagram](assets/diagram.png)
+![System](assets/system.png)
 
 _AI Usage:_ Utilized assistance from ChatGPT and PlantUML for diagram layout.
 
