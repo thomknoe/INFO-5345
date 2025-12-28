@@ -213,7 +213,7 @@ Following exploration and reflection from Part 1, finish building your interacti
 
 ## Overview
 
-This lab is inspired by Gene Kogan's Experiments with Style Transfer, incorporating new advancements in the style-transfer TensorFlow model and Raspberry Pi hardware. This is a relatively old exploration and application, but there is still more to be discovered or created.
+This lab is inspired by [Gene Kogan's Experiments with Style Transfer](https://genekogan.com/works/style-transfer/), incorporating new advancements in the style-transfer TensorFlow model and Raspberry Pi hardware. This is a relatively old exploration and application, but there is still more to be discovered or created.
 
 We used TensorFlow's arbitrary-image-stylization-v1, both 256-fp16 prediction and transfer models. Provided by Google.
 
