@@ -513,13 +513,9 @@ We decided to incorporate another theme for this section, creating enclosures an
 ![Form Image 1](assets/form1_sketch.png)
 ![Form Image 2](assets/form2_sketch.png)
 
-While these controllers vary significantly in terms of their actuation and use case (i.e., specific game they are designed for), a few similarities arise. For one, they all deal with certain objects that are already indicative of normal human interaction (i.e. rackets, oars, etc.) or are familiar objects that are supposedly mapping onto a character in the game. Therefore, they make use of the mental model approach for physicalization, whereby phsyical objects that mimic digital assets give the impression of control over those assets. The question still remains if these mental models will be sufficient enough for people to understand how to play each game utilizing the control controller. That would open the door for user testing.
-
 We decided to take inspiration from the actual skeleton of a snake and consider its individual vertebrae as an underlying scaffolding for our controller. In the same way the vertebrae can bend and undulate in on themselves, so too would our controller. Through its undulations, the succeeding vertebrae would then click on ubiquitiously placed buttons on the preceding vertebrae, thus creating a type of controller that is activated through its bending.
 
-We wanted it to be unit based, so we created a general purpose, laser cut module in Rhino 3D that we would repeat over and over again across the assembly attached together by a string (i.e., beads on a string).  
-Spaces and cavities need to be included so that the electronics and wiring could be able to pass through the assembly, in addition to being able to attach buttons onto the sides of each vertebrae section.  
-The final assembly needs to be robust enough for it to hold together and be held by a user in both hands, but also flexible enough for it to be able to bend and undulate properly (i.e. press side buttons).
+We wanted it to be unit based, so we created a general purpose, laser cut module in Rhino 3D that we would repeat over and over again across the assembly attached together by a string (i.e., beads on a string). Spaces and cavities need to be included so that the electronics and wiring could be able to pass through the assembly, in addition to being able to attach buttons onto the sides of each vertebrae section. The final assembly needs to be robust enough for it to hold together and be held by a user in both hands, but also flexible enough for it to be able to bend and undulate properly (i.e. press side buttons).
 
 ![Spine Unit](assets/spine_unit.png)
 ![Cardboard Assembly](assets/cardboard_assembly.png)
@@ -536,13 +532,13 @@ Unfortunately, our cardboard prototype, as it stands, was not sufficient enough 
 
 ### Proof of Concept Testing (Acts Like)
 
-Building on what we did in part one, we attempted to test a proof of concept (i.e., act likes prototpye) from our first cardboard controller. We had people use it like a real controller, imagining they were controlling the snake game on a grid using the cardboard pieces. The results were mixed - some liked how flexible it was, while others wanted it to be stiffer. Also, the cardboard pieces slid around on a larger delta depending on how long the string was. So, when we were putting it together, we’d need to add some kind of netting to keep them in place. People also wanted a handle or base to hold the controller, not just holding the bottom.
+Building on what we did in part one, we attempted to test a proof of concept (i.e., act likes prototype) from our first cardboard controller. We had people use it like a real controller, imagining they were controlling the snake game on a grid using the cardboard pieces. The results were mixed - some liked how flexible it was, while others wanted it to be stiffer. Also, the cardboard pieces slid around on a larger delta depending on how long the string was. So, when we were putting it together, we’d need to add some kind of netting to keep them in place. People also wanted a handle or base to hold the controller, not just holding the bottom.
 
 ![Testing](assets/testing.png)
 
 ### Assembly Process
 
-We went ahead and built the assembly process, just like we did with the first prototype. We used a laser cutter to cut out different cardboard modules and tied them together with a long string. This time, the units were smaller than the first ones, and they’d be longer accounting for a thinner frame. That way, we could place more layers on top of the assembly (i.e., netting, cotton, fabric, etc.).
+We went ahead and built the assembly, just like we did with the first prototype. We used a laser cutter to cut out different cardboard modules and tied them together with a long string. This time, the units were smaller than the first ones, and they’d be longer accounting for a thinner frame. That way, we could place more layers on top of the assembly (i.e., netting, cotton, fabric, etc.).
 
 - Cardboard
 - Hot Glue
@@ -563,7 +559,7 @@ _AI Usage:_ Utilized assistance from ChatGPT for the writing of code.
 
 _Pros:_ Because the snake game is very ubiquitous and a common coding project, ChatGPT was able to produce a very simple boiler plate example with minimal reprompting. Adding variety to the system also was pretty simple as again the game was rather rudimentary and so it could be generally padded upon through further iterations.
 
-_Cons:_ Less so about the context of the project and more so about the limitations of ChatGPT model 5-o. This model has a new cork where it continually asks for questions and specificity on what your coding. To some extent, it's useful to make sure that the LLM is not making assumptions about your code, but at some point, it becomes rather annoying and a hindrance to efficiency. Asking for specificity on the color of the graphics, the speed of the game, and even each stage of the interaction becomes tedious.
+_Cons:_ Less so about the context of the project and more so about the limitations of ChatGPT model 5-o. This model has a new bug where it continually asks for questions and specificity on what your coding. To some extent, it's useful to make sure that the LLM is not making assumptions about your code, but at some point, it becomes rather annoying and a hindrance to efficiency. Asking for specificity on the color of the graphics, the speed of the game, and even each stage of the interaction becomes tedious.
 
 The assembled cardboard prototype (i.e., works like prototype) used the pHAT module to connect a qwiic connect joystick and a qwiic connect IMU. The joystick was placed in the middle of the assembly, giving the user control at that point. The IMU was also attached to that point. We coded a simple snake game using pyGame. The game can only be played through the Pi desktop GUI interface, so to run it, you’d need VNC Viewer to access the Pi’s desktop view and then open the game from there.
 
