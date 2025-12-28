@@ -308,17 +308,17 @@ _Cons:_ Completely blind to hardware/wiring issues (our biggest bug turned out t
 ## Demonstration Videos
 
 [![Clock Demo 1](assets/clock_demo1.png)](https://youtu.be/2jAuKsEkn1A)
-[Watch Clock Demo 1 on YouTube](https://youtu.be/2jAuKsEkn1A)
+[Watch Clock Demo #1 on YouTube](https://youtu.be/2jAuKsEkn1A)
 
 [![Clock Demo 2](assets/clock_demo2.png)](https://youtu.be/ZMM2v4Hwoms)
-[Watch Clock Demo 2 on YouTube](https://youtu.be/ZMM2v4Hwoms)
+[Watch Clock Demo #2 on YouTube](https://youtu.be/ZMM2v4Hwoms)
 
 [![Clock Demo 3](assets/clock_demo3.png)](https://youtu.be/iekUGyjbt7Q)
-[Watch Clock Demo 3 on YouTube](https://youtu.be/iekUGyjbt7Q)
+[Watch Clock Demo #3 on YouTube](https://youtu.be/iekUGyjbt7Q)
 
 ## Inspiration
 
-I was drawn to Tega Brain’s practice of frustrating modern infrastructures to open up new ways of thinking about time and ecology. Pieces like _Being Radiotropic (2016)_ and _Ecological Time_ imagine clocks governed by organisms or systems outside human control. Additioanlly, Kathleen McDermott’s _Urban Armor #9_ (2019)—a harness that slaps the wearer at 5:00 pm to end the workday—offered a parallel satirical lens on punitive timekeeping objects.
+I was drawn to Tega Brain’s practice of frustrating modern infrastructures to open up new ways of thinking about time and ecology. Pieces like _Being Radiotropic (2016)_ and _Ecological Time_ imagine clocks governed by organisms or systems outside human control. Additionally, Kathleen McDermott’s _Urban Armor #9_ (2019)—a harness that slaps the wearer at 5:00 pm to end the workday—offered a parallel satirical lens on punitive timekeeping objects.
 
 ![Inspiration 1](assets/insp1.png)  
 Tega Brain, _Being Radiotropic_ (2016)
@@ -332,4 +332,4 @@ Kathleen McDermott, _Urban Armor #9_ (2019)
 
 ## Reflections
 
-The clock works convincingly as concept and provocation. The countdown builds genuine anticipation; the pour delivers the punchline. Stepper limitations taught us the value of absolute positioning (servo next time). AI accelerated code but couldn’t see physical reality—debugging remained firmly human territory. Overall the piece succeeds at turning a daily resentment into shared absurd theater.
+The clock works convincingly as concept and provocation. The countdown builds genuine anticipation; the pour delivers the punchline. Stepper limitations taught us the value of absolute positioning (use of a servo for next time). AI accelerated code but couldn’t see physical reality—debugging remained firmly human territory. Overall the piece succeeds at turning a daily resentment into shared absurd theater.
