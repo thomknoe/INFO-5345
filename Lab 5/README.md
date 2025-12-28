@@ -336,6 +336,7 @@ The film is in the style of a montage movie with the series of subsequent images
 ![Scene](assets/scene.png)
 ![Montage](assets/montage.png)
 ![Finale](assets/finale.png)
+![Style](assets/style.png)
 
 ### User Testing
 
