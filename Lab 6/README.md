@@ -293,14 +293,6 @@ _AI Usage:_ ChatGPT for code writing and dependency lists.
 
 Taking inspiration from product studio, we decided to utilize AI to do a rapid ideation session to generate a few adjacent ideas to what we were thinking of. The original theme to begin the permutations included various MQTT and affective computing related ideas. We decided to settle on a classic idea in the world of creative technology, Telepresent Emotion Cubes.
 
-| #   | Concept                   | Description / Interaction                                                                                                                                                        |
-| --- | ------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1   | Telepresent Emotion Cubes | Small acrylic cubes that glow in colors matching remote users’ facial or vocal emotion. OpenCV-based emotion detection → MQTT broadcast → LED diffusion through frosted acrylic. |
-| 2   | Mood Beacon Lamps         | Cylindrical desk lights that collectively visualize shared team mood. Users tap the lamp to select emotion; color syncs with others via MQTT topics for ambient awareness.       |
-| 3   | Pulse Orbs                | Handheld diffused lights that emit rhythmic glow mirroring a user’s heartbeat. Heart rate sensor normalizes pulse → brightness modulation to create calm biofeedback loops.      |
-| 4   | Weather Spirits           | Portable diffused lights reflecting remote environmental data (like sunlight or weather). Cloud API maps temperature and condition data to animated color gradients.             |
-| 5   | Memory Stones             | Acrylic diffusers that store and replay past collective color states. Shared color history replays as a soft gradient loop representing group continuity over time.              |
-
 ![AI Image](assets/ai_image.png)
 
 _AI Usage:_ Drawing generated using Dall-E, ChatGPT. All artifacts preserved.
