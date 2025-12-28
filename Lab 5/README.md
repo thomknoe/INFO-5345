@@ -311,6 +311,7 @@ We allowed participants from class to use the proof of concept assembly. They ap
 Considering the interaction that we were planning, we decided to make the form factor mimic classic cameras, where the lens would appear on one side, and the screen would act as a viewfinder and be located on the otherside. This way users can be able to make an immediate mental model for the system and use it in a way that's familiar to them. All 3D models were made in Rhino and Grasshopper.
 
 ![Diagram](assets/diagram.png)
+![System](assets/system.png)
 ![3d Model](assets/3dmodel.png)
 
 ### 3D Printed & Laser Cut Enclosure
@@ -336,7 +337,6 @@ The film is in the style of a montage movie with the series of subsequent images
 ![Scene](assets/scene.png)
 ![Montage](assets/montage.png)
 ![Finale](assets/finale.png)
-![Style](assets/style.png)
 
 ### User Testing
 
