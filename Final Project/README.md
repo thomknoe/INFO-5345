@@ -127,7 +127,7 @@ _Image Source:_ Images found from Pinterest for keywords: "Beverage Bar," "Sipho
 - Wood Glue
 
 ![3D Model 1](assets/3dmodel1.png)
-![3Dmodel 2] (assets/3dmodel2.png)
+![3Dmodel 2](assets/3dmodel2.png)
 
 ## Full Assembly
 
